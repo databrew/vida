@@ -95,6 +95,6 @@ Download the raw data into the "data\_original" folder of this repo [here](https
 
 Read about the Kenya files and mapping process [here](https://docs.google.com/document/d/13-DOozvzSteWy9JE_z5zmwbgAiJD2UFZrcjUbvpktZY/edit?usp=sharing).
 
-
 ### Mali mapping information
-Download the mali_data folder into the main repository from [here](https://drive.google.com/drive/u/0/folders/1Nl6QrQhV3V_bYMWn7QK6jq96b-W3EJnp).
+
+Download the mali\_data folder into the main repository from [here](https://drive.google.com/drive/u/0/folders/1Nl6QrQhV3V_bYMWn7QK6jq96b-W3EJnp).
