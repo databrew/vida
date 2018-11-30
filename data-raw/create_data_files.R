@@ -24,20 +24,23 @@ for(i in 1:length(files)){
   }
   out[[i]] <- this_data
 }
-mapper <- bind_rows(out)
-usethis::use_data(mapper, overwrite = TRUE)
+mapper_kenya <- bind_rows(out)
+# usethis::use_data(mapper, overwrite = TRUE)
 
 
 # Read in mali translation dictionaries
-files <- dir('../mali_data/')
+files <- dir('../mali_data/', recursive = T)
+files <- files[grepl('csv', files) & grepl('map', files)]
 out <- list()
 for(i in 1:length(files)){
   message('file ', i, ' of ', length(files))
   this_file <- files[i]
   this_format <- gsub('_map.csv', '', this_file, fixed = TRUE)
-  this_data <- read_csv(paste0('../kenya/', 
+  this_format <- strsplit(this_format, '/', fixed = T)
+  this_format <- unlist(lapply(this_format, function(x){x[2]}))
+  this_data <- read_csv(paste0('../mali_data/', 
                                this_file)) %>%
-    mutate(country = 'kenya') %>%
+    mutate(country = 'mali') %>%
     mutate(format = this_format)
   # remove extra columns
   xs <- substr(names(out), 1,1) == 'X'
@@ -48,7 +51,10 @@ for(i in 1:length(files)){
   }
   out[[i]] <- this_data
 }
-mapper <- bind_rows(out)
+mapper_mali <- bind_rows(out)
+mapper <- 
+  bind_rows(mapper_mali,
+            mapper_kenya)
 usethis::use_data(mapper, overwrite = TRUE)
 
 
@@ -61,6 +67,7 @@ for(j in 1:ncol(fake)){
   fake[,j] <- sample(values, nrow(fake), replace = T)
 }
 usethis::use_data(fake, overwrite = TRUE)
+
 
 
 
