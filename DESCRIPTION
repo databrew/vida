@@ -27,6 +27,7 @@ Imports:
     grDevices,
     grid,
     shiny,
-    shinydashboard
+    shinydashboard,
+    readxl
 Suggests: 
     testthat

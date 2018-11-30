@@ -68,8 +68,19 @@ for(j in 1:ncol(fake)){
 }
 usethis::use_data(fake, overwrite = TRUE)
 
-
-
+fake <- readxl::read_excel('../data_original/Mali/child_Mali.xlsx')
+# Anonymize
+fake <- data.frame(fake)
+for(j in 1:ncol(fake)){
+  message(j)
+  values <- sort(unique(fake[,j]))
+  if(is.null(values) | length(values) == 0){
+    values <- rep(NA, nrow(fake))
+  }
+  fake[,j] <- sample(values, nrow(fake), replace = T)
+}
+fake_mali <- fake
+usethis::use_data(fake_mali, overwrite = TRUE)
 
 # Write csv of babel
 write_csv(mapper, 'babel.csv')

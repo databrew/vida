@@ -64,7 +64,10 @@ body <- dashboardBody(
                  tags$hr(),
                  helpText('If you don\'t have any data for upload but want to test the app, click below to download some fake data and then upload it to the app.'),
                  downloadButton('download_fake_data',
-                                'Download fake data')
+                                'Download fake data from Kenya'),
+                 tags$hr(),
+                 downloadButton('download_fake_data_mali',
+                                'Download fake data from Mali')
           ),
           column(6,
                  uiOutput('translate_ui')),
@@ -371,6 +374,16 @@ server <- function(input, output, session) {
     },
     content = function(file) {
       fake <- vida::fake
+      write.csv(fake, file, row.names = FALSE)
+    }
+  )
+  
+  output$download_fake_data_mali <- downloadHandler(
+    filename = function() {
+      paste('fake', ".csv", sep = "")
+    },
+    content = function(file) {
+      fake <- vida::fake_mali
       write.csv(fake, file, row.names = FALSE)
     }
   )
