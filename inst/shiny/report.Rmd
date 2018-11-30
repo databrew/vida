@@ -30,9 +30,8 @@ for (i in 1:length(params)){
          env = .GlobalEnv)
 }
 library(ggplot2)
-library(databrew)
 library(extrafont)
 library(ggthemes)
-
+library(vida)
 extrafont::loadfonts()
 ```
