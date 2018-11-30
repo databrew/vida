@@ -1,0 +1,343 @@
+variable,variable_type,responses,question_standardized,response_standardized
+filenum,Non-categorical,Non-categorical variable,filenumber,
+sexd,Categorical,MALE,sex_deceased,
+sexd,Categorical,FEMALE,sex_deceased,
+veyears,Non-categorical,Non-categorical variable,age_years,
+vemonths,Non-categorical,Non-categorical variable,age_months,
+vedays,Non-categorical,Non-categorical variable,age_days,
+vedob,Non-categorical,Non-categorical variable,date_birth_deceased,
+vedod,Non-categorical,Non-categorical variable,date_death_deceased,
+placd,Categorical,AT HOME,place_died,home
+placd,Categorical,AT HEALTH FACILITY,place_died,other_health_facility
+placd,Categorical,ON THE WAY TO/FROM A HEALTH FACILITY,place_died,en_route_to_hospital
+placd,Categorical,HOSPITAL,place_died,hospital
+placd,Categorical,OTHER,place_died,other
+placd,Categorical,DK,place_died,dk
+placdoth,Non-categorical,Non-categorical variable,place_died_specific,
+hfname,Non-categorical,Non-categorical variable,facility_name,
+illnessevents,Non-categorical,Non-categorical variable,account_of_illness,
+rage,Non-categorical,Non-categorical variable,respondent_age,
+intsex,Categorical,FEMALE,sex_respondent,female
+intsex,Categorical,MALE,sex_respondent,male
+intrel,Categorical,BIOLOGICAL MOTHER,relationship,biological_mother
+intrel,Categorical,FATHER,relationship,father
+intrel,Categorical,GRAND PARENT,relationship,grandparent
+intrel,Categorical,AUNT,relationship,aunt
+intrel,Categorical,CO-WIFE TO MOTHER,relationship,co_wife
+intrel,Categorical,SIBLING,relationship,sibling
+intrel,Categorical,ADOPTIVE MOTHER,relationship,adoptive_mother
+intrel,Categorical,OTHER,relationship,other
+intliv,Categorical,YES,live_with_deceased,yes
+intliv,Categorical,NO,live_with_deceased,no
+intliv,Categorical,DK,live_with_deceased,dk
+Vecompl,Categorical,YES,complications_labour_deliery,yes
+Vecompl,Categorical,NO,complications_labour_deliery,no
+Vecompl,Categorical,DK,complications_labour_deliery,dk
+Births,Non-categorical,Non-categorical variable,number_previous_births,
+Born,Categorical,LESS THAN 34 WEEKS,weeks_pregnancy,less_than_34
+Born,Categorical,BETWEEN 34 AND 37 WEEKS,weeks_pregnancy,between_34_37
+Born,Categorical,MORE THAN 37 WEEKS,weeks_pregnancy,more_than_37
+Born,Categorical,DK,weeks_pregnancy,dk
+Vebirth,Categorical,SINGLE,multiple_birth,single
+Vebirth,Categorical,TWIN,multiple_birth,twin
+Vebirth,Categorical,TRIPPLET OR MORE,multiple_birth,triplet_more
+Vebirth,Categorical,DK,multiple_birth,dk
+MOTPRESU,Categorical,YES,mother_high_blood_pressure,yes
+MOTPRESU,Categorical,NO,mother_high_blood_pressure,no
+MOTPRESU,Categorical,DK,mother_high_blood_pressure,dk
+VIGSMELL,Categorical,YES,mother_vaginal_discharge,yes
+VIGSMELL,Categorical,NO,mother_vaginal_discharge,no
+VIGSMELL,Categorical,DK,mother_vaginal_discharge,dk
+VIGBLEED,Categorical,YES,mother_vaginal_bleeding,yes
+VIGBLEED,Categorical,NO,mother_vaginal_bleeding,no
+VIGBLEED,Categorical,DK,mother_vaginal_bleeding,dk
+CONVULSION,Categorical,YES,mother_convulsions,yes
+CONVULSION,Categorical,NO,mother_convulsions,no
+CONVULSION,Categorical,DK,mother_convulsions,dk
+BLUREDVIS,Categorical,YES,mother_blurred_vision,yes
+BLUREDVIS,Categorical,NO,mother_blurred_vision,no
+BLUREDVIS,Categorical,DK,mother_blurred_vision,dk
+Veborn,Categorical,HOME,where_born,home
+Veborn,Categorical,HOSPITAL,where_born,hospital
+Veborn,Categorical,TRADITIONAL BIRTH ATTENDANT'S HOME,where_born,traditional_birth_center
+Veborn,Categorical,ON THE WAY TO/FROM A HEALTH FACILITY,where_born,on_route_to_hospital
+Veborn,Categorical,OTHER,where_born,other
+Veborn,Categorical,HEALTH CENTRE,where_born,other_health_facility
+Veborn,Categorical,DK,where_born,dk
+Vebornot,Non-categorical,Non-categorical variable,where_born_other,
+Vedelivery,Categorical,NO ONE(MOTHER DELIVERED ALONE),who_assisted_delivery,no_one
+Vedelivery,Categorical,"NYAMRERWA,TRAINED",who_assisted_delivery,nyamrerwa_trained
+Vedelivery,Categorical,DOCTOR/CLINICAL OFFICER/NURSE,who_assisted_delivery,doctor
+Vedelivery,Categorical,OTHER WOMEN IN COMPOUND,who_assisted_delivery,other_women
+Vedelivery,Categorical,"NYAMRERWA, UNTRAINED",who_assisted_delivery,nyamrerwa_untrained
+Vedelivery,Categorical,OTHER,who_assisted_delivery,other
+Deliveryo,Non-categorical,Non-categorical variable,who_assisted_delivery_other,
+Babyborn,Categorical,LESS THAN 24HRS,born_24_hours_after_water_broke,yes
+Babyborn,Categorical,24HRS OR MORE,born_24_hours_after_water_broke,no
+Babyborn,Categorical,DK,born_24_hours_after_water_broke,dk
+Babystop,Categorical,YES,stop_moving_before_labour,yes
+Babystop,Categorical,NO,stop_moving_before_labour,no
+Babystop,Categorical,DK,stop_moving_before_labour,dk
+Normdeliv,Categorical,YES,normal_delivery,yes
+Normdeliv,Categorical,NO,normal_delivery,no
+Normdeliv,Categorical,DK,normal_delivery,dk
+Typedeliv,Categorical,CAESAREAN SECTION,type_delivery,forceps
+Typedeliv,Categorical,FORCEPS/VACUUM,type_delivery,caesarean
+Typedeliv,Categorical,OTHER,type_delivery,other
+Typedeliv,Categorical,DK,type_delivery,dk
+Typedelivo,Non-categorical,Non-categorical variable,type_delivery_specific,
+Partfirst,Categorical,HEAD,part_delivered_first,head
+Partfirst,Categorical,BOTTOM,part_delivered_first,bottom
+Partfirst,Categorical,FEET,part_delivered_first,feet
+Partfirst,Categorical,ARM/HAND,part_delivered_first,arm_hand
+Partfirst,Categorical,OTHER,part_delivered_first,other
+Partfirst,Categorical,DK,part_delivered_first,dk
+Babysize,Categorical,SMALLER THAN NORMAL <2.5KG,baby_size,smaller
+Babysize,Categorical,NORMAL 2.5 - 3.9 KG,baby_size,normal
+Babysize,Categorical,LARGER THAN NORMAL >4.0KG,baby_size,larger
+Babysize,Categorical,DK,baby_size,dk
+umbcord,Categorical,YES,umbilical_wrap_neck,yes
+umbcord,Categorical,NO,umbilical_wrap_neck,no
+umbcord,Categorical,DK,umbilical_wrap_neck,dk
+malf,Categorical,YES,malformation,yes
+malf,Categorical,NO,malformation,no
+malf,Categorical,DK,malformation,dk
+Typemalf,Non-categorical,Non-categorical variable,malformation_type,
+Skincol,Categorical,NORMAL,skin_color,normal
+Skincol,Categorical,PALE,skin_color,pale
+Skincol,Categorical,BLUE,skin_color,blue
+Skincol,Categorical,PURPLE,skin_color,purple
+Skincol,Categorical,DK,skin_color,dk
+Babreath,Categorical,YES,baby_breathe,yes
+Babreath,Categorical,NO,baby_breathe,no
+Babreath,Categorical,DK,baby_breathe,dk
+Asstbreath,Categorical,YES,assisted_breathing,yes
+Asstbreath,Categorical,NO,assisted_breathing,no
+Asstbreath,Categorical,DK,assisted_breathing,dk
+Venstbcr,Categorical,YES,baby_cry,yes
+Venstbcr,Categorical,NO,baby_cry,no
+Venstbcr,Categorical,DK,baby_cry,dk
+Babymove,Categorical,YES,baby_move,yes
+Babymove,Categorical,NO,baby_move,no
+Babymove,Categorical,DK,baby_move,dk
+Babdead,Categorical,YES,born_dead,yes
+Babdead,Categorical,NO,born_dead,no
+Babdead,Categorical,DK,born_dead,dk
+Babdecay,Categorical,YES,body_soft_discolored,yes
+Babdecay,Categorical,NO,body_soft_discolored,no
+Babdecay,Categorical,DK,body_soft_discolored,dk
+acinj,Categorical,YES,injury_accident,yes
+acinj,Categorical,NO,injury_accident,no
+acinj,Categorical,DK,injury_accident,dk
+injury,Categorical,PEDESTRIAN/ WALKING,road_accident_role,pedestrian
+injury,Categorical,AN OCCUPANT OF A CAR VEHICLE,road_accident_role,occupant_car
+injury,Categorical,A DRIVER OR PASSENGER OF A MOTOCYCLE,road_accident_role,driver_passenger_motorcycle
+injury,Categorical,AN OCCUPANT OF A BUS/HEAVY TRANSPORT VEHICLE,road_accident_role,occupant_bus
+injury,Categorical,PEDAL CYCLIST,road_accident_role,cyclist
+injury,Categorical,A PASSENGER OF A MOTORCYCLE,road_accident_role,passenger_motorcycle
+injury,Categorical,DK,road_accident_role,dk
+cnt_part,Categorical,YES,info_counterpart_traffic_accident,yes
+cnt_part,Categorical,NO,info_counterpart_traffic_accident,no
+cnt_part1,Categorical,PEDESTRIAN,counterpart_hit,pedestrian
+cnt_part1,Categorical,CAR VEHICLE,counterpart_hit,car
+cnt_part1,Categorical,MOTORCYCLE,counterpart_hit,motorcycle
+cnt_part1,Categorical,PEDAL CYCLE,counterpart_hit,pedal_cycle
+cnt_part1,Categorical,BUS OR HEAVY TRANSPORT VEHICLE,counterpart_hit,bus
+cnt_part1,Categorical,OTHER,counterpart_hit,other
+cnt_other,Non-categorical,Non-categorical variable,counterpart_hit_specific,
+Injtype,Categorical,ROAD TRAFFIC ACCIDENT,injury_type,road_accident
+Injtype,Categorical,NON ROAD ACCIDENT,injury_type,non_road_accident
+Injtype,Categorical,VIOLENCE/ASSAULT,injury_type,violence_assault
+Injtype,Categorical,INFLICTED,injury_type,inflicted
+Injtype,Categorical,OTHER ,injury_type,other
+Injtype,Categorical,DK,injury_type,dk
+animal,Categorical,DOG,animal,dog
+animal,Categorical,SNAKE,animal,snake
+animal,Categorical,INSECT,animal,insect
+animal,Categorical,DK,animal,dk
+animaloth,Non-categorical,Non-categorical variable,animal_other,
+season,Categorical,WET SEASON,season,wet
+season,Categorical,DRY SEASON,season,dry
+illhrs,Non-categorical,Non-categorical variable,hours_ill_before_death,
+dill,Non-categorical,Non-categorical variable,days_ill_before_death,
+sudden,Categorical,YES,die_suddenly,yes
+sudden,Categorical,NO,die_suddenly,no
+sudden,Categorical,DK,die_suddenly,dk
+venbsuck,Categorical,YES,suckle_feed,yes
+venbsuck,Categorical,NO,suckle_feed,no
+venbsuck,Categorical,DK,suckle_feed,dk
+stopfeed,Categorical,YES,stop_suckle,yes
+stopfeed,Categorical,NO,stop_suckle,no
+stopfeed,Categorical,DK,stop_suckle,dk
+fit,Categorical,YES,convulsions_within_24_hours,yes
+fit,Categorical,NO,convulsions_within_24_hours,no
+fit,Categorical,DK,convulsions_within_24_hours,dk
+fitdmdk,Categorical,DK,days_convulsions_start,dk
+dfit,Non-categorical,Non-categorical variable,days_convulsions_start,
+stiffb,Categorical,YES,stiff,yes
+stiffb,Categorical,NO,stiff,no
+stiffb,Categorical,DK,stiff,dk
+vesfontb,Categorical,YES,bulging_fontanelle,yes
+vesfontb,Categorical,NO,bulging_fontanelle,no
+vesfontb,Categorical,DK,bulging_fontanelle,dk
+sunkfont,Categorical,YES,sunken_fontanelle,yes
+sunkfont,Categorical,NO,sunken_fontanelle,no
+sunkfont,Categorical,DK,sunken_fontanelle,dk
+lcsn,Categorical,YES,unresponsive,yes
+lcsn,Categorical,NO,unresponsive,no
+lcsn,Categorical,DK,unresponsive,dk
+long_dlcsn,Categorical,LESS THAN 24 HOURS,become_unresponsive,less_than_24_hours
+long_dlcsn,Categorical,MORE THAN 1 DAY,become_unresponsive,more_than_1_day
+long_dlcsn,Categorical,DK,become_unresponsive,dk
+fev,Categorical,YES,fever,yes
+fev,Categorical,NO,fever,no
+fev,Categorical,DK,fever,dk
+touch,Categorical,YES,cold_touch,yes
+touch,Categorical,NO,cold_touch,no
+touch,Categorical,DK,cold_touch,dk
+cou,Categorical,YES,cough,yes
+cou,Categorical,NO,cough,no
+cou,Categorical,DK,cough,dk
+whoop,Categorical,YES,whooping,yes
+whoop,Categorical,NO,whooping,no
+whoop,Categorical,DK,whooping,dk
+vesdbth,Categorical,YES,difficulty_breathing,yes
+vesdbth,Categorical,NO,difficulty_breathing,no
+vesdbth,Categorical,DK,difficulty_breathing,dk
+veslessbth,Categorical,YES,breathlessness,yes
+veslessbth,Categorical,NO,breathlessness,no
+veslessbth,Categorical,DK,breathlessness,dk
+vesin,Categorical,YES,chest_pull_in,yes
+vesin,Categorical,NO,chest_pull_in,no
+vesin,Categorical,DK,chest_pull_in,dk
+grunt,Categorical,YES,noisy_breathing,yes
+grunt,Categorical,NO,noisy_breathing,no
+grunt,Categorical,DK,noisy_breathing,dk
+diar,Categorical,YES,diarrhea,yes
+diar,Categorical,NO,diarrhea,no
+diar,Categorical,DK,diarrhea,dk
+bts,Categorical,YES,bloody_stool,yes
+bts,Categorical,NO,bloody_stool,no
+bts,Categorical,DK,bloody_stool,dk
+vom,Categorical,YES,vomit,yes
+vom,Categorical,NO,vomit,no
+vom,Categorical,DK,vomit,dk
+bvom,Categorical,COFFEE COLORED FLUID,bloody_vomit,coffee_colored
+bvom,Categorical,BRIGHT RED / BLOOD RED,bloody_vomit,bright_red
+bvom,Categorical,OTHER,bloody_vomit,other
+bvom,Categorical,DK,bloody_vomit,dk
+abd,Categorical,YES,abdomen_problem,yes
+abd,Categorical,NO,abdomen_problem,no
+abd,Categorical,DK,abdomen_problem,dk
+disumbil,Categorical,YES,redness_umbilical_cord,yes
+disumbil,Categorical,NO,redness_umbilical_cord,no
+disumbil,Categorical,DK,redness_umbilical_cord,dk
+skin,Categorical,YES,skin_problem,yes
+skin,Categorical,NO,skin_problem,no
+skin,Categorical,DK,skin_problem,dk
+ulcer_abs,Categorical,YES,ulcer_abs,yes
+ulcer_abs,Categorical,NO,ulcer_abs,no
+ulcer_abs,Categorical,DK,ulcer_abs,dk
+ulcer_feet,Categorical,YES,ulcer_foot,yes
+ulcer_feet,Categorical,NO,ulcer_foot,no
+ulcer_feet,Categorical,DK,ulcer_foot,dk
+palmyel,Categorical,YES,yellow_skin,yes
+palmyel,Categorical,NO,yellow_skin,no
+palmyel,Categorical,DK,yellow_skin,dk
+rash,Categorical,YES,rash,yes
+rash,Categorical,NO,rash,no
+rash,Categorical,DK,rash,dk
+measles,Categorical,YES,measles,yes
+measles,Categorical,NO,measles,no
+measles,Categorical,DK,measles,dk
+vepregtt,Categorical,YES,mother_tetnus,yes
+vepregtt,Categorical,NO,mother_tetnus,no
+vepregtt,Categorical,DK,mother_tetnus,dk
+vac,Categorical,YES,immunized,yes
+vac,Categorical,NO,immunized,no
+vac,Categorical,DK,immunized,dk
+Care,Categorical,YES,treatment,yes
+Care,Categorical,NO,treatment,no
+Care,Categorical,DK,treatment,dk
+operate,Categorical,YES,operation,yes
+operate,Categorical,NO,operation,no
+operate,Categorical,DK,operation,dk
+doperate,Non-categorical,Non-categorical variable,days_operation_before_death,
+disch,Categorical,YES,discharged_ill,yes
+disch,Categorical,NO,discharged_ill,no
+disch,Categorical,DK,discharged_ill,dk
+travel,Categorical,YES,travel_to_hosptial,yes
+travel,Categorical,NO,travel_to_hosptial,no
+travel,Categorical,DK,travel_to_hosptial,dk
+motor,Categorical,YES,motor_transport,yes
+motor,Categorical,NO,motor_transport,no
+motor,Categorical,DK,motor_transport,dk
+adprob,Categorical,YES,admission_problems,yes
+adprob,Categorical,NO,admission_problems,no
+adprob,Categorical,DK,admission_problems,dk
+waytreat,Categorical,YES,way_treated_problems,yes
+waytreat,Categorical,NO,way_treated_problems,no
+waytreat,Categorical,DK,way_treated_problems,dk
+medprob,Categorical,YES,medication_test_problems,yes
+medprob,Categorical,NO,medication_test_problems,no
+medprob,Categorical,DK,medication_test_problems,dk
+howfar,Categorical,YES,hospital_2_hours_away,yes
+howfar,Categorical,NO,hospital_2_hours_away,no
+howfar,Categorical,DK,hospital_2_hours_away,dk
+doubt,Categorical,YES,doubt_medical_care,yes
+doubt,Categorical,NO,doubt_medical_care,no
+doubt,Categorical,DK,doubt_medical_care,dk
+hrem,Categorical,YES,traditiaonal_medicine_used,yes
+hrem,Categorical,NO,traditiaonal_medicine_used,no
+hrem,Categorical,DK,traditiaonal_medicine_used,dk
+tele,Categorical,YES,telephone_call_help,yes
+tele,Categorical,NO,telephone_call_help,no
+tele,Categorical,DK,telephone_call_help,dk
+cost,Categorical,YES,treatment_cost_prohibit_household_payments,yes
+cost,Categorical,NO,treatment_cost_prohibit_household_payments,no
+cost,Categorical,DK,treatment_cost_prohibit_household_payments,dk
+HOME,Categorical,YES,treatment_home,yes
+HOME,Categorical,NO,treatment_home,no
+HOME,Categorical,DK,treatment_home,dk
+THA,Categorical,YES,treatment_traditional_healer,yes
+THA,Categorical,NO,treatment_traditional_healer,no
+THA,Categorical,DK,treatment_traditional_healer,dk
+GOVCLINIC,Categorical,YES,treatment_government_clinic,yes
+GOVCLINIC,Categorical,NO,treatment_government_clinic,no
+GOVCLINIC,Categorical,DK,treatment_government_clinic,dk
+GOVHOSP,Categorical,YES,treatment_government_hospital,yes
+GOVHOSP,Categorical,NO,treatment_government_hospital,no
+GOVHOSP,Categorical,DK,treatment_government_hospital,dk
+PRIVCLINIC,Categorical,YES,treatment_private_clinic,yes
+PRIVCLINIC,Categorical,NO,treatment_private_clinic,no
+PRIVCLINIC,Categorical,DK,treatment_private_clinic,dk
+PRIVHOSP,Categorical,YES,treatment_private_hospital,yes
+PRIVHOSP,Categorical,NO,treatment_private_hospital,no
+PRIVHOSP,Categorical,DK,treatment_private_hospital,dk
+PDS,Categorical,YES,treatment_pharmacy,yes
+PDS,Categorical,NO,treatment_pharmacy,no
+PDS,Categorical,DK,treatment_pharmacy,dk
+REL,Categorical,YES,treatment_relgious,yes
+REL,Categorical,NO,treatment_relgious,no
+REL,Categorical,DK,treatment_relgious,dk
+TBA,Categorical,YES,treatment_nyamrerwa,yes
+TBA,Categorical,NO,treatment_nyamrerwa,no
+TBA,Categorical,DK,treatment_nyamrerwa,dk
+BUS,Categorical,YES,treatment_bush_doctor,yes
+BUS,Categorical,NO,treatment_bush_doctor,no
+BUS,Categorical,DK,treatment_bush_doctor,dk
+INTRAV,Categorical,YES,iv,yes
+INTRAV,Categorical,NO,iv,no
+INTRAV,Categorical,DK,iv,dk
+BLDTRS,Categorical,YES,blood_transfusion,yes
+BLDTRS,Categorical,NO,blood_transfusion,no
+BLDTRS,Categorical,DK,blood_transfusion,dk
+FEEDNOSE,Categorical,YES,feed_nose,yes
+FEEDNOSE,Categorical,NO,feed_nose,no
+FEEDNOSE,Categorical,DK,feed_nose,dk
+ANTIB,Categorical,YES,antibiotics,yes
+ANTIB,Categorical,NO,antibiotics,no
+ANTIB,Categorical,DK,antibiotics,dk
+ORSDRIP,Categorical,YES,oral_rehydration,yes
+ORSDRIP,Categorical,NO,oral_rehydration,no
+ORSDRIP,Categorical,DK,oral_rehydration,dk

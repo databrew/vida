@@ -1,0 +1,32 @@
+Package: vida
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com")
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.0
+Imports:
+    devtools,
+    magrittr,
+    tidyverse,
+    RColorBrewer,
+    dplyr,
+    ggplot2,
+    ggthemes,
+    leaflet,
+    DT,
+    Hmisc,
+    extrafont,
+    grDevices,
+    grid,
+    shiny,
+    shinydashboard
+Suggests: 
+    testthat

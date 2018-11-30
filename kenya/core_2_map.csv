@@ -1,0 +1,564 @@
+variable,variable_type,responses,question_standardized,response_standardized
+filenum,Non-categorical,Non-categorical variable,filenumber,
+slpy,Categorical,1,unusually_sleepy,yes
+slpy,Categorical,2,unusually_sleepy,no
+slpy,Categorical,9,unusually_sleepy,dk
+dslpy,Non-categorical,Non-categorical variable,days_unusually_sleepy,
+mslpy,Non-categorical,Non-categorical variable,months_unusually_sleepy,
+npa,Categorical,1,painful_neck,yes
+npa,Categorical,2,painful_neck,no
+npa,Categorical,9,painful_neck,dk
+npad,Non-categorical,Non-categorical variable,days_painful_neck,
+npam,Non-categorical,Non-categorical variable,months_painful_neck,
+head,Categorical,1,headache,yes
+head,Categorical,2,headache,no
+head,Categorical,9,headache,dk
+dhea,Non-categorical,Non-categorical variable,days_headache,
+mhea,Non-categorical,Non-categorical variable,months_headache,
+stiffb,Categorical,1,stiff,yes
+stiffb,Categorical,2,stiff,no
+stiffb,Categorical,9,stiff,dk
+dstiffb,Non-categorical,Non-categorical variable,days_stiff,
+mstiffb,Categorical,,months_stiff,
+lcsn,Categorical,1,unconscious,yes
+lcsn,Categorical,2,unconscious,no
+lcsn,Categorical,9,unconscious,dk
+dlcsn,Non-categorical,Non-categorical variable,days_unconscious,
+mlcsn,Non-categorical,Non-categorical variable,months_unconscious,
+fit,Categorical,1,convulsions,yes
+fit,Categorical,2,convulsions,no
+fit,Categorical,9,convulsions,dk
+dfits,Non-categorical,Non-categorical variable,days_convulsions,
+mfits,Non-categorical,Non-categorical variable,months_convulsions,
+ffin,Non-categorical,Non-categorical variable,number_of_fits,
+par,Categorical,1,paralyzed,yes_both_leg
+par,Categorical,2,paralyzed,no
+par,Categorical,3,paralyzed,yes_one_arm_leg
+par,Categorical,4,paralyzed,yes_total_paralysis
+par,Categorical,5,paralyzed,other
+par,Categorical,8,paralyzed,dk
+paryo,Non-categorical,Non-categorical variable,paralyzed_other,
+dpar,Non-categorical,Non-categorical variable,days_paralyzed,
+mpar,Non-categorical,Non-categorical variable,months_paralyzed,
+upuri,Categorical,1,urine_problems,yes
+upuri,Categorical,2,urine_problems,no
+upuri,Categorical,9,urine_problems,dk
+dupuri,Non-categorical,Non-categorical variable,days_urine_problems,
+mupuri,Categorical,,months_urine_problems,
+blurin,Categorical,1,urine_blood,yes
+blurin,Categorical,2,urine_blood,no
+blurin,Categorical,9,urine_blood,dk
+dblurin,Non-categorical,Non-categorical variable,days_urine_blood,
+mblurin,Categorical,,months_urine_blood,
+grow,Categorical,1,grow_normal_before_illness,yes
+grow,Categorical,2,grow_normal_before_illness,no
+grow,Categorical,8,grow_normal_before_illness,dk
+grow,Categorical,9,grow_normal_before_illness,na
+chiv,Categorical,1,hiv,yes
+chiv,Categorical,2,hiv,assumed_not_tested
+chiv,Categorical,3,hiv,no
+chiv,Categorical,9,hiv,dk
+tbcont,Categorical,1,caregiver_tb_diagnosed,yes
+tbcont,Categorical,2,caregiver_tb_diagnosed,no
+tbcont,Categorical,8,caregiver_tb_diagnosed,na
+tbcont,Categorical,9,caregiver_tb_diagnosed,dk
+care,Categorical,1,treatment,yes
+care,Categorical,2,treatment,no
+care,Categorical,9,treatment,dk
+tha,Categorical,1,treatment_traditional_healer,yes
+tha,Categorical,2,treatment_traditional_healer,no
+tha,Categorical,9,treatment_traditional_healer,dk
+tba,Categorical,1,treatment_nyamrerwa,yes
+tba,Categorical,2,treatment_nyamrerwa,no
+tba,Categorical,9,treatment_nyamrerwa,dk
+hce,Categorical,1,treatment_government_clinic,yes
+hce,Categorical,2,treatment_government_clinic,no
+hce,Categorical,9,treatment_government_clinic,dk
+prp,Categorical,1,treatment_private_clinic,yes
+prp,Categorical,2,treatment_private_clinic,no
+prp,Categorical,9,treatment_private_clinic,dk
+pds,Categorical,1,treatment_pharmacy,yes
+pds,Categorical,2,treatment_pharmacy,no
+pds,Categorical,9,treatment_pharmacy,dk
+bus,Categorical,1,treatment_bush_doctor,yes
+bus,Categorical,2,treatment_bush_doctor,no
+bus,Categorical,9,treatment_bush_doctor,dk
+gmh,Categorical,1,treatment_government_hospital,yes
+gmh,Categorical,2,treatment_government_hospital,no
+gmh,Categorical,9,treatment_government_hospital,dk
+rel,Categorical,1,treatment_relgious,yes
+rel,Categorical,2,treatment_relgious,no
+rel,Categorical,9,treatment_relgious,dk
+otca,Categorical,1,treatment_others,yes
+otca,Categorical,2,treatment_others,no
+otca,Categorical,9,treatment_others,dk
+otcasp,Non-categorical,Non-categorical variable,treatment_others_specific,
+vechospita,Categorical,vecsiaya,hospital,siaya
+vechospita,Categorical,vechondo,hospital,bondo
+vechospita,Categorical,veclwak,hospital,lwak
+vechospita,Categorical,veckisdis,hospital,kisumu_district
+vechospita,Categorical,veckisprov,hospital,kisumu_provincial
+vechospita,Categorical,vecnyawara,hospital,nyawara
+vechospita,Categorical,vecaluor,hospital,aluor
+vechospita,Categorical,vecyala,hospital,yala
+vechospita,Categorical,vecngiya,hospital,ngiya
+vechospita,Categorical,otvechosp,hospital,other
+vechoth,Non-categorical,Non-categorical variable,hospital_other_specific,
+otvechosp,Non-categorical,Non-categorical variable,hospital_other_specific,
+vecarhpn,Non-categorical,Non-categorical variable,nights_in_hospital,
+hrem,Categorical,1,traditiaonal_medicine_used,yes
+hrem,Categorical,2,traditiaonal_medicine_used,no
+hrem,Categorical,8,traditiaonal_medicine_used,na
+hrem,Categorical,9,traditiaonal_medicine_used,dk
+wesd,Categorical,1,western_drugs,yes
+wesd,Categorical,2,western_drugs,no
+wesd,Categorical,9,western_drugs,dk
+mal,Categorical,1,received_antimalarial,yes
+mal,Categorical,2,received_antimalarial,no
+mal,Categorical,9,received_antimalarial,dk
+bio,Categorical,1,received_antibiotics,yes
+bio,Categorical,2,received_antibiotics,no
+bio,Categorical,9,received_antibiotics,dk
+atb,Categorical,1,received_anti_tb,yes
+atb,Categorical,2,received_anti_tb,no
+atb,Categorical,9,received_anti_tb,dk
+arv,Categorical,1,received_arvs,yes
+arv,Categorical,2,received_arvs,no
+arv,Categorical,9,received_arvs,dk
+btr,Categorical,1,received_blood_transfusion,yes
+btr,Categorical,2,received_blood_transfusion,no
+btr,Categorical,9,received_blood_transfusion,dk
+tbhf1,Categorical,1,anti_tb_akala,yes
+tbhf1,Categorical,2,anti_tb_akala,no
+tbhf1,Categorical,9,anti_tb_akala,dk
+tbhf2,Categorical,1,anti_tb_ndori,yes
+tbhf2,Categorical,2,anti_tb_ndori,no
+tbhf2,Categorical,9,anti_tb_ndori,dk
+tbhf3,Categorical,1,anti_tb_nyawara,yes
+tbhf3,Categorical,2,anti_tb_nyawara,no
+tbhf3,Categorical,9,anti_tb_nyawara,dk
+tbhf4,Categorical,1,anti_tb_wagai,yes
+tbhf4,Categorical,2,anti_tb_wagai,no
+tbhf4,Categorical,9,anti_tb_wagai,dk
+tbhf5,Categorical,1,anti_tb_aluor,yes
+tbhf5,Categorical,2,anti_tb_aluor,no
+tbhf5,Categorical,9,anti_tb_aluor,dk
+tbhf6,Categorical,1,anti_tb_njenjra,yes
+tbhf6,Categorical,2,anti_tb_njenjra,no
+tbhf6,Categorical,9,anti_tb_njenjra,dk
+tbhf7,Categorical,1,anti_tb_rera,yes
+tbhf7,Categorical,2,anti_tb_rera,no
+tbhf7,Categorical,9,anti_tb_rera,dk
+tbhf8,Categorical,1,anti_tb_barolengo,yes
+tbhf8,Categorical,2,anti_tb_barolengo,no
+tbhf8,Categorical,9,anti_tb_barolengo,dk
+tbhf9,Categorical,1,anti_tb_tingwangi,yes
+tbhf9,Categorical,2,anti_tb_tingwangi,no
+tbhf9,Categorical,9,anti_tb_tingwangi,dk
+tbhf10,Categorical,1,anti_tb_kotieno,yes
+tbhf10,Categorical,2,anti_tb_kotieno,no
+tbhf10,Categorical,9,anti_tb_kotieno,dk
+tbhf11,Categorical,1,anti_tb_ngiya,yes
+tbhf11,Categorical,2,anti_tb_ngiya,no
+tbhf11,Categorical,9,anti_tb_ngiya,dk
+tbhf12,Categorical,1,anti_tb_nyathengo,yes
+tbhf12,Categorical,2,anti_tb_nyathengo,no
+tbhf12,Categorical,9,anti_tb_nyathengo,dk
+tbhf13,Categorical,1,anti_tb_lwak,yes
+tbhf13,Categorical,2,anti_tb_lwak,no
+tbhf13,Categorical,9,anti_tb_lwak,dk
+tbhf14,Categorical,1,anti_tb_bondodh,yes
+tbhf14,Categorical,2,anti_tb_bondodh,no
+tbhf14,Categorical,9,anti_tb_bondodh,dk
+antimna,Categorical,na,anti_malarial_received,na
+coart,Categorical,1,coartem,yes
+coart,Categorical,2,coartem,no
+coart,Categorical,9,coartem,dk
+qui,Categorical,1,quinine,yes
+qui,Categorical,2,quinine,no
+qui,Categorical,9,quinine,dk
+arts,Categorical,1,artusenate,yes
+arts,Categorical,2,artusenate,no
+arts,Categorical,9,artusenate,dk
+sp,Categorical,1,fansider_sp_falcidin,yes
+sp,Categorical,2,fansider_sp_falcidin,no
+sp,Categorical,9,fansider_sp_falcidin,dk
+aq,Categorical,1,amodiaquine,yes
+aq,Categorical,2,amodiaquine,no
+aq,Categorical,9,amodiaquine,dk
+cq,Categorical,1,chloroquine_malaraquin,yes
+cq,Categorical,2,chloroquine_malaraquin,no
+cq,Categorical,9,chloroquine_malaraquin,dk
+othantimal,Non-categorical,Non-categorical variable,other_antimalarials,
+dcer,Categorical,1,death_certificate,yes
+dcer,Categorical,2,death_certificate,no
+dcer,Categorical,9,death_certificate,dk
+dca,Categorical,1,see_death_certificate,yes
+dca,Categorical,2,see_death_certificate,no
+dca,Categorical,9,see_death_certificate,dk
+dccod,Non-categorical,Non-categorical variable,cause_death_1,
+veburpm,Categorical,1,burial_permit_issued,yes
+veburpm,Categorical,2,burial_permit_issued,no
+veburpm,Categorical,9,burial_permit_issued,dk
+vebursee,Categorical,1,burial_permit_available,available
+vebursee,Categorical,2,burial_permit_available,not_available
+vebursee,Categorical,8,burial_permit_available,na
+vebpcdth,Categorical,1,death_cause_on_permit,yes
+vebpcdth,Categorical,2,death_cause_on_permit,no
+vebpcdth,Categorical,8,death_cause_on_permit,na
+bpcod,Non-categorical,Non-categorical variable,death_cause_burial_permit,
+pm,Categorical,1,post_mortem,yes
+pm,Categorical,2,post_mortem,no 
+pm,Categorical,9,post_mortem,dk
+pmcd,Categorical,1,death_cause_on_permit,yes
+pmcd,Categorical,2,death_cause_on_permit,no 
+pmcd,Categorical,8,death_cause_on_permit,dk
+pmcod,Categorical,Non-categorical variable,death_cause_burial_permit,
+mch,Categorical,1,mch_card_available,yes
+mch,Categorical,2,mch_card_available,no
+mch,Categorical,8,mch_card_available,na
+mch,Categorical,9,mch_card_available,dk
+hpr,Categorical,1,hospital_prescriptions_available,yes
+hpr,Categorical,2,hospital_prescriptions_available,no
+hpr,Categorical,9,hospital_prescriptions_available,na
+tcd,Categorical,1,treatment_card_available,yes
+tcd,Categorical,2,treatment_card_available,no
+tcd,Categorical,8,treatment_card_available,na
+tcd,Categorical,9,treatment_card_available,dk
+hdf,Categorical,1,hospital_discharge_forms_available,yes
+hdf,Categorical,2,hospital_discharge_forms_available,no
+hdf,Categorical,8,hospital_discharge_forms_available,na
+hdf,Categorical,9,hospital_discharge_forms_available,dk
+hdiag,Non-categorical,Non-categorical variable,hospital_diagnosis,
+ohd,Categorical,1,hospital_documents_available,yes
+ohd,Categorical,2,hospital_documents_available,no 
+ohd,Categorical,9,hospital_documents_available,dk
+lab,Categorical,1,lab_results_available,yes
+lab,Categorical,2,lab_results_available,no 
+lab,Categorical,9,lab_results_available,dk
+hccod,Categorical,1,told_cause_of_death,yes
+hccod,Categorical,2,told_cause_of_death,no
+hccod,Categorical,9,told_cause_of_death,dk
+rage,Non-categorical,Non-categorical variable,respondent_age,
+intsex,Categorical,2,sex_respondent,female
+intsex,Categorical,1,sex_respondent,male
+intrel,Categorical,1,relationship,biological_mother
+intrel,Categorical,2,relationship,father
+intrel,Categorical,3,relationship,grandparent
+intrel,Categorical,4,relationship,aunt
+intrel,Categorical,5,relationship,co_wife
+intrel,Categorical,6,relationship,sibling
+intrel,Categorical,7,relationship,adoptive_mother
+intrel,Categorical,8,relationship,other
+intreloth,Non-categorical,Non-categorical variable,relationship_specific,
+intliv,Categorical,1,live_with_deceased,yes
+intliv,Categorical,2,live_with_deceased,no
+sexd,Categorical,1,sex_deceased,male
+sexd,Categorical,2,sex_deceased,female
+veyears,Non-categorical,Non-categorical variable,age_years,
+vemonths,Non-categorical,Non-categorical variable,age_months,
+vedays,Non-categorical,Non-categorical variable,age_days,
+placd,Categorical,1,place_died,home
+placd,Categorical,2,place_died,other_health_facility
+placd,Categorical,3,place_died,en_route_to_hospital
+placd,Categorical,4,place_died,hospital
+placd,Categorical,6,place_died,other
+placd,Categorical,9,place_died,dk
+placdoth,Non-categorical,Non-categorical variable,place_died_specific,
+hfname,Non-categorical,Non-categorical variable,facility_name,
+hfnameoth,Non-categorical,Non-categorical variable,facility_name_specific,
+inj,Categorical,1,injury_accident,injury
+inj,Categorical,2,injury_accident,accident
+inj,Categorical,3,injury_accident,neither
+inj,Categorical,9,injury_accident,dk
+tinj,Categorical,1,injury_type,transport_pedestrian
+tinj,Categorical,2,injury_type,transport_passenger
+tinj,Categorical,3,injury_type,fall
+tinj,Categorical,4,injury_type,drown
+tinj,Categorical,5,injury_type,poisoning
+tinj,Categorical,6,injury_type,bite_sting
+tinj,Categorical,7,injury_type,burn
+tinj,Categorical,11,injury_type,sharp_object
+tinj,Categorical,12,injury_type,assault
+tinj,Categorical,10,injury_type,other
+tinj,Categorical,8,injury_type,na
+tinjot,Non-categorical,Non-categorical variable,injury_type_specific,
+injty,Categorical,1,injury_intentionally_inflicted,yes
+injty,Categorical,2,injury_intentionally_inflicted,no
+injty,Categorical,8,injury_intentionally_inflicted,na
+injty,Categorical,9,injury_intentionally_inflicted,dk
+acp,Categorical,1,accidentally_poisoned,yes
+acp,Categorical,2,accidentally_poisoned,no
+acp,Categorical,9,accidentally_poisoned,dk
+sui,Categorical,1,suicide,yes
+sui,Categorical,2,suicide,no
+sui,Categorical,9,suicide,dk
+motarv,Categorical,1,mother_arv,yes
+motarv,Categorical,2,mother_arv,no
+motarv,Categorical,8,mother_arv,na
+motarv,Categorical,9,mother_arv,dk
+childarv,Categorical,1,child_arv,yes
+childarv,Categorical,2,child_arv,no
+childarv,Categorical,8,child_arv,na
+childarv,Categorical,9,child_arv,dk
+vepregc,Categorical,1,mother_antenatal_care,yes
+vepregc,Categorical,2,mother_antenatal_care,no
+vepregc,Categorical,9,mother_antenatal_care,dk
+vepregfs,Categorical,1,mother_sp_fansidar,yes
+vepregfs,Categorical,2,mother_sp_fansidar,no
+vepregfs,Categorical,8,mother_sp_fansidar,na
+vepregfs,Categorical,9,mother_sp_fansidar,dk
+ohea,Categorical,2,heart_disease,yes
+ohea,Categorical,9,heart_disease,no
+ohea,Categorical,1,heart_disease,dk
+oheadmy,Categorical,1,suffer_heart_disease,day
+oheadmy,Categorical,2,suffer_heart_disease,month
+oheadmy,Categorical,9,suffer_heart_disease,years
+oheamnth,Non-categorical,Non-categorical variable,duration_heart_disease,
+diab,Categorical,1,diabetes,yes
+diab,Categorical,2,diabetes,no
+diab,Categorical,9,diabetes,dk
+diabmnth,Non-categorical,Non-categorical variable,,
+epil,Categorical,1,epilepsy,yes
+epil,Categorical,2,epilepsy,no
+epil,Categorical,9,epilepsy,dk
+epilmnth,Non-categorical,Non-categorical variable,,
+tb,Categorical,1,tb,yes
+tb,Categorical,2,tb,no
+tb,Categorical,9,tb,dk
+tbmnth,Non-categorical,Non-categorical variable,,
+hiv,Categorical,1,hiv,yes
+hiv,Categorical,2,hiv,no
+hiv,Categorical,9,hiv,dk
+hivmnth,Non-categorical,Non-categorical variable,,
+lep,Categorical,1,leprosy,yes
+lep,Categorical,2,leprosy,no
+lep,Categorical,9,leprosy,dk
+lepmnth,Non-categorical,Non-categorical variable,,
+asth,Categorical,1,asthma,yes
+asth,Categorical,2,asthma,no
+asth,Categorical,9,asthma,dk
+asthmnth,Non-categorical,Non-categorical variable,,
+can,Categorical,1,cancer,yes
+can,Categorical,2,cancer,no
+can,Categorical,9,cancer,dk
+canmnth,Non-categorical,Non-categorical variable,,
+cantyp,Categorical,1,cancer_type,cervix
+cantyp,Categorical,2,cancer_type,breast
+cantyp,Categorical,3,cancer_type,prostate
+cantyp,Categorical,4,cancer_type,liver
+cantyp,Categorical,5,cancer_type,pancreas
+cantyp,Categorical,6,cancer_type,bone
+cantyp,Categorical,7,cancer_type,other
+cantyp,Categorical,9,cancer_type,dk
+cantypo,Non-categorical,Non-categorical variable,cancer_type_specific,
+odis,Categorical,1,suffer_chronic_illness,yes
+odis,Categorical,2,suffer_chronic_illness,no
+odis,Categorical,9,suffer_chronic_illness,dk
+spodist,Non-categorical,Non-categorical variable,suffer_chronic_illness_specific,
+spodis,Non-categorical,Non-categorical variable,,
+smallsiz,Categorical,1,small_at_birth,yes
+smallsiz,Categorical,2,small_at_birth,no 
+smallsiz,Categorical,9,small_at_birth,dk
+premature,Categorical,1,premature,yes
+premature,Categorical,2,premature,no
+premature,Categorical,9,premature,dk
+dmpr,Non-categorical,Non-categorical variable,days_premature,
+mmpr,Non-categorical,Non-categorical variable,months_premature,
+brstfd,Categorical,1,suckle_feed,yes
+brstfd,Categorical,2,suckle_feed,no
+brstfd,Categorical,3,suckle_feed,na
+brstfd,Categorical,9,suckle_feed,dk
+brstfdstop,Categorical,1,stop_suckle,yes
+brstfdstop,Categorical,2,stop_suckle,no
+brstfdstop,Categorical,9,stop_suckle,dk
+fev,Categorical,1,fever,yes
+fev,Categorical,2,fever,no
+fev,Categorical,9,fever,dk
+dfe,Non-categorical,Non-categorical variable,days_fever,
+mfe,Non-categorical,Non-categorical variable,months_fever,
+tfe,Categorical,1,fever_continous,continuous
+tfe,Categorical,2,fever_continous,on_off
+tfe,Categorical,9,fever_continous,dk
+ntswet,Categorical,1,night_sweats,yes
+ntswet,Categorical,2,night_sweats,no
+ntswet,Categorical,9,night_sweats,dk
+dntswet,Non-categorical,Non-categorical variable,days_night_sweats,
+mntswet,Non-categorical,Non-categorical variable,months_night_sweats,
+con,Categorical,1,convulsions,yes
+con,Categorical,2,convulsions,no
+con,Categorical,9,convulsions,dk
+dcon,Non-categorical,Non-categorical variable,days_convulsions,
+mcon,Non-categorical,Non-categorical variable,months_convulsions,
+cou,Categorical,1,cough,yes
+cou,Categorical,2,cough,no
+cou,Categorical,9,cough,dk
+dco,Non-categorical,Non-categorical variable,days_cough,
+mco,Non-categorical,Non-categorical variable,months_cough,
+coughtype,Categorical,dco,cough_type,dry
+coughtype,Categorical,pco,cough_type,productive
+coughtype,Categorical,blco,cough_type,with_blood
+coughtype,Categorical,none,cough_type,none
+coughtype,Categorical,dk,cough_specific,dk
+vesd,Categorical,1,difficulty_breathing,yes
+vesd,Categorical,2,difficulty_breathing,no
+vesd,Categorical,9,difficulty_breathing,dk
+vesdbthd,Non-categorical,Non-categorical variable,days_difficulty_breathing,
+vesdbthm,Non-categorical,Non-categorical variable,months_difficulty_breathing,
+vesfbth,Categorical,1,breathlessness,yes
+vesfbth,Categorical,2,breathlessness,no
+vesfbth,Categorical,9,breathlessness,dk
+vesfbthd,Non-categorical,Non-categorical variable,days_breathlessness,
+vesfbthm,Non-categorical,Non-categorical variable,months_breathlessness,
+vesin,Categorical,1,chest_pull_in,yes
+vesin,Categorical,2,chest_pull_in,no
+vesin,Categorical,9,chest_pull_in,dk
+vesind,Non-categorical,Non-categorical variable,days_chest_pull_in,
+vesinm,Non-categorical,Non-categorical variable,months_chest_pull_in,
+motherdiab,Categorical,1,mother_diabetes,yes
+motherdiab,Categorical,2,mother_diabetes,no
+motherdiab,Categorical,8,mother_diabetes,na
+motherdiab,Categorical,9,mother_diabetes,dk
+mothertb,Categorical,1,mother_tb,yes
+mothertb,Categorical,2,mother_tb,no
+mothertb,Categorical,8,mother_tb,na
+mothertb,Categorical,9,mother_tb,dk
+motherhiv,Categorical,1,mother_hiv,yes
+motherhiv,Categorical,2,mother_hiv,no
+motherhiv,Categorical,8,mother_hiv,na
+motherhiv,Categorical,9,mother_hiv,dk
+none,Categorical,1,mother_no_conditions,none
+vom,Categorical,1,vomit,yes
+vom,Categorical,2,vomit,no
+vom,Categorical,9,vomit,dk
+dvom,Non-categorical,Non-categorical variable,days_vomit,
+mvom,Non-categorical,Non-categorical variable,months_vomit,
+bvom,Categorical,1,bloody_vomit,yes
+bvom,Categorical,2,bloody_vomit,no
+bvom,Categorical,9,bloody_vomit,dk
+dbvom,Non-categorical,Non-categorical variable,days_bloody_vomit,
+mbvom,Categorical,Non-categorical variable,months_bloody_vomit,
+abm,Categorical,1,abdomen_mass,yes
+abm,Categorical,2,abdomen_mass,no
+abm,Categorical,9,abdomen_mass,dk
+dabm,Non-categorical,Non-categorical variable,days_abdomen_mass,
+mabm,Non-categorical,Non-categorical variable,months_abdomen_mass,
+abd,Categorical,1,protruding_abdomen,yes
+abd,Categorical,2,protruding_abdomen,no
+abd,Categorical,9,protruding_abdomen,dk
+dabd,Non-categorical,Non-categorical variable,days_abdomen_problem,
+mabd,Non-categorical,Non-categorical variable,months_abdomen_problem,
+tad,Categorical,1,distention_development,gradually
+tad,Categorical,2,distention_development,rapidly
+tad,Categorical,9,distention_development,dk
+diar,Categorical,1,diarrhea,yes
+diar,Categorical,2,diarrhea,no
+diar,Categorical,9,diarrhea,dk
+ddia,Non-categorical,Non-categorical variable,days_diarrhea,
+mdia,Non-categorical,Non-categorical variable,months_diarrhea,
+bts,Categorical,1,bloody_stool,yes
+bts,Categorical,2,bloody_stool,no
+bts,Categorical,9,bloody_stool,dk
+abp,Categorical,1,abdomen_pain,yes
+abp,Categorical,2,abdomen_pain,no
+abp,Categorical,9,abdomen_pain,dk
+dabp,Non-categorical,Non-categorical variable,days_abdomen_problem,
+mabp,Non-categorical,Non-categorical variable,months_abdomen_problem,
+low,Categorical,1,weight_loss,yes
+low,Categorical,2,weight_loss,no
+low,Categorical,9,weight_loss,dk
+dlow,Non-categorical,Non-categorical variable,days_weight_loss,
+mlow,Non-categorical,Non-categorical variable,months_weight_loss,
+msr,Categorical,1,rash_mouth,yes
+msr,Categorical,2,rash_mouth,no
+msr,Categorical,9,rash_mouth,dk
+dmsr,Non-categorical,Non-categorical variable,days_rash_mouth,
+mmsr,Non-categorical,Non-categorical variable,months_rash_mouth,
+pal,Categorical,1,pale,yes
+pal,Categorical,2,pale,no
+pal,Categorical,9,pale,dk
+dpal,Non-categorical,Non-categorical variable,days_pale,
+mpal,Non-categorical,Non-categorical variable,months_pale,yes
+puf,Categorical,1,puffiness_of_face,no
+puf,Categorical,2,puffiness_of_face,dk
+puf,Categorical,9,puffiness_of_face,
+dpuf,Non-categorical,Non-categorical variable,days_puffiness_of_face,
+mpuf,Non-categorical,Non-categorical variable,months_puffiness_of_face,
+swelb,Categorical,1,swell_body,yes
+swelb,Categorical,2,swell_body,no
+swelb,Categorical,9,swell_body,dk
+dswelb,Non-categorical,Non-categorical variable,days_swell_body,
+mswelb,Non-categorical,Non-categorical variable,months_swell_body,
+jau,Categorical,1,yellow_eyes,yes
+jau,Categorical,2,yellow_eyes,no
+jau,Categorical,9,yellow_eyes,dk
+djau,Non-categorical,Non-categorical variable,days_yellow_eyes,
+mjau,Non-categorical,Non-categorical variable,months_yellow_eyes,
+saa,Categorical,1,swelling,yes
+saa,Categorical,2,swelling,no
+saa,Categorical,9,swelling,dk
+dsaa,Non-categorical,Non-categorical variable,days_swelling,
+msaa,Non-categorical,Non-categorical variable,months_swelling,
+swj,Categorical,1,swell_joints,yes
+swj,Categorical,2,swell_joints,no
+swj,Categorical,9,swell_joints,dk
+dswj,Non-categorical,Non-categorical variable,days_swell_joints,
+mswj,Non-categorical,Non-categorical variable,months_swell_joints,
+swa,Categorical,1,lumps,yes
+swa,Categorical,2,lumps,no
+swa,Categorical,9,lumps,dk
+dswa,Non-categorical,Non-categorical variable,days_lumps,
+mswa,Categorical,Non-categorical variable,months_lumps,
+meas,Categorical,1,measles,yes
+meas,Categorical,2,measles,no
+meas,Categorical,9,measles,dk
+dmeas,Non-categorical,Non-categorical variable,days_measles,
+mmeas,Non-categorical,Non-categorical variable,months_measles,
+skind,Categorical,1,rash,yes
+skind,Categorical,2,rash,no
+skind,Categorical,9,rash,dk
+dskind,Non-categorical,Non-categorical variable,days_rash,
+mskind,Non-categorical,Non-categorical variable,months_rash,
+chst,Categorical,1,chest_infections,yes
+chst,Categorical,2,chest_infections,no
+chst,Categorical,9,chest_infections,dk
+dchst,Non-categorical,Non-categorical variable,days_chest_infections,
+mchst,Non-categorical,Non-categorical variable,months_chest_infections,
+diar,Categorical,1,diarrhea,yes
+diar,Categorical,2,diarrhea,no
+diar,Categorical,9,diarrhea,dk
+ddia,Non-categorical,Non-categorical variable,days_diarrhea,
+tdiar,Non-categorical,Non-categorical variable,times_passed_stool,
+bts,Categorical,1,bloody_stool,yes
+bts,Categorical,2,bloody_stool,no
+bts,Categorical,9,bloody_stool,dk
+diarliq,Categorical,1,diarrhea_thick_liquid,yes
+diarliq,Categorical,2,diarrhea_thick_liquid,no
+diarliq,Categorical,9,diarrhea_thick_liquid,dk
+diaropq,Categorical,1,diarrhea_opaque_watery,yes
+diaropq,Categorical,2,diarrhea_opaque_watery,no
+diaropq,Categorical,9,diarrhea_opaque_watery,dk
+diarclear,Categorical,1,diarrhea_clear_watery,yes
+diarclear,Categorical,2,diarrhea_clear_watery,no
+diarclear,Categorical,9,diarrhea_clear_watery,dk
+diarstick,Categorical,1,diarrhea_sticky,yes
+diarstick,Categorical,2,diarrhea_sticky,no
+diarstick,Categorical,9,diarrhea_sticky,dk
+diarblood,Categorical,1,diarrhea_bloody,yes
+diarblood,Categorical,2,diarrhea_bloody,no
+diarblood,Categorical,9,diarrhea_bloody,dk
+diardk,Categorical,9,diarrhea_unkonwn,dk
+diarfluid,Categorical,1,diarrhea_lack_fluid,yes
+diarfluid,Categorical,2,diarrhea_lack_fluid,no
+diarfluid,Categorical,9,diarrhea_lack_fluid,dk
+diarseyes,Categorical,1,diarrhea_sunken_eyes,yes
+diarseyes,Categorical,2,diarrhea_sunken_eyes,no
+diarseyes,Categorical,9,diarrhea_sunken_eyes,dk
+diarwskin,Categorical,1,diarrhea_wrinkled_skin,yes
+diarwskin,Categorical,2,diarrhea_wrinkled_skin,no
+diarwskin,Categorical,9,diarrhea_wrinkled_skin,dk
+diarors,Categorical,1,diarrhea_given_ors,yes
+diarors,Categorical,2,diarrhea_given_ors,no
+diarors,Categorical,9,diarrhea_given_ors,dk
+vedod,Non-categorical,Non-categorical variable,date_birth_deceased,
+vedob,Non-categorical,Non-categorical variable,date_death_deceased,

@@ -1,0 +1,68 @@
+library(usethis)
+library(readr)
+library(tidyverse)
+library(readstata13)
+use_data_raw()
+
+# Read in kenya translation dictionaries
+files <- dir('../kenya/')
+out <- list()
+for(i in 1:length(files)){
+  message('file ', i, ' of ', length(files))
+  this_file <- files[i]
+  this_format <- gsub('_map.csv', '', this_file, fixed = TRUE)
+  this_data <- read_csv(paste0('../kenya/', 
+                               this_file)) %>%
+    mutate(country = 'kenya') %>%
+    mutate(format = this_format)
+  # remove extra columns
+  xs <- substr(names(out), 1,1) == 'X'
+  if(length(xs) > 0){
+    if(any(xs)){
+      this_data <- this_data[,!xs]
+    }
+  }
+  out[[i]] <- this_data
+}
+mapper <- bind_rows(out)
+usethis::use_data(mapper, overwrite = TRUE)
+
+
+# Read in mali translation dictionaries
+files <- dir('../mali_data/')
+out <- list()
+for(i in 1:length(files)){
+  message('file ', i, ' of ', length(files))
+  this_file <- files[i]
+  this_format <- gsub('_map.csv', '', this_file, fixed = TRUE)
+  this_data <- read_csv(paste0('../kenya/', 
+                               this_file)) %>%
+    mutate(country = 'kenya') %>%
+    mutate(format = this_format)
+  # remove extra columns
+  xs <- substr(names(out), 1,1) == 'X'
+  if(length(xs) > 0){
+    if(any(xs)){
+      this_data <- this_data[,!xs]
+    }
+  }
+  out[[i]] <- this_data
+}
+mapper <- bind_rows(out)
+usethis::use_data(mapper, overwrite = TRUE)
+
+
+# Create fake data
+fake <- readstata13::read.dta13('../data_original/Kenya/WHO2010_FORM2.dta')
+# Anonymize
+fake <- data.frame(fake)
+for(j in 1:ncol(fake)){
+  values <- sort(unique(fake[,j]))
+  fake[,j] <- sample(values, nrow(fake), replace = T)
+}
+usethis::use_data(fake, overwrite = TRUE)
+
+
+
+# Write csv of babel
+write_csv(mapper, 'babel.csv')
