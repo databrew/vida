@@ -821,10 +821,10 @@ latecomp,Categorical,YES,late_complications_pregnancy,yes
 latecomp,Categorical,NO,late_complications_pregnancy,no
 latecomp,Categorical,DK,late_complications_pregnancy,dk
 latecomp,Categorical,REF,late_complications_pregnancy,refuse_to_answer
-vecompl,Categorical,YES,complications_labour_deliery,yes
-vecompl,Categorical,NO,complications_labour_deliery,no
-vecompl,Categorical,DK,complications_labour_deliery,dk
-vecompl,Categorical,REF,complications_labour_deliery,refuse_to_answer
+vecompl,Categorical,YES,complications_labour_delivery,yes
+vecompl,Categorical,NO,complications_labour_delivery,no
+vecompl,Categorical,DK,complications_labour_delivery,dk
+vecompl,Categorical,REF,complications_labour_delivery,refuse_to_answer
 malf,Categorical,YES,physically_abnormal,yes
 malf,Categorical,NO,physically_abnormal,no
 malf,Categorical,DK,physically_abnormal,dk

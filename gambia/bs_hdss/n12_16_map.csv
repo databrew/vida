@@ -1,0 +1,443 @@
+variable,variable_type,responses,question_standardized,response_standardized
+IndividualID,Non-categorical,Non-categorical variable,filenumber,
+Name_Deceased,Non-categorical,Non-categorical variable,name_deceased,
+Q2A120_Surname,Non-categorical,Non-categorical variable,surname_interviewer,
+Q2A120_Name,Non-categorical,Non-categorical variable,firstname_interviewer,
+Q2A140,Non-categorical,Non-categorical variable,interview_date,
+Q2A130_Time,Categorical,2,interview_time_of_day,evening
+Q2A130_Time,Categorical,1,interview_time_of_day,morning
+Q2A130,Non-categorical,Non-categorical variable,interview_time,
+Q2A100_Surname,Non-categorical,Non-categorical variable,surname_respondent,
+Q2A100_Name,Non-categorical,Non-categorical variable,firstname_respondent,
+Q2A110,Categorical,1,relationship,father
+Q2A110,Categorical,2,relationship,mother
+Q2A110,Categorical,3,relationship,spouse
+Q2A110,Categorical,4,relationship,sibling
+Q2A110,Categorical,5,relationship,another_relationship
+Q2A110,Categorical,6,relationship,no_relationship
+Q2A110_Specify,Non-categorical,Non-categorical variable,relationship,relationship_specific
+Q2A115,Categorical,1,live_with_deceased,yes
+Q2A115,Categorical,2,live_with_deceased,no
+Q1A100_Surname,Non-categorical,Non-categorical variable,surname_deceased,
+Q1A100_Name,Non-categorical,Non-categorical variable,firstname_deceased,
+Q1A110,Categorical,1,sex_deceased,female
+Q1A110,Categorical,2,sex_deceased,male
+Q1A200,Categorical,1,date_birth_known,yes
+Q1A200,Categorical,2,date_birth_known,no
+Q1A210,Non-categorical,Non-categorical variable,date_birth,
+Q1A220,Categorical,1,date_death_known,yes
+Q1A220,Categorical,2,date_death_known,no
+Q1A230,Non-categorical,Non-categorical variable,date_death,
+Q1A240_choice,Categorical,1,age_years,
+Q1A240_choice,Categorical,2,age_months,
+Q1A240_choicevalue,Non-categorical,Non-categorical variable,age,
+A1A400,Categorical,1,woman_died,yes
+A1A400,Categorical,2,woman_died,no
+A1A400,Categorical,9,woman_died,dk
+Q1A500,Categorical,1,citizenship_nationality,citizen_at_birth
+Q1A500,Categorical,2,citizenship_nationality,naturalized_citizen
+Q1A500,Categorical,3,citizenship_nationality,foreign_national
+Q1A510,Categorical,1,ethnicity,sarahule
+Q1A510,Categorical,2,ethnicity,mandinka
+Q1A510,Categorical,3,ethnicity,fula
+Q1A510,Categorical,4,ethnicity,other
+Q1A510_other,Non-categorical,Non-categorical variable,ethnicity_other,
+Q1A520,Categorical,1,place_of_birth,locality
+Q1A520,Categorical,2,place_of_birth,dk
+Q1A520,Categorical,3,place_of_birth,urban
+Q1A520,Categorical,4,place_of_birth,rural
+Q1A520_locality,Non-categorical,Non-categorical variable,place_of_birth_specific,
+Q1A520_other,Non-categorical,Non-categorical variable,place_of_birth_other,
+Q1A530,Categorical,1,place_of_usual_residence,locality
+Q1A530,Categorical,2,place_of_usual_residence,dk
+Q1A530_locality,Non-categorical,Non-categorical variable,place_of_usual_residence,
+Q1A530_other,Non-categorical,Non-categorical variable,place_of_usual_residence,
+Q1A540,Categorical,1,place_residence_before_death,locality
+Q1A540,Categorical,2,place_residence_before_death,dk
+Q1A540_locality,Non-categorical,Non-categorical variable,place_residence_before_death_specific,
+Q1A540_other,Non-categorical,Non-categorical variable,place_residence_before_death_other,
+Q1A550,Categorical,1,where_died,locality
+Q1A550,Categorical,2,where_died,dk
+Q1A550,Categorical,3,where_died,urban
+Q1A550,Categorical,4,where_died,rural
+Q1A550_locality,Non-categorical,Non-categorical variable,where_died_specific,
+Q1A550_other,Non-categorical,Non-categorical variable,where_died_other,
+Q1A560,Categorical,1,place_died,hospital
+Q1A560,Categorical,2,place_died,other_health_facility
+Q1A560,Categorical,3,place_died,home
+Q1A560,Categorical,4,place_died,other
+Q1A560,Categorical,5,place_died,dk
+Q1A560_other,Non-categorical,Non-categorical variable,place_died_specific,
+Q1A600,Categorical,1,marital_status,never_married
+Q1A600,Categorical,2,marital_status,married
+Q1A600,Categorical,3,marital_status,widowed
+Q1A600,Categorical,4,marital_status,divorced
+Q1A600,Categorical,5,marital_status,separated
+Q1A600,Categorical,6,marital_status,dk
+Q1A610,Non-categorical,Non-categorical variable,date_marriage,
+Q1A630_surname,Non-categorical,Non-categorical variable,surname_mother,
+Q1A630_name,Non-categorical,Non-categorical variable,name_mother,
+Q1A620_surname,Non-categorical,Non-categorical variable,surname_father,
+Q1A620_name,Non-categorical,Non-categorical variable,name_father,
+Q1A700,Non-categorical,Non-categorical variable,death_registration_number,
+Q1A710,Non-categorical,Non-categorical variable,death_registration_date,
+Q1A720,Non-categorical,Non-categorical variable,death_registration_place,
+Q1A720_locality,Non-categorical,Non-categorical variable,death_registration_place_specific,
+Q1A720_reg_surname,Non-categorical,Non-categorical variable,surname_local_registrar,
+Q1A720_reg_name,Non-categorical,Non-categorical variable,name_local_registrar,
+Q1A730,Non-categorical,Non-categorical variable,deceased_national_id,
+Account_illness,Non-categorical,Non-categorical variable,account_of_illness,
+Cause_death1,Non-categorical,Non-categorical variable,cause_death1,
+Cause_death2,Non-categorical,Non-categorical variable,cause_death2,
+Q3D500,Non-categorical,Non-categorical variable,previous_births,
+Q3D500_numberbirth,Non-categorical,Non-categorical variable,number_previous_births,
+Q3D210,Non-categorical,Non-categorical variable,weeks_pregnancy,
+Q3D210_weeks,Non-categorical,Non-categorical variable,weeks_pregnancy,
+Q3D510,Categorical,1,mother_high_blood_pressure,yes
+Q3D510,Categorical,2,mother_high_blood_pressure,no
+Q3D510,Categorical,9,mother_high_blood_pressure,dk
+Q3D550,Categorical,1,mother_vaginal_bleeding_late_pregnancy,yes
+Q3D550,Categorical,2,mother_vaginal_bleeding_late_pregnancy,no
+Q3D550,Categorical,9,mother_vaginal_bleeding_late_pregnancy,dk
+Q3D520,Categorical,1,mother_vaginal_discharge,yes
+Q3D520,Categorical,2,mother_vaginal_discharge,no
+Q3D520,Categorical,9,mother_vaginal_discharge,dk
+Q3D540,Categorical,1,mother_blurred_vision,yes
+Q3D540,Categorical,2,mother_blurred_vision,no
+Q3D540,Categorical,9,mother_blurred_vision,dk
+Q3D530,Categorical,1,mother_convulsions,yes
+Q3D530,Categorical,2,mother_convulsions,no
+Q3D530,Categorical,9,mother_convulsions,dk
+Q3D100,Categorical,1,multiple_birth,yes
+Q3D100,Categorical,2,multiple_birth,no
+Q3D100,Categorical,9,multiple_birth,dk
+Q3D110,Categorical,1,complications_labour_delivery,yes
+Q3D110,Categorical,2,complications_labour_delivery,no
+Q3D110,Categorical,9,complications_labour_delivery,dk
+Q3D560,Categorical,1,birth_health_facility,yes
+Q3D560,Categorical,2,birth_health_facility,no
+Q3D560,Categorical,9,birth_health_facility,dk
+Q3D570,Categorical,1,birh_home,yes
+Q3D570,Categorical,2,birh_home,no
+Q3D570,Categorical,9,birh_home,dk
+Q3D580,Categorical,1,birth_other_location,yes
+Q3D580,Categorical,2,birth_other_location,no
+Q3D580,Categorical,9,birth_other_location,dk
+Q3D590,Categorical,1,assisted_for_delivery,yes
+Q3D590,Categorical,2,assisted_for_delivery,no
+Q3D590,Categorical,9,assisted_for_delivery,dk
+Q3D120,Categorical,1,born_24_hours_after_water_broke,yes
+Q3D120,Categorical,2,born_24_hours_after_water_broke,no
+Q3D120,Categorical,9,born_24_hours_after_water_broke,dk
+Q3D130,Categorical,1,stop_moving_before_labour,yes
+Q3D130,Categorical,2,stop_moving_before_labour,no
+Q3D130,Categorical,9,stop_moving_before_labour,dk
+Q3D140,Categorical,1,normal_delivery,yes
+Q3D140,Categorical,2,normal_delivery,no
+Q3D140,Categorical,9,normal_delivery,dk
+Q3D150,Categorical,1,forceps,yes
+Q3D150,Categorical,2,forceps,no
+Q3D150,Categorical,9,forceps,dk
+Q3D160,Categorical,1,caesarean,yes
+Q3D160,Categorical,2,caesarean,no
+Q3D160,Categorical,9,caesarean,dk
+Q3D170,Categorical,1,breeched,yes
+Q3D170,Categorical,2,breeched,no
+Q3D170,Categorical,9,breeched,dk
+Q3D180,Categorical,1,abnormal_size,yes
+Q3D180,Categorical,2,abnormal_size,no
+Q3D180,Categorical,9,abnormal_size,dk
+Q3D190,Categorical,1,small_size,yes
+Q3D190,Categorical,2,small_size,no
+Q3D190,Categorical,9,small_size,dk
+Q3D200,Categorical,1,big_size,yes
+Q3D200,Categorical,2,big_size,no
+Q3D200,Categorical,9,big_size,dk
+Q3D220,Categorical,1,umbilical_wrap_neck,yes
+Q3D220,Categorical,2,umbilical_wrap_neck,no
+Q3D220,Categorical,9,umbilical_wrap_neck,dk
+Q3D230,Categorical,1,malformation,yes
+Q3D230,Categorical,2,malformation,no
+Q3D230,Categorical,9,malformation,dk
+Q3D240,Categorical,1,swelled_back,yes
+Q3D240,Categorical,2,swelled_back,no
+Q3D240,Categorical,9,swelled_back,dk
+Q3D250,Categorical,1,large_head,yes
+Q3D250,Categorical,2,large_head,no
+Q3D250,Categorical,9,large_head,dk
+Q3D260,Categorical,1,small_head,yes
+Q3D260,Categorical,2,small_head,no
+Q3D260,Categorical,9,small_head,dk
+Q3D280,Categorical,1,blue_colour,yes
+Q3D280,Categorical,2,blue_colour,no
+Q3D280,Categorical,9,blue_colour,dk
+Q3D300,Categorical,1,baby_breathe_after_birth,yes
+Q3D300,Categorical,2,baby_breathe_after_birth,no
+Q3D300,Categorical,9,baby_breathe_after_birth,dk
+Q3D310,Categorical,1,assisted_breathing,yes
+Q3D310,Categorical,2,assisted_breathing,no
+Q3D310,Categorical,9,assisted_breathing,dk
+Q3D290,Categorical,1,cry_after_birth,yes
+Q3D290,Categorical,2,cry_after_birth,no
+Q3D290,Categorical,9,cry_after_birth,dk
+Q3D320,Categorical,1,born_dead,yes
+Q3D320,Categorical,2,born_dead,no
+Q3D320,Categorical,9,born_dead,dk
+Q3D330,Categorical,1,bruises_injury,yes
+Q3D330,Categorical,2,bruises_injury,no
+Q3D330,Categorical,9,bruises_injury,dk
+Q3E100,Categorical,1,injury_accident,yes
+Q3E100,Categorical,2,injury_accident,no
+Q3E100,Categorical,9,injury_accident,dk
+Q3E110,Categorical,1,road_accident,yes
+Q3E110,Categorical,2,road_accident,no
+Q3E110,Categorical,9,road_accident,dk
+Q3E120,Categorical,1,injury_pedestrian,yes
+Q3E120,Categorical,2,injury_pedestrian,no
+Q3E120,Categorical,9,injury_pedestrian,dk
+Q3E130,Categorical,1,injury_car_occupant,yes
+Q3E130,Categorical,2,injury_car_occupant,no
+Q3E130,Categorical,9,injury_car_occupant,dk
+Q3E140,Categorical,1,injury_bus_occupant,yes
+Q3E140,Categorical,2,injury_bus_occupant,no
+Q3E140,Categorical,9,injury_bus_occupant,dk
+Q3E150,Categorical,1,injury_motorcycle,yes
+Q3E150,Categorical,2,injury_motorcycle,no
+Q3E150,Categorical,9,injury_motorcycle,dk
+Q3E170,Categorical,1,counterpart_injury_known,yes
+Q3E170,Categorical,2,counterpart_injury_known,no
+Q3E170,Categorical,9,counterpart_injury_known,dk
+Q3E200,Categorical,1,counterpart_pedestrian,yes
+Q3E200,Categorical,2,counterpart_pedestrian,no
+Q3E200,Categorical,9,counterpart_pedestrian,dk
+Q3E210,Categorical,1,counterpart_stationary_object,yes
+Q3E210,Categorical,2,counterpart_stationary_object,no
+Q3E210,Categorical,9,counterpart_stationary_object,dk
+Q3E220,Categorical,1,counterpart_car,yes
+Q3E220,Categorical,2,counterpart_car,no
+Q3E220,Categorical,9,counterpart_car,dk
+Q3E230,Categorical,1,counterpart_bus,yes
+Q3E230,Categorical,2,counterpart_bus,no
+Q3E230,Categorical,9,counterpart_bus,dk
+Q3E240,Categorical,1,counterpart_motorcycle,yes
+Q3E240,Categorical,2,counterpart_motorcycle,no
+Q3E240,Categorical,9,counterpart_motorcycle,dk
+Q3E250,Categorical,1,counterpart_pedal_cycle,yes
+Q3E250,Categorical,2,counterpart_pedal_cycle,no
+Q3E250,Categorical,9,counterpart_pedal_cycle,dk
+Q3E260,Categorical,1,counterpart_other,yes
+Q3E260,Categorical,2,counterpart_other,no
+Q3E260,Categorical,9,counterpart_other,dk
+Q3E260_specify,Non-categorical,Non-categorical variable,injury_other,
+Q3E300,Categorical,1,non_road_accident,yes
+Q3E300,Categorical,2,non_road_accident,no
+Q3E300,Categorical,9,non_road_accident,dk
+Q3E310,Categorical,1,injury_fall,yes
+Q3E310,Categorical,2,injury_fall,no
+Q3E310,Categorical,9,injury_fall,dk
+Q3E320,Categorical,1,drown,yes
+Q3E320,Categorical,2,drown,no
+Q3E320,Categorical,9,drown,dk
+Q3E330,Categorical,1,burn,yes
+Q3E330,Categorical,2,burn,no
+Q3E330,Categorical,9,burn,dk
+Q3E340,Categorical,1,animal,yes
+Q3E340,Categorical,2,animal,no
+Q3E340,Categorical,9,animal,dk
+Q3E400,Categorical,1,animal_dog,yes
+Q3E400,Categorical,2,animal_dog,no
+Q3E400,Categorical,9,animal_dog,dk
+Q3E410,Categorical,1,animal_snake,yes
+Q3E410,Categorical,2,animal_snake,no
+Q3E410,Categorical,9,animal_snake,dk
+Q3E420,Categorical,1,animal_insect,yes
+Q3E420,Categorical,2,animal_insect,no
+Q3E420,Categorical,9,animal_insect,dk
+Q3E500,Categorical,1,injury_nature,yes
+Q3E500,Categorical,2,injury_nature,no
+Q3E500,Categorical,9,injury_nature,dk
+Q3E510,Categorical,1,poisoning,yes
+Q3E510,Categorical,2,poisoning,no
+Q3E510,Categorical,9,poisoning,dk
+Q3E520,Categorical,1,assault,yes
+Q3E520,Categorical,2,assault,no
+Q3E520,Categorical,9,assault,dk
+Q3E530,Categorical,1,other_injury,yes
+Q3E530,Categorical,2,other_injury,no
+Q3E530,Categorical,9,other_injury,dk
+Q3E600,Categorical,1,firearm,yes
+Q3E600,Categorical,2,firearm,no
+Q3E600,Categorical,9,firearm,dk
+Q3E610,Categorical,1,stab,yes
+Q3E610,Categorical,2,stab,no
+Q3E610,Categorical,9,stab,dk
+Q3E620,Categorical,1,machinery,yes
+Q3E620,Categorical,2,machinery,no
+Q3E620,Categorical,9,machinery,dk
+Q3E630,Categorical,1,struck,yes
+Q3E630,Categorical,2,struck,no
+Q3E630,Categorical,9,struck,dk
+Q3A280,Categorical,1,died_wet_season,yes
+Q3A280,Categorical,2,died_wet_season,no 
+Q3A280,Categorical,9,died_wet_season,dk
+Q3A290,Categorical,1,died_dry_season,yes
+Q3A290,Categorical,2,died_dry_season,no 
+Q3A290,Categorical,9,died_dry_season,dk
+Q3A300_choice,Non-categorical,Non-categorical variable,days_ill_before_death,
+Q3A300,Non-categorical,Non-categorical variable,weeks_ill_before_death,
+Q3A310,Categorical,1,die_suddenly,yes
+Q3A310,Categorical,2,die_suddenly,no
+Q3A310,Categorical,9,die_suddenly,dk
+Q3D340,Categorical,1,suckle_feed,yes
+Q3D340,Categorical,2,suckle_feed,no
+Q3D340,Categorical,9,suckle_feed,dk
+Q3D350,Categorical,1,stop_suckle,yes
+Q3D350,Categorical,2,stop_suckle,no
+Q3D350,Categorical,9,stop_suckle,dk
+Q3B460,Categorical,1,convulsions,yes
+Q3B460,Categorical,2,convulsions,no
+Q3B460,Categorical,9,convulsions,dk
+Q3D360,Categorical,1,convulsions_within_24_hours,yes
+Q3D360,Categorical,2,convulsions_within_24_hours,no
+Q3D360,Categorical,9,convulsions_within_24_hours,dk
+Q3S370,Categorical,1,convulsions_after_24_hours,yes
+Q3S370,Categorical,2,convulsions_after_24_hours,no
+Q3S370,Categorical,9,convulsions_after_24_hours,dk
+Q3D380,Categorical,1,stiff,yes
+Q3D380,Categorical,2,stiff,no
+Q3D380,Categorical,9,stiff,dk
+Q3D390,Categorical,1,bulging_fontanelle,yes
+Q3D390,Categorical,2,bulging_fontanelle,no
+Q3D390,Categorical,9,bulging_fontanelle,dk
+Q3D400,Categorical,1,sunken_fontanelle,yes
+Q3D400,Categorical,2,sunken_fontanelle,no
+Q3D400,Categorical,9,sunken_fontanelle,dk
+Q3D410,Categorical,1,unresponsive_within_24_hours,yes
+Q3D410,Categorical,2,unresponsive_within_24_hours,no
+Q3D410,Categorical,9,unresponsive_within_24_hours,dk
+Q3D420,Categorical,1,unresponsive_after_24_hours,yes
+Q3D420,Categorical,2,unresponsive_after_24_hours,no
+Q3D420,Categorical,9,unresponsive_after_24_hours,dk
+Q3B100,Categorical,1,fever,yes
+Q3B100,Categorical,2,fever,no
+Q3B100,Categorical,9,fever,dk
+Q3D430,Categorical,1,cold_touch,yes
+Q3D430,Categorical,2,cold_touch,no
+Q3D430,Categorical,9,cold_touch,dk
+Q3B130,Categorical,1,cough,yes
+Q3B130,Categorical,2,cough,no
+Q3B130,Categorical,9,cough,dk
+Q3B170,Categorical,1,whooping,yes
+Q3B170,Categorical,2,whooping,no
+Q3B170,Categorical,9,whooping,dk
+Q3B180,Categorical,1,difficulty_breathing,yes
+Q3B180,Categorical,2,difficulty_breathing,no
+Q3B180,Categorical,9,difficulty_breathing,dk
+Q3B190,Categorical,1,fast_breathing,yes
+Q3B190,Categorical,2,fast_breathing,no
+Q3B190,Categorical,9,fast_breathing,dk
+Q3B210,Categorical,1,breathlessness,yes
+Q3B210,Categorical,2,breathlessness,no
+Q3B210,Categorical,9,breathlessness,dk
+Q3B250,Categorical,1,chest_pull_in,yes
+Q3B250,Categorical,2,chest_pull_in,no
+Q3B250,Categorical,9,chest_pull_in,dk
+Q3B260,Categorical,1,noisy_breathing,yes
+Q3B260,Categorical,2,noisy_breathing,no
+Q3B260,Categorical,9,noisy_breathing,dk
+Q3B280,Categorical,1,diarrhea,yes
+Q3B280,Categorical,2,diarrhea,no
+Q3B280,Categorical,9,diarrhea,dk
+Q3B300,Categorical,1,bloody_stool,yes
+Q3B300,Categorical,2,bloody_stool,no
+Q3B300,Categorical,9,bloody_stool,dk
+Q3B310,Categorical,1,vomit,yes
+Q3B310,Categorical,2,vomit,no
+Q3B310,Categorical,9,vomit,dk
+Q3B320,Categorical,1,bloody_vomit,yes
+Q3B320,Categorical,2,bloody_vomit,no
+Q3B320,Categorical,9,bloody_vomit,dk
+Q3B360,Categorical,1,protruding_abdomen,yes
+Q3D440,Categorical,2,protruding_abdomen,no
+Q3D440,Categorical,9,protruding_abdomen,dk
+Q3B530,Categorical,1,skin_problem,yes
+Q3B530,Categorical,2,skin_problem,no
+Q3B530,Categorical,9,skin_problem,dk
+Q3B540,Categorical,1,ulcers,yes
+Q3B540,Categorical,2,ulcers,no
+Q3B540,Categorical,9,ulcers,dk
+Q3B550,Categorical,1,ulcer_foot,yes
+Q3B550,Categorical,2,ulcer_foot,no
+Q3B550,Categorical,9,ulcer_foot,dk
+Q3B560,Categorical,1,rash,yes
+Q3B560,Categorical,2,rash,no
+Q3B560,Categorical,9,rash,dk
+Q3B580,Categorical,1,measels_rash,yes
+Q3B580,Categorical,2,measels_rash,no
+Q3B580,Categorical,9,herpes_zoster,dk
+Q3D450,Categorical,1,yellow_palms_soles,yes
+Q3D450,Categorical,2,yellow_palms_soles,no
+Q3D450,Categorical,9,yellow_palms_soles,dk
+Q3D460,Categorical,1,mother_tetnus,yes
+Q3D460,Categorical,2,mother_tetnus,no
+Q3D460,Categorical,9,mother_tetnus,dk
+Q3G100,Categorical,1,vaccinated,yes
+Q3G100,Categorical,2,vaccinated,no
+Q3G100,Categorical,9,vaccinated,dk
+Q3G110,Categorical,1,treatment,yes
+Q3G110,Categorical,2,treatment,no
+Q3G110,Categorical,9,treatment,dk
+Q3G120,Categorical,1,oral_rehydration,yes
+Q3G120,Categorical,2,oral_rehydration,no
+Q3G120,Categorical,9,oral_rehydration,dk
+Q3G130,Categorical,1,iv,yes
+Q3G130,Categorical,2,iv,no
+Q3G130,Categorical,9,iv,dk
+Q3G140,Categorical,1,blood_transfusion,yes
+Q3G140,Categorical,2,blood_transfusion,no
+Q3G140,Categorical,9,blood_transfusion,dk
+Q3G150,Categorical,1,feed_nose,yes
+Q3G150,Categorical,2,feed_nose,no
+Q3G150,Categorical,9,feed_nose,dk
+Q3G160,Categorical,1,antibiotics,yes
+Q3G160,Categorical,2,antibiotics,no
+Q3G160,Categorical,9,antibiotics,dk
+Q3G170,Categorical,1,operation,yes
+Q3G170,Categorical,2,operation,no
+Q3G170,Categorical,9,operation,dk
+Q3G190,Categorical,1,discharged_ill,yes
+Q3G190,Categorical,2,discharged_ill,no
+Q3G190,Categorical,9,discharged_ill,dk
+Q4A100,Categorical,1,travel_to_hosptial,yes
+Q4A100,Categorical,2,travel_to_hosptial,no
+Q4A100,Categorical,9,travel_to_hosptial,dk
+Q4A110,Categorical,1,motor_transport,yes
+Q4A110,Categorical,2,motor_transport,no
+Q4A110,Categorical,9,motor_transport,dk
+Q4A120,Categorical,1,admission_problems,yes
+Q4A120,Categorical,2,admission_problems,no
+Q4A120,Categorical,9,admission_problems,dk
+Q4A130,Categorical,1,way_treated_problems,yes
+Q4A130,Categorical,2,way_treated_problems,no
+Q4A130,Categorical,9,way_treated_problems,dk
+Q4A140,Categorical,1,medication_test_problems,yes
+Q4A140,Categorical,2,medication_test_problems,no
+Q4A140,Categorical,9,medication_test_problems,dk
+Q4A150,Categorical,1,hospital_2_hours_away,yes
+Q4A150,Categorical,2,hospital_2_hours_away,no
+Q4A150,Categorical,9,hospital_2_hours_away,dk
+Q4A160,Categorical,1,doubt_medical_care,yes
+Q4A160,Categorical,2,doubt_medical_care,no
+Q4A160,Categorical,9,doubt_medical_care,dk
+Q4A170,Categorical,1,traditiaonal_medicine_used,yes
+Q4A170,Categorical,2,traditiaonal_medicine_used,no
+Q4A170,Categorical,9,traditiaonal_medicine_used,dk
+Q4A180,Categorical,1,telephone_call_help,yes
+Q4A180,Categorical,2,telephone_call_help,no
+Q4A180,Categorical,9,telephone_call_help,dk
+Q4A190,Categorical,1,treatment_cost_prohibit_household_payments,yes
+Q4A190,Categorical,2,treatment_cost_prohibit_household_payments,no
+Q4A190,Categorical,9,treatment_cost_prohibit_household_payments,dk
+Q5A100_comment,Non-categorical,Non-categorical variable,interviewer_comments,
+Q5A100_othercomment,Non-categorical,Non-categorical variable,interviewer_comments_other,
+supervisorObservations,Non-categorical,Non-categorical variable,supervisor_comments,

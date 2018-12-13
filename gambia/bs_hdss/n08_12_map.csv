@@ -1,0 +1,331 @@
+variable,variable_type,responses,question_standardized,response_standardized
+Q102,Non-categorical,Non-categorical variable,filenumber,
+Q103BLocID,Non-categorical,Non-categorical variable,location_id,
+Q103B,Non-categorical,Non-categorical variable,,
+QA01,Non-categorical,Non-categorical variable,interviewer_initials,
+QA02,Non-categorical,Non-categorical variable,interview_dates,
+QB01,Categorical,1,primary_caregiver,mother
+QB01,Categorical,2,primary_caregiver,father
+QB01,Categorical,3,primary_caregiver,co-wife
+QB01,Categorical,4,primary_caregiver,grandmother
+QB01,Categorical,5,primary_caregiver,grandfather
+QB01,Categorical,6,primary_caregiver,sister
+QB01,Categorical,7,primary_caregiver,brother
+QB01,Categorical,8,primary_caregiver,uncle
+QB01,Categorical,9,primary_caregiver,aunt
+QB01,Categorical,10,primary_caregiver,other
+QB01_Specify,Non-categorical,Non-categorical variable,primary_caregiver_specific,
+QB02,Categorical,1,who_present_at_death,mother
+QB02,Categorical,2,who_present_at_death,father
+QB02,Categorical,3,who_present_at_death,co-wife
+QB02,Categorical,4,who_present_at_death,grandmother
+QB02,Categorical,5,who_present_at_death,grandfather
+QB02,Categorical,6,who_present_at_death,sister
+QB02,Categorical,7,who_present_at_death,brother
+QB02,Categorical,8,who_present_at_death,uncle
+QB02,Categorical,9,who_present_at_death,aunt
+QB02,Categorical,10,who_present_at_death,other
+QB02_Specify,Non-categorical,Non-categorical variable,who_present_at_death_specific,
+QB03,Categorical,1,mother_highest_education,none
+QB03,Categorical,2,mother_highest_education,madrassa
+QB03,Categorical,3,mother_highest_education,primary
+QB03,Categorical,4,mother_highest_education,secondary
+QB03,Categorical,5,mother_highest_education,technical
+QB03,Categorical,6,mother_highest_education,university
+QB03,Categorical,9,mother_highest_education,dk
+QB03_Specify,Non-categorical,Non-categorical variable,mother_highest_education_specific,
+QB04,Categorical,1,mother_occupation,housewife
+QB04,Categorical,2,mother_occupation,farmer
+QB04,Categorical,3,mother_occupation,trader
+QB04,Categorical,4,mother_occupation,professional
+QB04,Categorical,5,mother_occupation,other
+QB04,Categorical,6,mother_occupation,dk
+QB04_Specify,Non-categorical,Non-categorical variable,mother_occupation_specific,
+QB05,Categorical,1,father_highest_education,none
+QB05,Categorical,2,father_highest_education,madrassa
+QB05,Categorical,3,father_highest_education,primary
+QB05,Categorical,4,father_highest_education,secondary
+QB05,Categorical,5,father_highest_education,technical
+QB05,Categorical,6,father_highest_education,university
+QB05,Categorical,9,father_highest_education,dk
+QB05_Specify,Non-categorical,Non-categorical variable,father_highest_education_specific,
+QB06,Categorical,1,father_occupation,farmer
+QB06,Categorical,2,father_occupation,trader
+QB06,Categorical,3,father_occupation,professional
+QB06,Categorical,4,father_occupation,other
+QB06_Specify,Non-categorical,Non-categorical variable,father_occupation_specific,
+Interview_Name1,Non-categorical,Non-categorical variable,interviewer_name,
+Interview_relChild1,Non-categorical,Non-categorical variable,,
+Interview_PreIll1,Non-categorical,Non-categorical variable,,
+Interview_preDied1,Non-categorical,Non-categorical variable,,
+Interview_join1,Non-categorical,Non-categorical variable,,
+Interview_Name2,Non-categorical,Non-categorical variable,,
+Interview_relChild2,Non-categorical,Non-categorical variable,,
+Interview_PreIll2,Non-categorical,Non-categorical variable,,
+Interview_preDied2,Non-categorical,Non-categorical variable,,
+Interview_join2,Non-categorical,Non-categorical variable,,
+Interview_Name3,Non-categorical,Non-categorical variable,,
+Interview_relChild3,Non-categorical,Non-categorical variable,,
+Interview_PreIll3,Non-categorical,Non-categorical variable,,
+Interview_preDied3,Non-categorical,Non-categorical variable,,
+Interview_join3,Non-categorical,Non-categorical variable,,
+Interview_Name4,Non-categorical,Non-categorical variable,,
+Interview_relChild4,Non-categorical,Non-categorical variable,,
+Interview_PreIll4,Non-categorical,Non-categorical variable,,
+Interview_preDied4,Non-categorical,Non-categorical variable,,
+Interview_join4,Non-categorical,Non-categorical variable,,
+Interview_Name5,Non-categorical,Non-categorical variable,,
+Interview_relChild5,Non-categorical,Non-categorical variable,,
+Interview_PreIll5,Non-categorical,Non-categorical variable,,
+Interview_preDied5,Non-categorical,Non-categorical variable,,
+Interview_join5,Non-categorical,Non-categorical variable,,
+Interview_Name6,Non-categorical,Non-categorical variable,,
+Interview_relChild6,Non-categorical,Non-categorical variable,,
+Interview_PreIll6,Non-categorical,Non-categorical variable,,
+Interview_preDied6,Non-categorical,Non-categorical variable,,
+Interview_join6,Non-categorical,Non-categorical variable,,
+Family_Events,Non-categorical,Non-categorical variable,,
+Symptoms1,Non-categorical,Non-categorical variable,,
+Duration1,Non-categorical,Non-categorical variable,,
+Severity1,Non-categorical,Non-categorical variable,,
+Symptoms2,Non-categorical,Non-categorical variable,,
+Duration2,Non-categorical,Non-categorical variable,,
+Severity2,Categorical,SEVERE,,
+Q301,Non-categorical,Non-categorical variable,date_death_deceased,
+Q302,Non-categorical,1,place_died,home
+Q302,Non-categorical,2,place_died,health_facility
+Q302,Non-categorical,3,place_died,en_route_to_hospital
+Q302,Non-categorical,4,place_died,other
+Q302,Non-categorical,5,place_died,dk
+Q302_Specify,Non-categorical,Non-categorical variable,where_died_specific,
+Q303,Categorical,1,told_cause_death,yes
+Q303,Categorical,2,told_cause_death,no
+Q303,Categorical,9,told_cause_death,dk
+Q303A,Categorical,1,who_told_cause_death,doctor
+Q303A,Categorical,2,who_told_cause_death,nurse
+Q303A,Categorical,3,who_told_cause_death,dk
+Q304,Non-categorical,Non-categorical variable,cause_death,
+Q305,Non-categorical,Non-categorical variable,cause_death_respondent_account,
+Q306,Categorical,1,other_children_ill,yes
+Q306,Categorical,2,other_children_ill,no
+Q306,Categorical,9,other_children_ill,dk
+Q306_Specify,Non-categorical,Non-categorical variable,other_children_ill_specific,
+Q307,Categorical,1,other_children_measles,yes
+Q307,Categorical,2,other_children_measles,no
+Q307,Categorical,9,other_children_measles,dk
+Q308,Categorical,1,mother_breastfeed_child,yes
+Q308,Categorical,2,mother_breastfeed_child,no
+Q308A,Categorical,1,mother_no_breastfeed_child_reason,mother_dead
+Q308A,Categorical,2,mother_no_breastfeed_child_reason,mother_sick
+Q308A,Categorical,3,mother_no_breastfeed_child_reason,other
+Q308_Specify,Non-categorical,Non-categorical variable,mother_no_breastfeed_child_reason_specific,
+Q309,Non-categorical,Non-categorical variable,days_before_death_not_breastfed,
+Q401A,Non-categorical,1,injury_type,road_accident_pedestrian
+Q401A,Non-categorical,2,injury_type,road_accident_passenger
+Q401A,Non-categorical,3,injury_type,fall
+Q401A,Non-categorical,4,injury_type,drown
+Q401A,Non-categorical,5,injury_type,poisoning
+Q401A,Non-categorical,6,injury_type,animal_bite
+Q401A,Non-categorical,7,injury_type,burn
+Q401A,Non-categorical,8,injury_type,gun
+Q401A,Non-categorical,9,injury_type,sharp_object
+Q401A,Non-categorical,10,injury_type,circumcision
+Q401A,Non-categorical,11,injury_type,assault
+Q401A,Non-categorical,12,injury_type,other
+Q401A_Poison_Specify,Non-categorical,Non-categorical variable,injury_type_poisoning_specific,
+Q401A_Abuse_Specify,Non-categorical,Non-categorical variable,injury_type_abuse_specific,
+Q401A_Other_Specify,Non-categorical,Non-categorical variable,injury_type_other_specific,
+Q401B,Categorical,1,die_at_site_of_injury_accident,yes
+Q401B,Categorical,2,die_at_site_of_injury_accident,no
+Q401C,Categorical,1,hours_survive_after_injury_accident,less_than_24
+Q401C,Categorical,2,hours_survive_after_injury_accident,more_than_24
+Q401C,Categorical,9,hours_survive_after_injury_accident,dk
+Q401D,Categorical,1,received_medical_care_before_death,yes
+Q401D,Categorical,2,received_medical_care_before_death,no
+Q401D,Categorical,9,received_medical_care_before_death,dk
+Q501,Categorical,1,multiple_birth,single
+Q501,Categorical,2,multiple_birth,multiple
+Q502,Categorical,1,where_born,home
+Q502,Categorical,2,where_born,health_facility
+Q502,Categorical,3,where_born,other
+Q502_Facility_Specify,Non-categorical,Non-categorical variable,where_born_facility_specific,
+Q502_Other_Specify,Non-categorical,Non-categorical variable,where_born_other,
+Q503,Categorical,1,who_assisted_delivery,doctor
+Q503,Categorical,2,who_assisted_delivery,nurse_midwife
+Q503,Categorical,3,who_assisted_delivery,traditional_attendant
+Q503,Categorical,4,who_assisted_delivery,untrained_attendant
+Q503,Categorical,5,who_assisted_delivery,other
+Q503_Specify,Non-categorical,Non-categorical variable,who_assisted_delivery_other,
+Q503A,Categorical,1,see_antenatal_card,yes
+Q503A,Categorical,2,see_antenatal_card,no
+Q504,Categorical,1,complications_labour_delivery,yes
+Q504,Categorical,2,complications_labour_delivery,no
+Q504,Categorical,9,complications_labour_delivery,dk
+Q504,Categorical,0,complications_labour_delivery,na
+Q504A_1,Non-categorical,Non-categorical variable,,
+Q504A_2,Non-categorical,Non-categorical variable,,
+Q504A_3,Non-categorical,Non-categorical variable,,
+Q504A_4,Categorical,6,,
+Q504A_4,Categorical,1,,
+Q504A_5,Categorical,Variable with 0 responses,,
+Q504A_6,Categorical,Variable with 0 responses,,
+Q504A_7,Categorical,Variable with 0 responses,,
+Q504A_8,Categorical,Variable with 0 responses,,
+Q504A_8_Specify,Non-categorical,Non-categorical variable,complications_other,
+Q504A_9,Categorical,Variable with 0 responses,,dk
+Q504B,Non-categorical,Non-categorical variable,complications_other_2,
+Q505,Non-categorical,Non-categorical variable,months_pregnancy,
+Q506,Categorical,1,mother_tetnus_previous,yes
+Q506,Categorical,2,mother_tetnus_previous,no
+Q506,Categorical,9,mother_tetnus_previous,dk
+Q506A,Non-categorical,Non-categorical variable,number_tetnus_previous_injections,
+Q507,Categorical,1,mother_tetnus,yes
+Q507,Categorical,2,mother_tetnus,no
+Q507,Categorical,9,mother_tetnus,dk
+Q507,Categorical,3,mother_tetnus,dk
+Q507A,Non-categorical,Non-categorical variable,mother_tetnus_injections,
+Q508,Categorical,1,bruises_injury,yes
+Q508,Categorical,2,bruises_injury,no
+Q508,Categorical,3,bruises_injury,dk
+Q509,Categorical,1,malformation,yes
+Q509,Categorical,2,malformation,no
+Q509,Categorical,9,malformation,dk
+Q509,Categorical,0,malformation,na
+Q509,Categorical,3,malformation,na
+Q509A,Non-categorical,Non-categorical variable,malformation_specific,
+Q510,Categorical,1,baby_size,very_small
+Q510,Categorical,2,baby_size,smaller
+Q510,Categorical,3,baby_size,normal
+Q510,Categorical,4,baby_size,larger
+Q510,Categorical,5,baby_size,dk
+Q511,Categorical,1,baby_breathe,yes
+Q511,Categorical,2,baby_breathe,no
+Q511,Categorical,9,baby_breathe,dk
+Q512,Categorical,1,suckle_feed,yes
+Q512,Categorical,2,suckle_feed,no
+Q512,Categorical,9,suckle_feed,dk
+Q513,Categorical,1,stop_suckle,yes
+Q513,Categorical,2,stop_suckle,no
+Q513,Categorical,9,stop_suckle,dk
+Q513A,Non-categorical,Non-categorical variable,days_stop_suckle,
+Q514,Categorical,1,baby_cry,yes
+Q514,Categorical,2,baby_cry,no
+Q514,Categorical,9,baby_cry,dk
+Q515,Categorical,1,baby_stop_cry,yes
+Q515,Categorical,2,baby_stop_cry,no
+Q515,Categorical,0,baby_stop_cry,na
+Q515A,Non-categorical,Non-categorical variable,days_stop_cry,
+Q516,Categorical,1,convulsions,yes
+Q516,Categorical,2,convulsions,no
+Q516,Categorical,9,convulsions,dk
+Q517,Categorical,1,unconscious,yes
+Q517,Categorical,2,unconscious,no
+Q517,Categorical,9,unconscious,dk
+Q518,Categorical,1,bulging_fontantelle,yes
+Q518,Categorical,2,bulging_fontantelle,no
+Q518,Categorical,9,bulging_fontantelle,dk
+Q519,Categorical,1,yellow_skin,yes
+Q519,Categorical,2,yellow_skin,no
+Q519,Categorical,9,yellow_skin,dk
+Q520,Categorical,1,redness_umbilical_cord_stump,yes
+Q520,Categorical,2,redness_umbilical_cord_stump,no
+Q520,Categorical,9,redness_umbilical_cord_stump,dk
+Q521,Categorical,1,skin_red,yes
+Q521,Categorical,2,skin_red,no
+Q521,Categorical,9,skin_red,dk
+Q522,Categorical,1,rash_pus,yes
+Q522,Categorical,2,rash_pus,no
+Q522,Categorical,9,rash_pus,dk
+Q522,Categorical,3,rash_pus,na
+Q523,Categorical,1,fever,yes
+Q523,Categorical,2,fever,no
+Q523,Categorical,9,fever,dk
+Q523A,Non-categorical,Non-categorical variable,days_fever,
+Q524,Categorical,1,cold_touch,yes
+Q524,Categorical,2,cold_touch,no
+Q524,Categorical,9,cold_touch,dk
+Q525,Categorical,1,bleed,yes
+Q525,Categorical,2,bleed,no
+Q525,Categorical,9,bleed,dk
+Q525A,Non-categorical,Non-categorical variable,bleed_specific,
+Q526,Categorical,1,vomit_swell_abdomen,yes
+Q526,Categorical,2,vomit_swell_abdomen,no
+Q526,Categorical,9,vomit_swell_abdomen,dk
+Q527,Categorical,1,diarrhea,yes
+Q527,Categorical,2,diarrhea,no
+Q527,Categorical,9,diarrhea,dk
+Q527A,Non-categorical,Non-categorical variable,days_diarrhea,
+Q527B,Non-categorical,Non-categorical variable,times_diarrhea,
+Q527C,Categorical,1,diarrhea_ors,yes
+Q527C,Categorical,2,diarrhea_ors,no
+Q527C,Categorical,9,diarrhea_ors,dk
+Q528,Categorical,1,bloody_stool,yes
+Q528,Categorical,2,bloody_stool,no
+Q528,Categorical,9,bloody_stool,dk
+Q529,Categorical,1,difficulty_breathing,yes
+Q529,Categorical,2,difficulty_breathing,no
+Q529,Categorical,9,difficulty_breathing,dk
+Q529A,Non-categorical,Non-categorical variable,days_difficulty_breathing,
+Q530,Categorical,1,fast_breathing,yes
+Q530,Categorical,2,fast_breathing,no
+Q530,Categorical,9,fast_breathing,dk
+Q530A,Non-categorical,Non-categorical variable,days_fast_breathing,
+Q531,Categorical,1,chest_pull_in,yes
+Q531,Categorical,2,chest_pull_in,no
+Q531,Categorical,9,chest_pull_in,dk
+Q531,Categorical,0,chest_pull_in,na
+Q532,Categorical,1,cough,yes
+Q532,Categorical,2,cough,no
+Q532,Categorical,9,cough,dk
+Q532,Categorical,0,cough,na
+Q532A,Non-categorical,Non-categorical variable,,
+Q533,Categorical,1,stop_start_breathing,yes
+Q533,Categorical,2,stop_start_breathing,no
+Q533,Categorical,9,stop_start_breathing,dk
+Q601,Categorical,1,treatment,yes
+Q601,Categorical,2,treatment,no
+Q601A_1,Categorical,1,where_outside_care,doctor
+Q601A_1,Categorical,2,where_outside_care,nurse
+Q601A_1,Categorical,3,where_outside_care,traditional_healer
+Q601A_1,Categorical,4,where_outside_care,relative
+Q601A_Specify,Non-categorical,Non-categorical variable,where_outside_care_specific,
+Q601B_VFirst,Non-categorical,Non-categorical variable,treatment_facility_1,
+Q601B_VSecond,Non-categorical,Non-categorical variable,treatment_facility_2,
+Q601B_VThird,Non-categorical,Non-categorical variable,treatment_facility_3,
+Q601B_VForth,Non-categorical,Non-categorical variable,treatment_facility_4,
+Q602,Non-categorical,Non-categorical variable,,
+Q603,Categorical,1,received_medication_for_illness,yes
+Q603,Categorical,2,received_medication_for_illness,no
+Q603,Categorical,9,received_medication_for_illness,dk
+Q603_Specify,Non-categorical,Non-categorical variable,received_medication_for_illness_specific,
+Q604,Categorical,1,child_visit_clinic,yes
+Q604,Categorical,2,child_visit_clinic,no
+Q604,Categorical,9,child_visit_clinic,dk
+Q605,Categorical,1,child_vaccinated,yes
+Q605,Categorical,2,child_vaccinated,no
+Q605,Categorical,9,child_vaccinated,dk
+Q606,Categorical,1,health_card_available,yes
+Q606,Categorical,2,health_card_available,no
+Q606,Categorical,9,health_card_available,dk
+Q607,Categorical,1,see_health_records,yes
+Q607,Categorical,2,see_health_records,no
+Q607,Categorical,9,see_health_records,dk
+Q608,Categorical,1,death_certificate_issued,yes
+Q608,Categorical,2,death_certificate_issued,no
+Q608,Categorical,9,death_certificate_issued,dk
+Q609,Categorical,1,see_death_certificate,yes
+Q609,Categorical,2,see_death_certificate,no
+Q609,Categorical,9,see_death_certificate,dk
+Q610,Non-categorical,Non-categorical variable,death_cause_1,
+Q610,Categorical,Variable with 0 responses,,
+Q611,Categorical,Variable with 0 responses,,
+Q612,Categorical,Variable with 0 responses,,
+Q613,Categorical,Variable with 0 responses,,
+Q614,Categorical,Variable with 0 responses,,
+Comments,Non-categorical,Non-categorical variable,,
+Q615,Categorical,1,reliability_of_interview,good
+Q615,Categorical,2,reliability_of_interview,indifferent
+Q615,Categorical,3,reliability_of_interview,bad
+Q616,Categorical,1,anyone_else_should_interview,yes
+Q616,Categorical,2,anyone_else_should_interview,no
+Q616_Specify,Non-categorical,Non-categorical variable,anyone_else_should_interview_specific,
