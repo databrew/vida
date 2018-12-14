@@ -55,42 +55,17 @@ QB06,Categorical,3,father_occupation,professional
 QB06,Categorical,4,father_occupation,other
 QB06_Specify,Non-categorical,Non-categorical variable,father_occupation_specific,
 Interview_Name1,Non-categorical,Non-categorical variable,interviewer_name,
-Interview_relChild1,Non-categorical,Non-categorical variable,,
+Interview_relChild1,Non-categorical,Non-categorical variable,relationship,
 Interview_PreIll1,Non-categorical,Non-categorical variable,,
 Interview_preDied1,Non-categorical,Non-categorical variable,,
 Interview_join1,Non-categorical,Non-categorical variable,,
-Interview_Name2,Non-categorical,Non-categorical variable,,
-Interview_relChild2,Non-categorical,Non-categorical variable,,
-Interview_PreIll2,Non-categorical,Non-categorical variable,,
-Interview_preDied2,Non-categorical,Non-categorical variable,,
-Interview_join2,Non-categorical,Non-categorical variable,,
-Interview_Name3,Non-categorical,Non-categorical variable,,
-Interview_relChild3,Non-categorical,Non-categorical variable,,
-Interview_PreIll3,Non-categorical,Non-categorical variable,,
-Interview_preDied3,Non-categorical,Non-categorical variable,,
-Interview_join3,Non-categorical,Non-categorical variable,,
-Interview_Name4,Non-categorical,Non-categorical variable,,
-Interview_relChild4,Non-categorical,Non-categorical variable,,
-Interview_PreIll4,Non-categorical,Non-categorical variable,,
-Interview_preDied4,Non-categorical,Non-categorical variable,,
-Interview_join4,Non-categorical,Non-categorical variable,,
-Interview_Name5,Non-categorical,Non-categorical variable,,
-Interview_relChild5,Non-categorical,Non-categorical variable,,
-Interview_PreIll5,Non-categorical,Non-categorical variable,,
-Interview_preDied5,Non-categorical,Non-categorical variable,,
-Interview_join5,Non-categorical,Non-categorical variable,,
-Interview_Name6,Non-categorical,Non-categorical variable,,
-Interview_relChild6,Non-categorical,Non-categorical variable,,
-Interview_PreIll6,Non-categorical,Non-categorical variable,,
-Interview_preDied6,Non-categorical,Non-categorical variable,,
-Interview_join6,Non-categorical,Non-categorical variable,,
-Family_Events,Non-categorical,Non-categorical variable,,
-Symptoms1,Non-categorical,Non-categorical variable,,
-Duration1,Non-categorical,Non-categorical variable,,
-Severity1,Non-categorical,Non-categorical variable,,
-Symptoms2,Non-categorical,Non-categorical variable,,
-Duration2,Non-categorical,Non-categorical variable,,
-Severity2,Categorical,SEVERE,,
+Family_Events,Non-categorical,Non-categorical variable,family_account_events,
+Symptoms1,Non-categorical,Non-categorical variable,symptoms,
+Duration1,Non-categorical,Non-categorical variable,symptoms_duration,
+Severity1,Non-categorical,Non-categorical variable,symptoms_severity,
+Symptoms2,Non-categorical,Non-categorical variable,symptoms_2,
+Duration2,Non-categorical,Non-categorical variable,symptoms_2_duration,
+Severity2,Non-categorical,Non-categorical variable,symptoms_2_severity,
 Q301,Non-categorical,Non-categorical variable,date_death_deceased,
 Q302,Non-categorical,1,place_died,home
 Q302,Non-categorical,2,place_died,health_facility
@@ -162,17 +137,16 @@ Q504,Categorical,1,complications_labour_delivery,yes
 Q504,Categorical,2,complications_labour_delivery,no
 Q504,Categorical,9,complications_labour_delivery,dk
 Q504,Categorical,0,complications_labour_delivery,na
-Q504A_1,Non-categorical,Non-categorical variable,,
-Q504A_2,Non-categorical,Non-categorical variable,,
-Q504A_3,Non-categorical,Non-categorical variable,,
-Q504A_4,Categorical,6,,
-Q504A_4,Categorical,1,,
-Q504A_5,Categorical,Variable with 0 responses,,
-Q504A_6,Categorical,Variable with 0 responses,,
-Q504A_7,Categorical,Variable with 0 responses,,
-Q504A_8,Categorical,Variable with 0 responses,,
+Q504A_1,Categorical,1,complications_specific,mother_convulsions
+Q504A_2,Categorical,2,complications_specific,excessive_bleeding
+Q504A_3,Categorical,3,complications_specific,water_broke_before_contractions
+Q504A_4,Categorical,4,complications_specific,difficult_labour
+Q504A_5,Categorical,5,complications_specific,breeched
+Q504A_6,Categorical,6,complications_specific,mother_ill
+Q504A_7,Categorical,7,complications_specific,operative_delivery
+Q504A_8,Categorical,8,complications_specific,other
 Q504A_8_Specify,Non-categorical,Non-categorical variable,complications_other,
-Q504A_9,Categorical,Variable with 0 responses,,dk
+Q504A_9,Categorical,9,complications_specific,dk
 Q504B,Non-categorical,Non-categorical variable,complications_other_2,
 Q505,Non-categorical,Non-categorical variable,months_pregnancy,
 Q506,Categorical,1,mother_tetnus_previous,yes
@@ -317,12 +291,11 @@ Q609,Categorical,1,see_death_certificate,yes
 Q609,Categorical,2,see_death_certificate,no
 Q609,Categorical,9,see_death_certificate,dk
 Q610,Non-categorical,Non-categorical variable,death_cause_1,
-Q610,Categorical,Variable with 0 responses,,
-Q611,Categorical,Variable with 0 responses,,
-Q612,Categorical,Variable with 0 responses,,
-Q613,Categorical,Variable with 0 responses,,
-Q614,Categorical,Variable with 0 responses,,
-Comments,Non-categorical,Non-categorical variable,,
+Q611,Non-categorical,Non-categorical variable,death_cause_2,
+Q612,Non-categorical,Non-categorical variable,death_cause_3,
+Q613,Non-categorical,Non-categorical variable,death_cause_4,
+Q614,Non-categorical,Non-categorical variable,death_cause_5,
+Comments,Non-categorical,Non-categorical variable,comments,
 Q615,Categorical,1,reliability_of_interview,good
 Q615,Categorical,2,reliability_of_interview,indifferent
 Q615,Categorical,3,reliability_of_interview,bad
