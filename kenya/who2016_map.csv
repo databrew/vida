@@ -465,10 +465,10 @@ lcsnmore,Categorical,DK,unconscious_24_hours,dk
 lcsnmore,Categorical,REF,unconscious_24_hours,refuse_to_answer
 lcsnh,Non-categorical,Non-categorical variable,hours_unconscious,
 lcsnd,Non-categorical,Non-categorical variable,days_unconscious,
-sduc,Categorical,YES,unconscious_sudden ,yes
-sduc,Categorical,NO,unconscious_sudden ,no
-sduc,Categorical,DK,unconscious_sudden ,dk
-sduc,Categorical,REF,unconscious_sudden ,refuse_to_answer
+sduc,Categorical,YES,unconscious_sudden,yes
+sduc,Categorical,NO,unconscious_sudden,no
+sduc,Categorical,DK,unconscious_sudden,dk
+sduc,Categorical,REF,unconscious_sudden,refuse_to_answer
 deuc,Categorical,YES,unconscious_continue,yes
 deuc,Categorical,NO,unconscious_continue,no
 deuc,Categorical,DK,unconscious_continue,dk
@@ -640,16 +640,16 @@ diffsw,Categorical,YES,difficulty_swallowing,yes
 diffsw,Categorical,NO,difficulty_swallowing,no
 diffsw,Categorical,DK,difficulty_swallowing,dk
 diffsw,Categorical,REF,difficulty_swallowing,refuse_to_answer
-diffswd,Non-categorical,Non-categorical variable,days_difficulty_swollowing,
-diffswm,Non-categorical,Non-categorical variable,months_difficulty_swollowing,
-swaslb,Categorical,SOLIDS,what_difficulty_swollowing,solids
-swaslb,Categorical,LIQUIDS,what_difficulty_swollowing,liquids
-swaslb,Categorical,BOTH,what_difficulty_swollowing,both
-swaslb,Categorical,DK,what_difficulty_swollowing,dk
-swapain,Categorical,YES,pain_swollowing,yes
-swapain,Categorical,NO,pain_swollowing,no
-swapain,Categorical,DK,pain_swollowing,dk
-swapain,Categorical,REF,pain_swollowing,refuse_to_answer
+diffswd,Non-categorical,Non-categorical variable,days_difficulty_swallowing,
+diffswm,Non-categorical,Non-categorical variable,months_difficulty_swallowing,
+swaslb,Categorical,SOLIDS,what_difficulty_swallowing,solids
+swaslb,Categorical,LIQUIDS,what_difficulty_swallowing,liquids
+swaslb,Categorical,BOTH,what_difficulty_swallowing,both
+swaslb,Categorical,DK,what_difficulty_swallowing,dk
+swapain,Categorical,YES,pain_swallowing,yes
+swapain,Categorical,NO,pain_swallowing,no
+swapain,Categorical,DK,pain_swallowing,dk
+swapain,Categorical,REF,pain_swallowing,refuse_to_answer
 jau,Categorical,YES,yellow_eyes,yes
 jau,Categorical,NO,yellow_eyes,no
 jau,Categorical,DK,yellow_eyes,dk
@@ -764,7 +764,7 @@ illstat,Categorical,YEARS,age_illness_start,years
 illstat,Categorical,MONTHS,age_illness_start,months
 illstat,Categorical,DK,age_illness_start,dk
 illstatm,Non-categorical,Non-categorical variable,months_illness_start,
-illstaty,Non-categorical,Non-categorical variable,years_illness_start,
+illstaty,Non-categorical,Non-categorical variable,age_illness_start,
 vebirth,Categorical,YES,multiple_birth,yes
 vebirth,Categorical,NO,multiple_birth,no
 vebirth,Categorical,DK,multiple_birth,dk
@@ -992,16 +992,16 @@ seecard,Categorical,NO,see_vaccination_card,no
 seecard,Categorical,DK,see_vaccination_card,dk
 seecard,Categorical,REF,see_vaccination_card,refuse_to_answer
 epi,Non-categorical,Non-categorical variable,epi_vaccines,
-outcare,Categorical,YES,oustide_care,yes
-outcare,Categorical,NO,oustide_care,no
-outcare,Categorical,DK,oustide_care,dk
-outcare,Categorical,REF,oustide_care,refuse_to_answer
-woutcare,Non-categorical,Non-categorical variable,whom_outside_care,
+outcare,Categorical,YES,outside_care,yes
+outcare,Categorical,NO,outside_care,no
+outcare,Categorical,DK,outside_care,dk
+outcare,Categorical,REF,outside_care,refuse_to_answer
+woutcare,Non-categorical,Non-categorical variable,where_outside_care_specific,
 facname,Non-categorical,Non-categorical variable,facility_outside_care,
-hcarecos,Categorical,YES,told_cause_death,yes
-hcarecos,Categorical,NO,told_cause_death,no
-hcarecos,Categorical,DK,told_cause_death,dk
-hcarecos,Categorical,REF,told_cause_death,refuse_to_answer
+hcarecos,Categorical,YES,told_cause_of_death,yes
+hcarecos,Categorical,NO,told_cause_of_death,no
+hcarecos,Categorical,DK,told_cause_of_death,dk
+hcarecos,Categorical,REF,told_cause_of_death,refuse_to_answer
 hcaresay,Non-categorical,Non-categorical variable,cause_death,
 hrec,Categorical,YES,health_records,yes
 hrec,Categorical,NO,health_records,no
@@ -1019,7 +1019,7 @@ secdate,Categorical,NO,second_recent_visit_available,no
 visitdate2,Non-categorical,Non-categorical variable,second_visit_date,
 notdate,Categorical,YES,note_date_available,yes
 notdate,Categorical,NO,note_date_available,no
-visitdate3,Non-categorical,Non-categorical variable,note_visit_date,
+visitdate3,Non-categorical,Non-categorical variable,third_visit_date,
 lweight,Non-categorical,Non-categorical variable,recorded_weight,
 lweight2,Non-categorical,Non-categorical variable,recorded_weight_2,
 notes,Non-categorical,Non-categorical variable,record_notes,

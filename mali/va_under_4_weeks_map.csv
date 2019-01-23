@@ -1,0 +1,432 @@
+variable,variable_type,responses,question_standardized,response_standardized
+meta:instanceID,Non-categorical,Non-categorical variable,,
+Date_interview,Non-categorical,Non-categorical variable,visit_date,
+Site,Non-categorical,Non-categorical variable,site,
+ID_sujet,Non-categorical,Non-categorical variable,filenumber,
+Debut,Non-categorical,Non-categorical variable,start_time,
+Section_1.1:Date_naissance,Non-categorical,Non-categorical variable,date_birth_deceased,
+Section_1.1:untitled6,Non-categorical,Non-categorical variable,,
+Section_1.1:Sexe,Categorical,fille,sex_deceased,female
+Section_1.1:Sexe,Categorical,garcon,sex_deceased,male
+Section_1.1:Date_deces,Non-categorical,Non-categorical variable,date_death_deceased,
+Section_1.1:Age_deces,Non-categorical,Non-categorical variable,age_months,
+Section_1.1:Numero_ID,Non-categorical,Non-categorical variable,,
+Section_1.2:Resultat,Categorical,complete,visit_outcome,completed
+Section_1.2:Autre_resultat,Non-categorical,Non-categorical variable,visit_outcome_other,
+Section_1.2:Resultat_complete,Categorical,oui,,
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,mere,relationship,mother
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,pere,relationship,father
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,soeur,relationship,sister
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,frere,relationship,brother
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,grandmere,relationship,grandmother
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,grandpere,relationship,grandfather
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,tante,relationship,aunt
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,oncle,relationship,uncle
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,pas de relation,relationship,no_relation
+Section_1.2:Resultat_rempli_oui:Section_2:Relation,Categorical,autres,relationship,other
+Section_1.2:Resultat_comp_oui:Section_2:Autres_relations,Non-categorical,Non-categorical variable,relationship_other,
+Section_1.2:Resultat_comp_oui:Section_2:Viv_defunt,Categorical,oui,live_with_deceased,yes
+Section_1.2:Resultat_comp_oui:Section_2:Viv_defunt,Categorical,non,live_with_deceased,no
+Section_1.2:Resultat_comp_oui:Section_3:Ou_decede,Categorical,hopital,place_died,hospital
+Section_1.2:Resultat_comp_oui:Section_3:Ou_decede,Categorical,maison,place_died,home
+Section_1.2:Resultat_comp_oui:Section_3:Ou_decede,Categorical,autres,place_died,other
+Section_1.2:Resultat_comp_oui:Section_3:Ou_decede,Categorical,centre_sante,place_died,other_health_facility
+Section_1.2:Resultat_comp_oui:Section_3:Autres_decede,Non-categorical,Non-categorical variable,place_died_specific,
+Section_1.2:Resultat_comp_oui:Section_3:Decede_centre,Categorical,non,place_died_health_centre,no
+Section_1.2:Resultat_comp_oui:Section_3:Decede_centre,Categorical,oui,place_died_health_centre,yes
+Section_1.2:Resultat_comp_oui:Section_3:Code_centre,Non-categorical,Non-categorical variable,health_centre_code,
+Section_1.2:Resultat_comp_oui:Section_4:Maladie,Non-categorical,Non-categorical variable,account_of_illness,
+Section_1.2:Resultat_comp_oui:Section_4:Cause1_mort,Non-categorical,Non-categorical variable,cause_death1,
+Section_1.2:Resultat_comp_oui:Section_4:Cause2_mort,Non-categorical,Non-categorical variable,cause_death2,
+Section_1.2:Resultat_comp_oui:Section_5:Nombre_maternite,Categorical,nombre_naissance,,
+Section_1.2:Resultat_comp_oui:Section_5:Nombre_maternite1,Non-categorical,Non-categorical variable,number_previous_births,
+Section_1.2:Resultat_comp_oui:Section_5:Grossesse_mois,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_5:Grossesse_mois,Categorical,mois,,
+Section_1.2:Resultat_comp_oui:Section_5:Grossesse_mois1,Non-categorical,Non-categorical variable,duration_pregnancy_months,
+Section_1.2:Resultat_comp_oui:Section_5:Grossesse_courte,Categorical,oui,pregnancy_end_early,yes
+Section_1.2:Resultat_comp_oui:Section_5:Grossesse_courte,Categorical,non,pregnancy_end_early,no
+Section_1.2:Resultat_comp_oui:Section_5:Semaines_avant,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_5:Semaines_avant,Categorical,semaines,,
+Section_1.2:Resultat_comp_oui:Section_5:Semaines_avant1,Non-categorical,Non-categorical variable,weeks_pregnancy_end_early,
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues,Categorical,Suivante,,
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_hyper,Categorical,oui,mother_high_blood_pressure,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_hyper,Categorical,non,mother_high_blood_pressure,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_hyper,Categorical,ne_sait_pas,mother_high_blood_pressure,dk
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_coeur,Categorical,oui,mother_heart_disease,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_coeur,Categorical,non,mother_heart_disease,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_coeur,Categorical,ne_sait_pas,mother_heart_disease,dk
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_diabete,Categorical,oui,mother_diabetes,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_diabete,Categorical,non,mother_diabetes,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_diabete,Categorical,ne_sait_pas,mother_diabetes,dk
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_epilepsie,Categorical,oui,mother_epilepsy,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_epilepsie,Categorical,non,mother_epilepsy,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_epilepsie,Categorical,ne_sait_pas,mother_epilepsy,dk
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_autre,Categorical,oui,mother_other_illness,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_autre,Categorical,non,mother_other_illness,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_autre,Categorical,ne_sait_pas,mother_other_illness,dk
+Section_1.2:Resultat_comp_oui:Section_5:Mal_connues1:Mal_autre1,Non-categorical,Non-categorical variable,mother_other_illness_specific,
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse,Categorical,suivante,,
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_saigne,Categorical,oui,late_pregnancy_mother_vaginal_bleeding,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_saigne,Categorical,non,late_pregnancy_mother_vaginal_bleeding,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_saigne,Categorical,ne_sait_pas,late_pregnancy_mother_vaginal_bleeding,dk
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_ecoule,Categorical,oui,late_pregnancy_mother_smelly_discharge,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_ecoule,Categorical,non,late_pregnancy_mother_smelly_discharge,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_ecoule,Categorical,ne_sait_pas,late_pregnancy_mother_smelly_discharge,dk
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_visage,Categorical,oui,late_pregnancy_mother_puffy_face,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_visage,Categorical,non,late_pregnancy_mother_puffy_face,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_visage,Categorical,ne_sait_pas,late_pregnancy_mother_puffy_face,dk
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_tete,Categorical,oui,late_pregnancy_mother_headache,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_tete,Categorical,non,late_pregnancy_mother_headache,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_tete,Categorical,ne_sait_pas,late_pregnancy_mother_headache,dk
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_vision,Categorical,oui,late_pregnancy_mother_blurry_vision,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_vision,Categorical,non,late_pregnancy_mother_blurry_vision,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_vision,Categorical,ne_sait_pas,late_pregnancy_mother_blurry_vision,dk
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_convulsion,Categorical,oui,late_pregnancy_mother_convulsions,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_convulsion,Categorical,non,late_pregnancy_mother_convulsions,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_convulsion,Categorical,ne_sait_pas,late_pregnancy_mother_convulsions,dk
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_febrile,Categorical,oui,late_pregnancy_mother_febrile_illness,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_febrile,Categorical,non,late_pregnancy_mother_febrile_illness,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_febrile,Categorical,ne_sait_pas,late_pregnancy_mother_febrile_illness,dk
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_abdominale,Categorical,oui,late_pregnancy_mother_abdominal_pain,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_abdominale,Categorical,non,late_pregnancy_mother_abdominal_pain,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_abdominale,Categorical,ne_sait_pas,late_pregnancy_mother_abdominal_pain,dk
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_pale,Categorical,oui,late_pregnancy_mother_pallor,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_pale,Categorical,non,late_pregnancy_mother_pallor,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_pale,Categorical,ne_sait_pas,late_pregnancy_mother_pallor,dk
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_autre2,Categorical,oui,late_pregnancy_mother_other_condition,yes
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_autre2,Categorical,non,late_pregnancy_mother_other_condition,no
+Section_1.2:Resultat_comp_oui:Section_5:Mal_grossesse1:Mal_autre2,Categorical,ne_sait_pas,late_pregnancy_mother_other_condition,dk
+Section_1.2:Resultat_comp_oui:Section_5:Seul_multiples,Categorical,seul,multiple_birth,single
+Section_1.2:Resultat_comp_oui:Section_5:Seul_multiples,Categorical,jumeaux,multiple_birth,twin
+Section_1.2:Resultat_comp_oui:Section_5:Multiples,Categorical,non,multiple,no
+Section_1.2:Resultat_comp_oui:Section_5:Multiples,Categorical,oui,multiple,yes
+Section_1.2:Resultat_comp_oui:Section_5:Multiples,Categorical,ne_sait_pas,multiple,dk
+Section_1.2:Resultat_comp_oui:Section_5:Rang,Categorical,2eme,birth_order,second
+Section_1.2:Resultat_comp_oui:Section_5:Rang,Categorical,1er,birth_order,first
+Section_1.2:Resultat_comp_oui:Section_6:Ou_ne_enfant,Categorical,autre,where_born,other
+Section_1.2:Resultat_comp_oui:Section_6:Ou_ne_enfant,Categorical,maison,where_born,home
+Section_1.2:Resultat_comp_oui:Section_6:Ou_ne_enfant,Categorical,hopital,where_born,hospital
+Section_1.2:Resultat_comp_oui:Section_6:Autre_centre,Non-categorical,Non-categorical variable,where_born_other,
+Section_1.2:Resultat_comp_oui:Section_6:Qui_accouchement,Categorical,medecin,who_assisted_delivery,doctor
+Section_1.2:Resultat_comp_oui:Section_6:Qui_accouchement,Categorical,infirmiere,who_assisted_delivery,nurse
+Section_1.2:Resultat_comp_oui:Section_6:Qui_accouchement,Categorical,mere_seule,who_assisted_delivery,no_one
+Section_1.2:Resultat_comp_oui:Section_6:Qui_accouchement,Categorical,ne_sait_pas,who_assisted_delivery,dk
+Section_1.2:Resultat_comp_oui:Section_6:Autre_accouchement,Non-categorical,Non-categorical variable,who_assisted_delivery_specific,
+Section_1.2:Resultat_comp_oui:Section_6:Poche_rompue,Categorical,ne_sait_pas,when_water_break,dk
+Section_1.2:Resultat_comp_oui:Section_6:Poche_rompue,Categorical,avant_trav,when_water_break,before_labor_start
+Section_1.2:Resultat_comp_oui:Section_6:Poche_rompue,Categorical,na,when_water_break,na
+Section_1.2:Resultat_comp_oui:Section_6:Poche_rompue,Categorical,durant_trav,when_water_break,during_labor
+Section_1.2:Resultat_comp_oui:Section_6:Heures_rupture,Categorical,na,hours_after_water_break_born,na
+Section_1.2:Resultat_comp_oui:Section_6:Heures_rupture,Categorical,ne_sait_pas,hours_after_water_break_born,dk
+Section_1.2:Resultat_comp_oui:Section_6:Heures_rupture,Categorical,moins_24,hours_after_water_break_born,less_than_24
+Section_1.2:Resultat_comp_oui:Section_6:Heures_rupture,Categorical,plus_24,hours_after_water_break_born,24_or_more
+Section_1.2:Resultat_comp_oui:Section_6:Eau_puante,Categorical,na,liquid_smell,na
+Section_1.2:Resultat_comp_oui:Section_6:Eau_puante,Categorical,oui,liquid_smell,yes
+Section_1.2:Resultat_comp_oui:Section_6:Eau_puante,Categorical,non,liquid_smell,no
+Section_1.2:Resultat_comp_oui:Section_6:Eau_puante,Categorical,ne_sait_pas,liquid_smell,dk
+Section_1.2:Resultat_comp_oui:Section_6:Arrete_bouger,Categorical,oui,moving_before_birth,yes
+Section_1.2:Resultat_comp_oui:Section_6:Arrete_bouger,Categorical,non,moving_before_birth,no
+Section_1.2:Resultat_comp_oui:Section_6:Arrete_bouger,Categorical,ne_sait_pas,moving_before_birth,dk
+Section_1.2:Resultat_comp_oui:Section_6:Arrete_bouger1,Categorical,pendant_trav,when_stop_moving_womb,during_labor
+Section_1.2:Resultat_comp_oui:Section_6:Arrete_bouger1,Categorical,avant_trav,when_stop_moving_womb,before_labor_start
+Section_1.2:Resultat_comp_oui:Section_6:Ecouter_battements,Categorical,oui,listen_fetal_heart,yes
+Section_1.2:Resultat_comp_oui:Section_6:Ecouter_battements,Categorical,non,listen_fetal_heart,no
+Section_1.2:Resultat_comp_oui:Section_6:Ecouter_battements,Categorical,ne_sait_pas,listen_fetal_heart,dk
+Section_1.2:Resultat_comp_oui:Section_6:Ecouter_battements,Categorical,na,listen_fetal_heart,na
+Section_1.2:Resultat_comp_oui:Section_6:Battements,Categorical,oui,fetal_heart_sound_present,yes
+Section_1.2:Resultat_comp_oui:Section_6:Battements,Categorical,non,fetal_heart_sound_present,no
+Section_1.2:Resultat_comp_oui:Section_6:Battements,Categorical,ne_sait_pas,fetal_heart_sound_present,dk
+Section_1.2:Resultat_comp_oui:Section_6:Exces_saigne,Categorical,oui,mother_vaginal_bleeding,yes
+Section_1.2:Resultat_comp_oui:Section_6:Exces_saigne,Categorical,non,mother_vaginal_bleeding,no
+Section_1.2:Resultat_comp_oui:Section_6:Exces_saigne,Categorical,ne_sait_pas,mother_vaginal_bleeding,dk
+Section_1.2:Resultat_comp_oui:Section_6:Exces_saigne,Categorical,na,mother_vaginal_bleeding,na
+Section_1.2:Resultat_comp_oui:Section_6:Mere_fievre,Categorical,oui,mother_fever,yes
+Section_1.2:Resultat_comp_oui:Section_6:Mere_fievre,Categorical,non,mother_fever,no
+Section_1.2:Resultat_comp_oui:Section_6:Mere_fievre,Categorical,ne_sait_pas,mother_fever,dk
+Section_1.2:Resultat_comp_oui:Section_6:Doleurs_trav,Categorical,na,hours_labor_pains,na
+Section_1.2:Resultat_comp_oui:Section_6:Doleurs_trav,Categorical,ne_sait_pas,hours_labor_pains,dk
+Section_1.2:Resultat_comp_oui:Section_6:Doleurs_trav,Categorical,12_23_heures,hours_labor_pains,12_to_23
+Section_1.2:Resultat_comp_oui:Section_6:Doleurs_trav,Categorical,moins_12_heures,hours_labor_pains,less_than_12
+Section_1.2:Resultat_comp_oui:Section_6:Doleurs_trav,Categorical,24_heures_plus,hours_labor_pains,24_or_more
+Section_1.2:Resultat_comp_oui:Section_6:Vaginal_normal,Categorical,non,normal_delivery,yes
+Section_1.2:Resultat_comp_oui:Section_6:Vaginal_normal,Categorical,oui,normal_delivery,no
+Section_1.2:Resultat_comp_oui:Section_6:sorte_accouche,Categorical,cesarienne,type_delivery,caesarean
+Section_1.2:Resultat_comp_oui:Section_6:sorte_accouche,Categorical,ne_sait_pas,type_delivery,dk
+Section_1.2:Resultat_comp_oui:Section_6:sorte_accouche,Categorical,instrument,type_delivery,forceps
+Section_1.2:Resultat_comp_oui:Section_6:Autre_sorte,Non-categorical,Non-categorical variable,type_delivery_specific,
+Section_1.2:Resultat_comp_oui:Section_6:Partie_du_corps,Categorical,ne_sait_pas,part_delivered_first,dk
+Section_1.2:Resultat_comp_oui:Section_6:Partie_du_corps,Categorical,tete,part_delivered_first,head
+Section_1.2:Resultat_comp_oui:Section_6:Partie_du_corps,Categorical,pieds,part_delivered_first,feet
+Section_1.2:Resultat_comp_oui:Section_6:Autre_partie,Non-categorical,Non-categorical variable,part_delivered_first_specific,
+Section_1.2:Resultat_comp_oui:Section_6:Cordon_ombilical,Categorical,oui,umbilical_first,yes
+Section_1.2:Resultat_comp_oui:Section_6:Cordon_ombilical,Categorical,non,umbilical_first,no
+Section_1.2:Resultat_comp_oui:Section_6:Cordon_ombilical,Categorical,ne_sait_pas,umbilical_first,dk
+Section_1.2:Resultat_comp_oui:Section_7:Dimension,Categorical,moins_normale,baby_size,smaller
+Section_1.2:Resultat_comp_oui:Section_7:Dimension,Categorical,normal,baby_size,normal
+Section_1.2:Resultat_comp_oui:Section_7:Dimension,Categorical,ne_sait_pas,baby_size,dk
+Section_1.2:Resultat_comp_oui:Section_7:Premature,Categorical,oui,premature,yes
+Section_1.2:Resultat_comp_oui:Section_7:Premature,Categorical,non,premature,no
+Section_1.2:Resultat_comp_oui:Section_7:Premature,Categorical,dk,premature,dk
+Section_1.2:Resultat_comp_oui:Section_7:Mois_grossesse,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_7:Mois_grossesse,Categorical,mois,,
+Section_1.2:Resultat_comp_oui:Section_7:Mois_grossesse1,Non-categorical,Non-categorical variable,duration_pregnancy_months,
+Section_1.2:Resultat_comp_oui:Section_7:Poids,Categorical,kg,,
+Section_1.2:Resultat_comp_oui:Section_7:Poids,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_7:Poids1,Non-categorical,Non-categorical variable,birth_weight,
+Section_1.2:Resultat_comp_oui:Section_7:Applique_cordon,Categorical,oui,anything_applied_to_umbilical_stump,yes
+Section_1.2:Resultat_comp_oui:Section_7:Applique_cordon,Categorical,non,anything_applied_to_umbilical_stump,no
+Section_1.2:Resultat_comp_oui:Section_7:Applique_cordon,Categorical,ne_sait_pas,anything_applied_to_umbilical_stump,dk
+Section_1.2:Resultat_comp_oui:Section_7:Applique_cordon1,Non-categorical,Non-categorical variable,anything_applied_to_umbilical_stump_specific,
+Section_1.2:Resultat_comp_oui:Section_7:Signes_blessure,Categorical,oui,sign_injury_broken_bones,yes
+Section_1.2:Resultat_comp_oui:Section_7:Signes_blessure,Categorical,non,sign_injury_broken_bones,no
+Section_1.2:Resultat_comp_oui:Section_7:Signes_blessure,Categorical,ne_sait_pas,sign_injury_broken_bones,dk
+Section_1.2:Resultat_comp_oui:Section_7:Traces_blessure,Categorical,na,sign_injury_broken_bones,na
+Section_1.2:Resultat_comp_oui:Section_7:Signe_paralysie,Categorical,oui,sign_paralysis,yes
+Section_1.2:Resultat_comp_oui:Section_7:Signe_paralysie,Categorical,non,sign_paralysis,no
+Section_1.2:Resultat_comp_oui:Section_7:Signe_paralysie,Categorical,ne_sait_pas,sign_paralysis,dk
+Section_1.2:Resultat_comp_oui:Section_7:Malformation,Categorical,oui,malformation,yes
+Section_1.2:Resultat_comp_oui:Section_7:Malformation,Categorical,non,malformation,no
+Section_1.2:Resultat_comp_oui:Section_7:Malformation,Categorical,ne_sait_pas,malformation,dk
+Section_1.2:Resultat_comp_oui:Section_7:Sorte_malformation,Non-categorical,Non-categorical variable,malformation_type,
+Section_1.2:Resultat_comp_oui:Section_7:Autre_malformation,Non-categorical,Non-categorical variable,malformation_other,
+Section_1.2:Resultat_comp_oui:Section_7:Coleur_bebe,Categorical,normale,skin_color,normal
+Section_1.2:Resultat_comp_oui:Section_7:Coleur_bebe,Categorical,ne_sait_pas,skin_color,dk
+Section_1.2:Resultat_comp_oui:Section_7:Coleur_bebe,Categorical,pale,skin_color,pale
+Section_1.2:Resultat_comp_oui:Section_7:Respire_apres,Categorical,oui,baby_breathe,yes
+Section_1.2:Resultat_comp_oui:Section_7:Respire_apres,Categorical,non,baby_breathe,no
+Section_1.2:Resultat_comp_oui:Section_7:Respire_apres,Categorical,ne_sait_pas,baby_breathe,dk
+Section_1.2:Resultat_comp_oui:Section_7:Aide_respirer,Categorical,oui,assisted_breathing,yes
+Section_1.2:Resultat_comp_oui:Section_7:Aide_respirer,Categorical,non,assisted_breathing,no
+Section_1.2:Resultat_comp_oui:Section_7:Aide_respirer,Categorical,ne_sait_pas,assisted_breathing,dk
+Section_1.2:Resultat_comp_oui:Section_7:Pleure_apres,Categorical,oui,baby_cry,yes
+Section_1.2:Resultat_comp_oui:Section_7:Pleure_apres,Categorical,non,baby_cry,no
+Section_1.2:Resultat_comp_oui:Section_7:Pleure_apres,Categorical,ne_sait_pas,baby_cry,dk
+Section_1.2:Resultat_comp_oui:Section_7:Jamais_bouge,Categorical,oui,baby_move,yes
+Section_1.2:Resultat_comp_oui:Section_7:Jamais_bouge,Categorical,non,baby_move,no
+Section_1.2:Resultat_comp_oui:Section_7:Jamais_bouge,Categorical,ne_sait_pas,baby_move,dk
+Section_1.2:Resultat_comp_oui:Section_7:Mort_ne,Categorical,oui,born_dead,yes
+Section_1.2:Resultat_comp_oui:Section_7:Mort_ne,Categorical,non,born_dead,no
+Section_1.2:Resultat_comp_oui:Section_7:Mort_ne,Categorical,ne_sait_pas,born_dead,dk
+Section_1.2:Resultat_comp_oui:Section_7:Signes_decomposition,Categorical,Variable with 0 responses,,
+Section_1.2:Resultat_comp_oui:Section_8:Blessure,Categorical,oui,injury_accident,yes
+Section_1.2:Resultat_comp_oui:Section_8:Blessure,Categorical,non,injury_accident,no
+Section_1.2:Resultat_comp_oui:Section_8:Blessure,Categorical,ne_sait_pas,injury_accident,dk
+Section_1.2:Resultat_comp_oui:Section_8:Blessure_oui:Type_blessure,Categorical,brulure,injury_type,burn
+Section_1.2:Resultat_comp_oui:Section_8:Blessure_oui:Autre_blessure,Non-categorical,Non-categorical variable,injury_type_specific,
+Section_1.2:Resultat_comp_oui:Section_8:Blessure_oui:Blessure_inflge,Categorical,oui,injury_other_inflicted,yes
+Section_1.2:Resultat_comp_oui:Section_8:Blessure_oui:Blessure_inflge,Categorical,non,injury_other_inflicted,no
+Section_1.2:Resultat_comp_oui:Section_8:Blessure_oui:Blessure_inflge,Categorical,ne_sait_pas,injury_other_inflicted,dk
+Section_1.2:Resultat_comp_oui:Section_8:Animal,Categorical,oui,venomous_animal,yes
+Section_1.2:Resultat_comp_oui:Section_8:Animal,Categorical,non,venomous_animal,no
+Section_1.2:Resultat_comp_oui:Section_8:Animal,Categorical,ne_sait_pas,venomous_animal,dk
+Section_1.2:Resultat_comp_oui:Section_8:Type_animal,Categorical,chien,animal_specific,dog
+Section_1.2:Resultat_comp_oui:Section_8:Type_animal,Categorical,serpent,animal_specific,snake
+Section_1.2:Resultat_comp_oui:Section_8:Type_animal,Categorical,insecte,animal_specific,insect
+Section_1.2:Resultat_comp_oui:Section_8:Type_animal,Categorical,ne_sait_pas,animal_specific,dk
+Section_1.2:Resultat_comp_oui:Section_8:Autre_animal,Non-categorical,Non-categorical variable,animal_other,
+Section_1.2:Resultat_comp_oui:Section_9:Teter_biberon,Categorical,oui,suckle_feed,yes
+Section_1.2:Resultat_comp_oui:Section_9:Teter_biberon,Categorical,non,suckle_feed,no
+Section_1.2:Resultat_comp_oui:Section_9:Teter_biberon_oui:Temps_teter,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Teter_biberon_oui:Temps_teter,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_9:Teter_biberon_oui:Temps_teter1,Non-categorical,Non-categorical variable,days_suckle_feed,
+Section_1.2:Resultat_comp_oui:Section_9:Teter_biberon_oui:Arrete_teter,Categorical,oui,stop_suckle,yes
+Section_1.2:Resultat_comp_oui:Section_9:Teter_biberon_oui:Arrete_teter,Categorical,non,stop_suckle,no
+Section_1.2:Resultat_comp_oui:Section_9:Teter_biberon_oui:Jours_arrete_teter,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Teter_biberon_oui:Jours_arrete_teter1,Non-categorical,Non-categorical variable,days_stop_suckle,
+Section_1.2:Resultat_comp_oui:Section_9:Allaitement_exclusif,Categorical,oui,suckle_exclusively,yes
+Section_1.2:Resultat_comp_oui:Section_9:Allaitement_exclusif,Categorical,non,suckle_exclusively,no
+Section_1.2:Resultat_comp_oui:Section_9:Allaitement_exclusif,Categorical,ne_sait_pas,suckle_exclusively,dk
+Section_1.2:Resultat_comp_oui:Section_9:Convulsions,Categorical,oui,convulsions,yes
+Section_1.2:Resultat_comp_oui:Section_9:Convulsions,Categorical,non,convulsions,no
+Section_1.2:Resultat_comp_oui:Section_9:Convulsions,Categorical,ne_sait_pas,convulsions,dk
+Section_1.2:Resultat_comp_oui:Section_9:Temps_convulsion,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Temps_convulsion1,Non-categorical,Non-categorical variable,days_convulsions,
+Section_1.2:Resultat_comp_oui:Section_9:Raide_arc,Categorical,oui,stiff,yes
+Section_1.2:Resultat_comp_oui:Section_9:Raide_arc,Categorical,non,stiff,no
+Section_1.2:Resultat_comp_oui:Section_9:Raide_arc,Categorical,ne_sait_pas,stiff,dk
+Section_1.2:Resultat_comp_oui:Section_9:Bombement,Categorical,oui,bulging_fontanelle,yes
+Section_1.2:Resultat_comp_oui:Section_9:Bombement,Categorical,non,bulging_fontanelle,no
+Section_1.2:Resultat_comp_oui:Section_9:Bombement,Categorical,ne_sait_pas,bulging_fontanelle,dk
+Section_1.2:Resultat_comp_oui:Section_9:Jours_gonflement,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Jours_gonflement1,Non-categorical,Non-categorical variable,days_bulging_fontanelle,
+Section_1.2:Resultat_comp_oui:Section_9:Insensible,Categorical,oui,unconscious,yes
+Section_1.2:Resultat_comp_oui:Section_9:Insensible,Categorical,non,unconscious,no
+Section_1.2:Resultat_comp_oui:Section_9:Insensible,Categorical,ne_sait_pas,unconscious,dk
+Section_1.2:Resultat_comp_oui:Section_9:Jours_insensible,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Jours_insensible1,Non-categorical,Non-categorical variable,days_unconscious,
+Section_1.2:Resultat_comp_oui:Section_9:Bebe_fievre,Categorical,oui,fever,yes
+Section_1.2:Resultat_comp_oui:Section_9:Bebe_fievre,Categorical,non,fever,no
+Section_1.2:Resultat_comp_oui:Section_9:Bebe_fievre,Categorical,ne_sait_pas,fever,dk
+Section_1.2:Resultat_comp_oui:Section_9:Jours_fievre,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Jours_fievre1,Non-categorical,Non-categorical variable,days_fever,
+Section_1.2:Resultat_comp_oui:Section_9:Bebe_froid,Categorical,oui,cold_touch,yes
+Section_1.2:Resultat_comp_oui:Section_9:Bebe_froid,Categorical,non,cold_touch,no
+Section_1.2:Resultat_comp_oui:Section_9:Bebe_froid,Categorical,ne_sait_pas,cold_touch,dk
+Section_1.2:Resultat_comp_oui:Section_9:Jours_froid,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_9:Jours_froid,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Jours_froid1,Non-categorical,Non-categorical variable,days_cold_touch,
+Section_1.2:Resultat_comp_oui:Section_9:Bebe_toux,Categorical,oui,cough,yes
+Section_1.2:Resultat_comp_oui:Section_9:Bebe_toux,Categorical,non,cough,no
+Section_1.2:Resultat_comp_oui:Section_9:Bebe_toux,Categorical,ne_sait_pas,cough,dk
+Section_1.2:Resultat_comp_oui:Section_9:Temps_tousser,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Temps_tousser1,Non-categorical,Non-categorical variable,days_cough,
+Section_1.2:Resultat_comp_oui:Section_9:Bebe_souffle,Categorical,oui,fast_breathing,yes
+Section_1.2:Resultat_comp_oui:Section_9:Bebe_souffle,Categorical,non,fast_breathing,no
+Section_1.2:Resultat_comp_oui:Section_9:Bebe_souffle,Categorical,ne_sait_pas,fast_breathing,dk
+Section_1.2:Resultat_comp_oui:Section_9:Jours_souffle,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Jours_souffle,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_9:Jours_souffle1,Non-categorical,Non-categorical variable,days_fast_breathing,
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp,Categorical,oui,difficulty_breathing,yes
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp,Categorical,non,difficulty_breathing,no
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp,Categorical,ne_sait_pas,difficulty_breathing,dk
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp_oui:Jours_diff_resp,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp_oui:Jours_diff_resp,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp_oui:Jours_diff_resp1,Non-categorical,Non-categorical variable,days_difficulty_breathing,
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp_oui:Poitrine,Categorical,oui,chest_pull_in,yes
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp_oui:Poitrine,Categorical,non,chest_pull_in,no
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp_oui:Poitrine,Categorical,ne_sait_pas,chest_pull_in,dk
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp_oui:Grognements,Categorical,oui,noisy_breathing,yes
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp_oui:Grognements,Categorical,non,noisy_breathing,no
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp_oui:Grognements,Categorical,ne_sait_pas,noisy_breathing,dk
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp_oui:Ouverture_narines,Categorical,oui,flaring_nostrils,yes
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp_oui:Ouverture_narines,Categorical,non,flaring_nostrils,no
+Section_1.2:Resultat_comp_oui:Section_9:Difficultes_resp_oui:Ouverture_narines,Categorical,ne_sait_pas,flaring_nostrils,dk
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee,Categorical,oui,diarrhea,yes
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee,Categorical,non,diarrhea,no
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee,Categorical,ne_sait_pas,diarrhea,dk
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Jours_diarrhee,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Jours_diarrhee1,Non-categorical,Non-categorical variable,days_after_birth_diarrhea,
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Jours_dure_diarrhee,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Jours_dure_diarrhee,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Jours_dure_diarrhee1,Non-categorical,Non-categorical variable,days_diarrhea,
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Selles_diarrhee,Categorical,selles,,
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Selles_diarrhee1,Non-categorical,Non-categorical variable,number_stools_per_day,
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Sang_selles,Categorical,oui,bloody_stool,yes
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Sang_selles,Categorical,non,bloody_stool,no
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Sang_selles,Categorical,ne_sait_pas,bloody_stool,dk
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Deshydrate,Categorical,oui,dehydrated,yes
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Deshydrate,Categorical,non,dehydrated,no
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Deshydrate,Categorical,ne_sait_pas,dehydrated,dk
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Yeux_enfonces,Categorical,oui,sunken_eye,yes
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Yeux_enfonces,Categorical,non,sunken_eye,no
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Yeux_enfonces,Categorical,ne_sait_pas,sunken_eye,dk
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Temps_yeux_enfonces,Categorical,Variable with 0 responses,,
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Temps_yeux_enfonces1,Non-categorical,Non-categorical variable,days_sunken_eye,
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Peau_ridee,Categorical,oui,wrinkled_skin,
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Peau_ridee,Categorical,non,wrinkled_skin,
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Peau_ridee,Categorical,ne_sait_pas,wrinkled_skin,
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Liquide_SRO,Categorical,oui,oral_rehydration,
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Liquide_SRO,Categorical,non,oral_rehydration,
+Section_1.2:Resultat_comp_oui:Section_9:Diarrhee_oui:Liquide_SRO,Categorical,ne_sait_pas,oral_rehydration,
+Section_1.2:Resultat_comp_oui:Section_9:Vomissements,Categorical,oui,vomit,
+Section_1.2:Resultat_comp_oui:Section_9:Vomissements,Categorical,non,vomit,
+Section_1.2:Resultat_comp_oui:Section_9:Vomissements,Categorical,ne_sait_pas,vomit,
+Section_1.2:Resultat_comp_oui:Section_9:Vomissements_oui:Jours_vomissement,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Vomissements_oui:Jours_vomissement1,Non-categorical,Non-categorical variable,days_vomit,
+Section_1.2:Resultat_comp_oui:Section_9:Vomissements_oui:Fois_vomissait,Categorical,fois,,
+Section_1.2:Resultat_comp_oui:Section_9:Vomissements_oui:Fois_vomissait1,Non-categorical,Non-categorical variable,times_vomit,
+Section_1.2:Resultat_comp_oui:Section_9:Distension_abdom,Categorical,oui,protruding_abdomen,yes
+Section_1.2:Resultat_comp_oui:Section_9:Distension_abdom,Categorical,non,protruding_abdomen,no
+Section_1.2:Resultat_comp_oui:Section_9:Distension_abdom,Categorical,ne_sait_pas,protruding_abdomen,dk
+Section_1.2:Resultat_comp_oui:Section_9:Jours_dis_abdom,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Jours_dis_abdom,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_9:Jours_dis_abdom1,Non-categorical,Non-categorical variable,days_protruding_abdomen,
+Section_1.2:Resultat_comp_oui:Section_9:Rougeur_cordon,Categorical,oui,redness_umbilical_cord,yes
+Section_1.2:Resultat_comp_oui:Section_9:Rougeur_cordon,Categorical,non,redness_umbilical_cord,no
+Section_1.2:Resultat_comp_oui:Section_9:Rougeur_cordon,Categorical,ne_sait_pas,redness_umbilical_cord,dk
+Section_1.2:Resultat_comp_oui:Section_9:Eruption_cut,Categorical,oui,rash,yes
+Section_1.2:Resultat_comp_oui:Section_9:Eruption_cut,Categorical,non,rash,no
+Section_1.2:Resultat_comp_oui:Section_9:Eruption_cut,Categorical,ne_sait_pas,rash,dk
+Section_1.2:Resultat_comp_oui:Section_9:Paumes,Categorical,oui,yellow_skin,yes
+Section_1.2:Resultat_comp_oui:Section_9:Paumes,Categorical,non,yellow_skin,no
+Section_1.2:Resultat_comp_oui:Section_9:Paumes,Categorical,ne_sait_pas,yellow_skin,dk
+Section_1.2:Resultat_comp_oui:Section_9:Paumes_oui:Jours_apres_paumes,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Paumes_oui:Jours_apres_paumes,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_9:Paumes_oui:Jours_apres_paumes1,Non-categorical,Non-categorical variable,days_after_birth_yellow_skin,
+Section_1.2:Resultat_comp_oui:Section_9:Paumes_oui:Jours_pend_paumes,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_9:Paumes_oui:Jours_pend_paumes,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_9:Paumes_oui:Jours_pend_paumes1,Non-categorical,Non-categorical variable,days_yellow_skin,
+Section_1.2:Resultat_comp_oui:Section_10:Age_mere,Categorical,annee,,
+Section_1.2:Resultat_comp_oui:Section_10:Age_mere,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_10:Age_mere1,Non-categorical,Non-categorical variable,mother_age_years,
+Section_1.2:Resultat_comp_oui:Section_10:Soin_prenatal,Categorical,oui,mother_antenatal_care,
+Section_1.2:Resultat_comp_oui:Section_10:Soin_prenatal,Categorical,non,mother_antenatal_care,
+Section_1.2:Resultat_comp_oui:Section_10:Soin_prenatal,Categorical,ne_sait_pas,mother_antenatal_care,
+Section_1.2:Resultat_comp_oui:Section_10:Tetanos,Categorical,oui,mother_tetnus,
+Section_1.2:Resultat_comp_oui:Section_10:Tetanos,Categorical,non,mother_tetnus,
+Section_1.2:Resultat_comp_oui:Section_10:Tetanos,Categorical,ne_sait_pas,mother_tetnus,
+Section_1.2:Resultat_comp_oui:Section_10:Tetanos_doses,Categorical,doses,,
+Section_1.2:Resultat_comp_oui:Section_10:Tetanos_doses,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_10:Tetanos_doses1,Non-categorical,Non-categorical variable,number_tetnus_injections,
+Section_1.2:Resultat_comp_oui:Section_10:Mere_sante,Categorical,saine,mother_current_health,healthy
+Section_1.2:Resultat_comp_oui:Section_10:Mere_sante,Categorical,malade,mother_current_health,sick
+Section_1.2:Resultat_comp_oui:Section_10:Mere_sante,Categorical,pas_en_vie,mother_current_health,died
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_bebe,Categorical,oui,treatment,yes
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_bebe,Categorical,non,treatment,no
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_bebe,Categorical,ne_sait_pas,treatment,dk
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Liste_traitements,Non-categorical,Non-categorical variable,,
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement,Categorical,suivante,,
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Maison,Categorical,oui,treatment_home,yes
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Maison,Categorical,non,treatment_home,no
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Guerisseur,Categorical,oui,treatment_traditional_healer,yes
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Guerisseur,Categorical,non,treatment_traditional_healer,no
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Clinique_gouv,Categorical,oui,treatment_government_clinic,yes
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Clinique_gouv,Categorical,non,treatment_government_clinic,no
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Hopital_gouv,Categorical,oui,treatment_government_hospital,yes
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Hopital_gouv,Categorical,non,treatment_government_hospital,no
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Clinique_privee,Categorical,oui,treatment_private_clinic,yes
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Clinique_privee,Categorical,non,treatment_private_clinic,no
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Hopital_prive,Categorical,oui,treatment_private_hospital,yes
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Hopital_prive,Categorical,non,treatment_private_hospital,no
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Pharmacie,Categorical,oui,treatment_pharmacy,yes
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Pharmacie,Categorical,non,treatment_pharmacy,no
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Autre_lieu,Categorical,oui,treatment_other_facility,yes
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Autre_lieu,Categorical,non,treatment_other_facility,no
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Lieux_traitement1:Autre_lieu1,Non-categorical,Non-categorical variable,treatment_other_specific,
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Centre_saisi,Categorical,jours,,
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Centre_saisi,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Jours_centre_saisi,Non-categorical,Non-categorical variable,days_after_illness_seek_care_health_facility,
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Contacts_centre,Categorical,Contacts,,
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Contacts_centre,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Contacts_centre1,Non-categorical,Non-categorical variable,contacts_w_health_facility_before_death,
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Admis_hoptial,Categorical,oui,admitted_to_health_facility,yes
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Admis_hoptial,Categorical,non,admitted_to_health_facility,no
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Admis_oui:Nom_centre,Non-categorical,Non-categorical variable,admitted_to_health_facility_name,
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Admis_oui:Raison_admis,Non-categorical,Non-categorical variable,admitted_to_health_facility_reason,
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Admis_oui:Rehydratation_IV,Categorical,oui,health_facility_treated_iv,yes
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Admis_oui:Rehydratation_IV,Categorical,non,health_facility_treated_iv,no
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Admis_oui:Rehydratation_IV,Categorical,ne_sait_pas,health_facility_treated_iv,dk
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Travailleurs_cause,Categorical,oui,told_cause_of_death,yes
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Travailleurs_cause,Categorical,non,told_cause_of_death,no
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Travailleurs_cause,Categorical,ne_sait_pas,told_cause_of_death,dk
+Section_1.2:Resultat_comp_oui:Section_11:Traitement_oui:Agent_cause,Non-categorical,Non-categorical variable,cause_death,
+Section_1.2:Resultat_comp_oui:Section_12:Certificat,Categorical,oui,death_certificate,yes
+Section_1.2:Resultat_comp_oui:Section_12:Certificat,Categorical,non,death_certificate,no
+Section_1.2:Resultat_comp_oui:Section_12:Certificat,Categorical,ne_sait_pas,death_certificate,dk
+Section_1.2:Resultat_comp_oui:Section_12:Certificat_oui:Voir_certificat,Categorical,non,see_death_certificate,no
+Section_1.2:Resultat_comp_oui:Section_12:Certificat_oui:Voir_certificat,Categorical,oui,see_death_certificate,yes
+Section_1.2:Resultat_comp_oui:Section_12:Certificat_oui:Voir_cert_oui:Date_certificat,Non-categorical,Non-categorical variable,death_certificate_date_death,
+Section_1.2:Resultat_comp_oui:Section_12:Certificat_oui:Voir_cert_oui:Certificat_cause1,Non-categorical,Non-categorical variable,death_cause_on_permit_specific1,
+Section_1.2:Resultat_comp_oui:Section_12:Certificat_oui:Voir_cert_oui:Certificat_cause2,Non-categorical,Non-categorical variable,death_cause_on_permit_specific2,
+Section_1.2:Resultat_comp_oui:Section_12:Certificat_oui:Voir_cert_oui:Certificat_cause3,Non-categorical,Non-categorical variable,death_cause_on_permit_specific3,
+Section_1.2:Resultat_comp_oui:Section_12:Certificat_oui:Voir_cert_oui:Certificat_cause4,Non-categorical,Non-categorical variable,death_cause_on_permit_specific4,
+Section_1.2:Resultat_comp_oui:Section_13:Autre_rapport,Categorical,oui,health_records,yes
+Section_1.2:Resultat_comp_oui:Section_13:Autre_rapport,Categorical,non,health_records,no
+Section_1.2:Resultat_comp_oui:Section_13:Autre_rapport_oui:Permit,Non-categorical,Non-categorical variable,burial_permit,
+Section_1.2:Resultat_comp_oui:Section_13:Autre_rapport_oui:Post_mortem,Non-categorical,Non-categorical variable,post_mortem,
+Section_1.2:Resultat_comp_oui:Section_13:Autre_rapport_oui:Carte,Non-categorical,Non-categorical variable,mch_anc_card_info,
+Section_1.2:Resultat_comp_oui:Section_13:Autre_rapport_oui:Ordannance,Non-categorical,Non-categorical variable,hospital_prescription_info,
+Section_1.2:Resultat_comp_oui:Section_13:Autre_rapport_oui:Carnet,Non-categorical,Non-categorical variable,treatment_card_info,
+Section_1.2:Resultat_comp_oui:Section_13:Autre_rapport_oui:Decharge,Non-categorical,Non-categorical variable,discharge_info,
+Section_1.2:Resultat_comp_oui:Section_13:Autre_rapport_oui:Res_laboratoire,Non-categorical,Non-categorical variable,lab_results_info,
+Section_1.2:Resultat_comp_oui:Section_13:Autre_rapport_oui:Autres_doc,Non-categorical,Non-categorical variable,other_docs_info,
+Section_1.2:Resultat_comp_oui:Heure_arret,Non-categorical,Non-categorical variable,intervew_stop_time,
+Section_1.2:Resultat_comp_oui:Observations_int,Non-categorical,Non-categorical variable,interviewer_observations,
+Section_1.2:Resultat_comp_oui:Commentaire,Non-categorical,Non-categorical variable,comments,
+Section_1.2:Resultat_comp_oui:Autres_comment,Non-categorical,Non-categorical variable,other_comments,
+Section_1.2:Resultat_comp_oui:Observations_sup,Non-categorical,Non-categorical variable,supervisor_observations,
+Nom_int,Non-categorical,Non-categorical variable,interviewer_name,
+Code_int,Non-categorical,Non-categorical variable,interviewer_code,
+Nom_sup,Non-categorical,Non-categorical variable,name_supervisor,
+Code_sup,Non-categorical,Non-categorical variable,qc_staff_code,
+Date,Non-categorical,Non-categorical variable,qc_date,

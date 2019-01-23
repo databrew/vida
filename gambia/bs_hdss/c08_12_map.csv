@@ -77,9 +77,9 @@ Q302,Non-categorical,3,place_died,en_route_to_hospital
 Q302,Non-categorical,4,place_died,other
 Q302,Non-categorical,5,place_died,dk
 Q302_Specify,Non-categorical,Non-categorical variable,where_died_specific,
-Q303,Categorical,1,told_cause_death,yes
-Q303,Categorical,2,told_cause_death,no
-Q303,Categorical,9,told_cause_death,dk
+Q303,Categorical,1,told_cause_of_death,yes
+Q303,Categorical,2,told_cause_of_death,no
+Q303,Categorical,9,told_cause_of_death,dk
 Q303A,Categorical,1,who_told_cause_death,doctor
 Q303A,Categorical,2,who_told_cause_death,nurse
 Q303A,Categorical,3,who_told_cause_death,dk
@@ -92,9 +92,9 @@ Q306_Specify,Non-categorical,Non-categorical variable,other_children_ill_specifi
 Q307,Categorical,1,other_children_measles,yes
 Q307,Categorical,2,other_children_measles,no
 Q307,Categorical,9,other_children_measles,dk
-Q308,Categorical,1,deceased_child_weaned,yes
-Q308,Categorical,2,deceased_child_weaned,no
-Q308,Categorical,9,deceased_child_weaned,dk
+Q308,Categorical,1,weaned,yes
+Q308,Categorical,2,weaned,no
+Q308,Categorical,9,weaned,dk
 Q309,Non-categorical,Non-categorical variable,days_before_death_not_breastfed,
 Q401,Categorical,1,injury_accident,yes
 Q401,Categorical,2,injury_accident,no
@@ -142,27 +142,27 @@ Q502C,Non-categorical,Non-categorical variable,days_fever,
 Q503,Categorical,1,diarrhea,yes
 Q503,Categorical,2,diarrhea,no
 Q503,Categorical,9,diarrhea,dk
-Q503A,Categorical,1,diarrhea_continuous,continuous
-Q503A,Categorical,2,diarrhea_continuous,on_and_off
-Q503A,Categorical,9,diarrhea_continuous,dk
+Q503A,Categorical,1,diarrhea_continue,continuous
+Q503A,Categorical,2,diarrhea_continue,on_and_off
+Q503A,Categorical,9,diarrhea_continue,dk
 Q503B,Categorical,1,diarrhea_stool_consistency,watery
 Q503B,Categorical,2,diarrhea_stool_consistency,soft
 Q503B,Categorical,3,diarrhea_stool_consistency,normal
 Q503B,Categorical,9,diarrhea_stool_consistency,dk
-Q503C,Categorical,1,abdominal_pain,yes
-Q503C,Categorical,2,abdominal_pain,no
-Q503C,Categorical,9,abdominal_pain,dk
+Q503C,Categorical,1,abdomen_pain,yes
+Q503C,Categorical,2,abdomen_pain,no
+Q503C,Categorical,9,abdomen_pain,dk
 Q503D,Non-categorical,Non-categorical variable,days_diarrhea,
 Q503E,Non-categorical,Non-categorical variable,times_diarrhea,
-Q503F,Non-categorical,1,diarrhea_ors,yes
-Q503F,Non-categorical,2,diarrhea_ors,no
-Q503F,Non-categorical,9,diarrhea_ors,dk
+Q503F,Non-categorical,1,diarrhea_given_ors,yes
+Q503F,Non-categorical,2,diarrhea_given_ors,no
+Q503F,Non-categorical,9,diarrhea_given_ors,dk
 Q504,Categorical,1,bloody_stool,yes
 Q504,Categorical,2,bloody_stool,no
 Q504,Categorical,9,bloody_stool,dk
-Q505,Categorical,1,sunken_eyes,yes
-Q505,Categorical,2,sunken_eyes,no
-Q505,Categorical,9,sunken_eyes,dk
+Q505,Categorical,1,sunken_eye,yes
+Q505,Categorical,2,sunken_eye,no
+Q505,Categorical,9,sunken_eye,dk
 Q506,Categorical,1,vomit,yes
 Q506,Categorical,2,vomit,no
 Q506,Categorical,9,vomit,dk
@@ -170,10 +170,10 @@ Q506A,Categorical,1,vomit_continuous,continuous
 Q506A,Categorical,2,vomit_continuous,on_and_off
 Q506A,Categorical,9,vomit_continuous,dk
 Q506A,Categorical,0,vomit_continuous,na
-Q506B,Categorical,1,times_per_day_vomit,less_than_5
-Q506B,Categorical,2,times_per_day_vomit,5_to_9
-Q506B,Categorical,3,times_per_day_vomit,10_or_more
-Q506B,Categorical,9,times_per_day_vomit,dk
+Q506B,Categorical,1,times_vomit,less_than_5
+Q506B,Categorical,2,times_vomit,5_to_9
+Q506B,Categorical,3,times_vomit,10_or_more
+Q506B,Categorical,9,times_vomit,dk
 Q507,Categorical,1,cough,yes
 Q507,Categorical,2,cough,no
 Q507,Categorical,9,cough,dk
@@ -181,9 +181,9 @@ Q507A,Non-categorical,Non-categorical variable,days_cough,
 Q507B,Categorical,1,cough_severe,severe
 Q507B,Categorical,2,cough_severe,moderate
 Q507B,Categorical,3,cough_severe,mild
-Q507C,Categorical,1,cough_sputum,yes
-Q507C,Categorical,2,cough_sputum,no
-Q507C,Categorical,9,cough_sputum,dk
+Q507C,Categorical,1,cough_productive,yes
+Q507C,Categorical,2,cough_productive,no
+Q507C,Categorical,9,cough_productive,dk
 Q507D,Categorical,1,cough_blood,yes
 Q507D,Categorical,2,cough_blood,no
 Q507D,Categorical,9,cough_blood,dk
@@ -207,14 +207,14 @@ Q511,Categorical,9,wheezing,dk
 Q512,Categorical,1,convulsions,yes
 Q512,Categorical,2,convulsions,no
 Q512,Categorical,9,convulsions,dk
-Q512A,Categorical,1,number_convulsions_per_day,less_than_5
-Q512A,Categorical,2,number_convulsions_per_day,5_to_9
-Q512A,Categorical,3,number_convulsions_per_day,10_or_more
-Q512A,Categorical,9,number_convulsions_per_day,dk
-Q512B,Categorical,1,child_between_convulsions,fully_awake
-Q512B,Categorical,2,child_between_convulsions,drowsy
-Q512B,Categorical,3,child_between_convulsions,unconscious
-Q512B,Categorical,9,child_between_convulsions,dk
+Q512A,Categorical,1,number_of_convulsions,less_than_5
+Q512A,Categorical,2,number_of_convulsions,5_to_9
+Q512A,Categorical,3,number_of_convulsions,10_or_more
+Q512A,Categorical,9,number_of_convulsions,dk
+Q512B,Categorical,1,between_convulsions,fully_awake
+Q512B,Categorical,2,between_convulsions,drowsy
+Q512B,Categorical,3,between_convulsions,unconscious
+Q512B,Categorical,9,between_convulsions,dk
 Q513,Categorical,1,unconscious,yes
 Q513,Categorical,2,unconscious,no
 Q513,Categorical,9,unconscious,dk
@@ -241,17 +241,17 @@ Q517B,Categorical,2,rash_face,no
 Q517C,Categorical,1,rash_palms,yes
 Q517C,Categorical,2,rash_palms,no
 Q517D,Non-categorical,Non-categorical variable,,
-Q517E,Categorical,1,rash_features,patches
-Q517E,Categorical,2,rash_features,bumps
-Q517E,Categorical,3,rash_features,fluid
-Q517E,Categorical,4,rash_features,pus
-Q517E,Categorical,5,rash_features,other
-Q517E_OtherSpecify,Non-categorical,Non-categorical variable,rash_features_specific,
+Q517E,Categorical,1,rash_look,patches
+Q517E,Categorical,2,rash_look,bumps
+Q517E,Categorical,3,rash_look,fluid
+Q517E,Categorical,4,rash_look,pus
+Q517E,Categorical,5,rash_look,other
+Q517E_OtherSpecify,Non-categorical,Non-categorical variable,rash_look_specific,
 Q517F,Categorical,1,rash_skin_peel,yes
 Q517F,Categorical,2,rash_skin_peel,no
-Q518,Categorical,1,sore_red_eyes,yes
-Q518,Categorical,2,sore_red_eyes,no
-Q518,Categorical,9,sore_red_eyes,dk
+Q518,Categorical,1,red_eyes,yes
+Q518,Categorical,2,red_eyes,no
+Q518,Categorical,9,red_eyes,dk
 Q519,Categorical,1,measles,yes
 Q519,Categorical,2,measles,no
 Q519,Categorical,9,measles,dk
@@ -267,9 +267,9 @@ Q521,Categorical,2,swell_feet,no
 Q521,Categorical,3,swell_feet,na
 Q521,Categorical,9,swell_feet,dk
 Q521A,Non-categorical,Non-categorical variable,days_swell_feet,
-Q522,Categorical,1,skin_flake_patches,yes
-Q522,Categorical,2,skin_flake_patches,no
-Q522,Categorical,9,skin_flake_patches,dk
+Q522,Categorical,1,skin_flake,yes
+Q522,Categorical,2,skin_flake,no
+Q522,Categorical,9,skin_flake,dk
 Q523,Categorical,1,hair_red_yellow,yes
 Q523,Categorical,2,hair_red_yellow,no
 Q523,Categorical,3,hair_red_yellow,na
@@ -301,9 +301,9 @@ Q531,Categorical,1,swell_mouth,yes
 Q531,Categorical,2,swell_mouth,no
 Q531,Categorical,3,swell_mouth,na
 Q531,Categorical,9,swell_mouth,dk
-Q601,Categorical,1,oustide_care,yes
-Q601,Categorical,2,treatment,no
-Q601,Categorical,9,treatment,dk
+Q601,Categorical,1,outside_care,yes
+Q601,Categorical,2,outside_care,no
+Q601,Categorical,9,outside_care,dk
 Q601A_1,Categorical,1,where_outside_care,doctor
 Q601A_1,Categorical,2,where_outside_care,nurse
 Q601A_1,Categorical,3,where_outside_care,traditional_healer
@@ -323,9 +323,9 @@ Q603_Specify,Non-categorical,Non-categorical variable,received_medication_for_il
 Q604,Categorical,1,child_visit_clinic,yes
 Q604,Categorical,2,child_visit_clinic,no
 Q604,Categorical,9,child_visit_clinic,dk
-Q605,Categorical,1,child_vaccinated,yes
-Q605,Categorical,2,child_vaccinated,no
-Q605,Categorical,9,child_vaccinated,dk
+Q605,Categorical,1,vaccinated,yes
+Q605,Categorical,2,vaccinated,no
+Q605,Categorical,9,vaccinated,dk
 Q606,Categorical,1,health_card_available,yes
 Q606,Categorical,2,health_card_available,no
 Q606,Categorical,9,health_card_available,dk
@@ -338,11 +338,11 @@ Q608,Categorical,9,death_certificate_issued,dk
 Q609,Categorical,1,see_death_certificate,yes
 Q609,Categorical,2,see_death_certificate,no
 Q609,Categorical,9,see_death_certificate,dk
-Q610,Non-categorical,Non-categorical variable,death_cause_1,
-Q611,Non-categorical,Non-categorical variable,death_cause_2,
-Q612,Non-categorical,Non-categorical variable,death_cause_3,
-Q613,Non-categorical,Non-categorical variable,death_cause_4,
-Q614,Non-categorical,Non-categorical variable,death_cause_5,
+Q610,Non-categorical,Non-categorical variable,cause_death_1,
+Q611,Non-categorical,Non-categorical variable,cause_death_2,
+Q612,Non-categorical,Non-categorical variable,cause_death_3,
+Q613,Non-categorical,Non-categorical variable,cause_death_4,
+Q614,Non-categorical,Non-categorical variable,cause_death_5,
 Q701,Categorical,1,mother_healthy,yes
 Q701,Categorical,2,mother_healthy,no
 Q701,Categorical,9,mother_healthy,dk

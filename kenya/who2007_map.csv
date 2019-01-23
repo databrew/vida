@@ -80,25 +80,25 @@ dca,Categorical,1,see_death_certificate,yes
 dca,Categorical,2,see_death_certificate,no
 dca,Categorical,8,see_death_certificate,dk
 dodcert,Non-categorical,Non-categorical variable,date_of_death,
-issuedate,Non-categorical,Non-categorical variable,date_issue_death_certificate,
+issuedate,Non-categorical,Non-categorical variable,date_death_certificate_issued,
 dccod,Non-categorical,Non-categorical variable,cause_death_1,
-records,Categorical,1,oral_records_available,yes
-records,Categorical,2,oral_records_available,no
-veburpm,Categorical,1,burial_permit_issued,yes
-veburpm,Categorical,2,burial_permit_issued,no 
-veburpm,Categorical,9,burial_permit_issued,dk
+records,Categorical,1,other_records_available,yes
+records,Categorical,2,other_records_available,no
+veburpm,Categorical,1,burial_permit,yes
+veburpm,Categorical,2,burial_permit,no
+veburpm,Categorical,9,burial_permit,dk
 vebursee,Categorical,1,burial_permit_available,yes
-vebursee,Categorical,2,burial_permit_available,no 
+vebursee,Categorical,2,burial_permit_available,no
 vebursee,Categorical,8,burial_permit_available,dk
 vebpcdth,Categorical,1,death_cause_on_permit,yes
-vebpcdth,Categorical,2,death_cause_on_permit,no 
+vebpcdth,Categorical,2,death_cause_on_permit,no
 vebpcdth,Categorical,8,death_cause_on_permit,dk
 pm,Categorical,1,post_mortem,yes
-pm,Categorical,2,post_mortem,no 
+pm,Categorical,2,post_mortem,no
 pm,Categorical,9,post_mortem,dk
-pmcd,Categorical,1,death_cause_on_permit,yes
-pmcd,Categorical,2,death_cause_on_permit,no 
-pmcd,Categorical,8,death_cause_on_permit,dk
+pmcd,Categorical,1,death_cause_on_post_mortem,yes
+pmcd,Categorical,2,death_cause_on_post_mortem,no
+pmcd,Categorical,8,death_cause_on_post_mortem,dk
 mch,Categorical,1,mch_card_available,yes
 mch,Categorical,2,mch_card_available,no
 mch,Categorical,8,mch_card_available,na
@@ -117,11 +117,11 @@ hdf,Categorical,8,hospital_discharge_forms_available,na
 hdf,Categorical,9,hospital_discharge_forms_available,dk
 hdiag,Non-categorical,Non-categorical variable,hospital_diagnosis,
 lab,Categorical,1,lab_results_available,yes
-lab,Categorical,2,lab_results_available,no 
+lab,Categorical,2,lab_results_available,no
 lab,Categorical,3,lab_results_available,na
 lab,Categorical,9,lab_results_available,dk
 ohd,Categorical,1,hospital_documents_available,yes
-ohd,Categorical,2,hospital_documents_available,no 
+ohd,Categorical,2,hospital_documents_available,no
 ohd,Categorical,3,hospital_documents_available,na
 ohd,Categorical,9,hospital_documents_available,dk
 recordoth,Non-categorical,Non-categorical variable,hospital_information_other,
@@ -154,9 +154,9 @@ placd,Categorical,8,place_died,dk
 placdoth,Non-categorical,Non-categorical variable,place_died_specific,
 hfname,Non-categorical,Non-categorical variable,facility_name,
 hfnameoth,Non-categorical,Non-categorical variable,facility_name_specific,
-vecompl,Categorical,1,complications_labour_deliery,yes
-vecompl,Categorical,2,complications_labour_deliery,no
-vecompl,Categorical,9,complications_labour_deliery,dk
+vecompl,Categorical,1,complications_labour_delivery,yes
+vecompl,Categorical,2,complications_labour_delivery,no
+vecompl,Categorical,9,complications_labour_delivery,dk
 births,Non-categorical,Non-categorical variable,number_previous_births,
 birthsdk,Categorical,9,previous_births_unknown,dk
 motfebri,Categorical,1,mother_febrile_delivery,yes
@@ -200,18 +200,18 @@ vigsmell,Categorical,9,mother_vaginal_discharge,dk
 puffyface,Categorical,1,mother_puffy_face,yes
 puffyface,Categorical,2,mother_puffy_face,no
 puffyface,Categorical,9,mother_puffy_face,dk
-headache,Categorical,1,mother_headache,yes
-headache,Categorical,2,mother_headache,no
-headache,Categorical,9,mother_headache,dk
+headache,Categorical,1,late_pregnancy_mother_headache,yes
+headache,Categorical,2,late_pregnancy_mother_headache,no
+headache,Categorical,9,late_pregnancy_mother_headache,dk
 bluredvis,Categorical,1,mother_blurred_vision,yes
 bluredvis,Categorical,2,mother_blurred_vision,no
 bluredvis,Categorical,9,mother_blurred_vision,dk
 convulsion,Categorical,1,mother_convulsions,yes
 convulsion,Categorical,2,mother_convulsions,no
 convulsion,Categorical,9,mother_convulsions,dk
-febrileill,Categorical,1,mother_febrile,yes
-febrileill,Categorical,2,mother_febrile,no
-febrileill,Categorical,9,mother_febrile,dk
+febrileill,Categorical,1,late_pregnancy_mother_febrile_illness,yes
+febrileill,Categorical,2,late_pregnancy_mother_febrile_illness,no
+febrileill,Categorical,9,late_pregnancy_mother_febrile_illness,dk
 abodpain,Categorical,1,mother_abdomen_pain,yes
 abodpain,Categorical,2,mother_abdomen_pain,no
 abodpain,Categorical,9,mother_abdomen_pain,dk
@@ -363,14 +363,14 @@ injother,Non-categorical,Non-categorical variable,injury_type_specific,
 injty,Categorical,1,injury_intentional,yes
 injty,Categorical,2,injury_intentional,no
 injty,Categorical,8,injury_intentional,dk
-insbite,Categorical,1,insect_bite,yes
-insbite,Categorical,2,insect_bite,no
-insbite,Categorical,8,insect_bite,dk
-animal,Categorical,1,animal,dog
-animal,Categorical,2,animal,snake
-animal,Categorical,3,animal,insect
-animal,Categorical,6,animal,other
-animal,Categorical,8,animal,dk
+insbite,Categorical,1,animal,yes
+insbite,Categorical,2,animal,no
+insbite,Categorical,8,animal,dk
+animal,Categorical,1,animal_specific,dog
+animal,Categorical,2,animal_specific,snake
+animal,Categorical,3,animal_specific,insect
+animal,Categorical,6,animal_specific,other
+animal,Categorical,8,animal_specific,dk
 animaloth,Non-categorical,Non-categorical variable,animal_other,
 venbsuck,Categorical,1,suckle_feed,yes
 venbsuck,Categorical,2,suckle_feed,no
@@ -434,9 +434,9 @@ vesin,Categorical,9,chest_pull_in,dk
 grunt,Categorical,1,noisy_breathing,yes
 grunt,Categorical,2,noisy_breathing,no
 grunt,Categorical,8,noisy_breathing,dk
-noseflar,Categorical,1,flaring_nostril,yes
-noseflar,Categorical,2,flaring_nostril,no
-noseflar,Categorical,8,flaring_nostril,dk
+noseflar,Categorical,1,flaring_nostrils,yes
+noseflar,Categorical,2,flaring_nostrils,no
+noseflar,Categorical,8,flaring_nostrils,dk
 diar,Categorical,1,diarrhea,yes
 diar,Categorical,2,diarrhea,no
 diar,Categorical,9,diarrhea,dk
@@ -460,7 +460,7 @@ diarstick,Categorical,9,diarrhea_sticky,dk
 diarblood,Categorical,1,diarrhea_bloody,yes
 diarblood,Categorical,2,diarrhea_bloody,no
 diarblood,Categorical,9,diarrhea_bloody,dk
-diardk,Categorical,9,diarrhea_unkonwn,dk
+diardk,Categorical,9,diarrhea_unknown,dk
 diarfluid,Categorical,1,diarrhea_lack_fluid,yes
 diarfluid,Categorical,2,diarrhea_lack_fluid,no
 diarfluid,Categorical,9,diarrhea_lack_fluid,dk
@@ -501,10 +501,10 @@ palmyel,Categorical,9,yellow_palms_soles,dk
 palmyeld,Non-categorical,Non-categorical variable,birth_yellow_palms_soles,
 palmdk,Categorical,8,days_yellow_palms_soles,dk
 palmd,Non-categorical,Non-categorical variable,days_yellow_palms_soles,
-veneyell,Categorical,1,eye_color_change_jaundice,yes
-veneyell,Categorical,2,eye_color_change_jaundice,no
-veneyell,Categorical,9,eye_color_change_jaundice,dk
-djau,Non-categorical,Non-categorical variable,days_jaundice,
+veneyell,Categorical,1,yellow_eyes,yes
+veneyell,Categorical,2,yellow_eyes,no
+veneyell,Categorical,9,yellow_eyes,dk
+djau,Non-categorical,Non-categorical variable,days_yellow_eyes,
 venredsk,Categorical,1,skin_peeling,yes
 venredsk,Categorical,2,skin_peeling,no
 venredsk,Categorical,9,skin_peeling,dk
@@ -525,7 +525,7 @@ vepregc,Categorical,9,mother_antenatal_care,dk
 vepregtt,Categorical,1,mother_tetnus,yes
 vepregtt,Categorical,2,mother_tetnus,no
 vepregtt,Categorical,9,mother_tetnus,dk
-vepregttno,Non-categorical,Non-categorical variable,mother_tetnus_number_vaccines,
+vepregttno,Non-categorical,Non-categorical variable,mother_tetnus_injections,
 mother,Categorical,1,mother_current_health,healthy
 mother,Categorical,2,mother_current_health,sick
 mother,Categorical,3,mother_current_health,died

@@ -30,9 +30,9 @@ intrel,Categorical,OTHER,relationship,other
 intliv,Categorical,YES,live_with_deceased,yes
 intliv,Categorical,NO,live_with_deceased,no
 intliv,Categorical,DK,live_with_deceased,dk
-Vecompl,Categorical,YES,complications_labour_deliery,yes
-Vecompl,Categorical,NO,complications_labour_deliery,no
-Vecompl,Categorical,DK,complications_labour_deliery,dk
+Vecompl,Categorical,YES,complications_labour_delivery,yes
+Vecompl,Categorical,NO,complications_labour_delivery,no
+Vecompl,Categorical,DK,complications_labour_delivery,dk
 Births,Non-categorical,Non-categorical variable,number_previous_births,
 Born,Categorical,LESS THAN 34 WEEKS,weeks_pregnancy,less_than_34
 Born,Categorical,BETWEEN 34 AND 37 WEEKS,weeks_pregnancy,between_34_37
@@ -129,32 +129,32 @@ Babdecay,Categorical,DK,body_soft_discolored,dk
 acinj,Categorical,YES,injury_accident,yes
 acinj,Categorical,NO,injury_accident,no
 acinj,Categorical,DK,injury_accident,dk
-injury,Categorical,PEDESTRIAN/ WALKING,road_accident_role,pedestrian
-injury,Categorical,AN OCCUPANT OF A CAR VEHICLE,road_accident_role,occupant_car
-injury,Categorical,A DRIVER OR PASSENGER OF A MOTOCYCLE,road_accident_role,driver_passenger_motorcycle
-injury,Categorical,AN OCCUPANT OF A BUS/HEAVY TRANSPORT VEHICLE,road_accident_role,occupant_bus
-injury,Categorical,PEDAL CYCLIST,road_accident_role,cyclist
-injury,Categorical,A PASSENGER OF A MOTORCYCLE,road_accident_role,passenger_motorcycle
-injury,Categorical,DK,road_accident_role,dk
+injury,Categorical,PEDESTRIAN/ WALKING,role_traffic_accident,pedestrian
+injury,Categorical,AN OCCUPANT OF A CAR VEHICLE,role_traffic_accident,occupant_car
+injury,Categorical,A DRIVER OR PASSENGER OF A MOTOCYCLE,role_traffic_accident,driver_passenger_motorcycle
+injury,Categorical,AN OCCUPANT OF A BUS/HEAVY TRANSPORT VEHICLE,role_traffic_accident,occupant_bus
+injury,Categorical,PEDAL CYCLIST,role_traffic_accident,cyclist
+injury,Categorical,A PASSENGER OF A MOTORCYCLE,role_traffic_accident,passenger_motorcycle
+injury,Categorical,DK,role_traffic_accident,dk
 cnt_part,Categorical,YES,info_counterpart_traffic_accident,yes
 cnt_part,Categorical,NO,info_counterpart_traffic_accident,no
-cnt_part1,Categorical,PEDESTRIAN,counterpart_hit,pedestrian
-cnt_part1,Categorical,CAR VEHICLE,counterpart_hit,car
-cnt_part1,Categorical,MOTORCYCLE,counterpart_hit,motorcycle
-cnt_part1,Categorical,PEDAL CYCLE,counterpart_hit,pedal_cycle
-cnt_part1,Categorical,BUS OR HEAVY TRANSPORT VEHICLE,counterpart_hit,bus
-cnt_part1,Categorical,OTHER,counterpart_hit,other
-cnt_other,Non-categorical,Non-categorical variable,counterpart_hit_specific,
+cnt_part1,Categorical,PEDESTRIAN,counterpart_traffic_accident,pedestrian
+cnt_part1,Categorical,CAR VEHICLE,counterpart_traffic_accident,car
+cnt_part1,Categorical,MOTORCYCLE,counterpart_traffic_accident,motorcycle
+cnt_part1,Categorical,PEDAL CYCLE,counterpart_traffic_accident,pedal_cycle
+cnt_part1,Categorical,BUS OR HEAVY TRANSPORT VEHICLE,counterpart_traffic_accident,bus
+cnt_part1,Categorical,OTHER,counterpart_traffic_accident,other
+cnt_other,Non-categorical,Non-categorical variable,counterpart_traffic_accident_specific,
 Injtype,Categorical,ROAD TRAFFIC ACCIDENT,injury_type,road_accident
 Injtype,Categorical,NON ROAD ACCIDENT,injury_type,non_road_accident
 Injtype,Categorical,VIOLENCE/ASSAULT,injury_type,violence_assault
 Injtype,Categorical,INFLICTED,injury_type,inflicted
-Injtype,Categorical,OTHER ,injury_type,other
+Injtype,Categorical,OTHER,injury_type,other
 Injtype,Categorical,DK,injury_type,dk
-animal,Categorical,DOG,animal,dog
-animal,Categorical,SNAKE,animal,snake
-animal,Categorical,INSECT,animal,insect
-animal,Categorical,DK,animal,dk
+animal,Categorical,DOG,animal_specific,dog
+animal,Categorical,SNAKE,animal_specific,snake
+animal,Categorical,INSECT,animal_specific,insect
+animal,Categorical,DK,animal_specific,dk
 animaloth,Non-categorical,Non-categorical variable,animal_other,
 season,Categorical,WET SEASON,season,wet
 season,Categorical,DRY SEASON,season,dry

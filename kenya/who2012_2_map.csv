@@ -53,31 +53,31 @@ Injtype,Categorical,ROAD TRAFFIC ACCIDENT,injury_type,road_accident
 Injtype,Categorical,NON ROAD ACCIDENT,injury_type,non_road_accident
 Injtype,Categorical,VIOLENCE/ASSAULT,injury_type,violence_assault
 Injtype,Categorical,INFLICTED,injury_type,inflicted
-Injtype,Categorical,OTHER ,injury_type,other
+Injtype,Categorical,OTHER,injury_type,other
 Injtype,Categorical,DK,injury_type,dk
 injother,Non-categorical,Non-categorical variable,injury_type_other,
-injury,Categorical,PEDESTRIAN/ WALKING,road_accident_role,pedestrian
-injury,Categorical,AN OCCUPANT OF A CAR VEHICLE,road_accident_role,occupant_car
-injury,Categorical,A DRIVER OR PASSENGER OF A MOTOCYCLE,road_accident_role,driver_passenger_motorcycle
-injury,Categorical,AN OCCUPANT OF A BUS/HEAVY TRANSPORT VEHICLE,road_accident_role,occupant_bus
-injury,Categorical,PEDAL CYCLIST,road_accident_role,cyclist
-injury,Categorical,A PASSENGER OF A MOTORCYCLE,road_accident_role,passenger_motorcycle
-injury,Categorical,DK,road_accident_role,dk
-cnt_part,Categorical,YES,road_accident_counterpart_known,yes
-cnt_part,Categorical,NO,road_accident_counterpart_known,no
-cnt_part,Categorical,DK,road_accident_counterpart_known,dk
-cnt_part1,Categorical,PEDESTRIAN,counterpart_hit,pedestrian
-cnt_part1,Categorical,CAR VEHICLE,counterpart_hit,car
-cnt_part1,Categorical,MOTORCYCLE,counterpart_hit,motorcycle
-cnt_part1,Categorical,PEDAL CYCLE,counterpart_hit,pedal_cycle
-cnt_part1,Categorical,BUS OR HEAVY TRANSPORT VEHICLE,counterpart_hit,bus
-cnt_part1,Categorical,OTHER,counterpart_hit,other
-cnt_other,Non-categorical,Non-categorical variable,counterpart_hit_specific,
-animal,Categorical,DOG,animal,dog
-animal,Categorical,SNAKE,animal,snake
-animal,Categorical,BEE,animal,bee
-animal,Categorical,DK,animal,dk
-animal,Categorical,OTHER,animal,other
+injury,Categorical,PEDESTRIAN/ WALKING,role_traffic_accident,pedestrian
+injury,Categorical,AN OCCUPANT OF A CAR VEHICLE,role_traffic_accident,occupant_car
+injury,Categorical,A DRIVER OR PASSENGER OF A MOTOCYCLE,role_traffic_accident,driver_passenger_motorcycle
+injury,Categorical,AN OCCUPANT OF A BUS/HEAVY TRANSPORT VEHICLE,role_traffic_accident,occupant_bus
+injury,Categorical,PEDAL CYCLIST,role_traffic_accident,cyclist
+injury,Categorical,A PASSENGER OF A MOTORCYCLE,role_traffic_accident,passenger_motorcycle
+injury,Categorical,DK,role_traffic_accident,dk
+cnt_part,Categorical,YES,counterpart_injury_known,yes
+cnt_part,Categorical,NO,counterpart_injury_known,no
+cnt_part,Categorical,DK,counterpart_injury_known,dk
+cnt_part1,Categorical,PEDESTRIAN,counterpart_traffic_accident,pedestrian
+cnt_part1,Categorical,CAR VEHICLE,counterpart_traffic_accident,car
+cnt_part1,Categorical,MOTORCYCLE,counterpart_traffic_accident,motorcycle
+cnt_part1,Categorical,PEDAL CYCLE,counterpart_traffic_accident,pedal_cycle
+cnt_part1,Categorical,BUS OR HEAVY TRANSPORT VEHICLE,counterpart_traffic_accident,bus
+cnt_part1,Categorical,OTHER,counterpart_traffic_accident,other
+cnt_other,Non-categorical,Non-categorical variable,counterpart_traffic_accident_specific,
+animal,Categorical,DOG,animal_specific,dog
+animal,Categorical,SNAKE,animal_specific,snake
+animal,Categorical,BEE,animal_specific,bee
+animal,Categorical,DK,animal_specific,dk
+animal,Categorical,OTHER,animal_specific,other
 animaloth,Non-categorical,Non-categorical variable,animal_other,
 rage,Non-categorical,Non-categorical variable,respondent_age,
 intsex,Categorical,FEMALE,sex_respondent,female
@@ -294,15 +294,15 @@ dskind,Non-categorical,Non-categorical variable,days_rash,
 wskind,Non-categorical,Non-categorical variable,weeks_rash,
 skinddwdk,Categorical,DK,rash_unknown,dk
 rashlook,Categorical,MEASLES RASH,rash_look,measles_rash
-rashlook,Categorical,RASH WITH CLEAR FLUID,rash_look,rash_clear_fluid
-rashlook,Categorical,RASH WITH PUS,rash_look,rash_pus
+rashlook,Categorical,RASH WITH CLEAR FLUID,rash_look,clear_fluid
+rashlook,Categorical,RASH WITH PUS,rash_look,pus
 rashlook,Categorical,DK,rash_look,dk
 herps,Categorical,YES,herpes_zoster,yes
 herps,Categorical,NO,herpes_zoster,no
 herps,Categorical,DK,herpes_zoster,dk
-skind,Categorical,YES,skin_problems,yes
-skind,Categorical,NO,skin_problems,no
-skind,Categorical,DK,skin_problems,dk
+skind,Categorical,YES,skin_problem,yes
+skind,Categorical,NO,skin_problem,no
+skind,Categorical,DK,skin_problem,dk
 ulcer,Categorical,YES,ulcer,yes
 ulcer,Categorical,NO,ulcer,no
 ulcer,Categorical,DK,ulcer,dk
@@ -327,9 +327,9 @@ saa,Categorical,DK,swell,dk
 swelface,Categorical,YES,swell_face,yes
 swelface,Categorical,NO,swell_face,no
 swelface,Categorical,DK,swell_face,dk
-sweljoint,Categorical,YES,swell_joint,yes
-sweljoint,Categorical,NO,swell_joint,no
-sweljoint,Categorical,DK,swell_joint,dk
+sweljoint,Categorical,YES,swell_joints,yes
+sweljoint,Categorical,NO,swell_joints,no
+sweljoint,Categorical,DK,swell_joints,dk
 swelankle,Categorical,YES,swell_ankle,yes
 swelankle,Categorical,NO,swell_ankle,no
 swelankle,Categorical,DK,swell_ankle,dk
@@ -339,7 +339,7 @@ swelbody,Categorical,DK,swell_body,dk
 swelfeet,Categorical,YES,swell_feet,yes
 swelfeet,Categorical,NO,swell_feet,no
 swelfeet,Categorical,DK,swell_feet,dk
-swjoth,Non-categorical,Non-categorical variable,swelling_other,
+swjoth,Non-categorical,Non-categorical variable,swell_other,
 swa,Categorical,YES,lumps,yes
 swa,Categorical,NO,lumps,no
 swa,Categorical,DK,lumps,dk
@@ -355,7 +355,7 @@ lumparmpit,Categorical,DK,lumps_armpit,dk
 lumpgroin,Categorical,YES,lumps_groin,yes
 lumpgroin,Categorical,NO,lumps_groin,no
 lumpgroin,Categorical,DK,lumps_groin,dk
-othlump,Non-categorical,Non-categorical variable,lump_other,
+othlump,Non-categorical,Non-categorical variable,lumps_other,
 jau,Categorical,YES,yellow_eyes,yes
 jau,Categorical,NO,yellow_eyes,no
 jau,Categorical,DK,yellow_eyes,dk

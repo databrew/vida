@@ -45,12 +45,12 @@ mother,Categorical,1,mother_current_health,healthy
 mother,Categorical,2,mother_current_health,sick
 mother,Categorical,3,mother_current_health,died
 mother,Categorical,9,mother_current_health,dk
-vecompl,Categorical,1,complications_labour_deliery,yes
-vecompl,Categorical,2,complications_labour_deliery,no
-vecompl,Categorical,9,complications_labour_deliery,dk
-motfits,Categorical,1,mother_convsulsions,yes
-motfits,Categorical,2,mother_convsulsions,no
-motfits,Categorical,9,mother_convsulsions,dk
+vecompl,Categorical,1,complications_labour_delivery,yes
+vecompl,Categorical,2,complications_labour_delivery,no
+vecompl,Categorical,9,complications_labour_delivery,dk
+motfits,Categorical,1,mother_convulsions,yes
+motfits,Categorical,2,mother_convulsions,no
+motfits,Categorical,9,mother_convulsions,dk
 motpresu,Categorical,1,mother_high_blood_pressure,yes
 motpresu,Categorical,2,mother_high_blood_pressure,no
 motpresu,Categorical,9,mother_high_blood_pressure,dk
@@ -92,9 +92,9 @@ vedother,Non-categorical,Non-categorical variable,who_assisted_delivery_specific
 caedeliv,Categorical,1,caesarean,yes
 caedeliv,Categorical,2,caesarean,no
 caedeliv,Categorical,9,caesarean,dk
-prollab,Categorical,1,prolonged_labour,yes
-prollab,Categorical,2,prolonged_labour,no
-prollab,Categorical,9,prolonged_labour,dk
+prollab,Categorical,1,long_labour,yes
+prollab,Categorical,2,long_labour,no
+prollab,Categorical,9,long_labour,dk
 wtbreak,Categorical,1,water_break_24_hours_before_delivery,yes
 wtbreak,Categorical,2,water_break_24_hours_before_delivery,no
 wtbreak,Categorical,9,water_break_24_hours_before_delivery,dk
@@ -124,7 +124,7 @@ mothertb,Categorical,9,mother_tb,dk
 motherhiv,Categorical,1,mother_hiv,yes
 motherhiv,Categorical,2,mother_hiv,no
 motherhiv,Categorical,9,mother_hiv,dk
-none,Categorical,1,mother_no_diabetes_tb,none
+none,Categorical,1,mother_no_illness,none
 intreloth,Non-categorical,Non-categorical variable,relationship_specific,
 venstbcr,Categorical,1,baby_cry,yes
 venstbcr,Categorical,2,baby_cry,no
@@ -152,10 +152,10 @@ alstrngth,Categorical,9,arms_legs_strength,dk
 vebdef,Categorical,1,malformation,yes
 vebdef,Categorical,2,malformation,no
 vebdef,Categorical,9,malformation,dk
-veneyell,Categorical,1,eye_color_change_jaundice,yes
-veneyell,Categorical,2,eye_color_change_jaundice,no
-veneyell,Categorical,9,eye_color_change_jaundice,dk
-yedays,Non-categorical,Non-categorical variable,days_eye_color_change_jaundice,
+veneyell,Categorical,1,yellow_eyes,yes
+veneyell,Categorical,2,yellow_eyes,no
+veneyell,Categorical,9,yellow_eyes,dk
+yedays,Non-categorical,Non-categorical variable,days_yellow_eyes,
 pumbcord,Categorical,1,problems_umbilical_cord,yes
 pumbcord,Categorical,2,problems_umbilical_cord,no
 pumbcord,Categorical,9,problems_umbilical_cord,dk
@@ -209,9 +209,9 @@ chiv,Categorical,1,hiv,yes
 chiv,Categorical,2,hiv,assumed_not_tested
 chiv,Categorical,3,hiv,no
 chiv,Categorical,9,hiv,dk
-vecarhm,Categorical,1,treatment_outside_home,yes
-vecarhm,Categorical,2,treatment_outside_home,no
-vecarhm,Categorical,9,treatment_outside_home,dk
+vecarhm,Categorical,1,outside_care,yes
+vecarhm,Categorical,2,outside_care,no
+vecarhm,Categorical,9,outside_care,dk
 ctradhea,Categorical,1,treatment_traditional_healer,yes
 ctradhea,Categorical,2,treatment_traditional_healer,no
 ctradhea,Categorical,9,treatment_traditional_healer,dk
@@ -269,28 +269,28 @@ damodio,Categorical,9,amodiaquine,dk
 dchloro,Categorical,1,chloroquine_malaraquin,yes
 dchloro,Categorical,2,chloroquine_malaraquin,no
 dchloro,Categorical,9,chloroquine_malaraquin,dk
-dothersp,Non-categorical,Non-categorical variable,medication_received_specific,
+dothersp,Non-categorical,Non-categorical variable,other_antimalarials,
 noevid,Non-categorical,Non-categorical variable,cause_death_no_evidence,
 dcer,Categorical,1,death_certificate,yes
 dcer,Categorical,2,death_certificate,no
 dcer,Categorical,9,death_certificate,dk
 dccod,Categorical,,cause_death_1,
-veburpm,Categorical,1,burial_permit_issued,yes
-veburpm,Categorical,2,burial_permit_issued,no 
-veburpm,Categorical,9,burial_permit_issued,dk
+veburpm,Categorical,1,burial_permit,yes
+veburpm,Categorical,2,burial_permit,no
+veburpm,Categorical,9,burial_permit,dk
 vebursee,Categorical,1,burial_permit_available,yes
-vebursee,Categorical,2,burial_permit_available,no 
+vebursee,Categorical,2,burial_permit_available,no
 vebursee,Categorical,8,burial_permit_available,dk
 vebpcdth,Categorical,1,death_cause_on_permit,yes
-vebpcdth,Categorical,2,death_cause_on_permit,no 
+vebpcdth,Categorical,2,death_cause_on_permit,no
 vebpcdth,Categorical,8,death_cause_on_permit,dk
-bpcod,Non-categorical,Non-categorical variable,cause_death_1,
+bpcod,Non-categorical,Non-categorical variable,death_cause_burial_permit,
 pm,Categorical,1,post_mortem,yes
-pm,Categorical,2,post_mortem,no 
+pm,Categorical,2,post_mortem,no
 pm,Categorical,9,post_mortem,dk
-pmcd,Categorical,1,death_cause_on_permit,yes
-pmcd,Categorical,2,death_cause_on_permit,no 
-pmcd,Categorical,8,death_cause_on_permit,dk
+pmcd,Categorical,1,death_cause_on_post_mortem,yes
+pmcd,Categorical,2,death_cause_on_post_mortem,no
+pmcd,Categorical,8,death_cause_on_post_mortem,dk
 pmcod,Non-categorical,Non-categorical variable,death_cause_on_permit_specific,
 mch,Categorical,1,mch_card_available,yes
 mch,Categorical,2,mch_card_available,no
@@ -310,10 +310,10 @@ hdf,Categorical,8,hospital_discharge_forms_available,na
 hdf,Categorical,9,hospital_discharge_forms_available,dk
 hdiag,Non-categorical,Non-categorical variable,hospital_diagnosis,
 ohd,Categorical,1,hospital_documents_available,yes
-ohd,Categorical,2,hospital_documents_available,no 
+ohd,Categorical,2,hospital_documents_available,no
 ohd,Categorical,9,hospital_documents_available,dk
 lab,Categorical,1,lab_results_available,yes
-lab,Categorical,2,lab_results_available,no 
+lab,Categorical,2,lab_results_available,no
 lab,Categorical,9,lab_results_available,dk
 hccod,Categorical,1,told_cause_of_death,yes
 hccod,Categorical,2,told_cause_of_death,no
@@ -333,7 +333,7 @@ diarstick,Categorical,9,diarrhea_sticky,dk
 diarblood,Categorical,1,diarrhea_bloody,yes
 diarblood,Categorical,2,diarrhea_bloody,no
 diarblood,Categorical,9,diarrhea_bloody,dk
-diarfluid,Categorical,1,diarrhea_unkonwn,dk
+diarfluid,Categorical,1,diarrhea_unknown,dk
 diarfluid,Categorical,2,diarrhea_lack_fluid,yes
 diarfluid,Categorical,9,diarrhea_lack_fluid,no
 diarseyes,Categorical,1,diarrhea_lack_fluid,dk

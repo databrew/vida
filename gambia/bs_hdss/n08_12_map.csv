@@ -1,9 +1,10 @@
+,,,,
 variable,variable_type,responses,question_standardized,response_standardized
 Q102,Non-categorical,Non-categorical variable,filenumber,
 Q103BLocID,Non-categorical,Non-categorical variable,location_id,
 Q103B,Non-categorical,Non-categorical variable,,
 QA01,Non-categorical,Non-categorical variable,interviewer_initials,
-QA02,Non-categorical,Non-categorical variable,interview_dates,
+QA02,Non-categorical,Non-categorical variable,interview_date,
 QB01,Categorical,1,primary_caregiver,mother
 QB01,Categorical,2,primary_caregiver,father
 QB01,Categorical,3,primary_caregiver,co-wife
@@ -73,9 +74,9 @@ Q302,Non-categorical,3,place_died,en_route_to_hospital
 Q302,Non-categorical,4,place_died,other
 Q302,Non-categorical,5,place_died,dk
 Q302_Specify,Non-categorical,Non-categorical variable,where_died_specific,
-Q303,Categorical,1,told_cause_death,yes
-Q303,Categorical,2,told_cause_death,no
-Q303,Categorical,9,told_cause_death,dk
+Q303,Categorical,1,told_cause_of_death,yes
+Q303,Categorical,2,told_cause_of_death,no
+Q303,Categorical,9,told_cause_of_death,dk
 Q303A,Categorical,1,who_told_cause_death,doctor
 Q303A,Categorical,2,who_told_cause_death,nurse
 Q303A,Categorical,3,who_told_cause_death,dk
@@ -152,7 +153,7 @@ Q505,Non-categorical,Non-categorical variable,months_pregnancy,
 Q506,Categorical,1,mother_tetnus_previous,yes
 Q506,Categorical,2,mother_tetnus_previous,no
 Q506,Categorical,9,mother_tetnus_previous,dk
-Q506A,Non-categorical,Non-categorical variable,number_tetnus_previous_injections,
+Q506A,Non-categorical,Non-categorical variable,mother_tetnus_previous_injections,
 Q507,Categorical,1,mother_tetnus,yes
 Q507,Categorical,2,mother_tetnus,no
 Q507,Categorical,9,mother_tetnus,dk
@@ -185,25 +186,25 @@ Q513A,Non-categorical,Non-categorical variable,days_stop_suckle,
 Q514,Categorical,1,baby_cry,yes
 Q514,Categorical,2,baby_cry,no
 Q514,Categorical,9,baby_cry,dk
-Q515,Categorical,1,baby_stop_cry,yes
-Q515,Categorical,2,baby_stop_cry,no
-Q515,Categorical,0,baby_stop_cry,na
-Q515A,Non-categorical,Non-categorical variable,days_stop_cry,
+Q515,Categorical,1,stop_ability_to_cry,yes
+Q515,Categorical,2,stop_ability_to_cry,no
+Q515,Categorical,0,stop_ability_to_cry,na
+Q515A,Non-categorical,Non-categorical variable,stop_ability_to_cry,
 Q516,Categorical,1,convulsions,yes
 Q516,Categorical,2,convulsions,no
 Q516,Categorical,9,convulsions,dk
 Q517,Categorical,1,unconscious,yes
 Q517,Categorical,2,unconscious,no
 Q517,Categorical,9,unconscious,dk
-Q518,Categorical,1,bulging_fontantelle,yes
-Q518,Categorical,2,bulging_fontantelle,no
-Q518,Categorical,9,bulging_fontantelle,dk
+Q518,Categorical,1,bulging_fontanelle,yes
+Q518,Categorical,2,bulging_fontanelle,no
+Q518,Categorical,9,bulging_fontanelle,dk
 Q519,Categorical,1,yellow_skin,yes
 Q519,Categorical,2,yellow_skin,no
 Q519,Categorical,9,yellow_skin,dk
-Q520,Categorical,1,redness_umbilical_cord_stump,yes
-Q520,Categorical,2,redness_umbilical_cord_stump,no
-Q520,Categorical,9,redness_umbilical_cord_stump,dk
+Q520,Categorical,1,redness_umbilical_cord,yes
+Q520,Categorical,2,redness_umbilical_cord,no
+Q520,Categorical,9,redness_umbilical_cord,dk
 Q521,Categorical,1,skin_red,yes
 Q521,Categorical,2,skin_red,no
 Q521,Categorical,9,skin_red,dk
@@ -230,9 +231,9 @@ Q527,Categorical,2,diarrhea,no
 Q527,Categorical,9,diarrhea,dk
 Q527A,Non-categorical,Non-categorical variable,days_diarrhea,
 Q527B,Non-categorical,Non-categorical variable,times_diarrhea,
-Q527C,Categorical,1,diarrhea_ors,yes
-Q527C,Categorical,2,diarrhea_ors,no
-Q527C,Categorical,9,diarrhea_ors,dk
+Q527C,Categorical,1,diarrhea_given_ors,yes
+Q527C,Categorical,2,diarrhea_given_ors,no
+Q527C,Categorical,9,diarrhea_given_ors,dk
 Q528,Categorical,1,bloody_stool,yes
 Q528,Categorical,2,bloody_stool,no
 Q528,Categorical,9,bloody_stool,dk
@@ -275,9 +276,9 @@ Q603_Specify,Non-categorical,Non-categorical variable,received_medication_for_il
 Q604,Categorical,1,child_visit_clinic,yes
 Q604,Categorical,2,child_visit_clinic,no
 Q604,Categorical,9,child_visit_clinic,dk
-Q605,Categorical,1,child_vaccinated,yes
-Q605,Categorical,2,child_vaccinated,no
-Q605,Categorical,9,child_vaccinated,dk
+Q605,Categorical,1,vaccinated,yes
+Q605,Categorical,2,vaccinated,no
+Q605,Categorical,9,vaccinated,dk
 Q606,Categorical,1,health_card_available,yes
 Q606,Categorical,2,health_card_available,no
 Q606,Categorical,9,health_card_available,dk
@@ -290,11 +291,11 @@ Q608,Categorical,9,death_certificate_issued,dk
 Q609,Categorical,1,see_death_certificate,yes
 Q609,Categorical,2,see_death_certificate,no
 Q609,Categorical,9,see_death_certificate,dk
-Q610,Non-categorical,Non-categorical variable,death_cause_1,
-Q611,Non-categorical,Non-categorical variable,death_cause_2,
-Q612,Non-categorical,Non-categorical variable,death_cause_3,
-Q613,Non-categorical,Non-categorical variable,death_cause_4,
-Q614,Non-categorical,Non-categorical variable,death_cause_5,
+Q610,Non-categorical,Non-categorical variable,cause_death_1,
+Q611,Non-categorical,Non-categorical variable,cause_death_2,
+Q612,Non-categorical,Non-categorical variable,cause_death_3,
+Q613,Non-categorical,Non-categorical variable,cause_death_4,
+Q614,Non-categorical,Non-categorical variable,cause_death_5,
 Comments,Non-categorical,Non-categorical variable,comments,
 Q615,Categorical,1,reliability_of_interview,good
 Q615,Categorical,2,reliability_of_interview,indifferent

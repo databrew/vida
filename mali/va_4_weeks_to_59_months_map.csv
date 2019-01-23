@@ -1,0 +1,455 @@
+variable,variable_type,responses,question_standardized,response_standardized
+meta:instanceID,Non-categorical,Non-categorical variable,,
+Date_interview,Non-categorical,Non-categorical variable,visit_date,
+Site,Non-categorical,Non-categorical variable,site,
+ID_sujet,Non-categorical,Non-categorical variable,filenumber,
+Debut,Non-categorical,Non-categorical variable,start_time,
+Section_1.1:Date_naissance,Non-categorical,Non-categorical variable,date_birth_deceased,
+Section_1.1:Sexe,Categorical,garcon,sex_deceased,male
+Section_1.1:Sexe,Categorical,fille,sex_deceased,female
+Section_1.1:Date_deces,Non-categorical,Non-categorical variable,date_death_deceased,
+Section_1.1:Age_deces,Non-categorical,Non-categorical variable,age_months,
+Section_1.1:Numero_ID,Non-categorical,Non-categorical variable,,
+Section_1.2:Resultat,Categorical,rempli,visit_outcome,completed
+Section_1.2:Resultat,Categorical,autres_resultat,visit_outcome,other
+Section_1.2:Autre_resultat,Non-categorical,Non-categorical variable,visit_outcome_other,
+Section_1.2:Resultat_rempli,Categorical,oui,,
+Section_1.2:Resultat_rempli,Categorical,non,,
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,mere,relationship,mother
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,pere,relationship,father
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,soeur,relationship,sister
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,frere,relationship,brother
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,grandmere,relationship,grandmother
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,grandpere,relationship,grandfather
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,tante,relationship,aunt
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,oncle,relationship,uncle
+Section_1.2.Resultat_rempli_oui.Section_2.Relation,Categorical,pas de relation,relationship,no_relation
+Section_1.2:Resultat_rempli_oui:Section_2:Relation,Categorical,autres,relationship,other
+Section_1.2:Resultat_rempli_oui:Section_2:Autres_relations,Non-categorical,Non-categorical variable,relationship_other,
+Section_1.2:Resultat_rempli_oui:Section_2:Viv_defunt,Categorical,oui,live_with_deceased,yes
+Section_1.2:Resultat_rempli_oui:Section_2:Viv_defunt,Categorical,non,live_with_deceased,no
+Section_1.2:Resultat_rempli_oui:Section_3:Ou_decede,Categorical,hopital,place_died,hospital
+Section_1.2:Resultat_rempli_oui:Section_3:Ou_decede,Categorical,maison,place_died,home
+Section_1.2:Resultat_rempli_oui:Section_3:Ou_decede,Categorical,autres,place_died,other
+Section_1.2:Resultat_rempli_oui:Section_3:Ou_decede,Categorical,centre_sante,place_died,other_health_facility
+Section_1.2:Resultat_rempli_oui:Section_3:Autres_decede,Non-categorical,Non-categorical variable,place_died_specific,
+Section_1.2:Resultat_rempli_oui:Section_3:Decede_centre,Categorical,non,place_died_health_centre,no
+Section_1.2:Resultat_rempli_oui:Section_3:Decede_centre,Categorical,oui,place_died_health_centre,yes
+Section_1.2:Resultat_rempli_oui:Section_3:Code_centre,Non-categorical,Non-categorical variable,health_centre_code,
+Section_1.2:Resultat_rempli_oui:Section_4:Maladie,Non-categorical,Non-categorical variable,account_of_illness,
+Section_1.2:Resultat_rempli_oui:Section_4:Cause1_mort,Non-categorical,Non-categorical variable,cause_death1,
+Section_1.2:Resultat_rempli_oui:Section_4:Cause2_mort,Non-categorical,Non-categorical variable,cause_death2,
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies,Categorical,suivantes,,
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_coeur,Categorical,oui,heart_disease,yes
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_coeur,Categorical,non,heart_disease,no
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_coeur,Categorical,ne_sait_pas,heart_disease,dk
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_diabete,Categorical,oui,diabetes,yes
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_diabete,Categorical,non,diabetes,no
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_diabete,Categorical,ne_sait_pas,diabetes,dk
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_asthme,Categorical,oui,asthma,yes
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_asthme,Categorical,non,asthma,no
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_asthme,Categorical,ne_sait_pas,asthma,dk
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_epilepsie,Categorical,oui,epilepsy,yes
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_epilepsie,Categorical,non,epilepsy,no
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_epilepsie,Categorical,ne_sait_pas,epilepsy,dk
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_malnutrition,Categorical,oui,malnutrition,yes
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_malnutrition,Categorical,non,malnutrition,no
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_malnutrition,Categorical,ne_sait_pas,malnutrition,dk
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_cancer,Categorical,oui,cancer,yes
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_cancer,Categorical,non,cancer,no
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_cancer,Categorical,ne_sait_pas,cancer,dk
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Type_cancer,Non-categorical,Non-categorical variable,cancer_type_specific,
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_tuberculose,Categorical,oui,tb,yes
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_tuberculose,Categorical,non,tb,no
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_tuberculose,Categorical,ne_sait_pas,tb,dk
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_VIH,Categorical,oui,aids,yes
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_VIH,Categorical,non,aids,no
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_VIH,Categorical,ne_sait_pas,aids,dk
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_autre,Categorical,oui,other_illness,yes
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_autre,Categorical,non,other_illness,no
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_autre,Categorical,ne_sait_pas,other_illness,dk
+Section_1.2:Resultat_rempli_oui:Section_5:Maladies_oui:Mal_autre1,Non-categorical,Non-categorical variable,other_illness_specific,
+Section_1.2:Resultat_rempli_oui:Section_6:Blessure,Categorical,non,injury_accident,yes
+Section_1.2:Resultat_rempli_oui:Section_6:Blessure,Categorical,oui,injury_accident,no
+Section_1.2:Resultat_rempli_oui:Section_6:Blessure,Categorical,ne_sait_pas,injury_accident,dk
+Section_1.2:Resultat_rempli_oui:Section_6:Blessure_oui:Type_blessure,Categorical,transport,injury_type,road_accident
+Section_1.2:Resultat_rempli_oui:Section_6:Blessure_oui:Type_blessure,Categorical,chute,injury_type,fall
+Section_1.2:Resultat_rempli_oui:Section_6:Blessure_oui:Type_blessure,Categorical,brulure,injury_type,burn
+Section_1.2:Resultat_rempli_oui:Section_6:Blessure_oui:Type_blessure,Categorical,autre,injury_type,other
+Section_1.2:Resultat_rempli_oui:Section_6:Blessure_oui:Autre_blessure,Non-categorical,Non-categorical variable,injury_type_other,
+Section_1.2:Resultat_rempli_oui:Section_6:Blessure_oui:Blessure_inflge,Categorical,oui,injury_other_inflicted,yes
+Section_1.2:Resultat_rempli_oui:Section_6:Blessure_oui:Blessure_inflge,Categorical,non,injury_other_inflicted,no
+Section_1.2:Resultat_rempli_oui:Section_6:Blessure_oui:Blessure_inflge,Categorical,ne_sait_pas,injury_other_inflicted,dk
+Section_1.2:Resultat_rempli_oui:Section_6:Animal,Categorical,oui,venomous_animal,yes
+Section_1.2:Resultat_rempli_oui:Section_6:Animal,Categorical,non,venomous_animal,no
+Section_1.2:Resultat_rempli_oui:Section_6:Animal,Categorical,ne_sait_pas,venomous_animal,dk
+Section_1.2.Resultat_rempli_oui.Section_6.Type_animal,Categorical,chien,animal_specific,dog
+Section_1.2.Resultat_rempli_oui.Section_6.Type_animal,Categorical,serpent,animal_specific,snake
+Section_1.2.Resultat_rempli_oui.Section_6.Type_animal,Categorical,insecte,animal_specific,insect
+Section_1.2.Resultat_rempli_oui.Section_6.Type_animal,Categorical,ne_sait_pas,animal_specific,dk
+Section_1.2:Resultat_rempli_oui:Section_6:Autre_animal,Non-categorical,Non-categorical variable,animal_other,
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee,Categorical,non,,
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee,Categorical,oui,,
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Petit,Categorical,non,small_at_birth,yes
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Petit,Categorical,oui,small_at_birth,no
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Petit,Categorical,ne_sait_pas,small_at_birth,dk
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Premature,Categorical,non,premature,yes
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Premature,Categorical,oui,premature,no
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Premature,Categorical,ne_sait_pas,premature,dk
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Grossesse_mois,Non-categorical,Non,months_pregnancy,
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Croissance,Categorical,oui,grow_normal_before_illness,yes
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Croissance,Categorical,non,grow_normal_before_illness,no
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Croissance,Categorical,ne_sait_pas,grow_normal_before_illness,dk
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Bombement,Categorical,non,bulging_fontanelle,yes
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Bombement,Categorical,oui,bulging_fontanelle,no
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Bombement,Categorical,ne_sait_pas,bulging_fontanelle,dk
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Jours_bombement,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Jours_bombement,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_7:Plus_annee_oui:Jours_bombement1,Non-categorical,Non-categorical variable,days_bulging_fontanelle,
+Section_1.2:Resultat_rempli_oui:Section_8:Mere_maintenant,Categorical,saine,mother_current_health,healthy
+Section_1.2:Resultat_rempli_oui:Section_8:Mere_maintenant,Categorical,malade,mother_current_health,sick
+Section_1.2:Resultat_rempli_oui:Section_8:Mere_maintenant,Categorical,pas_vie,mother_current_health,died
+Section_1.2:Resultat_rempli_oui:Section_8:Mere_maintenant,Categorical,dk,mother_current_health,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_malade,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_malade,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_malade1,Non-categorical,Non-categorical variable,days_ill_before_death,
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre,Categorical,oui,fever,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre,Categorical,non,fever,no
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre,Categorical,ne_sait_pas,fever,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre_oui:Temps_fievre,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre_oui:Temps_fievre,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre_oui:Jours_fievre,Non-categorical,Non-categorical variable,days_fever,
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre_oui:Fievre_severe,Categorical,oui,fever_severe,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre_oui:Fievre_severe,Categorical,non,fever_severe,no
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre_oui:Fievre_severe,Categorical,ne_sait_pas,fever_severe,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre_oui:Fievre_continue,Categorical,continue,fever_continue,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre_oui:Fievre_continue,Categorical,intermittente,fever_continue,no
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre_oui:Fievre_continue,Categorical,ne_sait_pas,fever_continue,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre_oui:Frissons,Categorical,oui,chills,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre_oui:Frissons,Categorical,non,chills,no
+Section_1.2:Resultat_rempli_oui:Section_8:Fievre_oui:Frissons,Categorical,ne_sait_pas,chills,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Toux,Categorical,oui,cough,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Toux,Categorical,non,cough,no
+Section_1.2:Resultat_rempli_oui:Section_8:Toux,Categorical,ne_sait_pas,cough,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Toux_oui:Temps_toux,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Toux_oui:Temps_toux,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Toux_oui:Temps_toux1,Non-categorical,Non-categorical variable,days_cough,
+Section_1.2:Resultat_rempli_oui:Section_8:Toux_oui:Toux_severe,Categorical,oui,cough_severe,
+Section_1.2:Resultat_rempli_oui:Section_8:Toux_oui:Toux_severe,Categorical,non,cough_severe,
+Section_1.2:Resultat_rempli_oui:Section_8:Toux_oui:Toux_severe,Categorical,ne_sait_pas,cough_severe,
+Section_1.2:Resultat_rempli_oui:Section_8:Toux_oui:Toux_vomi,Categorical,oui,cough_vomit,
+Section_1.2:Resultat_rempli_oui:Section_8:Toux_oui:Toux_vomi,Categorical,non,cough_vomit,
+Section_1.2:Resultat_rempli_oui:Section_8:Toux_oui:Toux_vomi,Categorical,ne_sait_pas,cough_vomit,
+Section_1.2:Resultat_rempli_oui:Section_8:Resp_rapide,Categorical,oui,fast_breathing,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Resp_rapide,Categorical,non,fast_breathing,no
+Section_1.2:Resultat_rempli_oui:Section_8:Resp_rapide,Categorical,ne_sait_pas,fast_breathing,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_resp_rapide,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_resp_rapide,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_resp_rapide1,Non-categorical,Non-categorical variable,days_fast_breathing,
+Section_1.2:Resultat_rempli_oui:Section_8:Difficulte_resp,Categorical,oui,difficulty_breathing,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Difficulte_resp,Categorical,non,difficulty_breathing,no
+Section_1.2:Resultat_rempli_oui:Section_8:Difficulte_resp,Categorical,ne_sait_pas,difficulty_breathing,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_difficulte_resp,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_difficulte_resp,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_difficulte_resp1,Non-categorical,Non-categorical variable,days_difficulty_breathing,
+Section_1.2:Resultat_rempli_oui:Section_8:Tirage,Categorical,oui,chest_pull_in,
+Section_1.2:Resultat_rempli_oui:Section_8:Tirage,Categorical,non,chest_pull_in,
+Section_1.2:Resultat_rempli_oui:Section_8:Tirage,Categorical,ne_sait_pas,chest_pull_in,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_tirage,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_tirage,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_tirage1,Non-categorical,Non-categorical variable,days_chest_pull_in,
+Section_1.2:Resultat_rempli_oui:Section_8:Resp_bruyante,Categorical,oui,noisy_breathing,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Resp_bruyante,Categorical,non,noisy_breathing,no
+Section_1.2:Resultat_rempli_oui:Section_8:Resp_bruyante,Categorical,ne_sait_pas,noisy_breathing,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Ouv_narines,Categorical,oui,flaring_nostrils,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Ouv_narines,Categorical,non,flaring_nostrils,no
+Section_1.2:Resultat_rempli_oui:Section_8:Ouv_narines,Categorical,ne_sait_pas,flaring_nostrils,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee,Categorical,oui,diarrhea,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee,Categorical,non,diarrhea,no
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee,Categorical,ne_sait_pas,diarrhea,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Temps_diarrhee,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Temps_diarrhee,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Temps_diarrhee1,Non-categorical,Non-categorical variable,days_diarrhea,
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Selles,Categorical,selles,,
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Selles,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Selles1,Non-categorical,Non-categorical variable,number_stools_per_day,
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Sang_selles,Categorical,oui,bloody_stool,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Sang_selles,Categorical,non,bloody_stool,no
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Sang_selles,Categorical,ne_sait_pas,bloody_stool,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Deshydrate_diarrhee,Categorical,oui,dehydrated,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Deshydrate_diarrhee,Categorical,non,dehydrated,no
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Deshydrate_diarrhee,Categorical,ne_sait_pas,dehydrated,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Yeux_enfonces,Categorical,oui,sunken_eye,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Yeux_enfonces,Categorical,non,sunken_eye,no
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Yeux_enfonces,Categorical,ne_sait_pas,sunken_eye,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Temps_enfonces,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Temps_enfonces,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Temps_enfonces1,Non-categorical,Non-categorical variable,days_sunken_eye,
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Peau_ridee,Categorical,oui,wrinkled_skin,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Peau_ridee,Categorical,non,wrinkled_skin,no
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Peau_ridee,Categorical,ne_sait_pas,wrinkled_skin,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Liquide_SRO,Categorical,oui,oral_rehydration,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Liquide_SRO,Categorical,non,oral_rehydration,no
+Section_1.2:Resultat_rempli_oui:Section_8:Diarrhee_oui:Liquide_SRO,Categorical,ne_sait_pas,oral_rehydration,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Vomi,Categorical,non,vomit,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Vomi,Categorical,oui,vomit,no
+Section_1.2:Resultat_rempli_oui:Section_8:Vomi,Categorical,ne_sait_pas,vomit,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Vomi_oui:Temps_vomi,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Vomi_oui:Temps_vomi,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Vomi_oui:Temps_vomi1,Non-categorical,Non-categorical variable,days_vomit,
+Section_1.2:Resultat_rempli_oui:Section_8:Vomi_oui:Fois_vomi,Categorical,untitled,,
+Section_1.2:Resultat_rempli_oui:Section_8:Vomi_oui:Fois_vomi,Categorical,fois,,
+Section_1.2:Resultat_rempli_oui:Section_8:Vomi_oui:Fois_vomi1,Non-categorical,Non-categorical variable,times_vomit,
+Section_1.2:Resultat_rempli_oui:Section_8:Douleur_ab,Categorical,oui,abdomen_pain,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Douleur_ab,Categorical,non,abdomen_pain,no
+Section_1.2:Resultat_rempli_oui:Section_8:Douleur_ab,Categorical,ne_sait_pas,abdomen_pain,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Douleur_ab_oui:Temps_douleur_ab,Categorical,jours,days_abdomen_pain,
+Section_1.2:Resultat_rempli_oui:Section_8:Douleur_ab_oui:Temps_douleur_ab,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Douleur_ab_oui:Temps_douleur_ab1,Non-categorical,Non-categorical variable,days_abdomen_pain,
+Section_1.2:Resultat_rempli_oui:Section_8:Douleur_ab_oui:Douleur_ab_severe,Categorical,oui,abdomen_pain_severe,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Douleur_ab_oui:Douleur_ab_severe,Categorical,non,abdomen_pain_severe,no
+Section_1.2:Resultat_rempli_oui:Section_8:Douleur_ab_oui:Douleur_ab_severe,Categorical,ne_sait_pas,abdomen_pain_severe,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Distension_ab,Categorical,oui,protruding_abdomen,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Distension_ab,Categorical,non,protruding_abdomen,no
+Section_1.2:Resultat_rempli_oui:Section_8:Distension_ab,Categorical,ne_sait_pas,protruding_abdomen,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Distension_ab_oui:Temps_distension_ab,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Distension_ab_oui:Temps_distension_ab,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Distension_ab_oui:Temps_distension_ab1,Non-categorical,Non-categorical variable,days_protruding_abdomen,
+Section_1.2:Resultat_rempli_oui:Section_8:Distension_ab_oui:Distension_rapid,Categorical,rapidement,rapidly_protruding_abdomen,rapid
+Section_1.2:Resultat_rempli_oui:Section_8:Distension_ab_oui:Distension_rapid,Categorical,graduellement,rapidly_protruding_abdomen,gradual
+Section_1.2:Resultat_rempli_oui:Section_8:Distension_ab_oui:Distension_rapid,Categorical,ne_sait_pas,rapidly_protruding_abdomen,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Sans_selle,Categorical,oui,no_stool,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Sans_selle,Categorical,non,no_stool,no
+Section_1.2:Resultat_rempli_oui:Section_8:Sans_selle,Categorical,ne_sait_pas,no_stool,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Masse_abdomen,Categorical,oui,abdomen_mass,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Masse_abdomen,Categorical,non,abdomen_mass,no
+Section_1.2:Resultat_rempli_oui:Section_8:Masse_abdomen,Categorical,ne_sait_pas,abdomen_mass,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_masse_ab,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_masse_ab,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_masse_ab1,Non-categorical,Non-categorical variable,days_abdomen_mass,
+Section_1.2:Resultat_rempli_oui:Section_8:Maux_tete,Categorical,oui,headache,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Maux_tete,Categorical,non,headache,no
+Section_1.2:Resultat_rempli_oui:Section_8:Maux_tete,Categorical,ne_sait_pas,headache,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Maux_tete_oui:Temps_mal_tete,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Maux_tete_oui:Temps_mal_tete,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Maux_tete_oui:Temps_mal_tete1,Non-categorical,Non-categorical variable,days_headache,
+Section_1.2:Resultat_rempli_oui:Section_8:Maux_tete_oui:Mal_tete_severe,Categorical,non,severe_headache,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Maux_tete_oui:Mal_tete_severe,Categorical,oui,severe_headache,no
+Section_1.2:Resultat_rempli_oui:Section_8:Cou_raide,Categorical,oui,stiff_neck,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Cou_raide,Categorical,non,stiff_neck,no
+Section_1.2:Resultat_rempli_oui:Section_8:Cou_raide,Categorical,ne_sait_pas,stiff_neck,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_cou_raide,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_cou_raide1,Non-categorical,Non-categorical variable,days_stiff_neck,
+Section_1.2:Resultat_rempli_oui:Section_8:Inconscient,Categorical,non,unconscious,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Inconscient,Categorical,oui,unconscious,no
+Section_1.2:Resultat_rempli_oui:Section_8:Inconscient,Categorical,ne_sait_pas,unconscious,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Inconscient_oui:Temps_inconscient,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Inconscient_oui:Temps_inconscient1,Non-categorical,Non-categorical variable,days_unconscious,
+Section_1.2:Resultat_rempli_oui:Section_8:Inconscient_oui:Inconscience_brusque,Categorical,brusquement,unconscious_sudden,suddenly
+Section_1.2:Resultat_rempli_oui:Section_8:Convulsions,Categorical,oui,convulsions,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Convulsions,Categorical,non,convulsions,no
+Section_1.2:Resultat_rempli_oui:Section_8:Convulsions,Categorical,ne_sait_pas,convulsions,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_convulsions,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_convulsions,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_convulsions1,Non-categorical,Non-categorical variable,days_convulsions,
+Section_1.2:Resultat_rempli_oui:Section_8:Paralyses,Categorical,oui,paralyzed,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Paralyses,Categorical,non,paralyzed,no
+Section_1.2:Resultat_rempli_oui:Section_8:Paralyses,Categorical,ne_sait_pas,paralyzed,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Paralyses_oui:Temps_paralyses,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Paralyses_oui:Temps_paralyses,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Paralyses_oui:Temps_paralyses1,Non-categorical,Non-categorical variable,days_paralyzed,
+Section_1.2:Resultat_rempli_oui:Section_8:Paralyses_oui:Paralysie_brusque,Categorical,brusquement,paralyzed_sudden,suddenly
+Section_1.2:Resultat_rempli_oui:Section_8:Paralyses_oui:Paralysie_brusque,Categorical,lentement,paralyzed_sudden,slowly
+Section_1.2:Resultat_rempli_oui:Section_8:Urine,Categorical,oui,urine_change_amount,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Urine,Categorical,non,urine_change_amount,no
+Section_1.2:Resultat_rempli_oui:Section_8:Urine,Categorical,ne_sait_pas,urine_change_amount,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Urine_oui:Temps_urine,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Urine_oui:Temps_urine,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Urine_oui:Temps_urine1,Non-categorical,Non-categorical variable,days_urine_change,
+Section_1.2:Resultat_rempli_oui:Section_8:Urine_oui:Combien_urine,Categorical,peu,urine_amount,too_little
+Section_1.2:Resultat_rempli_oui:Section_8:Urine_oui:Combien_urine,Categorical,ne_sait_pas,urine_amount,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Urine_oui:Combien_urine,Categorical,beaucoup,urine_amount,too_much
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut,Categorical,oui,rash,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut,Categorical,non,rash,no
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut,Categorical,ne_sait_pas,rash,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut_oui:Temps_erupt_cut,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut_oui:Temps_erupt_cut,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut_oui:Temps_erupt_cut1,Non-categorical,Non-categorical variable,days_rash,
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut_oui:Eruption_sur,Categorical,suivante,,
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut_oui:Eruptions_sur1:Erupt_visage,Categorical,oui,rash_face,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut_oui:Eruptions_sur1:Erupt_visage,Categorical,non,rash_face,no
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut_oui:Eruptions_sur1:Erupt_tronc,Categorical,oui,rash_trunk,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut_oui:Eruptions_sur1:Erupt_tronc,Categorical,non,rash_trunk,no
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut_oui:Eruptions_sur1:Erupt_bras,Categorical,oui,rash_arm_leg,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut_oui:Eruptions_sur1:Erupt_bras,Categorical,non,rash_arm_leg,no
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut_oui:Ressemble_erupt,Categorical,ne_sait_pas,rash_look,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut_oui:Ressemble_erupt,Categorical,pus,rash_look,pus
+Section_1.2:Resultat_rempli_oui:Section_8:Eruptions_cut_oui:Ressemble_erupt,Categorical,liquide_claire,rash_look,clear_fluid
+Section_1.2:Resultat_rempli_oui:Section_8:Yeux_rouges,Categorical,oui,red_eyes,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Yeux_rouges,Categorical,non,red_eyes,no
+Section_1.2:Resultat_rempli_oui:Section_8:Yeux_rouges,Categorical,ne_sait_pas,red_eyes,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Saignait_nez,Categorical,oui,bleed_nose_mouth_anus,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Saignait_nez,Categorical,non,bleed_nose_mouth_anus,no
+Section_1.2:Resultat_rempli_oui:Section_8:Saignait_nez,Categorical,ne_sait_pas,bleed_nose_mouth_anus,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Perdait_poids,Categorical,oui,weight_loss,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Perdait_poids,Categorical,non,weight_loss,no
+Section_1.2:Resultat_rempli_oui:Section_8:Perdait_poids,Categorical,ne_sait_pas,weight_loss,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_poids,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_poids,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_poids1,Non-categorical,Non-categorical variable,days_weight_loss,
+Section_1.2:Resultat_rempli_oui:Section_8:Air_maigre,Categorical,oui,thin,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Air_maigre,Categorical,non,thin,no
+Section_1.2:Resultat_rempli_oui:Section_8:Air_maigre,Categorical,ne_sait_pas,thin,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Plaies_bouche,Categorical,oui,rash_mouth,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Plaies_bouche,Categorical,non,rash_mouth,no
+Section_1.2:Resultat_rempli_oui:Section_8:Plaies_bouche,Categorical,ne_sait_pas,rash_mouth,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_plaies,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_plaies,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_plaies1,Non-categorical,Non-categorical variable,days_rash_mouth,
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions,Categorical,oui,swell,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions,Categorical,non,swell,no
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions,Categorical,ne_sait_pas,swell,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Temps_tumefactions,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Temps_tumefactions1,Non-categorical,Non-categorical variable,days_swell,
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur,Categorical,suivante,,
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_visage,Categorical,oui,swell_face,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_visage,Categorical,non,swell_face,no
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_visage,Categorical,ne_sait_pas,swell_face,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_articulations,Categorical,oui,swell_joints,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_articulations,Categorical,non,swell_joints,no
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_articulations,Categorical,ne_sait_pas,swell_joints,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_chevilles,Categorical,oui,swell_ankle,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_chevilles,Categorical,non,swell_ankle,no
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_chevilles,Categorical,ne_sait_pas,swell_ankle,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_corps,Categorical,oui,swell_body,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_corps,Categorical,non,swell_body,no
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_corps,Categorical,ne_sait_pas,swell_body,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_autre,Categorical,oui,swell_other,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_autre,Categorical,non,swell_other,no
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_autre,Categorical,ne_sait_pas,swell_other,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Tumefactions_oui:Tumefactions_sur1:Tume_autre1,Non-categorical,Non-categorical variable,swell_specific,
+Section_1.2:Resultat_rempli_oui:Section_8:Bosses,Categorical,oui,lumps,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Bosses,Categorical,non,lumps,no
+Section_1.2:Resultat_rempli_oui:Section_8:Bosses,Categorical,ne_sait_pas,lumps,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Bosses_oui:Temps_bosses,Categorical,Variable with 0 responses,,
+Section_1.2:Resultat_rempli_oui:Section_8:Bosses_oui:Temps_bosses1,Non-categorical,Non-categorical variable,days_lumps,
+Section_1.2:Resultat_rempli_oui:Section_8:Bosses_oui:Bosses_sur,Categorical,Variable with 0 responses,,
+Section_1.2:Resultat_rempli_oui:Section_8:Bosses_oui:Bosses_sur1:Bosses_bouche,Categorical,Variable with 0 responses,,
+Section_1.2:Resultat_rempli_oui:Section_8:Bosses_oui:Bosses_sur1:Bosses_cou,Categorical,Variable with 0 responses,,
+Section_1.2:Resultat_rempli_oui:Section_8:Bosses_oui:Bosses_sur1:Bosses_aisselle,Categorical,Variable with 0 responses,,
+Section_1.2:Resultat_rempli_oui:Section_8:Bosses_oui:Bosses_sur1:Bosses_aine,Categorical,Variable with 0 responses,,
+Section_1.2:Resultat_rempli_oui:Section_8:Bosses_oui:Bosses_sur1:Bosses_autre,Categorical,Variable with 0 responses,,
+Section_1.2:Resultat_rempli_oui:Section_8:Bosses_oui:Bosses_sur1:Bosses_autre1,Categorical,Variable with 0 responses,,
+Section_1.2:Resultat_rempli_oui:Section_8:Jaune_yeux,Categorical,oui,yellow_eyes,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Jaune_yeux,Categorical,non,yellow_eyes,no
+Section_1.2:Resultat_rempli_oui:Section_8:Jaune_yeux,Categorical,ne_sait_pas,yellow_eyes,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_jaune_yeux,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_jaune_yeux,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_jaune_yeux1,Non-categorical,Non-categorical variable,days_yellow_eyes,
+Section_1.2:Resultat_rempli_oui:Section_8:Cheveux,Categorical,oui,hair_red_yellow,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Cheveux,Categorical,non,hair_red_yellow,no
+Section_1.2:Resultat_rempli_oui:Section_8:Cheveux,Categorical,ne_sait_pas,hair_red_yellow,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_cheveux,Categorical,untitled,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_cheveux1,Non-categorical,Non-categorical variable,days_red_yellow_hair,
+Section_1.2:Resultat_rempli_oui:Section_8:Pale,Categorical,oui,pale,yes
+Section_1.2:Resultat_rempli_oui:Section_8:Pale,Categorical,non,pale,no
+Section_1.2:Resultat_rempli_oui:Section_8:Pale,Categorical,ne_sait_pas,pale,dk
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_pale,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_pale,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_pale1,Non-categorical,Non-categorical variable,days_pale,
+Section_1.2:Resultat_rempli_oui:Section_9:Vaccine_rougeole,Categorical,oui,vaccinated_measles,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Vaccine_rougeole,Categorical,non,vaccinated_measles,no
+Section_1.2:Resultat_rempli_oui:Section_9:Vaccine_rougeole,Categorical,ne_sait_pas,vaccinated_measles,dk
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_mal,Categorical,oui,treatment,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_mal,Categorical,non,treatment,no
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Liste_medicaments,Non-categorical,Non-categorical variable,treatment_list,
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Type_traitement,Categorical,suivante,,
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Type_traitement1:Traite_liquide,Categorical,oui,iv,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Type_traitement1:Traite_liquide,Categorical,non,iv,no
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Type_traitement1:Traite_liquide,Categorical,ne_sait_pas,iv,dk
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Type_traitement1:Traite_transfusion,Categorical,oui,blood_transfusion,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Type_traitement1:Traite_transfusion,Categorical,non,blood_transfusion,no
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Type_traitement1:Traite_transfusion,Categorical,ne_sait_pas,blood_transfusion,dk
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Type_traitement1:Traite_catheter,Categorical,oui,feed_nose,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Type_traitement1:Traite_catheter,Categorical,non,feed_nose,no
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Type_traitement1:Traite_catheter,Categorical,ne_sait_pas,feed_nose,dk
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Type_traitement1:Traite_autres,Categorical,oui,treatment_other,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Type_traitement1:Traite_autres,Categorical,non,treatment_other,no
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Type_traitement1:Traite_autres,Categorical,ne_sait_pas,treatment_other,dk
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Type_traitement1:Traite_autres1,Non-categorical,Non-categorical variable,treatment_specific,
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement,Categorical,suivante,,
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Maison,Categorical,oui,treatment_home,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Maison,Categorical,non,treatment_home,no
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Guerisseur,Categorical,oui,treatment_traditional_healer,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Guerisseur,Categorical,non,treatment_traditional_healer,no
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Clinique_gouv,Categorical,oui,treatment_government_clinic,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Clinique_gouv,Categorical,non,treatment_government_clinic,no
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Hopital_gouv,Categorical,oui,treatment_government_hospital,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Hopital_gouv,Categorical,non,treatment_government_hospital,no
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Clinique_privee,Categorical,oui,treatment_private_clinic,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Clinique_privee,Categorical,non,treatment_private_clinic,no
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Hopital_prive,Categorical,oui,treatment_private_hospital,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Hopital_prive,Categorical,non,treatment_private_hospital,no
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Pharmacie,Categorical,oui,treatment_pharmacy,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Pharmacie,Categorical,non,treatment_pharmacy,no
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Autre_centre,Categorical,oui,treatment_other_facility,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Autre_centre,Categorical,non,treatment_other_facility,no
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Centres_traitement1:Autre_centre1,Non-categorical,Non-categorical variable,treatment_other_specific,
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Jours_centre_saisi,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Jours_centre_saisi,Categorical,ne_sait_pas,,
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Jours_centre_saisi1,Non-categorical,Non-categorical variable,days_seek_care_after_illness_start,
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Admis_hopital,Categorical,oui,admitted_to_health_facility,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Admis_hopital,Categorical,non,admitted_to_health_facility,no
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Admis_hopital,Categorical,ne_sait_pas,admitted_to_health_facility,dk
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Admis_hopital_oui:Nom_centre,Non-categorical,Non-categorical variable,admitted_to_health_facility_name,
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Admis_hopital_oui:Raison_admis,Non-categorical,Non-categorical variable,admitted_to_health_facility_reason,
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Admis_hopital_oui:Traite_IV,Categorical,oui,health_facility_treated_iv,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Traitement_oui:Admis_hopital_oui:Traite_IV,Categorical,non,health_facility_treated_iv,no
+Section_1.2:Resultat_rempli_oui:Section_9:Contacts,Categorical,oui,health_service_contacts,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Contacts,Categorical,non,health_service_contacts,no
+Section_1.2:Resultat_rempli_oui:Section_9:Contacts,Categorical,ne_sait_pas,health_service_contacts,dk
+Section_1.2:Resultat_rempli_oui:Section_9:Contacts_oui:Contacts_nombre,Categorical,contacts,,
+Section_1.2:Resultat_rempli_oui:Section_9:Contacts_oui:Contacts_nombre1,Non-categorical,Non-categorical variable,contacts_w_health_facility_before_death,
+Section_1.2:Resultat_rempli_oui:Section_9:Contacts_oui:Travailleurs_cause,Categorical,oui,told_cause_of_death,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Contacts_oui:Travailleurs_cause,Categorical,non,told_cause_of_death,no
+Section_1.2:Resultat_rempli_oui:Section_9:Contacts_oui:Travailleurs_cause,Categorical,ne_sait_pas,told_cause_of_death,dk
+Section_1.2:Resultat_rempli_oui:Section_9:Contacts_oui:Agent_cause,Non-categorical,Non-categorical variable,,
+Section_1.2:Resultat_rempli_oui:Section_9:Operation,Categorical,oui,operation,yes
+Section_1.2:Resultat_rempli_oui:Section_9:Operation,Categorical,non,operation,no
+Section_1.2:Resultat_rempli_oui:Section_9:Operation,Categorical,ne_sait_pas,operation,dk
+Section_1.2:Resultat_rempli_oui:Section_9:Operation_oui:Temps_operation,Categorical,jours,,
+Section_1.2:Resultat_rempli_oui:Section_9:Operation_oui:Temps_operation1,Non-categorical,Non-categorical variable,days_operation_before_death,
+Section_1.2:Resultat_rempli_oui:Section_9:Operation_oui:Partie_operation,Categorical,ventre,operation_part,abdomen
+Section_1.2:Resultat_rempli_oui:Section_9:Operation_oui:Partie_operation,Categorical,tete,operation_part,head
+Section_1.2:Resultat_rempli_oui:Section_9:Operation_oui:Autre_partie,Non-categorical,Non-categorical variable,operation_part_specific,
+Section_1.2:Resultat_rempli_oui:Section_10:Certificat,Categorical,oui,death_certificate,yes
+Section_1.2:Resultat_rempli_oui:Section_10:Certificat,Categorical,non,death_certificate,no
+Section_1.2:Resultat_rempli_oui:Section_10:Certificat,Categorical,ne_sait_pas,death_certificate,dk
+Section_1.2:Resultat_rempli_oui:Section_10:Certificat_oui:Voir_certificat,Categorical,oui,see_death_certificate,yes
+Section_1.2:Resultat_rempli_oui:Section_10:Certificat_oui:Voir_certificat,Categorical,non,see_death_certificate,no
+Section_1.2:Resultat_rempli_oui:Section_10:Certificat_oui:Date_certificat,Non-categorical,Non-categorical variable,death_certificate_date_death,
+Section_1.2:Resultat_rempli_oui:Section_10:Certificat_oui:Date_obtention,Non-categorical,Non-categorical variable,death_certificate_issue_date,
+Section_1.2:Resultat_rempli_oui:Section_10:Certificat_oui:Certificat_cause1,Non-categorical,Non-categorical variable,death_cause_on_permit_specific1,
+Section_1.2:Resultat_rempli_oui:Section_10:Certificat_oui:Certificat_cause2,Non-categorical,Non-categorical variable,death_cause_on_permit_specific2,
+Section_1.2:Resultat_rempli_oui:Section_10:Certificat_oui:Certificat_cause3,Non-categorical,Non-categorical variable,death_cause_on_permit_specific3,
+Section_1.2:Resultat_rempli_oui:Section_10:Certificat_oui:Certificat_cause4,Non-categorical,Non-categorical variable,death_cause_on_permit_specific4,
+Section_1.2:Resultat_rempli_oui:Section_11:Autre_rapport,Categorical,yes,health_records,yes
+Section_1.2:Resultat_rempli_oui:Section_11:Autre_rapport,Categorical,no,health_records,no
+Section_1.2:Resultat_rempli_oui:Section_11:Autre_rapport_oui:Permit,Non-categorical,Non-categorical variable,burial_permit,
+Section_1.2:Resultat_rempli_oui:Section_11:Autre_rapport_oui:Autopsie,Non-categorical,Non-categorical variable,post_mortem,
+Section_1.2:Resultat_rempli_oui:Section_11:Autre_rapport_oui:Carte,Non-categorical,Non-categorical variable,mch_anc_card_info,
+Section_1.2:Resultat_rempli_oui:Section_11:Autre_rapport_oui:Ordannance,Non-categorical,Non-categorical variable,hospital_prescription_info,
+Section_1.2:Resultat_rempli_oui:Section_11:Autre_rapport_oui:Carnet,Non-categorical,Non-categorical variable,treatment_card_info,
+Section_1.2:Resultat_rempli_oui:Section_11:Autre_rapport_oui:Decharge,Non-categorical,Non-categorical variable,discharge_info,
+Section_1.2:Resultat_rempli_oui:Section_11:Autre_rapport_oui:Res_laboratoire,Non-categorical,Non-categorical variable,lab_results_info,
+Section_1.2:Resultat_rempli_oui:Section_11:Autre_rapport_oui:Autres_doc,Non-categorical,Non-categorical variable,other_docs_info,
+Section_1.2:Resultat_rempli_oui:Heure_arret,Non-categorical,Non-categorical variable,intervew_stop_time,
+Section_1.2:Resultat_rempli_oui:Observations_int,Non-categorical,Non-categorical variable,,
+Section_1.2:Resultat_rempli_oui:Commentaire,Non-categorical,Non-categorical variable,,
+Section_1.2:Resultat_rempli_oui:Autres_comment,Non-categorical,Non-categorical variable,,
+Section_1.2:Resultat_rempli_oui:Observations_sup,Non-categorical,Non-categorical variable,,
+Nom_int,Non-categorical,Non-categorical variable,interviewer_name,
+Code_int,Non-categorical,Non-categorical variable,interviewer_code,
+Nom_sup,Non-categorical,Non-categorical variable,,
+Code_sup,Non-categorical,Non-categorical variable,qc_staff_code,
+Date,Non-categorical,Non-categorical variable,qc_date,

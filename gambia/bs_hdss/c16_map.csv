@@ -108,11 +108,11 @@ child10087,Categorical,1,non_venomous_animal,yes
 child10087,Categorical,2,non_venomous_animal,no
 child10087,Categorical,3,non_venomous_animal,dk
 child10087,Categorical,4,non_venomous_animal,refuse_to_answer
-child10088,Categorical,1,animal,dog
-child10088,Categorical,2,animal,snake
-child10088,Categorical,3,animal,insect
-child10088,Categorical,4,animal,other
-child10088,Categorical,5,animal,dk
+child10088,Categorical,1,animal_specific,dog
+child10088,Categorical,2,animal_specific,snake
+child10088,Categorical,3,animal_specific,insect
+child10088,Categorical,4,animal_specific,other
+child10088,Categorical,5,animal_specific,dk
 child10089,Categorical,1,burn,yes
 child10089,Categorical,2,burn,no
 child10089,Categorical,3,burn,dk
@@ -376,7 +376,7 @@ child10204,Categorical,2,abdomen_mass,no
 child10204,Categorical,3,abdomen_mass,dk
 child10204,Categorical,4,abdomen_mass,refuse_to_answer
 child10205,Non-categorical,Non-categorical variable,days_abdomen_mass,
-child10206,Non-categorical,Non-categorical variable,months_abdoment_mass,
+child10206,Non-categorical,Non-categorical variable,months_abdomen_mass,
 child10207,Categorical,1,severe_headache,yes
 child10207,Categorical,2,severe_headache,no
 child10207,Categorical,3,severe_headache,dk
@@ -400,10 +400,10 @@ child10215,Categorical,2,unconscious_24_hours,no
 child10215,Categorical,3,unconscious_24_hours,dk
 child10215,Categorical,4,unconscious_24_hours,refuse_to_answer
 child10216,Non-categorical,Non-categorical variable,hours_unconscious,
-child10217,Categorical,1,unconscious_sudden ,yes
-child10217,Categorical,2,unconscious_sudden ,no
-child10217,Categorical,3,unconscious_sudden ,dk
-child10217,Categorical,4,unconscious_sudden ,refuse_to_answer
+child10217,Categorical,1,unconscious_sudden,yes
+child10217,Categorical,2,unconscious_sudden,no
+child10217,Categorical,3,unconscious_sudden,dk
+child10217,Categorical,4,unconscious_sudden,refuse_to_answer
 child10218,Categorical,1,unconscious_continue,yes
 child10218,Categorical,2,unconscious_continue,no
 child10218,Categorical,3,unconscious_continue,dk
@@ -680,10 +680,10 @@ child10368,Categorical,1,late_complications_pregnancy,yes
 child10368,Categorical,2,late_complications_pregnancy,no
 child10368,Categorical,3,late_complications_pregnancy,dk
 child10368,Categorical,4,late_complications_pregnancy,refuse_to_answer
-child10369,Categorical,1,complications_labour_deliery,yes
-child10369,Categorical,2,complications_labour_deliery,no
-child10369,Categorical,3,complications_labour_deliery,dk
-child10369,Categorical,4,complications_labour_deliery,refuse_to_answer
+child10369,Categorical,1,complications_labour_delivery,yes
+child10369,Categorical,2,complications_labour_delivery,no
+child10369,Categorical,3,complications_labour_delivery,dk
+child10369,Categorical,4,complications_labour_delivery,refuse_to_answer
 child10370,Categorical,1,physically_abnormal,yes
 child10370,Categorical,2,physically_abnormal,no
 child10370,Categorical,3,physically_abnormal,dk
@@ -780,10 +780,10 @@ child10431___24,Categorical,0,vitamin_a_3,no
 child10431___24,Categorical,1,vitamin_a_3,yes
 child10431___25,Categorical,0,vitamin_a_4,no
 child10431___25,Categorical,1,vitamin_a_4,yes
-child10432,Categorical,1,oustide_care,yes
-child10432,Categorical,2,oustide_care,no
-child10432,Categorical,3,oustide_care,dk
-child10432,Categorical,4,oustide_care,refuse_to_answer
+child10432,Categorical,1,outside_care,yes
+child10432,Categorical,2,outside_care,no
+child10432,Categorical,3,outside_care,dk
+child10432,Categorical,4,outside_care,refuse_to_answer
 child10433,Categorical,1,where_outside_care,traditional_healer
 child10433,Categorical,2,where_outside_care,homeopath
 child10433,Categorical,3,where_outside_care,religious_leader
@@ -798,10 +798,10 @@ child10433,Categorical,11,where_outside_care,pharmacy
 child10433,Categorical,12,where_outside_care,dk
 child10433,Categorical,13,where_outside_care,refuse_to_answer
 child10434,Non-categorical,Non-categorical variable,name_health_clinic,
-child10435,Categorical,1,told_cause_death,yes
-child10435,Categorical,2,told_cause_death,no
-child10435,Categorical,3,told_cause_death,dk
-child10435,Categorical,4,told_cause_death,refuse_to_answer
+child10435,Categorical,1,told_cause_of_death,yes
+child10435,Categorical,2,told_cause_of_death,no
+child10435,Categorical,3,told_cause_of_death,dk
+child10435,Categorical,4,told_cause_of_death,refuse_to_answer
 child10436,Non-categorical,Non-categorical variable,cause_death,
 child10437,Categorical,1,health_records,yes
 child10437,Categorical,2,health_records,no

@@ -83,9 +83,9 @@ BUS,Categorical,DK,treatment_bush_doctor,dk
 othrecs,Categorical,YES,oral_records_available,yes
 othrecs,Categorical,NO,oral_records_available,no
 othrecs,Categorical,DK,oral_records_available,dk
-veburpm,Categorical,YES,burial_permit_issued,yes
-veburpm,Categorical,NO,burial_permit_issued,no
-veburpm,Categorical,DK,burial_permit_issued,dk
+veburpm,Categorical,YES,burial_permit,yes
+veburpm,Categorical,NO,burial_permit,no
+veburpm,Categorical,DK,burial_permit,dk
 vebursee,Categorical,BURIAL PERMIT NOT AVAILABLE,burial_permit_available,not_available
 vebursee,Categorical,"YES,AVAILABLE",burial_permit_available,available
 vebursee,Categorical,NA,burial_permit_available,na
@@ -104,7 +104,7 @@ mch,Categorical,YES,mch_card_available,yes
 mch,Categorical,NO,mch_card_available,no
 mch,Categorical,DK,mch_card_available,dk
 mch,Categorical,NA,mch_card_available,na
-mchaanc_extract,Non-categorical,Non-categorical variable,mch_card_information,
+mchaanc_extract,Non-categorical,Non-categorical variable,mch_anc_card_info,
 hpr,Categorical,YES,hospital_prescriptions_available,yes
 hpr,Categorical,NO,hospital_prescriptions_available,no
 hpr,Categorical,DK,hospital_prescriptions_available,dk
@@ -112,7 +112,7 @@ hprrel,Non-categorical,Non-categorical variable,hospital_prescriptions_informati
 tcd,Categorical,YES,treatment_card_available,yes
 tcd,Categorical,NO,treatment_card_available,no
 tcd,Categorical,DK,treatment_card_available,dk
-tcdrel,Non-categorical,Non-categorical variable,treatment_card_information,
+tcdrel,Non-categorical,Non-categorical variable,treatment_card_info,
 hdf,Categorical,YES,hospital_discharge_forms_available,yes
 hdf,Categorical,NO,hospital_discharge_forms_available,no
 hdf,Categorical,DK,hospital_discharge_forms_available,dk
@@ -143,20 +143,20 @@ Injother,Non-categorical,Non-categorical variable,injury_type_specific,
 Injty,Categorical,YES,injury_intentional,yes
 Injty,Categorical,NO,injury_intentional,no
 Injty,Categorical,DK,injury_intentional,dk
-Insbite,Categorical,YES,insect_bite,yes
-Insbite,Categorical,NO,insect_bite,no
-Insbite,Categorical,DK,insect_bite,dk
-Animal,Categorical,DOG,animal,dog
-Animal,Categorical,SNAKE,animal,snake
-Animal,Categorical,INSECT,animal,insect
-Animal,Categorical,DK,animal,dk
+Insbite,Categorical,YES,animal,yes
+Insbite,Categorical,NO,animal,no
+Insbite,Categorical,DK,animal,dk
+Animal,Categorical,DOG,animal_specific,dog
+Animal,Categorical,SNAKE,animal_specific,snake
+Animal,Categorical,INSECT,animal_specific,insect
+Animal,Categorical,DK,animal_specific,dk
 Animaloth,Non-categorical,Non-categorical variable,animal_other,
 Sui,Categorical,YES,suicide,yes
 Sui,Categorical,NO,suicide,no
 Sui,Categorical,DK,suicide,dk
-Inflictinj,Categorical,YES,injury_intentionally_inflicted,yes
-Inflictinj,Categorical,NO,injury_intentionally_inflicted,no
-Inflictinj,Categorical,DK,injury_intentionally_inflicted,dk
+Inflictinj,Categorical,YES,injury_other_inflicted,yes
+Inflictinj,Categorical,NO,injury_other_inflicted,no
+Inflictinj,Categorical,DK,injury_other_inflicted,dk
 Acp,Categorical,YES,accidentally_poisoned,yes
 Acp,Categorical,NO,accidentally_poisoned,no
 Acp,Categorical,DK,accidentally_poisoned,dk
@@ -185,7 +185,7 @@ Drugs,Categorical,NO,drugs_given_for_illness,no
 Drugs,Categorical,DK,drugs_given_for_illness,dk
 Vechospital,Non-categorical,Non-categorical variable,name_of_hospital,
 Otvechosp,Non-categorical,Non-categorical variable,name_of_hospital_other,
-vecarhpn,Non-categorical,Non-categorical variable,nights_spent_in_hospital,
+vecarhpn,Non-categorical,Non-categorical variable,nights_in_hospital,
 Contact,Non-categorical,Non-categorical variable,contacts_w_health_facility_before_death,
 Hccod,Categorical,YES,told_cause_of_death,yes
 Hccod,Categorical,NO,told_cause_of_death,no
@@ -205,10 +205,7 @@ Medi,Categorical,ANTIMALARIAL,medication_received,antimalarial
 Medi,Categorical,ANTIBIOTICS,medication_received,antibiotics
 Medi,Categorical,ARVS,medication_received,arvs
 Medi,Categorical,BLOOD TRANSFUSION,medication_received,blood_transfusion
-vetbna,Categorical,YES,,
-vetbna,Categorical,NO,,
-vetbna,Categorical,DK,,
-vetbna,Categorical,NA,,
+vetbna,Categorical,NA,facility_tb_drugs_na,
 cantyp,Categorical,CERVIX,cancer_type,cervix
 cantyp,Categorical,BREAST,cancer_type,breast
 cantyp,Categorical,PROSTATE,cancer_type,prostate
@@ -217,7 +214,7 @@ cantyp,Categorical,PANCREAS,cancer_type,pancreas
 cantyp,Categorical,BONE,cancer_type,bone
 cantyp,Categorical,OTHER,cancer_type,other
 cantyp,Categorical,DK,cancer_type,dk
-cantypo,Categorical,Non-categorical variable,cancer_specific,
+cantypo,Non-categorical,Non-categorical variable,cancer_type_specific,
 smallsiz,Categorical,YES,small_size,yes
 smallsiz,Categorical,NO,small_size,no
 smallsiz,Categorical,DK,small_size,dk
@@ -279,9 +276,9 @@ mfe,Non-categorical,Non-categorical variable,months_fever,
 serverefev,Categorical,YES,fever_severe,yes
 serverefev,Categorical,NO,fever_severe,no
 serverefev,Categorical,DK,fever_severe,dk
-tfe,Categorical,CONTINOUS,fever_continous,continuous
-tfe,Categorical,ON AND OFF,fever_continous,on_off
-tfe,Categorical,DK,fever_continous,dk
+tfe,Categorical,CONTINOUS,fever_continue,continuous
+tfe,Categorical,ON AND OFF,fever_continue,on_off
+tfe,Categorical,DK,fever_continue,dk
 chills,Categorical,YES,chills,yes
 chills,Categorical,NO,chills,no
 chills,Categorical,DK,chills,dk
@@ -306,7 +303,7 @@ cotype,Categorical,dco,cough_type,dry
 cotype,Categorical,pco,cough_type,productive
 cotype,Categorical,blco,cough_type,with_blood
 cotype,Categorical,none,cough_type,none
-cotype,Categorical,dk,cough_specific,dk
+cotype,Categorical,dk,cough_type,dk
 vesfbth,Categorical,YES,difficulty_breathing,yes
 vesfbth,Categorical,NO,difficulty_breathing,no
 vesfbth,Categorical,DK,difficulty_breathing,dk
@@ -317,7 +314,7 @@ vesdbth,Categorical,YES,breathlessness,yes
 vesdbth,Categorical,NO,breathlessness,no
 vesdbth,Categorical,DK,breathlessness,dk
 vesdbthd,Non-categorical,Non-categorical variable,days_breathlessness,
-vesdbthm,Non-categorical,Non-categorical variable,moths_breathlessness,
+vesdbthm,Non-categorical,Non-categorical variable,months_breathlessness,
 vesin,Categorical,YES,chest_pull_in,yes
 vesin,Categorical,NO,chest_pull_in,no
 vesin,Categorical,DK,chest_pull_in,dk
@@ -326,14 +323,14 @@ vesinm,Non-categorical,Non-categorical variable,months_chest_pull_in,
 grunt,Categorical,YES,noisy_breathing,yes
 grunt,Categorical,NO,noisy_breathing,no
 grunt,Categorical,DK,noisy_breathing,dk
-noseflar,Categorical,YES,flaring_nostril,yes
-noseflar,Categorical,NO,flaring_nostril,no
-noseflar,Categorical,DK,flaring_nostril,dk
+noseflar,Categorical,YES,flaring_nostrils,yes
+noseflar,Categorical,NO,flaring_nostrils,no
+noseflar,Categorical,DK,flaring_nostrils,dk
 diar,Categorical,YES,diarrhea,yes
 diar,Categorical,NO,diarrhea,no
 diar,Categorical,DK,diarrhea,dk
 ddia,Non-categorical,Non-categorical variable,days_diarrhea,
-mdia,Non-categorical,Non-categorical variable,moths_diarrhea,
+mdia,Non-categorical,Non-categorical variable,months_diarrhea,
 tdiar,Non-categorical,Non-categorical variable,times_passed_stool,
 diarliq,Categorical,YES,diarrhea_thick_liquid,yes
 diarliq,Categorical,NO,diarrhea_thick_liquid,no
@@ -419,10 +416,10 @@ lcsn,Categorical,NO,unconscious,no
 lcsn,Categorical,DK,unconscious,dk
 dlcsn,Non-categorical,Non-categorical variable,days_unconscious,
 mlcsn,Non-categorical,Non-categorical variable,months_unconscious,
-sduc,Categorical,WITHIN A DAY(FAST),unconscious_sudden ,within_a_day
-sduc,Categorical,SLOWLY(MANY DAYS),unconscious_sudden ,many_days
-sduc,Categorical,SUDDENLY,unconscious_sudden ,suddenly
-sduc,Categorical,DK,unconscious_sudden ,dk
+sduc,Categorical,WITHIN A DAY(FAST),unconscious_sudden,within_a_day
+sduc,Categorical,SLOWLY(MANY DAYS),unconscious_sudden,many_days
+sduc,Categorical,SUDDENLY,unconscious_sudden,suddenly
+sduc,Categorical,DK,unconscious_sudden,dk
 fit,Categorical,YES,convulsions,yes
 fit,Categorical,NO,convulsions,no
 fit,Categorical,DK,convulsions,dk
@@ -482,10 +479,10 @@ rashtrunk,Categorical,DK,rash_trunk,dk
 rsharmleg,Categorical,YES,rash_arm_leg,yes
 rsharmleg,Categorical,NO,rash_arm_leg,no
 rsharmleg,Categorical,DK,rash_arm_leg,dk
-lrash,Categorical,MEASLES RASH,rash_look_like,measles_rash
-lrash,Categorical,RASH WITH CLEAR FLUID,rash_look_like,rash_clear_fluid
-lrash,Categorical,DK,rash_look_like,dk
-lrash,Categorical,RASH WITH PUS,rash_look_like,rash_pus
+lrash,Categorical,MEASLES RASH,rash_look,measles_rash
+lrash,Categorical,RASH WITH CLEAR FLUID,rash_look,rash_clear_fluid
+lrash,Categorical,DK,rash_look,dk
+lrash,Categorical,RASH WITH PUS,rash_look,rash_pus
 reyes,Categorical,YES,red_eyes,yes
 reyes,Categorical,NO,red_eyes,no
 reyes,Categorical,DK,red_eyes,dk
@@ -505,11 +502,11 @@ msr,Categorical,NO,rash_mouth,no
 msr,Categorical,DK,rash_mouth,dk
 dmsr,Non-categorical,Non-categorical variable,days_rash_mouth,
 mmsr,Non-categorical,Non-categorical variable,months_rash_mouth,
-saa,Categorical,YES,swelling,yes
-saa,Categorical,NO,swelling,no
-saa,Categorical,DK,swelling,dk
-dsaa,Non-categorical,Non-categorical variable,days_swelling,
-msaa,Non-categorical,Non-categorical variable,months_swelling,
+saa,Categorical,YES,swell,yes
+saa,Categorical,NO,swell,no
+saa,Categorical,DK,swell,dk
+dsaa,Non-categorical,Non-categorical variable,days_swell,
+msaa,Non-categorical,Non-categorical variable,months_swell,
 swelface,Categorical,YES,swell_face,yes
 swelface,Categorical,NO,swell_face,no
 swelface,Categorical,DK,swell_face,dk
@@ -577,10 +574,10 @@ chiv,Categorical,"YES, HIV TESTED AND POSITIVE",hiv,yes
 chiv,Categorical,ASSUMED HIV POSITIVE BUT NOT TESTED,hiv,assumed_not_tested
 chiv,Categorical,NOT HIV INFECTED,hiv,no
 chiv,Categorical,DK,hiv,dk
-tbcont,Categorical,YES,caregiver_tb_diagnosed,yes
-tbcont,Categorical,NO,caregiver_tb_diagnosed,no
-tbcont,Categorical,NA,caregiver_tb_diagnosed,na
-tbcont,Categorical,DK,caregiver_tb_diagnosed,dk
+tbcont,Categorical,YES,mother_tb_diagnosed,yes
+tbcont,Categorical,NO,mother_tb_diagnosed,no
+tbcont,Categorical,NA,mother_tb_diagnosed,na
+tbcont,Categorical,DK,mother_tb_diagnosed,dk
 odis,Categorical,YES,suffer_chronic_illness,yes
 odis,Categorical,NO,suffer_chronic_illness,no
 odis,Categorical,DK,suffer_chronic_illness,dk

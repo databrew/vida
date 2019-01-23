@@ -89,11 +89,11 @@ neonate10087,Categorical,1,non_venomous_animal,yes
 neonate10087,Categorical,2,non_venomous_animal,no
 neonate10087,Categorical,3,non_venomous_animal,dk
 neonate10087,Categorical,4,non_venomous_animal,refuse_to_answer
-neonate10088,Categorical,1,animal,dog
-neonate10088,Categorical,2,animal,snake
-neonate10088,Categorical,3,animal,insect
-neonate10088,Categorical,4,animal,other
-neonate10088,Categorical,5,animal,dk
+neonate10088,Categorical,1,animal_specific,dog
+neonate10088,Categorical,2,animal_specific,snake
+neonate10088,Categorical,3,animal_specific,insect
+neonate10088,Categorical,4,animal_specific,other
+neonate10088,Categorical,5,animal_specific,dk
 neonate10089,Categorical,1,burn,yes
 neonate10089,Categorical,2,burn,no
 neonate10089,Categorical,3,burn,dk
@@ -150,11 +150,11 @@ neonate10105,Categorical,1,baby_cry_after_birth,yes
 neonate10105,Categorical,2,baby_cry_after_birth,no
 neonate10105,Categorical,3,baby_cry_after_birth,dk
 neonate10105,Categorical,4,baby_cry_after_birth,refuse_to_answer
-neonate10106,Non-categorical,Non-categorical variable,minutes_after_birth_baby_cry,
-neonate10107,Categorical,1,stop_cry,yes
-neonate10107,Categorical,2,stop_cry,no
-neonate10107,Categorical,3,stop_cry,dk
-neonate10107,Categorical,4,stop_cry,refuse_to_answer
+neonate10106,Non-categorical,Non-categorical variable,minutes_baby_cry,
+neonate10107,Categorical,1,stop_ability_to_cry,yes
+neonate10107,Categorical,2,stop_ability_to_cry,no
+neonate10107,Categorical,3,stop_ability_to_cry,dk
+neonate10107,Categorical,4,stop_ability_to_cry,refuse_to_answer
 neonate10108,Non-categorical,Non-categorical variable,hours_before_death_stop_cry,
 neonate10109,Categorical,1,baby_move,yes
 neonate10109,Categorical,2,baby_move,no
@@ -399,10 +399,10 @@ neonate10290,Categorical,1,appear_healthy,yes
 neonate10290,Categorical,2,appear_healthy,no
 neonate10290,Categorical,3,appear_healthy,dk
 neonate10290,Categorical,4,appear_healthy,refuse_to_answer
-neonate10347,Categorical,1,born_more_than_one_month_early,yes
-neonate10347,Categorical,2,born_more_than_one_month_early,no
-neonate10347,Categorical,3,born_more_than_one_month_early,dk
-neonate10347,Categorical,4,born_more_than_one_month_early,refuse_to_answer
+neonate10347,Categorical,1,premature,yes
+neonate10347,Categorical,2,premature,no
+neonate10347,Categorical,3,premature,dk
+neonate10347,Categorical,4,premature,refuse_to_answer
 neonate10351,Non-categorical,Non-categorical variable,age_illness_start,
 neonate10354,Categorical,1,multiple_birth,yes
 neonate10354,Categorical,2,multiple_birth,no
@@ -452,10 +452,10 @@ neonate10368,Categorical,1,late_complications_pregnancy,yes
 neonate10368,Categorical,2,late_complications_pregnancy,no
 neonate10368,Categorical,3,late_complications_pregnancy,dk
 neonate10368,Categorical,4,late_complications_pregnancy,refuse_to_answer
-neonate10369,Categorical,1,complications_labour_deliery,yes
-neonate10369,Categorical,2,complications_labour_deliery,no
-neonate10369,Categorical,3,complications_labour_deliery,dk
-neonate10369,Categorical,4,complications_labour_deliery,refuse_to_answer
+neonate10369,Categorical,1,complications_labour_delivery,yes
+neonate10369,Categorical,2,complications_labour_delivery,no
+neonate10369,Categorical,3,complications_labour_delivery,dk
+neonate10369,Categorical,4,complications_labour_delivery,refuse_to_answer
 neonate10370,Categorical,1,physically_abnormal,yes
 neonate10370,Categorical,2,physically_abnormal,no
 neonate10370,Categorical,3,physically_abnormal,dk
@@ -517,7 +517,7 @@ neonate10393,Categorical,1,mother_tetnus,yes
 neonate10393,Categorical,2,mother_tetnus,no
 neonate10393,Categorical,3,mother_tetnus,dk
 neonate10393,Categorical,4,mother_tetnus,refuse_to_answer
-neonate10394,Non-categorical,Non-categorical variable,total_number_births,
+neonate10394,Non-categorical,Non-categorical variable,number_previous_births,
 neonate10395,Categorical,1,mother_fever,yes
 neonate10395,Categorical,2,mother_fever,no
 neonate10395,Categorical,3,mother_fever,dk
@@ -646,9 +646,9 @@ neonate10431___22,Categorical,0,vitamin_a_1,no
 neonate10431___23,Categorical,0,vitamin_a_2,no
 neonate10431___24,Categorical,0,vitamin_a_3,no
 neonate10431___25,Categorical,0,vitamin_a_4,no
-neonate10432,Categorical,1,oustide_care,yes
-neonate10432,Categorical,2,oustide_care,no
-neonate10432,Categorical,3,oustide_care,dk
+neonate10432,Categorical,1,outside_care,yes
+neonate10432,Categorical,2,outside_care,no
+neonate10432,Categorical,3,outside_care,dk
 neonate10433,Categorical,1,where_outside_care,traditional_healer
 neonate10433,Categorical,2,where_outside_care,homeopath
 neonate10433,Categorical,3,where_outside_care,religious_leader
@@ -663,10 +663,10 @@ neonate10433,Categorical,11,where_outside_care,pharmacy
 neonate10433,Categorical,12,where_outside_care,dk
 neonate10433,Categorical,13,where_outside_care,refuse_to_answer
 neonate10434,Non-categorical,Non-categorical variable,name_health_clinic,
-neonate10435,Categorical,1,told_cause_death,yes
-neonate10435,Categorical,2,told_cause_death,no
-neonate10435,Categorical,3,told_cause_death,dk
-neonate10435,Categorical,4,told_cause_death,refuse_to_answer
+neonate10435,Categorical,1,told_cause_of_death,yes
+neonate10435,Categorical,2,told_cause_of_death,no
+neonate10435,Categorical,3,told_cause_of_death,dk
+neonate10435,Categorical,4,told_cause_of_death,refuse_to_answer
 neonate10436,Non-categorical,Non-categorical variable,cause_death,
 neonate10437,Categorical,1,health_records,yes
 neonate10437,Categorical,2,health_records,no

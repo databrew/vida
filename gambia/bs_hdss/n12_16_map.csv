@@ -24,10 +24,10 @@ Q1A110,Categorical,1,sex_deceased,female
 Q1A110,Categorical,2,sex_deceased,male
 Q1A200,Categorical,1,date_birth_known,yes
 Q1A200,Categorical,2,date_birth_known,no
-Q1A210,Non-categorical,Non-categorical variable,date_birth,
+Q1A210,Non-categorical,Non-categorical variable,date_birth_deceased,
 Q1A220,Categorical,1,date_death_known,yes
 Q1A220,Categorical,2,date_death_known,no
-Q1A230,Non-categorical,Non-categorical variable,date_death,
+Q1A230,Non-categorical,Non-categorical variable,date_death_deceased,
 Q1A240_choice,Categorical,1,age_years,
 Q1A240_choice,Categorical,2,age_months,
 Q1A240_choicevalue,Non-categorical,Non-categorical variable,age,
@@ -117,15 +117,15 @@ Q3D110,Categorical,9,complications_labour_delivery,dk
 Q3D560,Categorical,1,birth_health_facility,yes
 Q3D560,Categorical,2,birth_health_facility,no
 Q3D560,Categorical,9,birth_health_facility,dk
-Q3D570,Categorical,1,birh_home,yes
-Q3D570,Categorical,2,birh_home,no
-Q3D570,Categorical,9,birh_home,dk
+Q3D570,Categorical,1,birth_home,yes
+Q3D570,Categorical,2,birth_home,no
+Q3D570,Categorical,9,birth_home,dk
 Q3D580,Categorical,1,birth_other_location,yes
 Q3D580,Categorical,2,birth_other_location,no
 Q3D580,Categorical,9,birth_other_location,dk
-Q3D590,Categorical,1,assisted_for_delivery,yes
-Q3D590,Categorical,2,assisted_for_delivery,no
-Q3D590,Categorical,9,assisted_for_delivery,dk
+Q3D590,Categorical,1,mother_assisted,yes
+Q3D590,Categorical,2,mother_assisted,no
+Q3D590,Categorical,9,mother_assisted,dk
 Q3D120,Categorical,1,born_24_hours_after_water_broke,yes
 Q3D120,Categorical,2,born_24_hours_after_water_broke,no
 Q3D120,Categorical,9,born_24_hours_after_water_broke,dk
@@ -228,7 +228,7 @@ Q3E250,Categorical,9,counterpart_pedal_cycle,dk
 Q3E260,Categorical,1,counterpart_other,yes
 Q3E260,Categorical,2,counterpart_other,no
 Q3E260,Categorical,9,counterpart_other,dk
-Q3E260_specify,Non-categorical,Non-categorical variable,injury_other,
+Q3E260_specify,Non-categorical,Non-categorical variable,injury_type_other,
 Q3E300,Categorical,1,non_road_accident,yes
 Q3E300,Categorical,2,non_road_accident,no
 Q3E300,Categorical,9,non_road_accident,dk
@@ -278,10 +278,10 @@ Q3E630,Categorical,1,struck,yes
 Q3E630,Categorical,2,struck,no
 Q3E630,Categorical,9,struck,dk
 Q3A280,Categorical,1,died_wet_season,yes
-Q3A280,Categorical,2,died_wet_season,no 
+Q3A280,Categorical,2,died_wet_season,no
 Q3A280,Categorical,9,died_wet_season,dk
 Q3A290,Categorical,1,died_dry_season,yes
-Q3A290,Categorical,2,died_dry_season,no 
+Q3A290,Categorical,2,died_dry_season,no
 Q3A290,Categorical,9,died_dry_season,dk
 Q3A300_choice,Non-categorical,Non-categorical variable,days_ill_before_death,
 Q3A300,Non-categorical,Non-categorical variable,weeks_ill_before_death,
