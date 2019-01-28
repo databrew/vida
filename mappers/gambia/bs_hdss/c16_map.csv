@@ -1,4 +1,4 @@
-variable,variable_type,responses,question_standardized,response_standarized
+variable,variable_type,responses,question_standardized,response_standardized
 dssid,Non-categorical,Non-categorical variable,filenumber,
 child10004,Categorical,2,season,dry
 child10004,Categorical,1,season,wet

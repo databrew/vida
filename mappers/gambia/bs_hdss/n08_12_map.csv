@@ -1,4 +1,3 @@
-,,,,
 variable,variable_type,responses,question_standardized,response_standardized
 Q102,Non-categorical,Non-categorical variable,filenumber,
 Q103BLocID,Non-categorical,Non-categorical variable,location_id,

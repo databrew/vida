@@ -5,13 +5,13 @@ library(readstata13)
 use_data_raw()
 
 # Read in kenya translation dictionaries
-files <- dir('../kenya/')
+files <- dir('../mappers/kenya/')
 out <- list()
 for(i in 1:length(files)){
   message('file ', i, ' of ', length(files))
   this_file <- files[i]
   this_format <- gsub('_map.csv', '', this_file, fixed = TRUE)
-  this_data <- read_csv(paste0('../kenya/', 
+  this_data <- read_csv(paste0('../mappers/kenya/', 
                                this_file)) %>%
     mutate(country = 'kenya') %>%
     mutate(format = this_format)
@@ -29,7 +29,7 @@ mapper_kenya <- bind_rows(out)
 
 
 # Read in mali translation dictionaries
-files <- dir('../mali_data/', recursive = T)
+files <- dir('../mappers/mali/', recursive = T)
 files <- files[grepl('csv', files) & grepl('map', files)]
 out <- list()
 for(i in 1:length(files)){
@@ -38,7 +38,7 @@ for(i in 1:length(files)){
   this_format <- gsub('_map.csv', '', this_file, fixed = TRUE)
   this_format <- strsplit(this_format, '/', fixed = T)
   this_format <- unlist(lapply(this_format, function(x){x[2]}))
-  this_data <- read_csv(paste0('../mali_data/', 
+  this_data <- read_csv(paste0('../mappers/mali/', 
                                this_file)) %>%
     mutate(country = 'mali') %>%
     mutate(format = this_format)
@@ -52,9 +52,42 @@ for(i in 1:length(files)){
   out[[i]] <- this_data
 }
 mapper_mali <- bind_rows(out)
+
+
+# Read in gambia translation dictionaries
+files <- dir('../mappers/gambia/', recursive = T)
+files <- files[grepl('csv', files) & grepl('map', files)]
+out <- list()
+for(i in 1:length(files)){
+  message('file ', i, ' of ', length(files))
+  this_file <- files[i]
+  this_format <- gsub('_map.csv', '', this_file, fixed = TRUE)
+  this_format <- strsplit(this_format, '/', fixed = T)
+  this_format <- unlist(lapply(this_format, function(x){x[2]}))
+  this_data <- read_csv(paste0('../mappers/gambia/', 
+                               this_file)) %>%
+    mutate(country = 'gambia') %>%
+    mutate(format = this_format)
+  if('response_standarized' %in% names(this_data)){
+    message(i)
+    message('!!!!!!!!!!!!!!!!!!!!!!')
+  }
+  # remove extra columns
+  xs <- substr(names(out), 1,1) == 'X'
+  if(length(xs) > 0){
+    if(any(xs)){
+      this_data <- this_data[,!xs]
+    }
+  }
+  out[[i]] <- this_data
+}
+mapper_gambia <- bind_rows(out)
+# NEED TO FIX COLUMN NAMES IN ABOVE
+
 mapper <- 
   bind_rows(mapper_mali,
-            mapper_kenya)
+            mapper_kenya,
+            mapper_gambia)
 usethis::use_data(mapper, overwrite = TRUE)
 
 
