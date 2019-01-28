@@ -7,7 +7,7 @@ library(readr)
 
 ##### MALI #######
 
-setwd('/Users/xing/Documents/vida/mali_data')
+setwd('mali_data')
 
 # read in 
 champs1 <- read_csv('CHAMPS_Verbal_Autopsy_Form_results.csv')

@@ -1,5 +1,5 @@
 
-setwd("/Users/xing/Documents/NEW_DATA/")
+setwd("NEW_DATA/")
 
 
 library(readstata13)

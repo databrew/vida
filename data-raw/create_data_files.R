@@ -36,8 +36,8 @@ for(i in 1:length(files)){
   message('file ', i, ' of ', length(files))
   this_file <- files[i]
   this_format <- gsub('_map.csv', '', this_file, fixed = TRUE)
-  this_format <- strsplit(this_format, '/', fixed = T)
-  this_format <- unlist(lapply(this_format, function(x){x[2]}))
+  # this_format <- strsplit(this_format, '/', fixed = T)
+  # this_format <- unlist(lapply(this_format, function(x){x[2]}))
   this_data <- read_csv(paste0('../mappers/mali/', 
                                this_file)) %>%
     mutate(country = 'mali') %>%
@@ -68,10 +68,6 @@ for(i in 1:length(files)){
                                this_file)) %>%
     mutate(country = 'gambia') %>%
     mutate(format = this_format)
-  if('response_standarized' %in% names(this_data)){
-    message(i)
-    message('!!!!!!!!!!!!!!!!!!!!!!')
-  }
   # remove extra columns
   xs <- substr(names(out), 1,1) == 'X'
   if(length(xs) > 0){
@@ -88,8 +84,12 @@ mapper <-
   bind_rows(mapper_mali,
             mapper_kenya,
             mapper_gambia)
-usethis::use_data(mapper, overwrite = TRUE)
 
+# Hard code some fixes
+mapper$question_standardized[mapper$question_standardized == 'antriretroviral'] <- 'antiretroviral'
+
+
+usethis::use_data(mapper, overwrite = TRUE)
 
 # Create fake data
 fake <- readstata13::read.dta13('../data_original/Kenya/WHO2010_FORM2.dta')
@@ -101,6 +101,7 @@ for(j in 1:ncol(fake)){
 }
 usethis::use_data(fake, overwrite = TRUE)
 
+# Fake mali data
 fake <- readxl::read_excel('../data_original/Mali/child_Mali.xlsx')
 # Anonymize
 fake <- data.frame(fake)
@@ -115,5 +116,42 @@ for(j in 1:ncol(fake)){
 fake_mali <- fake
 usethis::use_data(fake_mali, overwrite = TRUE)
 
+
+# Fake gambia data
+fake <- readxl::read_excel('../data_original/Gambia/bs_hdss/VA_Neonates_Indepth_2008-2012.xlsx')
+# Anonymize
+fake <- data.frame(fake)
+for(j in 1:ncol(fake)){
+  message(j)
+  values <- sort(unique(fake[,j]))
+  if(is.null(values) | length(values) == 0){
+    values <- rep(NA, nrow(fake))
+  }
+  fake[,j] <- sample(values, nrow(fake), replace = T)
+}
+fake_gambia <- fake
+usethis::use_data(fake_gambia, overwrite = TRUE)
+
+
+# Read in the master
+library(gsheet)
+if(!'goog.RData' %in% dir()){
+  # goog <- gsheet::gsheet2tbl(url = 'https://docs.google.com/spreadsheets/d/1tfWIo-rvcFFJ3CHJMNdRGMUR9VYBelrQ10b_5qbObbY/edit?usp=sharing')
+  # save(goog,
+  #      file = 'goog.RData')
+  goog <- read_csv('master.csv')
+} else {
+  load('goog.RData')
+}
+
+master <- goog %>% dplyr::select(variable, question) %>%
+  dplyr::rename(question_full = question) %>%
+  dplyr::rename(question_standardized = variable)
+usethis::use_data(master, overwrite = TRUE)
+
+# Join mapper and master
+mapper <- left_join(mapper, master)
+
 # Write csv of babel
 write_csv(mapper, 'babel.csv')
+

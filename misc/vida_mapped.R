@@ -4,7 +4,7 @@ library(readr)
 library(reshape2)
 library(dplyr)
 
-setwd('/Users/xing/Documents/vida_mapped')
+setwd('vida_mapped')
 d1 <- read.csv('c08_12_map.csv')
 d1$data_name <- 'c08_12_map.csv'
 names_d1 <- names(d1)
