@@ -556,7 +556,7 @@ fits,Categorical,2,fits,no
 fits,Categorical,9,fits,dk
 dfits,Non-categorical,Non-categorical variable,days_convulsions,
 mfits,Non-categorical,Non-categorical variable,months_convulsions,
-ffin,Non-categorical,Non-categorical variable,number_of_fits,
+ffin,Non-categorical,Non-categorical variable,number_fits,
 par,Categorical,1,paralyzed,yes_both_leg
 par,Categorical,2,paralyzed,no
 par,Categorical,3,paralyzed,yes_one_arm_leg

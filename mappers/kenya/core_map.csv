@@ -333,18 +333,18 @@ diarstick,Categorical,9,diarrhea_sticky,dk
 diarblood,Categorical,1,diarrhea_bloody,yes
 diarblood,Categorical,2,diarrhea_bloody,no
 diarblood,Categorical,9,diarrhea_bloody,dk
-diarfluid,Categorical,1,diarrhea_unknown,dk
-diarfluid,Categorical,2,diarrhea_lack_fluid,yes
-diarfluid,Categorical,9,diarrhea_lack_fluid,no
-diarseyes,Categorical,1,diarrhea_lack_fluid,dk
-diarseyes,Categorical,2,diarrhea_sunken_eyes,yes
-diarseyes,Categorical,9,diarrhea_sunken_eyes,no
-diarwskin,Categorical,1,diarrhea_sunken_eyes,dk
-diarwskin,Categorical,2,diarrhea_wrinkled_skin,yes
-diarwskin,Categorical,9,diarrhea_wrinkled_skin,no
-diarors,Categorical,1,diarrhea_wrinkled_skin,dk
-diarors,Categorical,2,diarrhea_given_ors,yes
-diarors,Categorical,9,diarrhea_given_ors,no
-vedod,Non-categorical,Non-categorical variable,date_birth_deceased,dk
+diarfluid,Categorical,1,diarrhea_lack_fluid,yes
+diarfluid,Categorical,2,diarrhea_lack_fluid,no
+diarfluid,Categorical,9,diarrhea_lack_fluid,dk
+diarseyes,Categorical,1,diarrhea_sunken_eyes,yes
+diarseyes,Categorical,2,diarrhea_sunken_eyes,no
+diarseyes,Categorical,9,diarrhea_sunken_eyes,dk
+diarwskin,Categorical,1,diarrhea_wrinkled_skin,yes
+diarwskin,Categorical,2,diarrhea_wrinkled_skin,no
+diarwskin,Categorical,9,diarrhea_wrinkled_skin,dk
+diarors,Categorical,1,diarrhea_given_ors,yes
+diarors,Categorical,2,diarrhea_given_ors,no
+diarors,Categorical,9,diarrhea_given_ors,dk
+vedod,Non-categorical,Non-categorical variable,date_birth_deceased,
 vedob,Non-categorical,Non-categorical variable,date_death_deceased,
 vedays,Non-categorical,Non-categorical variable,age_days,

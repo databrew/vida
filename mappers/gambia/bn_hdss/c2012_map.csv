@@ -446,9 +446,9 @@ Q3B570_choice,Categorical,1,rash_duration,days
 Q3B570_choice,Categorical,2,rash_duration,weeks
 Q3B570_choice,Categorical,9,rash_duration,dk
 Q3B570,Non-categorical,Non-categorical variable,days_weeks_rash,
-Q3B580,Categorical,1,measels_rash,yes
-Q3B580,Categorical,2,measels_rash,no
-Q3B580,Categorical,9,measels_rash,dk
+Q3B580,Categorical,1,measles_rash,yes
+Q3B580,Categorical,2,measles_rash,no
+Q3B580,Categorical,9,measles_rash,dk
 Q3B590,Categorical,1,herpes_zoster,yes
 Q3B590,Categorical,2,herpes_zoster,no
 Q3B590,Categorical,9,herpes_zoster,dk

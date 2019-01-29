@@ -350,7 +350,7 @@ Section_1.2:Resultat_rempli_oui:Section_8:Cheveux,Categorical,oui,hair_red_yello
 Section_1.2:Resultat_rempli_oui:Section_8:Cheveux,Categorical,non,hair_red_yellow,no
 Section_1.2:Resultat_rempli_oui:Section_8:Cheveux,Categorical,ne_sait_pas,hair_red_yellow,dk
 Section_1.2:Resultat_rempli_oui:Section_8:Temps_cheveux,Categorical,untitled,,
-Section_1.2:Resultat_rempli_oui:Section_8:Temps_cheveux1,Non-categorical,Non-categorical variable,days_red_yellow_hair,
+Section_1.2:Resultat_rempli_oui:Section_8:Temps_cheveux1,Non-categorical,Non-categorical variable,days_hair_red_yellow,
 Section_1.2:Resultat_rempli_oui:Section_8:Pale,Categorical,oui,pale,yes
 Section_1.2:Resultat_rempli_oui:Section_8:Pale,Categorical,non,pale,no
 Section_1.2:Resultat_rempli_oui:Section_8:Pale,Categorical,ne_sait_pas,pale,dk

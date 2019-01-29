@@ -295,9 +295,9 @@ PARALYSIS_SUDDEN,Categorical,0,paralyzed_sudden,na
 PARALYSIS_SUDDEN,Categorical,1,paralyzed_sudden,suddenly
 PARALYSIS_SUDDEN,Categorical,2,paralyzed_sudden,fast
 PARALYSIS_SUDDEN,Categorical,3,paralyzed_sudden,slowly
-URINE_CHANGE,Categorical,1,urine_change,yes
-URINE_CHANGE,Categorical,2,urine_change,no
-URINE_CHANGE,Categorical,3,urine_change,dk
+URINE_CHANGE,Categorical,1,urine_change_amount,yes
+URINE_CHANGE,Categorical,2,urine_change_amount,no
+URINE_CHANGE,Categorical,3,urine_change_amount,dk
 URINE_CHANGE_DAYS,Non-categorical,Non-categorical variable,days_urine_change,
 URINE_CHANGE_MONS,Non-categorical,Non-categorical variable,months_urine_change,
 URINE_CHANGE_DK,Categorical,0,,

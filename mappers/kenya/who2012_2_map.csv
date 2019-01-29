@@ -196,7 +196,7 @@ diar,Categorical,NO,diarrhea,no
 diar,Categorical,DK,diarrhea,dk
 ddia,Non-categorical,Non-categorical variable,days_diarrhea,
 wdia,Non-categorical,Non-categorical variable,weeks_diarrhea,
-diadwdk,Categorical,DK,diarrhea_unknown,dk
+diadwdk,Categorical,DK,diarrhea_duration_unknown,dk
 bts,Categorical,YES,bloody_stool,yes
 bts,Categorical,NO,bloody_stool,no
 bts,Categorical,DK,bloody_stool,dk
@@ -271,9 +271,9 @@ mencon,Categorical,YES,mental_confusion,dk
 dmencon,Non-categorical,Non-categorical variable,days_mental_confusion,
 mmencon,Non-categorical,Non-categorical variable,months_mental_confusion,
 mencondmdk,Categorical,DK,mental_confusion_unknown,dk
-diffsw,Categorical,YES,difficulty_swollowing,yes
-diffsw,Categorical,NO,difficulty_swollowing,no
-diffsw,Categorical,DK,difficulty_swollowing,dk
+diffsw,Categorical,YES,difficulty_swallowing,yes
+diffsw,Categorical,NO,difficulty_swallowing,no
+diffsw,Categorical,DK,difficulty_swallowing,dk
 urine,Categorical,YES,urine_problems,yes
 urine,Categorical,NO,urine_problems,no
 urine,Categorical,DK,urine_problems,dk

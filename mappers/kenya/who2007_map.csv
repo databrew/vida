@@ -79,8 +79,8 @@ dcer,Categorical,9,death_certificate,dk
 dca,Categorical,1,see_death_certificate,yes
 dca,Categorical,2,see_death_certificate,no
 dca,Categorical,8,see_death_certificate,dk
-dodcert,Non-categorical,Non-categorical variable,date_of_death,
-issuedate,Non-categorical,Non-categorical variable,date_death_certificate_issued,
+dodcert,Non-categorical,Non-categorical variable,date_death_deceased,
+issuedate,Non-categorical,Non-categorical variable,death_certificate_issue_date,
 dccod,Non-categorical,Non-categorical variable,cause_death_1,
 records,Categorical,1,other_records_available,yes
 records,Categorical,2,other_records_available,no

@@ -179,7 +179,7 @@ lab,Categorical,YES,lab_results_available,yes
 lab,Categorical,NO,lab_results_available,no
 lab,Categorical,DK,lab_results_available,dk
 lab,Categorical,NA,lab_results_available,na
-labrel,Non-categorical,Non-categorical variable,lab_results,
+labrel,Non-categorical,Non-categorical variable,lab_results_info,
 ohd,Categorical,YES,hospital_documents_available,yes
 ohd,Categorical,NO,hospital_documents_available,no
 ohd,Categorical,DK,hospital_documents_available,dk

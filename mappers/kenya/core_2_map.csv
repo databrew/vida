@@ -30,7 +30,7 @@ fit,Categorical,2,convulsions,no
 fit,Categorical,9,convulsions,dk
 dfits,Non-categorical,Non-categorical variable,days_convulsions,
 mfits,Non-categorical,Non-categorical variable,months_convulsions,
-ffin,Non-categorical,Non-categorical variable,number_of_fits,
+ffin,Non-categorical,Non-categorical variable,number_fits,
 par,Categorical,1,paralyzed,yes_both_leg
 par,Categorical,2,paralyzed,no
 par,Categorical,3,paralyzed,yes_one_arm_leg
@@ -170,7 +170,6 @@ tbhf13,Categorical,9,anti_tb_lwak,dk
 tbhf14,Categorical,1,anti_tb_bondodh,yes
 tbhf14,Categorical,2,anti_tb_bondodh,no
 tbhf14,Categorical,9,anti_tb_bondodh,dk
-antimna,Categorical,na,anti_malarial_received,na
 coart,Categorical,1,coartem,yes
 coart,Categorical,2,coartem,no
 coart,Categorical,9,coartem,dk

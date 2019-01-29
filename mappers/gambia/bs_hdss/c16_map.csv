@@ -463,10 +463,10 @@ child10235,Categorical,1,place_rash,face
 child10235,Categorical,2,place_rash,trunk
 child10235,Categorical,3,place_rash,extremities
 child10235,Categorical,4,place_rash,everywhere
-child10236,Categorical,1,measels_rash,yes
-child10236,Categorical,2,measels_rash,no
-child10236,Categorical,3,measels_rash,dk
-child10236,Categorical,4,measels_rash,refuse_to_answer
+child10236,Categorical,1,measles_rash,yes
+child10236,Categorical,2,measles_rash,no
+child10236,Categorical,3,measles_rash,dk
+child10236,Categorical,4,measles_rash,refuse_to_answer
 child10238,Categorical,1,skin_flake,yes
 child10238,Categorical,2,skin_flake,no
 child10238,Categorical,3,skin_flake,dk
@@ -557,14 +557,14 @@ child10261,Categorical,1,difficulty_swallowing,yes
 child10261,Categorical,2,difficulty_swallowing,no
 child10261,Categorical,3,difficulty_swallowing,dk
 child10261,Categorical,4,difficulty_swallowing,refuse_to_answer
-child10262,Non-categorical,Non-categorical variable,days_difficulty_swollowing,
-child10263,Categorical,1,what_difficulty_swollowing,solids
-child10263,Categorical,2,what_difficulty_swollowing,liquids
-child10263,Categorical,3,what_difficulty_swollowing,both
-child10264,Categorical,1,pain_swollowing,yes
-child10264,Categorical,2,pain_swollowing,no
-child10264,Categorical,3,pain_swollowing,dk
-child10264,Categorical,4,pain_swollowing,refuse_to_answer
+child10262,Non-categorical,Non-categorical variable,days_difficulty_swallowing,
+child10263,Categorical,1,what_difficulty_swallowing,solids
+child10263,Categorical,2,what_difficulty_swallowing,liquids
+child10263,Categorical,3,what_difficulty_swallowing,both
+child10264,Categorical,1,pain_swallowing,yes
+child10264,Categorical,2,pain_swallowing,no
+child10264,Categorical,3,pain_swallowing,dk
+child10264,Categorical,4,pain_swallowing,refuse_to_answer
 child10265,Categorical,1,yellow_eyes,yes
 child10265,Categorical,2,yellow_eyes,no
 child10265,Categorical,3,yellow_eyes,dk

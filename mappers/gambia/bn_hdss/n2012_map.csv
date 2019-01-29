@@ -372,8 +372,8 @@ Q3B550,Categorical,9,ulcer_foot,dk
 Q3B560,Categorical,1,rash,yes
 Q3B560,Categorical,2,rash,no
 Q3B560,Categorical,9,rash,dk
-Q3B580,Categorical,1,measels_rash,yes
-Q3B580,Categorical,2,measels_rash,no
+Q3B580,Categorical,1,measles_rash,yes
+Q3B580,Categorical,2,measles_rash,no
 Q3B580,Categorical,9,herpes_zoster,dk
 Q3D450,Categorical,1,yellow_palms_soles,yes
 Q3D450,Categorical,2,yellow_palms_soles,no

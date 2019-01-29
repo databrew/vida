@@ -535,10 +535,10 @@ rashwh,Categorical,EVERYWHERE,place_rash,everywhere
 rashwh,Categorical,EXTREMITIES,place_rash,extremities
 rashwh,Categorical,DK,place_rash,dk
 rashwh,Categorical,REF,place_rash,refuse_to_answer
-rashmea,Categorical,YES,measels_rash,yes
-rashmea,Categorical,NO,measels_rash,no
-rashmea,Categorical,DK,measels_rash,dk
-rashmea,Categorical,REF,measels_rash,refuse_to_answer
+rashmea,Categorical,YES,measles_rash,yes
+rashmea,Categorical,NO,measles_rash,no
+rashmea,Categorical,DK,measles_rash,dk
+rashmea,Categorical,REF,measles_rash,refuse_to_answer
 herps,Categorical,YES,herpes_zoster,yes
 herps,Categorical,NO,herpes_zoster,no
 herps,Categorical,DK,herpes_zoster,dk

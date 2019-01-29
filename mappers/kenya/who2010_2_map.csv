@@ -7,17 +7,17 @@ vemonths,Non-categorical,Non-categorical variable,age_months,
 vedays,Non-categorical,Non-categorical variable,age_days,
 vedob,Non-categorical,Non-categorical variable,date_birth_deceased,
 vedod,Non-categorical,Non-categorical variable,date_death_deceased,
-marsd,Categorical,NEVER MARRIED,deceased_marital_status,never_married
-marsd,Categorical,MARRIED/LIVING WITH PARTNER,deceased_marital_status,living_with_partner
-marsd,Categorical,WIDOWED,deceased_marital_status,widowed
-marsd,Categorical,DIVORCED,deceased_marital_status,divorced
-marsd,Categorical,CHILD,deceased_marital_status,child
-marsd,Categorical,SEPARATED,deceased_marital_status,separated
-marsd,Categorical,DK,deceased_marital_status,dk
-grade,Categorical,NONE,deceased_highest_education,none
-grade,Categorical,PRIMARY,deceased_highest_education,primary
-grade,Categorical,SECONDARY,deceased_highest_education,secondary
-grade,Categorical,dk,deceased_highest_education,dk
+marsd,Categorical,NEVER MARRIED,marital_status,never_married
+marsd,Categorical,MARRIED/LIVING WITH PARTNER,marital_status,living_with_partner
+marsd,Categorical,WIDOWED,marital_status,widowed
+marsd,Categorical,DIVORCED,marital_status,divorced
+marsd,Categorical,CHILD,marital_status,child
+marsd,Categorical,SEPARATED,marital_status,separated
+marsd,Categorical,DK,marital_status,dk
+grade,Categorical,NONE,highest_education,none
+grade,Categorical,PRIMARY,highest_education,primary
+grade,Categorical,SECONDARY,highest_education,secondary
+grade,Categorical,dk,highest_education,dk
 djob,Non-categorical,Non-categorical variable,deceased_job,
 djobother,Non-categorical,Non-categorical variable,deceased_job_specific,
 placd,Categorical,AT HOME,place_died,home
@@ -26,7 +26,7 @@ placd,Categorical,ON THE WAY TO/FROM A HEALTH FACILITY,place_died,en_route_to_ho
 placd,Categorical,HOSPITAL,place_died,hospital
 placd,Categorical,OTHER,place_died,other
 placd,Categorical,DK,place_died,dk
-placdoth,Non-categorical,Non-categorical variable,place_died_other,
+placdoth,Non-categorical,Non-categorical variable,place_died_specific,
 hfname,Non-categorical,Non-categorical variable,facility_name,
 illnessevents,Non-categorical,Non-categorical variable,account_of_illness,
 dcause1,Non-categorical,Non-categorical variable,cause_death_1,
@@ -34,9 +34,9 @@ dcause2,Non-categorical,Non-categorical variable,cause_death_2,
 aq,Categorical,YES,amodiaquine,yes
 aq,Categorical,NO,amodiaquine,no
 aq,Categorical,DK,amodiaquine,dk
-arts,Categorical,YES,artusenate,yes
-arts,Categorical,NO,artusenate,no
-arts,Categorical,DK,artusenate,dk
+arts,Categorical,YES,artesenate,yes
+arts,Categorical,NO,artesenate,no
+arts,Categorical,DK,artesenate,dk
 coart,Categorical,YES,coartem,yes
 coart,Categorical,NO,coartem,no
 coart,Categorical,DK,coartem,dk
@@ -80,9 +80,9 @@ TBA,Categorical,DK,treatment_nyamrerwa,dk
 BUS,Categorical,YES,treatment_bush_doctor,yes
 BUS,Categorical,NO,treatment_bush_doctor,no
 BUS,Categorical,DK,treatment_bush_doctor,dk
-othrecs,Categorical,YES,oral_records_available,yes
-othrecs,Categorical,NO,oral_records_available,no
-othrecs,Categorical,DK,oral_records_available,dk
+othrecs,Categorical,YES,other_records_available,yes
+othrecs,Categorical,NO,other_records_available,no
+othrecs,Categorical,DK,other_records_available,dk
 veburpm,Categorical,YES,burial_permit,yes
 veburpm,Categorical,NO,burial_permit,no
 veburpm,Categorical,DK,burial_permit,dk
@@ -123,7 +123,7 @@ lab,Categorical,YES,lab_results_available,yes
 lab,Categorical,NO,lab_results_available,no
 lab,Categorical,DK,lab_results_available,dk
 lab,Categorical,NA,lab_results_available,na
-labrel,Non-categorical,Non-categorical variable,lab_results,
+labrel,Non-categorical,Non-categorical variable,lab_results_info,
 ohd,Categorical,YES,hospital_documents_available,yes
 ohd,Categorical,NO,hospital_documents_available,no
 ohd,Categorical,DK,hospital_documents_available,dk
@@ -296,9 +296,9 @@ mco,Non-categorical,Non-categorical variable,months_cough,
 csevere,Categorical,YES,cough_severe,yes
 csevere,Categorical,NO,cough_severe,no
 csevere,Categorical,DK,cough_severe,dk
-vomcough,Categorical,YES,vomit_after_cough,yes
-vomcough,Categorical,NO,vomit_after_cough,no
-vomcough,Categorical,DK,vomit_after_cough,dk
+vomcough,Categorical,YES,cough_vomit,yes
+vomcough,Categorical,NO,cough_vomit,no
+vomcough,Categorical,DK,cough_vomit,dk
 cotype,Categorical,dco,cough_type,dry
 cotype,Categorical,pco,cough_type,productive
 cotype,Categorical,blco,cough_type,with_blood
@@ -347,7 +347,7 @@ diarstick,Categorical,DK,diarrhea_sticky,dk
 diarblood,Categorical,YES,diarrhea_bloody,yes
 diarblood,Categorical,NO,diarrhea_bloody,no
 diarblood,Categorical,DK,diarrhea_bloody,dk
-diardk,Categorical,DK,diarrhea_unkonwn,dk
+diardk,Categorical,DK,diarrhea_unknown,dk
 diarfluid,Categorical,YES,diarrhea_lack_fluid,yes
 diarfluid,Categorical,NO,diarrhea_lack_fluid,no
 diarfluid,Categorical,DK,diarrhea_lack_fluid,dk
@@ -430,7 +430,7 @@ fits,Categorical,NO,fits,no
 fits,Categorical,DK,fits,dk
 dfits,Non-categorical,Non-categorical variable,days_fits,
 mfits,Non-categorical,Non-categorical variable,months_fits,
-ffin,Non-categorical,Non-categorical variable,number_of_fits,
+ffin,Non-categorical,Non-categorical variable,number_fits,
 par,Categorical,YES,paralyzed,yes
 par,Categorical,NO,paralyzed,no
 par,Categorical,DK,paralyzed,dk
@@ -455,7 +455,7 @@ turin,Categorical,YES,urine_change_amount,yes
 turin,Categorical,NO,urine_change_amount,no
 turin,Categorical,DK,urine_change_amount,dk
 dturin,Non-categorical,Non-categorical variable,days_urine_change_amount,
-mturin,Non-categorical,Non-categorical variable,months_urine_change_amount,
+mturin,Non-categorical,Non-categorical variable,months_urine_change,
 curine,Categorical,TOO MUCH,urine_amount,too_much
 curine,Categorical,TOO LITTLE,urine_amount,too_little
 curine,Categorical,NO URINE AT ALL,urine_amount,none

@@ -139,7 +139,7 @@ STOP_MOVING_WHEN,Categorical,3,when_stop_moving_womb,dk
 LISTEN_HEART,Categorical,1,listen_fetal_heart,yes
 LISTEN_HEART,Categorical,2,listen_fetal_heart,no
 LISTEN_HEART,Categorical,3,listen_fetal_heart,dk
-LISTEN_HEART_PRES,Categorical,0,fetal_heart_present,na
+LISTEN_HEART_PRES,Categorical,0,fetal_heart_sound_present,na
 LISTEN_HEART_PRES,Categorical,1,fetal_heart_sound_present,yes
 LISTEN_HEART_PRES,Categorical,2,fetal_heart_sound_present,no
 LISTEN_HEART_PRES,Categorical,3,fetal_heart_sound_present,dk
