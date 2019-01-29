@@ -8,7 +8,7 @@ formats <- sort(unique(vida::mapper$format))
 tab_dict <- data_frame(number = 1:4,
                        name = c('main',
                                 'output',
-                                'troubleshooting',
+                                'babel',
                                 'about'))
 n_tabs <- nrow(tab_dict)
 

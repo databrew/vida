@@ -23,6 +23,11 @@ sidebar <- dashboardSidebar(
       tabName="output",
       icon=icon("eye")),
     menuItem(
+      text = 'Babel',
+      tabName = 'babel',
+      icon = icon('book')
+    ),
+    menuItem(
       text = 'About',
       tabName = 'about',
       icon = icon('stethoscope')))
@@ -65,9 +70,11 @@ body <- dashboardBody(
                  helpText('If you don\'t have any data for upload but want to test the app, click below to download some fake data and then upload it to the app.'),
                  downloadButton('download_fake_data',
                                 'Download fake data from Kenya'),
-                 tags$hr(),
+                 # tags$hr(),
                  downloadButton('download_fake_data_mali',
-                                'Download fake data from Mali')
+                                'Download fake data from Mali'),
+                 downloadButton('download_fake_data_gambia',
+                                'Download fake data from Gambia')
           ),
           column(6,
                  uiOutput('translate_ui')),
@@ -91,6 +98,14 @@ body <- dashboardBody(
     tabItem(
       tabName = 'troubleshooting',
       uiOutput('troubleshooting_ui')
+    ),
+    tabItem(
+      tabName = 'babel',
+      fluidPage(
+        fluidRow(downloadButton('downloadBabel',
+                       'Download Complete Babel')),
+        fluidRow(DT::dataTableOutput('babel'))
+      )
     ),
     tabItem(
       tabName = 'about',
@@ -199,6 +214,15 @@ server <- function(input, output, session) {
       NULL
     }
     
+  })
+  
+  output$babel <- DT::renderDataTable({
+    x <- vida::mapper
+    if(!is.null(x)){
+      x
+    } else {
+      NULL
+    }
   })
   
   output$contents <- DT::renderDataTable({
@@ -368,6 +392,16 @@ server <- function(input, output, session) {
     }
   )
   
+  output$downloadBabel <- downloadHandler(
+    filename = function() {
+      paste('babel', ".csv", sep = "")
+    },
+    content = function(file) {
+      x <- vida::mapper
+      write.csv(x, file, row.names = FALSE)
+    }
+  )
+  
   output$download_fake_data <- downloadHandler(
     filename = function() {
       paste('fake', ".csv", sep = "")
@@ -384,6 +418,16 @@ server <- function(input, output, session) {
     },
     content = function(file) {
       fake <- vida::fake_mali
+      write.csv(fake, file, row.names = FALSE)
+    }
+  )
+  
+  output$download_fake_data_gambia <- downloadHandler(
+    filename = function() {
+      paste('fake', ".csv", sep = "")
+    },
+    content = function(file) {
+      fake <- vida::fake_gambia
       write.csv(fake, file, row.names = FALSE)
     }
   )

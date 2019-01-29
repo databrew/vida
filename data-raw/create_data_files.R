@@ -77,7 +77,7 @@ for(i in 1:length(files)){
   }
   out[[i]] <- this_data
 }
-mapper_gambia <- bind_rows(out)
+mapper_gambia <- bind_rows(out) %>% dplyr::select(-X6, -X7)
 # NEED TO FIX COLUMN NAMES IN ABOVE
 
 mapper <- 
@@ -87,6 +87,7 @@ mapper <-
 
 # Hard code some fixes
 mapper$question_standardized[mapper$question_standardized == 'antriretroviral'] <- 'antiretroviral'
+mapper$question_standardized[mapper$question_standardized == 'days_urine_change_amount'] <- 'urine_change_amount'
 
 
 usethis::use_data(mapper, overwrite = TRUE)
@@ -136,17 +137,17 @@ usethis::use_data(fake_gambia, overwrite = TRUE)
 # Read in the master
 library(gsheet)
 if(!'goog.RData' %in% dir()){
-  # goog <- gsheet::gsheet2tbl(url = 'https://docs.google.com/spreadsheets/d/1tfWIo-rvcFFJ3CHJMNdRGMUR9VYBelrQ10b_5qbObbY/edit?usp=sharing')
-  # save(goog,
-  #      file = 'goog.RData')
-  goog <- read_csv('master.csv')
+  goog <- gsheet::gsheet2tbl(url = 'https://docs.google.com/spreadsheets/d/1tfWIo-rvcFFJ3CHJMNdRGMUR9VYBelrQ10b_5qbObbY/edit?usp=sharing')
+  save(goog,
+       file = 'goog.RData')
+  # goog <- read_csv('master.csv')
 } else {
   load('goog.RData')
 }
 
-master <- goog %>% dplyr::select(variable, question) %>%
-  dplyr::rename(question_full = question) %>%
-  dplyr::rename(question_standardized = variable)
+master <- goog %>% dplyr::select(full_question, standardized_variable) %>%
+  dplyr::rename(question_full = full_question) %>%
+  dplyr::rename(question_standardized = standardized_variable)
 usethis::use_data(master, overwrite = TRUE)
 
 # Join mapper and master

@@ -56,7 +56,7 @@ library(vida)
 fake <- vida::fake
 # Detect the format
 format <- detect_format(df = fake)
-#> The raw input data were run against 16 dictionaries. The best match was:
+#> The raw input data were run against 26 dictionaries. The best match was:
 #>  who2010_2
 #> which contained 79.19% of the variables in the raw data, and among those variables had a category matching percentage of approximately 69.95 %.
 # Show the detected format
@@ -74,7 +74,7 @@ library(vida)
 fake <- vida::fake
 # Translate the data
 translated <- translate(fake)
-#> The raw input data were run against 16 dictionaries. The best match was:
+#> The raw input data were run against 26 dictionaries. The best match was:
 #>  who2010_2
 #> which contained 79.19% of the variables in the raw data, and among those variables had a category matching percentage of approximately 69.95 %.
 #> Of 197 variables:

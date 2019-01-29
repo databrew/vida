@@ -1,35 +1,36 @@
-variable,question,
-abdomen_mass,Did the child have any mass in the abdomen?,
-abdomen_mass_duration,For how long before death did the child have a mass in the abdomen?,
-abdomen_pain,Did the child have abdominal pain?,
-abdomen_pain_severe,Was the abdominal pain severe?,
-abdomen_problem,Did the child have abdominal problems?,
-abdominal_pain_duration,For how long before death did s/he have severe abdominal pain?,
-abnormal_size,Was the baby of abnormal size?,
-abortion,Did the mother recently have a pregnancy that ended in abortion (spontaneous or induced)?,
-accidentally_poisoned,Was the baby accidentally poisoned (including alcohol)?,
-account_of_illness,Family’s account of events around the child’s death,
-admission_problems,Were there any problems during admission to the hospital or health facility?,
-admitted_to_health_facility,Was the child admitted to a hospital or health facility during the illness?,
-admitted_to_health_facility_name,"Was the child admitted to a hospital or health facility during the illness? Yes, name of health facility",
-admitted_to_health_facility_reason,"Was the child admitted to a hospital or health facility during the illness? Yes, reason for admission",
-age,Age of child,
-age_days,Age of child in days,
-age_dhm,"Age of child: Days, Hours, Minutes ",
-age_group,What age group corresponds to the deceased?,
-age_illness_start,How many years old was the baby when the fatal illness started?,
-age_months,Age of child in months,
-age_months_years,"Age of child: Months, Years",
-age_weeks,Age of child in weeks,
-age_years,Age of child in years,
+standardized_variable,full_question,notes
+abdomen_mass,Did the child have any mass in the abdomen?,NA
+abdomen_mass_duration,For how long before death did the child have a mass in the abdomen?,NA
+abdomen_mass_unknown,For how long did the child have a mass inside the abdomen? Don't know,NA
+abdomen_pain,Did the child have abdominal pain?,NA
+abdomen_pain_severe,Was the abdominal pain severe?,NA
+abdomen_problem,Did the child have abdominal problems?,NA
+abdominal_pain_duration,For how long before death did s/he have severe abdominal pain?,NA
+abnormal_size,Was the baby of abnormal size?,NA
+abortion,Did the mother recently have a pregnancy that ended in abortion (spontaneous or induced)?,NA
+accidentally_poisoned,Was the baby accidentally poisoned (including alcohol)?,NA
+account_of_illness,Family account of events around the child's death,NA
+admission_problems,Were there any problems during admission to the hospital or health facility?,NA
+admitted_to_health_facility,Was the child admitted to a hospital or health facility during the illness?,NA
+admitted_to_health_facility_name,"Was the child admitted to a hospital or health facility during the illness? Yes, name of health facility",NA
+admitted_to_health_facility_reason,"Was the child admitted to a hospital or health facility during the illness? Yes, reason for admission",NA
+age,Age of child,NA
+age_days,Age of child in days,NA
+age_dhm,"Age of child: Days, Hours, Minutes",NA
+age_group,What age group corresponds to the deceased?,NA
+age_illness_start,How many years old was the baby when the fatal illness started?,NA
+age_months,Age of child in months,NA
+age_months_years,"Age of child: Months, Years",NA
+age_weeks,Age of child in weeks,NA
+age_years,Age of child in years,NA
 aids,Did the child suffer from HIV/AIDS? / Was there any diagnosis of HIV/AIDS?,see HIV
-amodiaquine,Which antimalarial drug did the baby receive? Amodiaquine,
-animal,Did the child suffer from an animal or insect bite that led to his/her death?,
-animal_dog,Was the child bitten/injured by a dog?,
-animal_insect,Was the child bitten/injured by an insect?,
-animal_other,"If the child was injured by an animal/insect, what type of animal? Other",
-animal_snake,Was the child bitten/injured by a snake?,
-animal_specific,"If the child was injured by an animal/insect, what type of animal?",
+amodiaquine,Which antimalarial drug did the baby receive? Amodiaquine,NA
+animal,Did the child suffer from an animal or insect bite that led to his/her death?,NA
+animal_dog,Was the child bitten/injured by a dog?,NA
+animal_insect,Was the child bitten/injured by an insect?,NA
+animal_other,"If the child was injured by an animal/insect, what type of animal? Other",NA
+animal_snake,Was the child bitten/injured by a snake?,NA
+animal_specific,"If the child was injured by an animal/insect, what type of animal?",NA
 anti_tb_akala,"If the child received anti TB medication, at which health facility did the child collect TB drugs? Akala",who_2007_2_map and core_2_map
 anti_tb_aluor,"If the child received anti TB medication, at which health facility did the child collect TB drugs? Aluor",who_2007_2_map and core_2_map
 anti_tb_barolengo,"If the child received anti TB medication, at which health facility did the child collect TB drugs? Barolengo",who_2007_2_map and core_2_map
@@ -47,942 +48,967 @@ anti_tb_siaya,"If the child received anti TB medication, at which health facilit
 anti_tb_siayadh,"If the child received anti TB medication, at which health facility did the child collect TB drugs? Siaya DH",who_2007_2_map and core_2_map
 anti_tb_tingwangi,"If the child received anti TB medication, at which health facility did the child collect TB drugs? Ting'-Wangi",who_2007_2_map and core_2_map
 anti_tb_wagai,"If the child received anti TB medication, at which health facility did the child collect TB drugs? Wagai",who_2007_2_map and core_2_map
-antibiotics,Did the child receive (or need) injectable antibiotics?,
-antiretroviral,Did the child receive (or need) antiretroviral therapy (ART)?,
-anyone_else_should_interview,Is there anyone else that should be interviewed?,
-anyone_else_should_interview_specific,Is there anyone else that should be interviewed? Specific,
-anything_applied_to_umbilical_stump,Was anything applied to the umbilical cord stump after birth?,
-anything_applied_to_umbilical_stump_specific,Was anything applied to the umbilical cord stump after birth? Specific,
-appear_healthy,Did the child appear healthy and then just die suddenly?,
-appropriate_respondent,Have you (the interviewer) found the appropriate respondent?,
-arms_legs_strength,Did the baby's arms/legs have strength?,
-artesenate,Which antimalarial drug did the baby receive? Artesenate,
-assault,"Was the child subject to violence (homicide, abuse)?",
-assisted_breathing,Was the baby given assistance to breathe at birth?,
-asthma,Did the child suffer from asthma?,
-attempt_terminate_pregnancy,Did the mother attempt to terminate the pregnancy?,
-availability,Respondent availability,
-baby_breathe,Did the baby ever breathe?,
-baby_breathe_after_birth,"Did the baby breathe immediately after birth, even a little?",
-baby_breathing_problem,Did the baby have any breathing problem?,
-baby_cry,Did the baby ever cry?,
-baby_cry_after_birth,"Did the baby ever cry after birth, even if only a little bit?",
-baby_move,Did the baby ever move?,
-baby_size,Size of baby at time of birth,
-baby_stop_moving,Did the baby stop moving in the womb?,
+antibiotics,Did the child receive (or need) injectable antibiotics?,NA
+antiretroviral,Did the child receive (or need) antiretroviral therapy (ART)?,NA
+anyone_else_should_interview,Is there anyone else that should be interviewed?,NA
+anyone_else_should_interview_specific,Is there anyone else that should be interviewed? Specific,NA
+anything_applied_to_umbilical_stump,Was anything applied to the umbilical cord stump after birth?,NA
+anything_applied_to_umbilical_stump_specific,Was anything applied to the umbilical cord stump after birth? Specific,NA
+appear_healthy,Did the child appear healthy and then just die suddenly?,NA
+appropriate_respondent,Have you (the interviewer) found the appropriate respondent?,NA
+arms_legs_strength,Did the baby's arms/legs have strength?,NA
+artesenate,Which antimalarial drug did the baby receive? Artesenate,NA
+assault,"Was the child subject to violence (homicide, abuse)?",NA
+assisted_breathing,Was the baby given assistance to breathe at birth?,NA
+asthma,Did the child suffer from asthma?,NA
+attempt_terminate_pregnancy,Did the mother attempt to terminate the pregnancy?,NA
+availability,Respondent availability,NA
+baby_breathe,Did the baby ever breathe?,NA
+baby_breathe_after_birth,"Did the baby breathe immediately after birth, even a little?",NA
+baby_breathing_problem,Did the baby have any breathing problem?,NA
+baby_cry,Did the baby ever cry?,NA
+baby_cry_after_birth,"Did the baby ever cry after birth, even if only a little bit?",NA
+baby_move,Did the baby ever move?,NA
+baby_size,Size of baby at time of birth,NA
+baby_stop_moving,Did the baby stop moving in the womb?,NA
 bcg,Note vaccines the child has received: BCG,"Gambia, WHO2016"
 become_unresponsive,Did the baby become unresponsive or unconscious soon after birth?,WHO2012_map; see unresponsive_within_24_hours
-between_convulsions,What was the state of the child between convulsions/fits?,
-big_size,"Was the baby larger than normal, weighing over 4.5 kg?",
-birth_date_known,Is the child's birth date known?,
-birth_health_facility,Was the child born in a health facility?,
-birth_healthy_baby_within_6_weeks_of_death,"Did the mother give birth to a live, healthy baby within 6 weeks of death?",
-birth_home,Was the child born at home?,
-birth_order,The birth order of the child that died,
-birth_other_location,Was the child born somewhere else?,
-birth_weight,Was was the child's weight at birth?,
-birth_weight_grams,Was was the child's weight at birth in grams?,
-birth_yellow_palms_soles,Did the baby have yellow palms or soles?,
-black_vomit,Was the vomit black?,
-bleed,"During the illness that led to death, did the child bleed from anywhere?",
-bleed_nose_mouth_anus,"Did the child bleed from the nose, mouth, or anus?",
-bleed_specific,"During the illness that led to death, did she bleed from anywhere? Specific",
-blood_transfusion,Did the child receive (or need) a blood transfusion?,
-bloody_stool,At any time during the final illness was there blood in the stool?,
-bloody_stool_until_death,"If there was blood in the stool, did it continue until death?",
-bloody_vomit,Was the vomit bloody?,
-blue_colour,Was the baby blue in colour at birth?,
-blunt_force,Was the child injured by a blunt force?,
-body_soft_discolored,"Was the baby's body soft, pulpy and discolored and the skin peeling away?",
-born_24_hours_after_water_broke,Was the baby born 24 hours or more after the water broke?,
-born_dead,"If the baby did not cry or breathe, was it born dead?",
-breastfeed_exclusive,Was the breastfeeding exclusive?,
-breathing_problem,"During the illness that led to death, did the child have a breathing problem?",
+between_convulsions,What was the state of the child between convulsions/fits?,NA
+big_size,"Was the baby larger than normal, weighing over 4.5 kg?",NA
+birth_date_known,Is the child's birth date known?,NA
+birth_health_facility,Was the child born in a health facility?,NA
+birth_healthy_baby_within_6_weeks_of_death,"Did the mother give birth to a live, healthy baby within 6 weeks of death?",NA
+birth_home,Was the child born at home?,NA
+birth_order,The birth order of the child that died,NA
+birth_other_location,Was the child born somewhere else?,NA
+birth_weight,What was the child's weight at birth?,NA
+birth_weight_grams,What was the child's weight at birth in grams?,NA
+birth_yellow_palms_soles,Did the baby have yellow palms or soles?,NA
+black_vomit,Was the vomit black?,NA
+bleed,"During the illness that led to death, did the child bleed from anywhere?",NA
+bleed_nose_mouth_anus,"Did the child bleed from the nose, mouth, or anus?",NA
+bleed_specific,"During the illness that led to death, did she bleed from anywhere? Specific",NA
+blood_transfusion,Did the child receive (or need) a blood transfusion?,NA
+bloody_stool,At any time during the final illness was there blood in the stool?,NA
+bloody_stool_until_death,"If there was blood in the stool, did it continue until death?",NA
+bloody_vomit,Was the vomit bloody?,NA
+blue_colour,Was the baby blue in colour at birth?,NA
+blunt_force,Was the child injured by a blunt force?,NA
+body_soft_discolored,"Was the baby's body soft, pulpy and discolored and the skin peeling away?",NA
+born_24_hours_after_water_broke,Was the baby born 24 hours or more after the water broke?,NA
+born_dead,"If the baby did not cry or breathe, was it born dead?",NA
+breastfeed_exclusive,Was the breastfeeding exclusive?,NA
+breathing_problem,"During the illness that led to death, did the child have a breathing problem?",NA
 breathing_sound,During the illness that led to death did his/her breathing sound like any of the following,"See noisy_breathing, wheezing"
-breathless_lying_flat,Was the child breathless while lying flat?,
-breathlessness,Did the child have breathlessness?,
-breathlessness_duration,Duration of breathlessness,
-breeched,"Did the baby's bottom, feet, arm or hand come into the vagina before its head?",
-bruises_injury,Were there any bruises or signs of injury on baby's body after the birth?,
-bulging_fontanelle,"During the illness that led to death, did the baby have a bulging or raised fontanelle?",
-burial_permit,Was a burial permit issued?,
-burial_permit_available,Can I see the burial permit?,
-burn,Did the child suffer from burns?,
-caesarean,Was baby delivered by caesarean section?,
-cancer,Did the child suffer from cancer?,
-cancer_type,What type of cancer did the child have?,
-cancer_type_specific,Specify other type of cancer,
-cause_death,Cause of death according to health care worker,
-cause_death_1,Cause of death from the first line of the death certificate,
+breathless_lying_flat,Was the child breathless while lying flat?,NA
+breathlessness,Did the child have breathlessness?,NA
+breathlessness_duration,Duration of breathlessness,NA
+breathlessness_unknown,For how long did the child have breathlessness? Don't know,NA
+breeched,"Did the baby's bottom, feet, arm or hand come into the vagina before its head?",NA
+bruises_injury,Were there any bruises or signs of injury on baby's body after the birth?,NA
+bulging_fontanelle,"During the illness that led to death, did the baby have a bulging or raised fontanelle?",NA
+burial_permit,Was a burial permit issued?,NA
+burial_permit_available,Can I see the burial permit?,NA
+burn,Did the child suffer from burns?,NA
+caesarean,Was baby delivered by caesarean section?,NA
+cancer,Did the child suffer from cancer?,NA
+cancer_type,What type of cancer did the child have?,NA
+cancer_type_specific,Specify other type of cancer,NA
+cause_death,Cause of death according to health care worker,NA
+cause_death_1,Cause of death from the first line of the death certificate,NA
 cause_death_1_duration,"Cause of death from the first line of the death certificate, duration","from c2016_map.csv, champs2_map.csv, n2016_map.csv"
-cause_death_2,Cause of death from the second line of the death certificate,
+cause_death_2,Cause of death from the second line of the death certificate,NA
 cause_death_2_duration,"Cause of death from the second line of the death certificate, duration","from c2016_map.csv, champs2_map.csv, n2016_map.csv"
-cause_death_3,Cause of death from the third line of the death certificate,
+cause_death_3,Cause of death from the third line of the death certificate,NA
 cause_death_3_duration,"Cause of death from the third line of the death certificate, duration","from c2016_map.csv, champs2_map.csv, n2016_map.csv"
-cause_death_4,Cause of death from the fourth line of the death certificate,
+cause_death_4,Cause of death from the fourth line of the death certificate,NA
 cause_death_4_duration,"Cause of death from the fourth line of the death certificate, duration","from c2016_map.csv, champs2_map.csv, n2016_map.csv"
-cause_death_5,Cause of death from the fifth line of the death certificate,
+cause_death_5,Cause of death from the fifth line of the death certificate,NA
 cause_death_5_duration,"Cause of death from the fifth line of the death certificate, duration","from c2016_map.csv, champs2_map.csv, n2016_map.csv"
-cause_death_certificate,Cause of death on death certificate,
-cause_death_certificate_duration,"Cause of death on death certificate, duration",
-cause_death_no_evidence,No documentation of evidence for cause of death ,
-cause_death_respondent_account,What respondent think was cause of child's death,
-cause_death_told,What was the cause of the child's death told by the nurse/doctor at health facility,
-cause_death1,Cause of death according to the respondent,
-cause_death2,Cause of death 2 according to the respondent,
-chest_infections,Did the child have repeated chest infections?,
-chest_pain,Did the child have chest pain?,
-chest_pain_severe,Was the chest pain severe?,
-chest_pull_in,"During the illness that led to death, did the child have indrawing of the chest?",
-child_age_under_1,Is the child under 1 year of age?,
-child_arv,"If mother had HIV, did the child receive ARV within 3 days of birth?",
-child_visit_clinic,Did you ever take the child to the clinic?,
-chills,Did the child have chills or rigor?,
-chloroquine_malaraquin,Which antimalarial drug did the baby receive? Chloroquine/malariaquin,
-chronic_illness,Did the child have an ongoing chronic illness or was he/she sick in the month before the accident or injury?,
-chronic_illness_specific,Specify type of chronic illness,
-chronic_obstructive_pulmonary_disease,Was there any diagnosis of Chronic Obstructive Pulmonary Disease (COPD)?,
-citizenship_nationality,What was the child's citizenship/nationality?,
-civil_registration_needed,Is there a need to collect civil registration numbers on the deceased?,
-coartem,Which antimalarial drug did the baby receive? Coartem,
-cold_touch,Did the baby become cold to the touch before it died?,
-comments,Interviewer comments,
-complications_labour_delivery,Were there complications during the labour/delivery?,
-complications_other,What type of complications were in during the delivery? Other,
-complications_other_2,What type of complications were in during the delivery? Other 2,
-complications_specific,What type of complications were in during the delivery?,
-consent_interview,Does the respondent consent to being interviewed?,
-contacts_w_health_facility_before_death,"In the month before death, how many contacts with formal health services did the child receive?",
-convulsions,Did the child have any fits or convulsions during the illness that led to his/her death?,
-convulsions_after_24_hours,Did the baby have convulsions starting more than 24 hours after birth?,
-convulsions_unconscious,Did the child become unconscious immediately after the convulsion?,
-convulsions_within_24_hours,Did the baby have convulsions within the first 24 hours of life?,
-cough,Did the child have a cough?,
-cough_blood,Did the child cough up blood?,
-cough_duration,How long did the cough last?,
-cough_productive,"Was the cough productive, with sputum?",
-cough_severe,Was the cough very severe?,
-cough_type,"If the child had a cough, specify the type of cough. ",
-cough_vomit,Did the child vomit after s/he coughed?,
-counterpart_bus,Was the counterpart that was hit a bus?,
-counterpart_car,Was the counterpart that was hit a car?,
-counterpart_injury_known,Do you know anything about the counterpart that was hit during the road traffic accident?,
-counterpart_motorcycle, ,
-counterpart_other,Was the counterpart that was hit something else?,
-counterpart_pedal_cycle,Was the counterpart that was hit a pedal cycle?,
-counterpart_pedestrian,Was the counterpart that was hit a pedestrian?,
-counterpart_stationary_object,Was the counterpart that was hit a stationary object?,
-counterpart_traffic_accident,What was the counterpart that was hit during the road traffic accident?,
-counterpart_traffic_accident_specific,What was the counterpart that was hit during the road traffic accident? Specific,
-cry_after_birth,"Did the child cry after birth, even a little?",
-date_birth_deceased,Date of birth of deceased,
-date_birth_known,Is the date of birth known?,
-date_death_deceased,Date of death of deceased,
-date_death_known,Is the child's date of death known?,
-date_marriage,Date of marriage,
-days_abdomen_mass,Days child had abdomen mass,
-days_abdomen_pain,Days child had abdomen pain,
-days_abdomen_problem,Days child had problems with the abdomen,
-days_after_birth_diarrhea,How many days after birth did the child have diarrhea?,
-days_after_birth_yellow_palms_soles,How many days after birth did the yellow palms or soles begin?,
-days_after_birth_yellow_skin,Days after birth skin turned yellow colour,
-days_after_illness_seek_care_health_facility,How many days after the illness started was care at a medical facility sought?,
-days_before_death_not_breastfed,How many days before death was the child not breastfed?,
-days_bloody_vomit,Days child had bloody vomit,
-days_breathlessness,Days child had breathlessness,
-days_bulging_fontanelle,Days child had a bulging fontanelle,
-days_chest_infections,Days child had a chest infection,
-days_chest_pain,Days child had chest pain,
-days_chest_pull_in,Days the child had indrawing of chest,
-days_cold_touch,Days child felt cold to the touch,
-days_convulsions,Days child had convulsions,
-days_convulsions_start,How soon after birth did the convulsions start?,
-days_cough,Days child had a cough,
-days_diarrhea,Days child had diarrhea,
-days_diarrhea_start,How many days after birth did the baby have diarrhea?,
-days_difficulty_breathing,Days child had difficulty breathing,
-days_difficulty_swallowing,Days child had difficulty breathing,
-days_fast_breathing,Days child had fast breathing,
-days_fever,Days child had a fever,
-days_hair_red_yellow,Days the child had reddish or yellowish hair,
-days_headache,Days child had a headache,
-days_ill_before_death,Days the child was ill before his/her death,
-days_lumps,Days the child had lumps on the body,
-days_measles,Days the child had measles,
-days_mental_confusion,Days the child had mental confusion,
-days_mother_die,How many days after delivery did the mother die?,
-days_night_sweats,Days the child had night sweats,
-days_old_illness_start,How many days old was the child when the illness started?,
-days_operation_before_death,How long before death did the child have an operation? Days,
-days_painful_neck,Days child had a painful neck,
-days_pale,Days the child looked pale,
-days_paralysis_lower_limb,Days the child had paralysis of the lower limbs,
-days_paralyzed,Days the child was paralyzed,
-days_premature,Days the child was born premature,
-days_protruding_abdomen,Days the child had a protruding abdomen,
-days_puffiness_of_face,Days the child had a puffy face,
-days_rash,Days the child had a rash,
-days_rash_mouth,Days the child had a rash in/on the mouth,
-days_seek_care_after_illness_start,Days after the illness started care at a medical facility was sought,
-days_stiff,Days the child had a stiff body,
-days_stiff_neck,Days the child had a stiff neck,
-days_stop_moving,How many days before labour did you or the mother last feel the baby move? ,
-days_stop_suckle,How many days after birth did the baby stop suckling?,
-days_suckle_feed,How soon after birth did the child suckle or bottle feed?,
-days_sunken_eye,Days the child had sunken eyes,
-days_swell,Days the child's swelling lasted,
-days_swell_body,Days the child's body was swollen,
-days_swell_face,Days the child's face was swollen,
-days_swell_feet,Days the child's feet were swollen,
-days_swell_joints,Days the child's joints were swollen,
-days_swell_leg,Days the child's leg(s) were swollen,
-days_ulcer_foot_pus,Days the child's ulcer on the foot oozed pus,
-days_unconscious,Days the child was unconscious before his/her death,
-days_unresponsive,Days the child was unresponsive,
-days_unusually_sleepy,Days the child was unusually sleep,
-days_urine_blood,Days the child had blood in his/her urine,
-days_urine_change,Days the child had change in the amount of urine s/he passed daily,
-days_urine_problems,Days the child had urine problems,
-days_vomit,Days the child vomited,
-days_weeks_abdomen_mass,Days or weeks (the child had an abdomen mass),
-days_weeks_abdominal_pain,Days or weeks (the child had abdominal pain),
-days_weeks_breathlessness,Days or weeks (the child experienced breathlessness),
-days_weeks_cough,Days or weeks (the child had a cough),
-days_weeks_diarrhea,Days or weeks (the child had diarrhea),
-days_weeks_fast_breathing,Days or weeks (the child had fast breathing),
-days_weeks_fever,Days or weeks (the child had a fever),
-days_weeks_mental_confusion,Days or weeks (the child experienced mental confusion),
-days_weeks_months,"Days, Weeks, or Months",
-days_weeks_protruding_abdomen,Days or weeks (the child had a protruding abdomen),
-days_weeks_rash,Days or weeks (the child had a rash),
-days_weeks_stiff_neck,Days or weeks (the child had a stiff neck),
-days_weight_loss,Days the child experienced weight loss,
-days_yellow_eyes,Days the child had yellow discoloration of the eyes,
-days_yellow_palms_soles,Days the child had yellow palms or soles,
-days_yellow_skin,Days the child's skin turned yellow,
-death_cause_burial_permit,Is the cause of death written on the burial permit?,
-death_cause_on_permit,Cause of death written on burial permit,
-death_cause_on_permit_specific,"Cause of death written on burial permit, specific",
-death_cause_on_permit_specific1,"Cause of death 1 written on burial permit, specific",
-death_cause_on_permit_specific2,"Cause of death 2 written on burial permit, specific",
-death_cause_on_permit_specific3,"Cause of death 3 written on burial permit, specific",
-death_cause_on_permit_specific4,"Cause of death 4 written on burial permit, specific",
-death_cause_on_post_mortem,Was the cause of death revealed to you or written on the PM report?,
-death_certificate,Was a death certificate issued? ,
-death_certificate_date_death,Date of death on death certificate,
-death_certificate_issue_date,What day was the death certificate issued?,
-death_certificate_issued,Was a death certificate issued?,
-death_registration_date,Date of death registration,
-death_registration_number,Death registration number,
-death_registration_place,Place of death registration,
-death_registration_place_specific,"Place of death registration, specific. ",
-deceased_adult,Deceased is an adult,
-deceased_child,Deceased is a child,
-deceased_job,Deceased's job,
-deceased_job_specific,"Deceased's job, specific",
-deceased_national_id,Deceased national identification number,
-deceased_neonatal,Deceased is a neonate,
-deceased_return_study_because_sick,Deceased returned to study area because he/she was sick,
-dehydrated,Was the child dehydrated when he/she had diarrhea?,
-dementia,Was there any diagnosis by a health professional of dementia?,
-dengue,Was there any diagnosis by a health professional of dengue fever?,
-depression,Was there any diagnosis by a health professional of depression?,
-diabetes,Did the child suffer from diabetes?,
-diarrhea,Did the child have more frequent loose or liquid stools than usual? / Did the child have diarrhea?,
-diarrhea_bloody,What was the most common aspect of the stool? Bloody,
-diarrhea_clear_watery,What was the most common aspect of the stool? Clear watery,
-diarrhea_continue,Did the diarrhea continue until death?,
-diarrhea_duration,For how long did the child have diarrhea?,
-diarrhea_given_ors,During the diarrheal episode was the child given any fluids such as ORS?,
-diarrhea_lack_fluid,Do you think the child was lacking fluids when she was having diarrhea?,
-diarrhea_opaque_watery,What was the most common aspect of the stool? Opaque watery,
-diarrhea_sticky,What was the most common aspect of the stool? Sticky/mucoid,
-diarrhea_stool_consistency,"If the child had diarrhea, what was the most common aspect of the stool?",
-diarrhea_sunken_eyes,Did the child have sunken eyes when she was ill with diarrhea?,
-diarrhea_thick_liquid,What was the most common aspect of the stool? Thick liquid,
-diarrhea_wrinkled_skin,Did the child have wrinkled skin when s/he was ill with diarrhea?,
-die_at_site_of_injury_accident,Did the child die at the site of the injury/accident?,
-die_breastfeeding,Was the mother breastfeeding at death?,
-die_during_labour_undelivered,"Did the mother die during labour, but undelivered?",
-die_multiple_pregnancy,Did the mother die during or after a multiple pregnancy?,
-die_suddenly,Did the child die suddenly?,
-die_within_24_hours_delivery,Did the mother die within 24 hours after delivery?,
-die_within_6_weeks_birth,Did the mother die within 6 weeks of giving birth?,
-die_within_6_weeks_of_pregnancy_6_months,Did the mother die within 6 weeks of a pregnancy that lasted less than 6 months?,
+cause_death_certificate,Cause of death on death certificate,NA
+cause_death_certificate_duration,"Cause of death on death certificate, duration",NA
+cause_death_no_evidence,No documentation of evidence for cause of death,NA
+cause_death_respondent_account,What respondent think was cause of child's death,NA
+cause_death_told,What was the cause of the child's death told by the nurse/doctor at health facility,NA
+cause_death1,Cause of death according to the respondent,NA
+cause_death2,Cause of death 2 according to the respondent,NA
+chest_infections,Did the child have repeated chest infections?,NA
+chest_pain,Did the child have chest pain?,NA
+chest_pain_severe,Was the chest pain severe?,NA
+chest_pull_in,"During the illness that led to death, did the child have indrawing of the chest?",NA
+child_age_under_1,Is the child under 1 year of age?,NA
+child_arv,"If mother had HIV, did the child receive ARV within 3 days of birth?",NA
+child_visit_clinic,Did you ever take the child to the clinic?,NA
+chills,Did the child have chills or rigor?,NA
+chloroquine_malaraquin,Which antimalarial drug did the baby receive? Chloroquine/malariaquin,NA
+chronic_illness,Did the child have an ongoing chronic illness or was he/she sick in the month before the accident or injury?,NA
+chronic_illness_specific,Specify type of chronic illness,NA
+chronic_obstructive_pulmonary_disease,Was there any diagnosis of Chronic Obstructive Pulmonary Disease (COPD)?,NA
+citizenship_nationality,What was the child's citizenship/nationality?,NA
+civil_registration_needed,Is there a need to collect civil registration numbers on the deceased?,NA
+coartem,Which antimalarial drug did the baby receive? Coartem,NA
+cold_touch,Did the baby become cold to the touch before it died?,NA
+comments,Interviewer comments,NA
+complications_labour_delivery,Were there complications during the labour/delivery?,NA
+complications_other,What type of complications were in during the delivery? Other,NA
+complications_other_2,What type of complications were in during the delivery? Other 2,NA
+complications_specific,What type of complications were in during the delivery?,NA
+consent_interview,Does the respondent consent to being interviewed?,NA
+contacts_w_health_facility_before_death,"In the month before death, how many contacts with formal health services did the child receive?",NA
+convulsions,Did the child have any fits or convulsions during the illness that led to his/her death?,NA
+convulsions_after_24_hours,Did the baby have convulsions starting more than 24 hours after birth?,NA
+convulsions_unconscious,Did the child become unconscious immediately after the convulsion?,NA
+convulsions_unknown,How long did the convulsions/fits last? Don't know,NA
+convulsions_within_24_hours,Did the baby have convulsions within the first 24 hours of life?,NA
+cough,Did the child have a cough?,NA
+cough_blood,Did the child cough up blood?,NA
+cough_duration,How long did the cough last?,NA
+cough_productive,"Was the cough productive, with sputum?",NA
+cough_severe,Was the cough very severe?,NA
+cough_type,"If the child had a cough, specify the type of cough.",NA
+cough_unknown,For how long did the child have a cough? Don't know,NA
+cough_vomit,Did the child vomit after s/he coughed?,NA
+counterpart_bus,Was the counterpart that was hit a bus?,NA
+counterpart_car,Was the counterpart that was hit a car?,NA
+counterpart_injury_known,Do you know anything about the counterpart that was hit during the road traffic accident?,NA
+counterpart_motorcycle,Was the counterpart that was hit a motorcycle?,NA
+counterpart_other,Was the counterpart that was hit something else?,NA
+counterpart_pedal_cycle,Was the counterpart that was hit a pedal cycle?,NA
+counterpart_pedestrian,Was the counterpart that was hit a pedestrian?,NA
+counterpart_stationary_object,Was the counterpart that was hit a stationary object?,NA
+counterpart_traffic_accident,What was the counterpart that was hit during the road traffic accident?,NA
+counterpart_traffic_accident_specific,What was the counterpart that was hit during the road traffic accident? Specific,NA
+cry_after_birth,"Did the child cry after birth, even a little?",NA
+date_birth_deceased,Date of birth of deceased,NA
+date_birth_known,Is the date of birth known?,NA
+date_death_deceased,Date of death of deceased,NA
+date_death_known,Is the child's date of death known?,NA
+date_marriage,Date of marriage,NA
+days_abdomen_mass,Days child had abdomen mass,NA
+days_abdomen_pain,Days child had abdomen pain,NA
+days_abdomen_problem,Days child had problems with the abdomen,NA
+days_after_birth_diarrhea,How many days after birth did the child have diarrhea?,NA
+days_after_birth_yellow_palms_soles,How many days after birth did the yellow palms or soles begin?,NA
+days_after_birth_yellow_skin,Days after birth skin turned yellow colour,NA
+days_after_illness_seek_care_health_facility,How many days after the illness started was care at a medical facility sought?,NA
+days_before_death_not_breastfed,How many days before death was the child not breastfed?,NA
+days_bloody_vomit,Days child had bloody vomit,NA
+days_breathlessness,Days child had breathlessness,NA
+days_bulging_fontanelle,Days child had a bulging fontanelle,NA
+days_chest_infections,Days child had a chest infection,NA
+days_chest_pain,Days child had chest pain,NA
+days_chest_pull_in,Days the child had indrawing of chest,NA
+days_cold_touch,Days child felt cold to the touch,NA
+days_convulsions,Days child had convulsions,NA
+days_convulsions_start,How soon after birth did the convulsions start?,NA
+days_cough,Days child had a cough,NA
+days_diarrhea,Days child had diarrhea,NA
+days_diarrhea_start,How many days after birth did the baby have diarrhea?,NA
+days_difficulty_breathing,Days child had difficulty breathing,NA
+days_difficulty_swallowing,Days child had difficulty breathing,NA
+days_fast_breathing,Days child had fast breathing,NA
+days_fever,Days child had a fever,NA
+days_fits,Days the child had fits,NA
+days_hair_red_yellow,Days the child had reddish or yellowish hair,NA
+days_headache,Days child had a headache,NA
+days_ill_before_death,Days the child was ill before his/her death,NA
+days_lumps,Days the child had lumps on the body,NA
+days_measles,Days the child had measles,NA
+days_mental_confusion,Days the child had mental confusion,NA
+days_months_cough_unknown,For how long did the child have a cough? Don't know,NA
+days_months_difficulty_breathing_unknown,For how long did the child have difficulty breathing? Don't know,NA
+days_mother_die,How many days after delivery did the mother die?,NA
+days_night_sweats,Days the child had night sweats,NA
+days_old_illness_start,How many days old was the child when the illness started?,NA
+days_operation_before_death,How long before death did the child have an operation? Days,NA
+days_painful_neck,Days child had a painful neck,NA
+days_pale,Days the child looked pale,NA
+days_paralysis_lower_limb,Days the child had paralysis of the lower limbs,NA
+days_paralyzed,Days the child was paralyzed,NA
+days_premature,Days the child was born premature,NA
+days_protruding_abdomen,Days the child had a protruding abdomen,NA
+days_puffiness_of_face,Days the child had a puffy face,NA
+days_rash,Days the child had a rash,NA
+days_rash_mouth,Days the child had a rash in/on the mouth,NA
+days_seek_care_after_illness_start,Days after the illness started care at a medical facility was sought,NA
+days_stiff,Days the child had a stiff body,NA
+days_stiff_neck,Days the child had a stiff neck,NA
+days_stop_moving,How many days before labour did you or the mother last feel the baby move?,NA
+days_stop_suckle,How many days after birth did the baby stop suckling?,NA
+days_suckle_feed,How soon after birth did the child suckle or bottle feed?,NA
+days_sunken_eye,Days the child had sunken eyes,NA
+days_swell,Days the child's swelling lasted,NA
+days_swell_body,Days the child's body was swollen,NA
+days_swell_face,Days the child's face was swollen,NA
+days_swell_feet,Days the child's feet were swollen,NA
+days_swell_joints,Days the child's joints were swollen,NA
+days_swell_leg,Days the child's leg(s) were swollen,NA
+days_ulcer_foot_pus,Days the child's ulcer on the foot oozed pus,NA
+days_unconscious,Days the child was unconscious before his/her death,NA
+days_unresponsive,Days the child was unresponsive,NA
+days_unusually_sleepy,Days the child was unusually sleep,NA
+days_urine_blood,Days the child had blood in his/her urine,NA
+days_urine_change,Days the child had change in the amount of urine s/he passed daily,NA
+days_urine_problems,Days the child had urine problems,NA
+days_vomit,Days the child vomited,NA
+days_weeks_abdomen_mass,Days or weeks (the child had an abdomen mass),NA
+days_weeks_abdominal_pain,Days or weeks (the child had abdominal pain),NA
+days_weeks_breathlessness,Days or weeks (the child experienced breathlessness),NA
+days_weeks_cough,Days or weeks (the child had a cough),NA
+days_weeks_diarrhea,Days or weeks (the child had diarrhea),NA
+days_weeks_fast_breathing,Days or weeks (the child had fast breathing),NA
+days_weeks_fever,Days or weeks (the child had a fever),NA
+days_weeks_mental_confusion,Days or weeks (the child experienced mental confusion),NA
+days_weeks_months,"Days, Weeks, or Months",NA
+days_weeks_protruding_abdomen,Days or weeks (the child had a protruding abdomen),NA
+days_weeks_rash,Days or weeks (the child had a rash),NA
+days_weeks_stiff_neck,Days or weeks (the child had a stiff neck),NA
+days_weight_loss,Days the child experienced weight loss,NA
+days_yellow_eyes,Days the child had yellow discoloration of the eyes,NA
+days_yellow_palms_soles,Days the child had yellow palms or soles,NA
+days_yellow_skin,Days the child's skin turned yellow,NA
+death_cause_burial_permit,Is the cause of death written on the burial permit?,NA
+death_cause_on_permit,Cause of death written on burial permit,NA
+death_cause_on_permit_specific,"Cause of death written on burial permit, specific",NA
+death_cause_on_permit_specific1,"Cause of death 1 written on burial permit, specific",NA
+death_cause_on_permit_specific2,"Cause of death 2 written on burial permit, specific",NA
+death_cause_on_permit_specific3,"Cause of death 3 written on burial permit, specific",NA
+death_cause_on_permit_specific4,"Cause of death 4 written on burial permit, specific",NA
+death_cause_on_post_mortem,Was the cause of death revealed to you or written on the PM report?,NA
+death_certificate,Was a death certificate issued?,NA
+death_certificate_date_death,Date of death on death certificate,NA
+death_certificate_issue_date,What day was the death certificate issued?,NA
+death_certificate_issued,Was a death certificate issued?,NA
+death_registration_date,Date of death registration,NA
+death_registration_number,Death registration number,NA
+death_registration_place,Place of death registration,NA
+death_registration_place_specific,"Place of death registration, specific.",NA
+deceased_adult,Deceased is an adult,NA
+deceased_child,Deceased is a child,NA
+deceased_job,Deceased's job,NA
+deceased_job_specific,"Deceased's job, specific",NA
+deceased_national_id,Deceased national identification number,NA
+deceased_neonatal,Deceased is a neonate,NA
+deceased_return_study_because_sick,Deceased returned to study area because he/she was sick,NA
+dehydrated,Was the child dehydrated when he/she had diarrhea?,NA
+dementia,Was there any diagnosis by a health professional of dementia?,NA
+dengue,Was there any diagnosis by a health professional of dengue fever?,NA
+depression,Was there any diagnosis by a health professional of depression?,NA
+diabetes,Did the child suffer from diabetes?,NA
+diarrhea,Did the child have more frequent loose or liquid stools than usual? / Did the child have diarrhea?,NA
+diarrhea_bloody,What was the most common aspect of the stool? Bloody,NA
+diarrhea_clear_watery,What was the most common aspect of the stool? Clear watery,NA
+diarrhea_continue,Did the diarrhea continue until death?,NA
+diarrhea_duration,For how long did the child have diarrhea?,NA
+diarrhea_duration_unknown,For how long did s/he have diarrhea? Don't know,NA
+diarrhea_given_ors,During the diarrheal episode was the child given any fluids such as ORS?,NA
+diarrhea_lack_fluid,Do you think the child was lacking fluids when she was having diarrhea?,NA
+diarrhea_opaque_watery,What was the most common aspect of the stool? Opaque watery,NA
+diarrhea_sticky,What was the most common aspect of the stool? Sticky/mucoid,NA
+diarrhea_stool_consistency,"If the child had diarrhea, what was the most common aspect of the stool?",NA
+diarrhea_sunken_eyes,Did the child have sunken eyes when she was ill with diarrhea?,NA
+diarrhea_thick_liquid,What was the most common aspect of the stool? Thick liquid,NA
+diarrhea_unknown,What was the most common aspect of the stool? Don't know,NA
+diarrhea_wrinkled_skin,Did the child have wrinkled skin when s/he was ill with diarrhea?,NA
+die_at_site_of_injury_accident,Did the child die at the site of the injury/accident?,NA
+die_breastfeeding,Was the mother breastfeeding at death?,NA
+die_during_labour_undelivered,"Did the mother die during labour, but undelivered?",NA
+die_multiple_pregnancy,Did the mother die during or after a multiple pregnancy?,NA
+die_suddenly,Did the child die suddenly?,NA
+die_within_24_hours_delivery,Did the mother die within 24 hours after delivery?,NA
+die_within_6_weeks_birth,Did the mother die within 6 weeks of giving birth?,NA
+die_within_6_weeks_of_pregnancy_6_months,Did the mother die within 6 weeks of a pregnancy that lasted less than 6 months?,NA
 died_dry_season,Did the child die during dry season?,see season
-died_wet_season,Did the child die during wet season?,
-difficulty_breathing,Did the child have difficulty breathing?,
-difficulty_breathing_frequency,Was the difficulty breathing continuous or on and off?,
-difficulty_swallowing,Did the child have difficulty swallowing?,
-discharge_info,Hospital discharge information,
-discharged_ill,Was the child discharged from hospital very ill?,
-distention_development,"If the child had abdominal distention, did it start suddenly or gradually?",
-doses_mother_vaccinations,How many doses of vaccinations did the mother receive?,
-doubt_medical_care,"In the final days before death, were there any doubts about whether medical care was needed?",
+died_wet_season,Did the child die during wet season?,NA
+difficulty_breathing,Did the child have difficulty breathing?,NA
+difficulty_breathing_frequency,Was the difficulty breathing continuous or on and off?,NA
+difficulty_swallowing,Did the child have difficulty swallowing?,NA
+discharge_info,Hospital discharge information,NA
+discharged_ill,Was the child discharged from hospital very ill?,NA
+distention_development,"If the child had abdominal distention, did it start suddenly or gradually?",NA
+doses_mother_vaccinations,How many doses of vaccinations did the mother receive?,NA
+doubt_medical_care,"In the final days before death, were there any doubts about whether medical care was needed?",NA
 dpt_booster,Note vaccines the child has received: DPT Booster,"Gambia, WHO2016"
-drink_more,Did the child drink a lot more water than usual?,
-drown,Did the child die of drowning?,
-drugs_given_for_illness,List of drugs child was given for the illness that lead to death,
-duration_heart_disease,Duration the child suffered from heart disease,
-duration_pregnancy,Duration of the pregnancy,
-duration_pregnancy_months,Duration of the pregnancy in months,
-duration_pregnancy_weeks,Duration of the pregnancy in weeks,
-electrocution,Was the child electrocuted?,
-epi_vaccines,Select EPI vaccines done,
-epilepsy,Did the child suffer from epilepsy?,
-ethnicity,What was his/her ethnicity?,
-ethnicity_other,"Ethnicity, other",
-facility_name,What was the name of the health facility?,
-facility_name_specific,What was the name of the health facility? Specific,
-facility_outside_care,"Name of hospital, health center or clinic where outside care sought",
-family_account_events,Family's account of events leading to the child's death,
-family_member_tb,Has anyone in the family been diagnosed as having tuberculosis?,
-family_member_tb_same_house_as_deceased,"If a family member has been diagnosed with TB, who is it and did he/she/they live in the same house as the dead child?",
-fansider_sp_falcidin,Which antimalarial drug did the baby receive? Fansidar/SP/Falcidin,
-fast_breathing,Did the child have fast breathing?,
-fast_breathing_duration,Duration child had fast breathing,
-father_health,Is the father of the dead child healthy?,
-father_highest_education,Father's highest level of education,
-father_highest_education_specific,"Father's highest level of education, specific",
-father_occupation,Father's occupation,
-father_occupation_specific,"Father's occupation, specific",
-feed_nose,What type of treatment did the child receive? Food through a tube passed through the nose,
-fetal_heart_sound_present,Was a fetal heart sound present?,
-fever,Did the child have a fever?,
-fever_continue,Did the fever continue until death?,
-fever_duration,For how long did the child have a fever?,
-fever_pattern,What was the pattern of the fever?,
-fever_severe,Was the fever severe?,
-fever_severity,How severe was the fever?,
-filenumber,File number,
-firearm,Was the child injured by firearm?,
-firstname_deceased,First name of deceased,
-firstname_interviewer,First name of interviewer,
-firstname_respondent,First name of respondent,
+drink_more,Did the child drink a lot more water than usual?,NA
+drown,Did the child die of drowning?,NA
+drugs_given_for_illness,List of drugs child was given for the illness that lead to death,NA
+duration_heart_disease,Duration the child suffered from heart disease,NA
+duration_pregnancy,Duration of the pregnancy,NA
+duration_pregnancy_months,Duration of the pregnancy in months,NA
+duration_pregnancy_unknown,How long was the pregnancy? Don't know,NA
+duration_pregnancy_weeks,Duration of the pregnancy in weeks,NA
+electrocution,Was the child electrocuted?,NA
+epi_vaccines,Select EPI vaccines done,NA
+epilepsy,Did the child suffer from epilepsy?,NA
+ethnicity,What was his/her ethnicity?,NA
+ethnicity_other,"Ethnicity, other",NA
+facility_name,What was the name of the health facility?,NA
+facility_name_specific,What was the name of the health facility? Specific,NA
+facility_outside_care,"Name of hospital, health center or clinic where outside care sought",NA
+facility_tb_drugs_na,At which health facility did the child collect TB drugs? NA,NA
+family_account_events,Family's account of events leading to the child's death,NA
+family_member_tb,Has anyone in the family been diagnosed as having tuberculosis?,NA
+family_member_tb_same_house_as_deceased,"If a family member has been diagnosed with TB, who is it and did he/she/they live in the same house as the dead child?",NA
+fansider_sp_falcidin,Which antimalarial drug did the baby receive? Fansidar/SP/Falcidin,NA
+fast_breathing,Did the child have fast breathing?,NA
+fast_breathing_duration,Duration child had fast breathing,NA
+fast_breathing_unknown,For how long did the child have fast breathing? Don't know,NA
+father_health,Is the father of the dead child healthy?,NA
+father_highest_education,Father's highest level of education,NA
+father_highest_education_specific,"Father's highest level of education, specific",NA
+father_occupation,Father's occupation,NA
+father_occupation_specific,"Father's occupation, specific",NA
+feed_nose,What type of treatment did the child receive? Food through a tube passed through the nose,NA
+fetal_heart_sound_present,Was a fetal heart sound present?,NA
+fever,Did the child have a fever?,NA
+fever_continue,Did the fever continue until death?,NA
+fever_duration,For how long did the child have a fever?,NA
+fever_pattern,What was the pattern of the fever?,NA
+fever_severe,Was the fever severe?,NA
+fever_severity,How severe was the fever?,NA
+fever_unknown,For how long did the child have a fever? Don't know,NA
+filenumber,File number,NA
+firearm,Was the child injured by firearm?,NA
+firstname_deceased,First name of deceased,NA
+firstname_interviewer,First name of interviewer,NA
+firstname_respondent,First name of respondent,NA
 fits,Did the child have fits?,see convulsions
-days_fits,Days the child had fits,
-months_fits,Months the child had fits,
-flaring_nostrils,Did the child have flaring of the nostrils?,
-forceps,Was baby born with forceps/vacuum?,
-generalized_convulsions,Did the child experience any generalized convulsions or fits during the illness that led to death?,
-grow_normal_before_illness,Was the child growing normally before the illness?,
-hair_red_yellow,Did the child's hair change to a reddish or yellowish color?,
-headache,Did the child have a headache?,
-headsize,What was the size of the head of the baby?,
-health_card_available,Is the child's health card available?,
-health_centre_code,Health centre code,
-health_facility_specific,"Health facility, specific",
-health_facility_treated_iv,Was the child treated with IV in the health facility?,
-health_records,Do you have any health records that belonged to the deceased?,
+flaring_nostrils,Did the child have flaring of the nostrils?,NA
+forceps,Was baby born with forceps/vacuum?,NA
+generalized_convulsions,Did the child experience any generalized convulsions or fits during the illness that led to death?,NA
+grow_normal_before_illness,Was the child growing normally before the illness?,NA
+hair_red_yellow,Did the child's hair change to a reddish or yellowish color?,NA
+headache,Did the child have a headache?,NA
+headsize,What was the size of the head of the baby?,NA
+health_card_available,Is the child's health card available?,NA
+health_centre_code,Health centre code,NA
+health_facility_specific,"Health facility, specific",NA
+health_facility_treated_iv,Was the child treated with IV in the health facility?,NA
+health_records,Do you have any health records that belonged to the deceased?,NA
 health_service_contacts,"In the month before death, did the child have any contacts with formal health services?",va_4_weeks_to_59_months (variable in results but question not found in survey)
-heart_disease,Did the child suffer from heart disease?,
+heart_disease,Did the child suffer from heart disease?,NA
 hepb,Note vaccines the child has received: Hepatitis B,"Gambia, WHO2016"
-herpes_zoster,Did the child ever have shingles or herpes zoster?,
-high_blood_pressure,Was there any diagnosis of high blood pressure?,
-highest_education,What was the child's highest level of schooling?,
+herpes_zoster,Did the child ever have shingles or herpes zoster?,NA
+high_blood_pressure,Was there any diagnosis of high blood pressure?,NA
+highest_education,What was the child's highest level of schooling?,NA
 hiv,Was the child tested positive for HIV? / Was a HIV test ever positive?,"see aids (c2016_map, who2016 separates HIV and AIDS whereas other surveys group together)"
-hospital,"If the child sought care at a hospital, which hospital? ","core_2, who2007_2, who2010"
-hospital_2_hours_away,Does it take more than 2 hours to get to the nearest hospital or health facility from the deceased's household?,
-hospital_diagnosis,The Diagnosis on the hospital forms,
-hospital_discharge_forms_available,Hospital discharge forms available?,
-hospital_documents_available,Are other hospital documents available?,
-hospital_information,Information from hospital discharge forms,
-hospital_information_other,Other hospital documents available – other specify,
-hospital_other,Other hospital,
-hospital_other_specific,"Other hospital, specific",
-hospital_prescription_info,Hospital prescription information ,
-hospital_prescriptions_available,Are hospital prescription forms available?,
-hospital_prescriptions_information,Information from hospital prescription form,
-hours_abdomen_pain,How long did the child have abdomen pain (in hours)?,
-hours_after_illness_seek_care_health_facility,Hours after the illness started care at a medical facility was sought,
-hours_after_water_break_born,How many hours after the water break was the baby born?,
-hours_chest_pain,How long did the child have chest pain (in hours)?,
-hours_ill_before_death,Hours the child was ill before his/her death,
-hours_labor_pains,For how many hours did the mother experience labor pains?,
-hours_labour_delivery,How many hours did labour and delivery take?,
-hours_stop_moving,How many hours before labour did you or the mother last feel the baby move?,
-hours_suckle_feed,For how many hours did the baby suckle or bottle feed?,
-hours_survive_after_injury_accident,For how many hours after the accident or injury did s/he survive?,
-hours_unconscious,How long before death unconsciousness started (in hours),
-hours_unresponsive_to_voice,How long before he/she died did the child stop being able to respond to a voice?,
-how_soon_stop_suckle,How soon after birth did the baby stop suckle or bottlefeed?,
-how_soon_stop_suckle_days,How soon after birth did the baby stop suckle or bottlefeed? Days.,
-how_soon_suckle_bottlefeed,How soon after birth did the baby suckle or bottle feed?,
-how_soon_suckle_bottlefeed_days,How soon after birth did the baby suckle or bottle feed? Days.,
-how_soon_suckle_bottlefeed_hours,How soon after birth did the baby suckle or bottle feed? Hours.,
-immunized,Has the child received immunization?,
-info_counterpart_traffic_accident,Do you know anything about the counterpart that was hit during the road traffic accident?,
+hospital,"If the child sought care at a hospital, which hospital?","core_2, who2007_2, who2010"
+hospital_2_hours_away,Does it take more than 2 hours to get to the nearest hospital or health facility from the deceased's household?,NA
+hospital_diagnosis,The Diagnosis on the hospital forms,NA
+hospital_discharge_forms_available,Hospital discharge forms available?,NA
+hospital_documents_available,Are other hospital documents available?,NA
+hospital_information,Information from hospital discharge forms,NA
+hospital_information_other,Other hospital documents available äóñ other specify,NA
+hospital_other,Other hospital,NA
+hospital_other_specific,"Other hospital, specific",NA
+hospital_prescription_info,Hospital prescription information,NA
+hospital_prescriptions_available,Are hospital prescription forms available?,NA
+hospital_prescriptions_information,Information from hospital prescription form,NA
+hours_abdomen_pain,How long did the child have abdomen pain (in hours)?,NA
+hours_after_illness_seek_care_health_facility,Hours after the illness started care at a medical facility was sought,NA
+hours_after_water_break_born,How many hours after the water break was the baby born?,NA
+hours_before_death_stop_cry,How many hours before death did the child stop crying?,NA
+hours_chest_pain,How long did the child have chest pain (in hours)?,NA
+hours_ill_before_death,Hours the child was ill before his/her death,NA
+hours_labor_pains,For how many hours did the mother experience labor pains?,NA
+hours_labour_delivery,How many hours did labour and delivery take?,NA
+hours_stop_moving,How many hours before labour did you or the mother last feel the baby move?,NA
+hours_suckle_feed,For how many hours did the baby suckle or bottle feed?,NA
+hours_survive_after_injury_accident,For how many hours after the accident or injury did s/he survive?,NA
+hours_unconscious,How long before death unconsciousness started (in hours),NA
+hours_unresponsive_to_voice,How long before he/she died did the child stop being able to respond to a voice?,NA
+how_soon_stop_suckle,How soon after birth did the baby stop suckle or bottlefeed?,NA
+how_soon_stop_suckle_days,How soon after birth did the baby stop suckle or bottlefeed? Days.,NA
+how_soon_suckle_bottlefeed,How soon after birth did the baby suckle or bottle feed?,NA
+how_soon_suckle_bottlefeed_days,How soon after birth did the baby suckle or bottle feed? Days.,NA
+how_soon_suckle_bottlefeed_hours,How soon after birth did the baby suckle or bottle feed? Hours.,NA
+ill_unknown,For how long was the child,NA
+immunized,Has the child received immunization?,NA
+info_counterpart_traffic_accident,Do you know anything about the counterpart that was hit during the road traffic accident?,NA
 injury_accident,Did the child have an injury or accident that resulted in his/her death?,"In core_2, options include injury, accident, neither, dk, whereas they are Y, N, DK in others"
-injury_accidental,Was the child's injury accidental?,
-injury_bus_occupant,"If the child suffered from a road/traffic accident, was he/she injured as a bus occupant?",
-injury_car_occupant,"If the child suffered from a road/traffic accident, was he/she injured as a car occupant?",
-injury_fall,Was the child injured in a fall?,
-injury_intentional,Was the child injured intentionally by someone?,
-injury_motorcycle,"If the child suffered from a road/traffic accident, was he/she injured on a motorcycle?",
-injury_nature,Was the child injured by a force of nature?,
-injury_other_inflicted,Was the child's injury or accident intentionally inflicted by someone else?,
-injury_pedal_cycle,"If the child suffered from a road/traffic accident, was he/she injured as a pedal cyclist?",
-injury_pedestrian,"If the child suffered from a road/traffic accident, was he/she injured as a pedestrian?",
-injury_self_inflicted,Was the child's injury or accident self-inflicted?,
-injury_type,What kind of injury or accident did the child suffer?,
-injury_type_abuse_specific,Specific type of abuse,
-injury_type_other,What kind of injury or accident did the child suffer? Other,
-injury_type_other_specific,"What kind of injury or accident did the child suffer? Other, specific",
-injury_type_poisoning_specific,What type of poisoning did the child suffer from?,
-injury_type_specific,What kind of injury or accident did the child suffer? Specific,
-intervew_stop_time,Interview stop time,
-interview_date,Interview date,
-interview_time,Interview time,
-interview_time_of_day,Interview time of day,
-interviewer_code,Interviewer code,
-interviewer_comments,Interviewer's comments,
-interviewer_comments_other,Interviewer's other comments,
-interviewer_initials,Interviewer's initials,
-interviewer_name,Interviewer name,
-interviewer_notes,Interviewer's notes,
-interviewer_observations,Interviewer's observations,
-iv,Did the child receive (or need) intravenous fluids (drip) treatment?,
-key_indicators_illness,Key indicators of the illness,
-kidney_disease,Did the child suffer from kidney disease?,
-lab_results_available,Laboratory/cytology results available?,
-lab_results_info,Laboratory/cytology results,
-labour_excess_bleeding,Was there excess bleeding on the day labor started?,
-labour_pains_last,How long did he labor pains last?,
-large_head,Did the child have a very large head at time of birth?,
-last_move,How many hours or days before labour did you or the mother last feel the baby move?,
-late_complications_pregnancy,Were there any complications in the late part of the pregnancy (defined as the last 3 months before labour)?,
-late_pregnancy_mother_abdominal_pain,During the last 3 months of pregnancy did the mother suffer from abdominal pain?,
-late_pregnancy_mother_blurry_vision,During the last 3 months of pregnancy did the mother suffer from blurry vision?,
-late_pregnancy_mother_convulsions,During the last 3 months of pregnancy did the mother suffer from convulsions?,
-late_pregnancy_mother_febrile_illness,During the last 3 months of pregnancy did the mother suffer from febrile illness?,
-late_pregnancy_mother_headache,During the last 3 months of pregnancy did the mother suffer from headaches?,
-late_pregnancy_mother_other_condition,During the last 3 months of pregnancy did the mother suffer from other conditions?,
-late_pregnancy_mother_other_condition_specific,During the last 3 months of pregnancy did the mother suffer from other conditions? Specific,
-late_pregnancy_mother_pallor,During the last 3 months of pregnancy did the mother suffer from pallor?,
-late_pregnancy_mother_puffy_face,During the last 3 months of pregnancy did the mother suffer from puffy face?,
-late_pregnancy_mother_smelly_discharge,During the last 3 months of pregnancy did the mother suffer from smelly vaginal discharge?,
-late_pregnancy_mother_vaginal_bleeding,During the last 3 months of pregnancy did the mother suffer from vaginal bleeding?,
-leprosy,Did the child suffer from leprosy?,
-lethargic,During the illness that led to death did the child become lethargic after a period of normal activity?,
-liquid_colour,What was the colour of the liquid when the water broke?,
-liquid_smell,Was the liquid foul smelling?,
-listen_fetal_heart,Did a birth attendant listen for fetal heart sound?,
-literate,Was the child able to read and write?,
-live_with_deceased,Did the respondent live with the deceased in the period leading to her/his death?,
-liver_disease,Was there any diagnosis by a health professional of liver disease?,
-location_id,Location ID,
-long_labour,Was the mother in labour for unusually long (more than 24 hours)? / Was it a prolonged labour?,
-lumps,Did the child have any lumps?,
-lumps_armpit,Did the child have any lumps on the armpit?,
-lumps_groin,Did the child have any lumps on the groin?,
-lumps_mouth,Did the child have any lumps in the mouth?,
-lumps_neck,Did the child have any lumps on the neck?,
-lumps_other,Did the child have any lumps? Other,
-lumps_specific,Did the child have any lumps? Specify,
-macerated,"If the child was born dead, did the child show signs of maceration (decay)?",
-machinery,Was the child injured by machinery?,
-main_economic_activity,What was her/his main economic activity in the year prior to death?,
-main_economic_activity_specific,What was her/his main economic activity in the year prior to death? Specific,
-malaria_negative,Did the child have a recent negative test for Malaria?,
-malaria_positive,Did the child have a recent positive test for Malaria?,
-malaria_tested,Did the child have a recent test for malaria?,
-malformation,Did the baby have any noticeable malformation?,
-malformation_other,Did the baby have any noticeable malformation? Other,
-malformation_specific,Did the baby have any noticeable malformation? Specific,
-malformation_type,What kind of malformation did the baby have?,
-malformation_type_specific,"What kind of malformation did the baby have, specific",
-malnutrition,Did the child suffer from malnutrition? ,
-marital_status,Marital status of deceased,
-mch_anc_card_info,MCH / ANC card information,
-mch_card_available,Is MCH / ANC card available?,
-measles,Was the child diagnosed with measles?,
+injury_accidental,Was the child's injury accidental?,NA
+injury_bus_occupant,"If the child suffered from a road/traffic accident, was he/she injured as a bus occupant?",NA
+injury_car_occupant,"If the child suffered from a road/traffic accident, was he/she injured as a car occupant?",NA
+injury_fall,Was the child injured in a fall?,NA
+injury_intentional,Was the child injured intentionally by someone?,NA
+injury_motorcycle,"If the child suffered from a road/traffic accident, was he/she injured on a motorcycle?",NA
+injury_nature,Was the child injured by a force of nature?,NA
+injury_other_inflicted,Was the child's injury or accident intentionally inflicted by someone else?,NA
+injury_pedal_cycle,"If the child suffered from a road/traffic accident, was he/she injured as a pedal cyclist?",NA
+injury_pedestrian,"If the child suffered from a road/traffic accident, was he/she injured as a pedestrian?",NA
+injury_self_inflicted,Was the child's injury or accident self-inflicted?,NA
+injury_type,What kind of injury or accident did the child suffer?,NA
+injury_type_abuse_specific,Specific type of abuse,NA
+injury_type_other,What kind of injury or accident did the child suffer? Other,NA
+injury_type_other_specific,"What kind of injury or accident did the child suffer? Other, specific",NA
+injury_type_poisoning_specific,What type of poisoning did the child suffer from?,NA
+injury_type_specific,What kind of injury or accident did the child suffer? Specific,NA
+intervew_stop_time,Interview stop time,NA
+interview_date,Interview date,NA
+interview_time,Interview time,NA
+interview_time_of_day,Interview time of day,NA
+interviewer_code,Interviewer code,NA
+interviewer_comments,Interviewer's comments,NA
+interviewer_comments_other,Interviewer's other comments,NA
+interviewer_initials,Interviewer's initials,NA
+interviewer_name,Interviewer name,NA
+interviewer_notes,Interviewer's notes,NA
+interviewer_observations,Interviewer's observations,NA
+iv,Did the child receive (or need) intravenous fluids (drip) treatment?,NA
+key_indicators_illness,Key indicators of the illness,NA
+kidney_disease,Did the child suffer from kidney disease?,NA
+lab_results_available,Laboratory/cytology results available?,NA
+lab_results_info,Laboratory/cytology results,NA
+labour_excess_bleeding,Was there excess bleeding on the day labor started?,NA
+labour_pains_last,How long did he labor pains last?,NA
+large_head,Did the child have a very large head at time of birth?,NA
+last_move,How many hours or days before labour did you or the mother last feel the baby move?,NA
+late_complications_pregnancy,Were there any complications in the late part of the pregnancy (defined as the last 3 months before labour)?,NA
+late_pregnancy_mother_abdominal_pain,During the last 3 months of pregnancy did the mother suffer from abdominal pain?,NA
+late_pregnancy_mother_blurry_vision,During the last 3 months of pregnancy did the mother suffer from blurry vision?,NA
+late_pregnancy_mother_convulsions,During the last 3 months of pregnancy did the mother suffer from convulsions?,NA
+late_pregnancy_mother_febrile_illness,During the last 3 months of pregnancy did the mother suffer from febrile illness?,NA
+late_pregnancy_mother_headache,During the last 3 months of pregnancy did the mother suffer from headaches?,NA
+late_pregnancy_mother_other_condition,During the last 3 months of pregnancy did the mother suffer from other conditions?,NA
+late_pregnancy_mother_other_condition_specific,During the last 3 months of pregnancy did the mother suffer from other conditions? Specific,NA
+late_pregnancy_mother_pallor,During the last 3 months of pregnancy did the mother suffer from pallor?,NA
+late_pregnancy_mother_puffy_face,During the last 3 months of pregnancy did the mother suffer from puffy face?,NA
+late_pregnancy_mother_smelly_discharge,During the last 3 months of pregnancy did the mother suffer from smelly vaginal discharge?,NA
+late_pregnancy_mother_vaginal_bleeding,During the last 3 months of pregnancy did the mother suffer from vaginal bleeding?,NA
+leprosy,Did the child suffer from leprosy?,NA
+lethargic,During the illness that led to death did the child become lethargic after a period of normal activity?,NA
+liquid_colour,What was the colour of the liquid when the water broke?,NA
+liquid_smell,Was the liquid foul smelling?,NA
+listen_fetal_heart,Did a birth attendant listen for fetal heart sound?,NA
+literate,Was the child able to read and write?,NA
+live_with_deceased,Did the respondent live with the deceased in the period leading to her/his death?,NA
+liver_disease,Was there any diagnosis by a health professional of liver disease?,NA
+location_id,Location ID,NA
+long_labour,Was the mother in labour for unusually long (more than 24 hours)? / Was it a prolonged labour?,NA
+lumps,Did the child have any lumps?,NA
+lumps_armpit,Did the child have any lumps on the armpit?,NA
+lumps_groin,Did the child have any lumps on the groin?,NA
+lumps_mouth,Did the child have any lumps in the mouth?,NA
+lumps_neck,Did the child have any lumps on the neck?,NA
+lumps_other,Did the child have any lumps? Other,NA
+lumps_specific,Did the child have any lumps? Specify,NA
+macerated,"If the child was born dead, did the child show signs of maceration (decay)?",NA
+machinery,Was the child injured by machinery?,NA
+main_economic_activity,What was her/his main economic activity in the year prior to death?,NA
+main_economic_activity_specific,What was her/his main economic activity in the year prior to death? Specific,NA
+malaria_negative,Did the child have a recent negative test for Malaria?,NA
+malaria_positive,Did the child have a recent positive test for Malaria?,NA
+malaria_tested,Did the child have a recent test for malaria?,NA
+malformation,Did the baby have any noticeable malformation?,NA
+malformation_other,Did the baby have any noticeable malformation? Other,NA
+malformation_specific,Did the baby have any noticeable malformation? Specific,NA
+malformation_type,What kind of malformation did the baby have?,NA
+malformation_type_specific,"What kind of malformation did the baby have, specific",NA
+malnutrition,Did the child suffer from malnutrition?,NA
+marital_status,Marital status of deceased,NA
+mch_anc_card_info,MCH / ANC card information,NA
+mch_card_available,Is MCH / ANC card available?,NA
+measles,Was the child diagnosed with measles?,NA
 measles_1,Note vaccines the child has received: Measles 1,"Gambia, WHO2016"
 measles_2,Note vaccines the child has received: Measles 2,"Gambia, WHO2016"
-medication_received,Did the child receive any of the following medications during the illness preceding his/her death?,
-medication_specific,Did the child receive any of the following medications during the illness preceding his/her death? Specific,
-medication_test_problems,"Were there any problems getting medications, or diagnostic tests in the hospital or health facility?",
-mental_confusion,Did the child have mental confusion?,
-mental_confusion_duration,For how long did the child have mental confusion?,
-minutes_chest_pain,Minutes the child had chest pain,
-minutes_convulsions,For how many minutes did the convulsions last?,
-miserable_month_prior_to_death,"Was the child miserable in the month prior to the death? E.g. reduced activity, reduced appetite",
-months_abdomen_mass,Months the child had a mass in the abdomen,
-months_abdomen_pain,Months the child had abdominal pain,
-months_abdomen_problem,Months the child had an abdomen problem,
-months_bloody_vomit,Months the child had bloody vomit,
-months_breathlessness,Months the child had breathlessness,
-months_chest_infections,Months the child had a chest infection,
-months_chest_pull_in,Months the child had his/her chest pull in,
-months_convulsions,Months the child had convulsions,
-months_cough,Months the child had a cough,
-months_diarrhea,Months the child had diarrhea,
-months_diarrhea_start,How long before death the frequent loose or liquid stools started (in months),
-months_difficulty_breathing,Months the child had difficulty breathing,
-months_difficulty_swallowing,Months the child had difficulty swallowing,
-months_fast_breathing,Months the child had fast breathing,
-months_fever,Months the child had a fever,
-months_hair_red_yellow,Months the child's hair changed to a reddish or yellowish color,
-months_headache,Months the child had headaches,
-months_ill_before_death,Number of months the child was ill before his/her death,
-months_illness_start,How old was the child when the fatal illness started (in months)?,
-months_lumps,Months the child had lumps,
-months_measles,Months the child had measles,
-months_mental_confusion,Months the child had mental confusion,
-months_mother_die,How many months after the delivery did the mother die?,
-months_night_sweats,Months child had night sweats,
-months_operation_before_death,How long before death did the child have an operation? Months,
-months_painful_neck,Months the child had a painful neck,
-months_pale,Months the child was pale,
-months_paralysis_lower_limb,Months the child had paralysis in his/her lower limbs,
-months_paralyzed,Months the child was paralyzed,
-months_pregnancy,How many months long was the pregnancy before the child was born?,
-months_premature,How many months premature was the baby born?,
-months_protruding_abdomen,For how many months did (s)he have a more than usually protruding abdomen?,
-months_puffiness_of_face,Months the child had puffiness of the face,
-months_rash,Months the child had a rash,
-months_rash_mouth,Months the child had a rash in the mouth,
-months_stiff,Months the child was stiff,
-months_stiff_neck,Months the child had a stiff neck,
-months_stop_suckle,How long after birth the baby stopped suckling (in months),
-months_sunken_eye,Months the child had sunken eyes,
-months_swell,Months the child had swelling,
-months_swell_body,Months the child had swelling of the body,
-months_swell_face,Months the child had swelling of the face,
-months_swell_joints,Months the child had swelling of the joints,
-months_swell_leg,Months the child had swelling in the legs,
-months_ulcer_foot_pus,Months the ulcer on the foot oozed pus,
-months_unconscious,Months the child was unconscious,
-months_unusually_sleepy,Months child was unusually sleepy,
-months_urine_blood,Months the child had bloody urine,
-months_urine_change,Months the child's urine changed,
-months_urine_problems,Months the child had urine problems,
-months_vomit,Months the child vomited,
-months_weight_loss,Months the child experienced weight loss,
-months_yellow_eyes,Months the child had yellow eyes,
-mother_abdomen_pain,"During the last 3 months of pregnancy, did the mother suffer from any of the follow illnesses? Abdominal pain that was not labour pain",
-mother_age_baby_die,What was the age of the mother at the time the baby died?,
-mother_age_years,Mother's age in years,
-mother_alive,Is the mother still alive?,
-mother_amemia,Did the baby's mother have severe anaemia?,
-mother_antenatal_care,Did the mother have any antenatal care during her pregnancy?,
-mother_arv_during_pregnancy,"If mother had HIV, did she receive ARV during pregnancy?",
-mother_assisted,Did the mother receive professional assistance during the delivery?,
-mother_blurred_vision,During the pregnancy did the baby's mother suffer from blurred vision?,
-mother_breastfeed_child,Was the mother able to breastfeed the child?,
-mother_convulsions,During the pregnancy did the baby's mother suffer from convulsions?,
-mother_current_health,How is the mother's health now?,
-mother_diabetes,Did the baby's mother have diabetes mellitus?,
-mother_diagnosed_hiv,Has the deceased’s (biological) mother ever been told she had HIV/AIDS by a health worker?,
-mother_die,Did the mother die during or after the delivery?,
-mother_epilepsy,During the pregnancy did the mother suffer from epilepsy?,
-mother_febrile_delivery,Did the mother have febrile illness at the time of delivery?,
-mother_fever,Did the mother have a fever when the labour started?,
-mother_healthy,Is the mother of the dead child healthy?,
-mother_heart_disease,During the pregnancy did the baby's mother suffer from heart disease?,
-mother_high_blood_pressure,During the pregnancy did the baby's mother suffer from high blood pressure?,
-mother_highest_education,What was the mother's highest level of education?,
-mother_highest_education_specific,"Mother's highest level of education, specific",
-mother_hiv,Did the child's mother suffer from any of the following conditions? HIV/AIDS,
-mother_illness_specific,Did the child's mother suffer from any of the following conditions? Specify,
-mother_no_breastfeed_child_reason,"If mother not able to breastfeed the child, why not?",
-mother_no_breastfeed_child_reason_specific,"If mother not able to breastfeed the child, why not? Other, specify",
-mother_no_conditions,Did the child's mother suffer from any of the following conditions? None,
-mother_no_illness,Did the child's mother suffer from any of the following illnesses? None,
-mother_occupation,Mother's occupation,
-mother_occupation_specific,"Mother's occupation, specific",
-mother_other_illness,Did the child's mother suffer from any of the following illnesses? Other,
-mother_other_illness_2,"During the last 3 months of pregnancy, did the mother suffer from any of the follow illnesses? Other illness",
-mother_other_illness_specific,"Did the child's mother suffer from any of the following illnesses? Other, specify",
-mother_pallor,"During the last 3 months of pregnancy, did the mother suffer from any of the follow illnesses? Pallor and shortness of breath",
-mother_puffy_face,"During the last 3 months of pregnancy, did the mother suffer from any of the follow illnesses? Puffy face",
-mother_sp_fansidar,Did the mother receive SP or fansidar for malaria prevention during the antenatal visits?,
-mother_tb,Mother diagnosed with TB during last year?,
-mother_tb_diagnosed,Was the mother of the child diagnosed with TB during the last 2 years?,
-mother_tb_during_pregnancy,Was the mother of the child diagnosed with TB during the last pregnancy?,
-mother_tested_hiv,Has the deceased’ s (biological) mother ever been tested for HIV?,
-mother_tetnus,Did the mother receive tetanus toxoid (TT) vaccine? /  Did the child’s mother receive any tetanus vaccinations during the pregnancy?,Two variations of question
-mother_tetnus_injections,Number of tetanus vaccines mother received ,
-mother_tetnus_previous,Did the child’s mother receive any tetanus vaccinations since reaching adulthood before this pregnancy?,
-mother_tetnus_previous_injections,Number of doses of tetanus injections has the child's mother received since reaching adulthood before this pregnancy,
-mother_vaccinations,Did the mother receive any vaccinations since reaching adulthood including during this pregnancy?,
+measles_rash,Did the child have measles rash?,NA
+medication_received,Did the child receive any of the following medications during the illness preceding his/her death?,NA
+medication_specific,Did the child receive any of the following medications during the illness preceding his/her death? Specific,NA
+medication_test_problems,"Were there any problems getting medications, or diagnostic tests in the hospital or health facility?",NA
+mental_confusion,Did the child have mental confusion?,NA
+mental_confusion_duration,For how long did the child have mental confusion?,NA
+mental_confusion_unknown,For how long did the child have mental confusion? Don't know,NA
+minutes_baby_cry,How many minutes after birth did the baby first cry?,NA
+minutes_chest_pain,Minutes the child had chest pain,NA
+minutes_convulsions,For how many minutes did the convulsions last?,NA
+miserable_month_prior_to_death,"Was the child miserable in the month prior to the death? E.g. reduced activity, reduced appetite",NA
+months_abdomen_mass,Months the child had a mass in the abdomen,NA
+months_abdomen_pain,Months the child had abdominal pain,NA
+months_abdomen_problem,Months the child had an abdomen problem,NA
+months_bloody_vomit,Months the child had bloody vomit,NA
+months_breathlessness,Months the child had breathlessness,NA
+months_chest_infections,Months the child had a chest infection,NA
+months_chest_pull_in,Months the child had his/her chest pull in,NA
+months_convulsions,Months the child had convulsions,NA
+months_cough,Months the child had a cough,NA
+months_diarrhea,Months the child had diarrhea,NA
+months_diarrhea_start,How long before death the frequent loose or liquid stools started (in months),NA
+months_difficulty_breathing,Months the child had difficulty breathing,NA
+months_difficulty_swallowing,Months the child had difficulty swallowing,NA
+months_fast_breathing,Months the child had fast breathing,NA
+months_fever,Months the child had a fever,NA
+months_fits,Months the child had fits,NA
+months_hair_red_yellow,Months the child's hair changed to a reddish or yellowish color,NA
+months_headache,Months the child had headaches,NA
+months_ill_before_death,Number of months the child was ill before his/her death,NA
+months_illness_start,How old was the child when the fatal illness started (in months)?,NA
+months_lumps,Months the child had lumps,NA
+months_measles,Months the child had measles,NA
+months_mental_confusion,Months the child had mental confusion,NA
+months_mother_die,How many months after the delivery did the mother die?,NA
+months_night_sweats,Months child had night sweats,NA
+months_operation_before_death,How long before death did the child have an operation? Months,NA
+months_painful_neck,Months the child had a painful neck,NA
+months_pale,Months the child was pale,NA
+months_paralysis_lower_limb,Months the child had paralysis in his/her lower limbs,NA
+months_paralyzed,Months the child was paralyzed,NA
+months_pregnancy,How many months long was the pregnancy before the child was born?,NA
+months_premature,How many months premature was the baby born?,NA
+months_protruding_abdomen,For how many months did (s)he have a more than usually protruding abdomen?,NA
+months_puffiness_of_face,Months the child had puffiness of the face,NA
+months_rash,Months the child had a rash,NA
+months_rash_mouth,Months the child had a rash in the mouth,NA
+months_stiff,Months the child was stiff,NA
+months_stiff_neck,Months the child had a stiff neck,NA
+months_stop_suckle,How long after birth the baby stopped suckling (in months),NA
+months_sunken_eye,Months the child had sunken eyes,NA
+months_swell,Months the child had swelling,NA
+months_swell_body,Months the child had swelling of the body,NA
+months_swell_face,Months the child had swelling of the face,NA
+months_swell_joints,Months the child had swelling of the joints,NA
+months_swell_leg,Months the child had swelling in the legs,NA
+months_ulcer_foot_pus,Months the ulcer on the foot oozed pus,NA
+months_unconscious,Months the child was unconscious,NA
+months_unusually_sleepy,Months child was unusually sleepy,NA
+months_urine_blood,Months the child had bloody urine,NA
+months_urine_change,Months the child's urine changed,NA
+months_urine_problems,Months the child had urine problems,NA
+months_vomit,Months the child vomited,NA
+months_weight_loss,Months the child experienced weight loss,NA
+months_yellow_eyes,Months the child had yellow eyes,NA
+mother_abdomen_pain,"During the last 3 months of pregnancy, did the mother suffer from any of the follow illnesses? Abdominal pain that was not labour pain",NA
+mother_age_baby_die,What was the age of the mother at the time the baby died?,NA
+mother_age_years,Mother's age in years,NA
+mother_alive,Is the mother still alive?,NA
+mother_amemia,Did the baby's mother have severe anaemia?,NA
+mother_antenatal_care,Did the mother have any antenatal care during her pregnancy?,NA
+mother_arv_during_pregnancy,"If mother had HIV, did she receive ARV during pregnancy?",NA
+mother_assisted,Did the mother receive professional assistance during the delivery?,NA
+mother_blurred_vision,During the pregnancy did the baby's mother suffer from blurred vision?,NA
+mother_breastfeed_child,Was the mother able to breastfeed the child?,NA
+mother_convulsions,During the pregnancy did the baby's mother suffer from convulsions?,NA
+mother_current_health,How is the mother's health now?,NA
+mother_diabetes,Did the baby's mother have diabetes mellitus?,NA
+mother_diagnosed_hiv,Has the child's (biological) mother ever been told she had HIV/AIDS by a health worker?,NA
+mother_die,Did the mother die during or after the delivery?,NA
+mother_epilepsy,During the pregnancy did the mother suffer from epilepsy?,NA
+mother_febrile_delivery,Did the mother have febrile illness at the time of delivery?,NA
+mother_fever,Did the mother have a fever when the labour started?,NA
+mother_healthy,Is the mother of the dead child healthy?,NA
+mother_heart_disease,During the pregnancy did the baby's mother suffer from heart disease?,NA
+mother_high_blood_pressure,During the pregnancy did the baby's mother suffer from high blood pressure?,NA
+mother_highest_education,What was the mother's highest level of education?,NA
+mother_highest_education_specific,"Mother's highest level of education, specific",NA
+mother_hiv,Did the child's mother suffer from any of the following conditions? HIV/AIDS,NA
+mother_illness_specific,Did the child's mother suffer from any of the following conditions? Specify,NA
+mother_no_breastfeed_child_reason,"If mother not able to breastfeed the child, why not?",NA
+mother_no_breastfeed_child_reason_specific,"If mother not able to breastfeed the child, why not? Other, specify",NA
+mother_no_conditions,Did the child's mother suffer from any of the following conditions? None,NA
+mother_no_illness,Did the child's mother suffer from any of the following illnesses? None,NA
+mother_occupation,Mother's occupation,NA
+mother_occupation_specific,"Mother's occupation, specific",NA
+mother_other_illness,Did the child's mother suffer from any of the following illnesses? Other,NA
+mother_other_illness_2,"During the last 3 months of pregnancy, did the mother suffer from any of the follow illnesses? Other illness",NA
+mother_other_illness_specific,"Did the child's mother suffer from any of the following illnesses? Other, specify",NA
+mother_pallor,"During the last 3 months of pregnancy, did the mother suffer from any of the follow illnesses? Pallor and shortness of 
+ breath",NA
+mother_puffy_face,"During the last 3 months of pregnancy, did the mother suffer from any of the follow illnesses? Puffy face",NA
+mother_sp_fansidar,Did the mother receive SP or fansidar for malaria prevention during the antenatal visits?,NA
+mother_tb,Mother diagnosed with TB during last year?,NA
+mother_tb_diagnosed,Was the mother of the child diagnosed with TB during the last 2 years?,NA
+mother_tb_during_pregnancy,Was the mother of the child diagnosed with TB during the last pregnancy?,NA
+mother_tested_hiv,Has the deceased'só» s (biological) mother ever been tested for HIV?,NA
+mother_tetnus,Did the mother receive tetanus toxoid (TT) vaccine? / Did the child's mother receive any tetanus vaccinations during the pregnancy?,Two variations of question
+mother_tetnus_injections,Number of tetanus vaccines mother received,NA
+mother_tetnus_previous,Did the child's mother receive any tetanus vaccinations since reaching adulthood before this pregnancy?,NA
+mother_tetnus_previous_injections,Number of doses of tetanus injections has the child's mother received since reaching adulthood before this pregnancy,NA
+mother_vaccinations,Did the mother receive any vaccinations since reaching adulthood including during this pregnancy?,NA
 mother_vaginal_bleeding,During the last 3 months of pregnancy did the mother suffer from any of the following known illnesses?,See mother_vaginal_bleeding_late_pregnancy
-mother_vaginal_bleeding_early_pregnancy,Was there vaginal bleeding during the first 6 months of pregnancy?,
-mother_vaginal_bleeding_labour,Was there excessive vaginal bleeding during labour?,
-mother_vaginal_bleeding_late_pregnancy,Did the baby's mother have vaginal bleeding during the last 3 months of pregnancy but before labour started?,
-mother_vaginal_bleeding_post_delivery,Was there excessive vaginal bleeding after delivering the baby?,
-mother_vaginal_bleeding_pregancy_post_delivery,Was there any vaginal bleeding during pregnancy or after delivery?,
-mother_vaginal_discharge,Did the baby's mother have foul smelling vaginal discharge during pregnancy or after delivery?,
-motor_transport,Did the child use motorised transport to get to the hospital or health facility?,
-moving_before_birth,Was the baby moving in the last few days before the birth?,
+mother_vaginal_bleeding_early_pregnancy,Was there vaginal bleeding during the first 6 months of pregnancy?,NA
+mother_vaginal_bleeding_labour,Was there excessive vaginal bleeding during labour?,NA
+mother_vaginal_bleeding_late_pregnancy,Did the baby's mother have vaginal bleeding during the last 3 months of pregnancy but before labour started?,NA
+mother_vaginal_bleeding_post_delivery,Was there excessive vaginal bleeding after delivering the baby?,NA
+mother_vaginal_bleeding_pregancy_post_delivery,Was there any vaginal bleeding during pregnancy or after delivery?,NA
+mother_vaginal_discharge,Did the baby's mother have foul smelling vaginal discharge during pregnancy or after delivery?,NA
+motor_transport,Did the child use motorized transport to get to the hospital or health facility?,NA
+moving_before_birth,Was the baby moving in the last few days before the birth?,NA
 multiple,Was the child a single or multiple birth?,From va_under_4_weeks_map.csv
-multiple_birth,Was the child part of a multiple birth?,
-name_deceased,Name of deceased,
-name_father,Deceased father's first name,
-name_health_clinic,"What was the name and address of any hospital, health center or clinic where care was sought",
-name_interviewer,What is the name of the interviewer?,
-name_local_registrar,First name of local registrar,
-name_mother,Deceased mother's first name,
-name_of_hospital,Name of hospital,
-name_of_hospital_other,"Name of hospital, other",
-name_respondent,What is the name of the respondent?,
-name_supervisor,Name of supervisor,
-need_civil_registration,Is there need to collect civil registration data on the deceased?,
-night_sweats,Did the child have night sweats?,
-nights_in_hospital,How many nights in total did the child spend in the hospital(s)?,
-no_stool,Was there a period of a day or longer during which the child did not pass any stool?,
+multiple_birth,Was the child part of a multiple birth?,NA
+name_deceased,Name of deceased,NA
+name_father,Deceased father's first name,NA
+name_health_clinic,"What was the name and address of any hospital, health center or clinic where care was sought",NA
+name_interviewer,What is the name of the interviewer?,NA
+name_local_registrar,First name of local registrar,NA
+name_mother,Deceased mother's first name,NA
+name_of_hospital,Name of hospital,NA
+name_of_hospital_other,"Name of hospital, other",NA
+name_respondent,What is the name of the respondent?,NA
+name_supervisor,Name of supervisor,NA
+need_civil_registration,Is there need to collect civil registration data on the deceased?,NA
+night_sweats,Did the child have night sweats?,NA
+nights_in_hospital,How many nights in total did the child spend in the hospital(s)?,NA
+no_stool,Was there a period of a day or longer during which the child did not pass any stool?,NA
 noisy_breathing,Did the child have noisy breathing (grunting or wheezing)?,see wheezing
-non_road_accident,Was the child injured in a non-road transport accident?,
-non_venomous_animal,Was the child injured by an animal or insect (non-venomous)?,
-normal_delivery,Was baby born in a normal vaginal delivery?,
-not_grow_normal,Was the child not growing normally?,
-not_pregnant_6_weeks_of_death,"Was the mother neither pregnant, nor delivered, within 6 weeks of her death?",
-note_date_available,Is the date of the last note on the health records available?,
-note_vaccines,Note the vaccines the child received,
+non_road_accident,Was the child injured in a non-road transport accident?,NA
+non_venomous_animal,Was the child injured by an animal or insect (non-venomous)?,NA
+normal_delivery,Was baby born in a normal vaginal delivery?,NA
+not_grow_normal,Was the child not growing normally?,NA
+not_pregnant_6_weeks_of_death,"Was the mother neither pregnant, nor delivered, within 6 weeks of her death?",NA
+note_date_available,Is the date of the last note on the health records available?,NA
+note_vaccines,Note the vaccines the child received,NA
+number_fits,"When severe, how many fits did the child have in a day?",see number of convulsions
 number_of_convulsions,How many convulsions did the child have per day?,see number_of_fits
-number_previous_births,"How many births, including stillbirths, did the mother have before this baby?",
-number_stools_per_day,"When the diarrhea was most severe, how many times did the child pass stool in a day?",
-number_tetnus_injections,Number of tetanus injections,
-occupation,"What was her/his occupation, i.e., what kind of work did (s)he mainly do?",
-operation,Did the child have an operation for the illness?,
-operation_abdomen,The child had an operation on the abdomen,
-operation_before_death,Did the child have the operation within 1 month before death? ,
-operation_chest,The child had an operation on the chest,
-operation_head,The child had an operation on the head,
-operation_part,"If the child had an operation for the illness, what part of the body was the operation on?",
-operation_part_specific,"If had an operation for the illness, what part of the body was the operation on? Specific",
-operation_remove_uterus,Did the mother have an operation to remove her uterus shortly before death?,
-operation_specific,"The child had an operation on another body part, specific",
-oral_rehydration,Did the child receive oral rehydration salts?,
-other_antimalarials,Did the child receive antimalarials? Other,
-other_children_ill,Were any other children in the compound seriously ill at time that the child died?,
-other_children_ill_specific,Were any other children in the compound seriously ill at time that the child died? Specify illness,
-other_children_measles,Had any other children in the compound recently had measles?,
-other_comments,Other comments,
-other_docs_info,Information on other documents,
-other_illness,Was the child diagnosed by a health professional of another illness?,
-other_illness_specific,Was the child diagnosed by a health professional of another illness? Specify,
-other_injury,Was the child injury by some other injury?,
-other_records_available,Are other health records available?,
-other_siblings_age_died,"If other children of the same mother or father died before the age of 12 years, how old were they when they died?",
-other_siblings_died,Have any other children of the same mother or father died before the age of 12 years?,
-outside_care,"Was care sought outside the home while (s)he had this illness? / Between the child falling ill and dying did you take him orher to see anyone for treatment?",
-pain_swallowing,Did the child have pain swallowing?,
-painful_neck,Did the child have a painful neck during the illness that led to death?,
-pale,"Did the child look pale or have pale palms, eyes, or nail beds?",
+number_previous_births,"How many births, including stillbirths, did the mother have before this baby?",NA
+number_stools_per_day,"When the diarrhea was most severe, how many times did the child pass stool in a day?",NA
+number_tetnus_injections,Number of tetanus injections,NA
+occupation,"What was her/his occupation, i.e., what kind of work did (s)he mainly do?",NA
+operation,Did the child have an operation for the illness?,NA
+operation_abdomen,The child had an operation on the abdomen,NA
+operation_before_death,Did the child have the operation within 1 month before death?,NA
+operation_chest,The child had an operation on the chest,NA
+operation_head,The child had an operation on the head,NA
+operation_part,"If the child had an operation for the illness, what part of the body was the operation on?",NA
+operation_part_specific,"If had an operation for the illness, what part of the body was the operation on? Specific",NA
+operation_remove_uterus,Did the mother have an operation to remove her uterus shortly before death?,NA
+operation_specific,"The child had an operation on another body part, specific",NA
+oral_rehydration,Did the child receive oral rehydration salts?,NA
+other_antimalarials,Did the child receive antimalarials? Other,NA
+other_children_ill,Were any other children in the compound seriously ill at time that the child died?,NA
+other_children_ill_specific,Were any other children in the compound seriously ill at time that the child died? Specify illness,NA
+other_children_measles,Had any other children in the compound recently had measles?,NA
+other_comments,Other comments,NA
+other_docs_info,Information on other documents,NA
+other_illness,Was the child diagnosed by a health professional of another illness?,NA
+other_illness_specific,Was the child diagnosed by a health professional of another illness? Specify,NA
+other_injury,Was the child injury by some other injury?,NA
+other_records_available,Are other health records available?,NA
+other_siblings_age_died,"If other children of the same mother or father died before the age of 12 years, how old were they when they died?",NA
+other_siblings_died,Have any other children of the same mother or father died before the age of 12 years?,NA
+outside_care,Was care sought outside the home while (s)he had this illness? / Between the child falling ill and dying did you take him or her to see anyone for treatment?,NA
+pain_swallowing,Did the child have pain swallowing?,NA
+painful_neck,Did the child have a painful neck during the illness that led to death?,NA
+painful_neck_unknown,For how long did the child have stiff or painfull neck? Don't know,NA
+pale,"Did the child look pale or have pale palms, eyes, or nail beds?",NA
 pale_month_prior_to_death,"During the illness that led to death, did the child suffer from lack of blood or appear pale?",see pale
-paralysis_lower_limb,Did the child have paralysis of the lower limbs?,
-paralysis_lower_limb_sudden,"If the child had paralysis in the lower limbs, did the paralysis happen suddenly?",
-paralyzed,Was the child in any way paralyzed?,
-paralyzed_other,Which were the limbs or body parts paralyzed? Other,
-paralyzed_part,Which were the limbs or body parts paralyzed?,
-paralyzed_side,Did the child have paralysis of only one side of the body?,
-paralyzed_sudden,"Did the paralysis happen suddenly, quickly, or slowly?",
-part_delivered_first,Part of baby's body delivered first,
-part_delivered_first_specific,"Part of baby's body delivered first, specific",
-participation,Respondent participation status,
+paralysis_lower_limb,Did the child have paralysis of the lower limbs?,NA
+paralysis_lower_limb_sudden,"If the child had paralysis in the lower limbs, did the paralysis happen suddenly?",NA
+paralyzed,Was the child in any way paralyzed?,NA
+paralyzed_other,Which were the limbs or body parts paralyzed? Other,NA
+paralyzed_part,Which were the limbs or body parts paralyzed?,NA
+paralyzed_side,Did the child have paralysis of only one side of the body?,NA
+paralyzed_sudden,"Did the paralysis happen suddenly, quickly, or slowly?",NA
+part_delivered_first,Part of baby's body delivered first,NA
+part_delivered_first_specific,"Part of baby's body delivered first, specific",NA
+participation,Respondent participation status,NA
 pentavalent_1,Note vaccines the child has received: Pentavalent 1,"Gambia, WHO2016"
 pentavalent_2,Note vaccines the child has received: Pentavalent 2,"Gambia, WHO2016"
 pentavalent_3,Note vaccines the child has received: Pentavalent 3,"Gambia, WHO2016"
-physically_abnormal,"Was any part of the baby physically abnormal at time of delivery? (for example body part too large or too small, additional growth on the body)?",
-place_died,Where did the child die?,
-place_died_health_centre,Did the child die in a health centre?,
-place_died_specific,Where did the child die? Specific,
-place_of_birth,What was the child's place of birth?,
-place_of_birth_other,What was the child's place of birth? Other,
-place_of_birth_specific,What was the child's place of birth? Specific,
-place_of_death,"Where did the death occur? (specify country, province, district, village)",
-place_of_usual_residence,What was the child's place of usual residence (where he/she lived most of the year)?,
-place_rash,Where was the rash?,
+physically_abnormal,"Was any part of the baby physically abnormal at time of delivery? (for example body part too large or too small, additional growth on the body)?",NA
+place_died,Where did the child die?,NA
+place_died_health_centre,Did the child die in a health centre?,NA
+place_died_specific,Where did the child die? Specific,NA
+place_of_birth,What was the child's place of birth?,NA
+place_of_birth_other,What was the child's place of birth? Other,NA
+place_of_birth_specific,What was the child's place of birth? Specific,NA
+place_of_death,"Where did the death occur? (specify country, province, district, village)",NA
+place_of_usual_residence,What was the child's place of usual residence (where he/she lived most of the year)?,NA
+place_rash,Where was the rash?,NA
 place_residence_before_death,What was the child's place of residence 1-5 years before death?,"Categorical in c2012 and n2012 but Non-Categorical in c2016, n2016, and champs2"
-place_residence_before_death_other,What was the child's place of residence 1-5 years before death? Other,
-place_residence_before_death_specific,What was the child's place of residence 1-5 years before death? Specific,
-placenta_not_delivered,Was the placenta not completely delivered?,
+place_residence_before_death_other,What was the child's place of residence 1-5 years before death? Other,NA
+place_residence_before_death_specific,What was the child's place of residence 1-5 years before death? Specific,NA
+placenta_not_delivered,Was the placenta not completely delivered?,NA
 pneumo_1,Note vaccines the child has received: Pneumo 1,"Gambia, WHO2016"
 pneumo_2,Note vaccines the child has received: Pneumo 2,"Gambia, WHO2016"
 pneumo_3,Note vaccines the child has received: Pneumo 3,"Gambia, WHO2016"
-poisoning,Did the child die of poisoning?,
+poisoning,Did the child die of poisoning?,NA
 polio_0,Note vaccines the child has received: Polio 0,"Gambia, WHO2016"
 polio_1,Note vaccines the child has received: Polio 1,"Gambia, WHO2016"
 polio_2,Note vaccines the child has received: Polio 2,"Gambia, WHO2016"
 polio_3,Note vaccines the child has received: Polio 3,"Gambia, WHO2016"
 polio_4,Note vaccines the child has received: Polio 4,"Gambia, WHO2016"
 polio_booster,Note vaccines the child has received: Polio Booster,"Gambia, WHO2016"
-post_mortem,Was a post mortem completed?,
-post_mortem_results,Post mortem results,
-pregnancy_end_early,Did the pregnancy end earlier than expected?,
-pregnant_time_of_death,Was the mother pregnant at the time of death?,
-premature,Was the baby born premature / more than a month early?,
-previous_births,Number of previous births / stillbirths,
-previous_caesarean,Did the mother have any previous C-section?,
-primary_caregiver,Who was looking after/caring for the child before his/her death?,
-primary_caregiver_specific,"Who was looking after/caring for the child before his/her death? Other, specify",
-problem_child_or_mother,Was there a problem with the child or mother?,
-problems_umbilical_cord,Did the baby have any problem with the umbilical cord?,
-problems_umbilical_cord_specific,What was the problem with the umbilical cord?,
-problems_umbilical_cord_specific_other,What was the problem with the umbilical cord? Other,
-protruding_abdomen,Did the child have a protruding abdomen?,
-protruding_abdomen_duration,For how long before death did the child have a protruding abdomen?,
-puffiness_of_face,Did the child have puffiness of the face?,
-pus,Did the sores have clear fluid or pus?,
-pustular_rash,Did the baby have a pustular skin rash?,
-qc_date,Quality control date,
-qc_staff_code,Quality control staff code,
-quinine,Which antimalarial drug did the baby receive? Quinine,
-rapidly_protruding_abdomen,How rapidly did the child develop the protruding belly (abdomen)?,
-rash,"During the illness that led to death, did the chil have any skin rash?",
-rash_arm_leg,Where was the rash located? Arms and legs,
-rash_body,"If the child had a skin rash, was the rash all over child’s body?",
-rash_duration,For how long did the child have a skin rash?,
-rash_face,"If the child had a skin rash, was the rash on the face?",
-rash_look,What did the rash look like? / What were the features of the rash?,
-rash_look_specific,What were the features of the rash? Specific,
-rash_mouth,Did the child have a rash inside the mouth or on the tongue?,
-rash_palms,"If the child had a skin rash, was the rash on the palms?",
-rash_pus,"During the illness that led to death, did the child have a skin rash with blisters containing pus?",
-rash_skin_peel,Did the skin crack/split or peel after the rash started?,
-rash_trunk,"If the child had a skin rash, was the rash on the trunk?",
-received_anti_tb,Did the child receive any of the following medications during the illness preceding his/her death? Anti TB,
-received_antibiotics,Did the child receive any of the following medications during the illness preceding his/her death? Antibiotics,
-received_antimalarial,Did the child receive any of the following medications during the illness preceding his/her death? Antimalarials,
-received_arvs,Did the child receive any of the following medications during the illness preceding his/her death? ARVs,
-received_blood_transfusion,Did the child receive any of the following medications during the illness preceding his/her death? Blood transfusion,
-received_medical_care_before_death,Did the child receive medical care before death?,
-received_medication_for_illness,Did the child receive medication for this illness?,
-received_medication_for_illness_specific,Did the child receive medication for this illness? Specific,
-recent_visit_available,Date of the most recent (last) visit,
-record_notes,Last note on the child's health record,
-recorded_weight,Record the weight (in kilogrammes) written at the most recent (last) visit,
-recorded_weight_2,Record the weight (in kilogrammes) written at the second most recent visit,
-red_eyes,"Did the child have red eyes? / Did the child have sore, red eyes?",
-redness_umbilical_cord,Did the baby have redness or discharge from the umbilical cord stump?,
-region_hiv_mortality,Is this a region of high HIV/AIDS prevalence?,
-region_malaria_mortality,Is this a region of high malaria prevalence?,
-relationship,What is the respondent's relationship to the deceased?,
-relationship_other,What is the respondent's relationship to the deceased? Other,
-relationship_specific,What is the respondent's relationship to the deceased? Specific,
-reliability_of_interview,Reliability of interview,
-respondent_age,Age of respondent,
-respondent_consent,Did the respondent give consent?,
-respondent_name,What is the respondent's name?,
-road_accident,Did the child suffer from a road/traffic injury or accident that led to death?,
-role_traffic_accident,What was his/her role in the road traffic accident?,
+post_mortem,Was a post mortem completed?,NA
+post_mortem_results,Post mortem results,NA
+pregnancy_end_early,Did the pregnancy end earlier than expected?,NA
+pregnancy_unknown,How many weeks or months was the pregnancy when the baby was born? Don't know,NA
+pregnant_time_of_death,Was the mother pregnant at the time of death?,NA
+premature,Was the baby born premature / more than a month early?,NA
+previous_births,Number of previous births / stillbirths,NA
+previous_births_unknown,"How many births, including stillbirths (28 weeks), did the mother have before this baby? Don't know",NA
+previous_caesarean,Did the mother have any previous C-section?,NA
+primary_caregiver,Who was looking after/caring for the child before his/her death?,NA
+primary_caregiver_specific,"Who was looking after/caring for the child before his/her death? Other, specify",NA
+problem_child_or_mother,Was there a problem with the child or mother?,NA
+problems_umbilical_cord,Did the baby have any problem with the umbilical cord?,NA
+problems_umbilical_cord_specific,What was the problem with the umbilical cord?,NA
+problems_umbilical_cord_specific_other,What was the problem with the umbilical cord? Other,NA
+protruding_abdomen,Did the child have a protruding abdomen?,NA
+protruding_abdomen_duration,For how long before death did the child have a protruding abdomen?,NA
+protruding_abdomen_unknown,For how long did the child have a more than usually protruding abdomen? Don't know,NA
+puffiness_of_face,Did the child have puffiness of the face?,NA
+pus,Did the sores have clear fluid or pus?,NA
+pustular_rash,Did the baby have a pustular skin rash?,NA
+qc_date,Quality control date,NA
+qc_staff_code,Quality control staff code,NA
+quinine,Which antimalarial drug did the baby receive? Quinine,NA
+rapidly_protruding_abdomen,How rapidly did the child develop the protruding belly (abdomen)?,NA
+rash,"During the illness that led to death, did the child have any skin rash?",NA
+rash_arm_leg,Where was the rash located? Arms and legs,NA
+rash_body,"If the child had a skin rash, was the rash all over child's body?",NA
+rash_duration,For how long did the child have a skin rash?,NA
+rash_face,"If the child had a skin rash, was the rash on the face?",NA
+rash_look,What did the rash look like? / What were the features of the rash?,NA
+rash_look_specific,What were the features of the rash? Specific,NA
+rash_mouth,Did the child have a rash inside the mouth or on the tongue?,NA
+rash_palms,"If the child had a skin rash, was the rash on the palms?",NA
+rash_pus,"During the illness that led to death, did the child have a skin rash with blisters containing pus?",NA
+rash_skin_peel,Did the skin crack/split or peel after the rash started?,NA
+rash_trunk,"If the child had a skin rash, was the rash on the trunk?",NA
+rash_unknown,For how long did the child have any skin rash? Don't know,NA
+received_anti_tb,Did the child receive any of the following medications during the illness preceding his/her death? Anti TB,NA
+received_antibiotics,Did the child receive any of the following medications during the illness preceding his/her death? Antibiotics,NA
+received_antimalarial,Did the child receive any of the following medications during the illness preceding his/her death? Antimalarials,NA
+received_arvs,Did the child receive any of the following medications during the illness preceding his/her death? ARVs,NA
+received_blood_transfusion,Did the child receive any of the following medications during the illness preceding his/her death? Blood transfusion,NA
+received_medical_care_before_death,Did the child receive medical care before death?,NA
+received_medication_for_illness,Did the child receive medication for this illness?,NA
+received_medication_for_illness_specific,Did the child receive medication for this illness? Specific,NA
+recent_visit_available,Date of the most recent (last) visit,NA
+record_notes,Last note on the child's health record,NA
+recorded_weight,Record the weight (in kilograms) written at the most recent (last) visit,NA
+recorded_weight_2,Record the weight (in kilograms) written at the second most recent visit,NA
+red_eyes,"Did the child have red eyes? / Did the child have sore, red eyes?",NA
+redness_umbilical_cord,Did the baby have redness or discharge from the umbilical cord stump?,NA
+region_hiv_mortality,Is this a region of high HIV/AIDS prevalence?,NA
+region_malaria_mortality,Is this a region of high malaria prevalence?,NA
+relationship,What is the respondent's relationship to the deceased?,NA
+relationship_other,What is the respondent's relationship to the deceased? Other,NA
+relationship_specific,What is the respondent's relationship to the deceased? Specific,NA
+reliability_of_interview,Reliability of interview,NA
+respondent_age,Age of respondent,NA
+respondent_consent,Did the respondent give consent?,NA
+respondent_name,What is the respondent's name?,NA
+road_accident,Did the child suffer from a road/traffic injury or accident that led to death?,NA
+role_traffic_accident,What was his/her role in the road traffic accident?,NA
 rota_1,Note vaccines the child has received: Rota 1,"Gambia, WHO2016"
 rota_2,Note vaccines the child has received: Rota 2,"Gambia, WHO2016"
 rota_3,Note vaccines the child has received: Rota 3,"Gambia, WHO2016"
-season,During which season did the child die?,
-second_recent_visit_available,Is the date of the second most recent visit available?,
-second_visit_date,Date of second visit,
-see_antenatal_card,Can I see the antenatal card?,
-see_death_certificate,Can I see the death certificate?,
-see_health_records,Can I see the health records?,
-see_vaccination_card,Can I see the vaccination card?,
-sentinel_health_facility_specific,"Sentinel health facility, specific",
-severe_headache,Did the child have a severe headache?,
-sex_deceased,Sex of deceased,
-sex_respondent,Sex of respondent,
-sickle_cell,Was there any diagnosis by a health professional of sickle cell disease?,
-sign_injury_broken_bones,Any signs of injury or broken bones?,
-sign_injury_broken_bones_specific,"Signs of injury or broken bones, specific",
-sign_paralysis,Any signs of paralysis?,
-site,Interview site ID,
-skin_black,"During the illness that led to death, did the child have areas of skin that turned black?",
-skin_color,What was the colour of the child's skin after being born?,
-skin_flake,"During the illness that led to death, did the child's skin flake off in patches?",
-skin_peeling,"During the period of illness, did the child have areas of skin that were peeling?",
-skin_problem,Did the child have skin problems?,
-skin_red,"During the illness that led to death, did the child have areas of skin with redness or swelling?",
-skin_ulcers,"During the illness that led to death, did the baby have skin ulcer(s) or pits?",
-small_at_birth,Was the child small at birth?,
-small_head,Did the baby/child have a very small head at time of birth?,
-small_size,"Was the baby smaller than normal, weighing under 2.5 kg?",
-sores,Did the child ever have sores?,
-stab,"Was the child stabbed, cut, or pierced?",
-start_time,Interview start time,
-stiff,"Did the baby's body become stiff, with the head arched backwards?",
-stiff_body,Did the child have stiffness of the whole body or was unable to open the mouth?,
-stiff_neck,Did the child have a stiff neck during illness that led to death?,
-stiff_neck_duration,For how long did the child have a stiff neck?,
-stop_moving_before_labour,Did the baby stop moving in the womb before labour started?,
-stop_start_breathing,"During the illness that led to death, did the child ever have short periods of stopping and restarting breathing?",
-stop_suckle,Did the baby stop suckling?,
-strangled,Was the child strangled?,
-stroke,Was there any diagnosis by a health professional of stroke?,
-struck,Was the child struck by an animal or object?,
-suckle_exclusively,Was the breastfeeding exclusive?,
-suckle_feed,Was the baby able to suckle or bottle-feed within the first 24 hours after birth?,
-suckle_normal,Did the baby ever suckle in a normal way?,
-suffer_chronic_illness,Did the child suffer from any other chronic illness apart from those asked?,
-suffer_chronic_illness_specific,Did the child suffer from any other chronic illness apart from those asked? Specific,
-suffer_heart_disease,Did the child suffer from the following diseases? Heart disease,
-suicide,Did the child commit suicide?,
-sunken_eye,Did the child have sunken eyes?,
-sunken_fontanelle,During the illness that led to death did the child have a sunken fontanelle?,
-supervisor_comments,Supervisor's comments,
-supervisor_observations,Supervisor's observations,
-surname_deceased,Surname of deceased,
-surname_father,Deceased father's surname,
-surname_interviewer,Surname of interviewer,
-surname_local_registrar,Surname of local registrar,
-surname_mother,Deceased mother's surname,
-surname_respondent,Surname of the respondent,
-swell,During the illness that led to death did he/she have areas of the skin with redness and swelling?,
-swell_ankle,Did the child have swelling in the ankles?,
-swell_armpits,Did the child have swelling in the armpits?,
-swell_body,Did the child have general puffiness all over his/her body?,
-swell_face,Did the child have swelling of the face?,
-swell_feet,Did the child have swelling of the feet?,
-swell_groin,Did the child have swelling in the groin?,
-swell_joints,Did the child have swelling in the joints?,
-swell_leg,Did the child have swelling on one or both legs?,
-swell_mouth,Did the child have swelling in/on the mouth?,
-swell_neck,Did the child have swelling in/on the neck?,
-swell_other,Did the child have swelling on other parts of the body? ,
-swell_specific,Did the child have swelling on other parts of the body? Specify,
-swelled_back,Did the baby have a swelling/defect on the back?,
-symptoms,Summary of symptoms reported by respondent,
-symptoms_2,Summary of symptoms reported by respondent 2,
-symptoms_2_duration,"Summary of symptoms reported by respondent 2, duration",
-symptoms_2_severity,"Summary of symptoms reported by respondent 2, severity",
-symptoms_duration,"Summary of symptoms reported by respondent, duration",
-symptoms_severity,"Summary of symptoms reported by respondent, severity",
-tb,Did the child suffer from TB?,
-telephone_call_help,"In the final days before death, did anyone use a telephone or cell phone to call for help?",
-thin,Was the child severely thin or wasted?,
-thinner_since_when,Had the child been thinner than normal?,
-third_visit_date,Third visit date,
-time_end,Interview end time,
-time_ill_before_death,How long was the child ill before his/her death?,
-times_diarrhea,"On the day when the diarrhea was most frequent, how many times did the child pass stools per day?",
-times_passed_stool,"When the diarrhea was most severe, how many times did the child pass stool in a day?",
-times_vomit,When the vomiting was worst how often did the child vomit?,
-told_cause_of_death,Did a health care worker tell you the cause of death?,
-traditiaonal_medicine_used,"In the final days before death, was traditional medicine used?",
-travel_to_hosptial,"In the final days before death, did s/he travel to a hospital or health facility?",
-treatment,Did the child receive any treatment for the illness that led to death?,
-treatment_bush_doctor,Which of the following places/facilities did the child receive treatment during the illness that led to death? Bush doctor,
-treatment_card_available,Treatment cards available?,
-treatment_card_info,Information on treatment cards,
-treatment_cost_prohibit_household_payments,"Over the course of illness, did the total costs of care and treatment prohibit other household payments?",
-treatment_facility_1,"List the treatment providers/facilities visited during the illness leading to death, first facility",
-treatment_facility_2,"List the treatment providers/facilities visited during the illness leading to death, second facility",
-treatment_facility_3,"List the treatment providers/facilities visited during the illness leading to death, third facility",
-treatment_facility_4,"List the treatment providers/facilities visited during the illness leading to death, fourth facility",
-treatment_government_clinic,Which of the following places/facilities did the child receive treatment during the illness that led to death? Government clinic,
-treatment_government_hospital,Which of the following places/facilities did the child receive treatment during the illness that led to death? Government hospital,
-treatment_home,Which of the following places/facilities did the child receive treatment during the illness that led to death? Home,
-treatment_list,List the drugs the child was given for the illness that led to death,
-treatment_nyamrerwa,Which of the following places/facilities did the child receive treatment during the illness that led to death? Nyamrerwa,
-treatment_other,Where was outside care sought? Other,
-treatment_other_facility,Which of the following places/facilities did the child receive treatment during the illness that led to death? Other facility,
-treatment_other_specific,"Which of the following places/facilities did the child receive treatment during the illness that led to death? Other, specific",
-treatment_pharmacy,Which of the following places/facilities did the child receive treatment during the illness that led to death? Pharmacy,
-treatment_private_clinic,Which of the following places/facilities did the child receive treatment during the illness that led to death? Private clinic,
-treatment_private_hospital,Which of the following places/facilities did the child receive treatment during the illness that led to death? Private hospital,
-treatment_relgious,Which of the following places/facilities did the child receive treatment during the illness that led to death? Religious leader,
-treatment_specific,What type of treatment did the child receive? Specific,
-treatment_traditional_healer,Which of the following places/facilities did the child receive treatment during the illness that led to death? Traditional healer,
-type_delivery,Type of delivery,
-type_delivery_specific,"Type of deliver, specific",
-ulcer,Did the child have sores or ulcers anywhere on the body?,
-ulcer_abs,Did the child have ulcers on the abdomen?,
-ulcer_foot,Did the child have ulcers on the foot?,
-ulcer_foot_pus,Did the ulcer on the foot ooze pus?,
-ulcers,Did the child have sores or ulcers anywhere on the body?,
-umbilical_cord_stump_treated,Was the umbilical cord stump treated?,
-umbilical_cord_stump_treated_specific,Was the umbilical cord stump treated? Specific,
-umbilical_first,Was the umbilical cord delivered first?,
-umbilical_wrap_neck,Was the umbilical cord wrapped more than once around the neck of the child at birth?,
-unable_breastfeed_when_ill,Was the child unable to breastfeed when ill?,
-unable_daily_routine,Was the child unable to carry out daily routines due to breathlessness?,
-unconscious,Was the child unconscious during the illness that led to death?,
-unconscious_24_hours,Was the child unconscious for more than 24 hours before death?,
-unconscious_continue,Did the unconsciousness continue until death?,
-unconscious_sudden,"Did the unconsciousness start suddently, quickly (within a single day)?",
-unresponsive,"During the illness that led to death, did the child become unresponsive or unconscious?",
-unresponsive_after_24_hours,Did the baby become unresponsive or unconscious more than 24 hours after birth?,
-unresponsive_to_voice,"At any time during the illness that led to death, did the child stop being able to respond to a voice?",
-unresponsive_within_24_hours,"Did the baby become unresponsive or unconscious soon after birth, within less than 24 hours?",
-unusually_sleepy,Was the child unusually sleepy?,
-upper_lower_abdomen_pain,Was the pain in the upper or lower abdomen?,
-urine_amount,How much urine did the child pass?,
-urine_blood,"During the final illness, did the child ever pass blood in the urine?",
-urine_change_amount,Was there change in the amount of urine the child passed?,
-urine_often,Did the child urinate more often than usual?,
-urine_problems,Did the child have any urine problems?,
-urine_stop,Did the child stop urinating?,
-usual_size,At birth was the baby of usual size?,
-vaccinated,Was the child vaccinated?,
-vaccinated_measles,Was the child vaccinated for measles?,
-vaccination_card,Do you have the child's vaccination card?,
-venomous_animal,Was the child injured by a bite or sting of venomous animal?,
-very_small_size,"At birth, was the baby very much smaller than usual (weighing under 1 kg)?",
-visit,Visit,
-visit_date,Visit date,
-visit_outcome,Visit outcome,
-visit_outcome_other,"Visit outcome, other",
+season,During which season did the child die?,NA
+second_recent_visit_available,Is the date of the second most recent visit available?,NA
+second_visit_date,Date of second visit,NA
+see_antenatal_card,Can I see the antenatal card?,NA
+see_death_certificate,Can I see the death certificate?,NA
+see_health_records,Can I see the health records?,NA
+see_vaccination_card,Can I see the vaccination card?,NA
+sentinel_health_facility_specific,"Sentinel health facility, specific",NA
+severe_headache,Did the child have a severe headache?,NA
+sex_deceased,Sex of deceased,NA
+sex_respondent,Sex of respondent,NA
+sickle_cell,Was there any diagnosis by a health professional of sickle cell disease?,NA
+sign_injury_broken_bones,Any signs of injury or broken bones?,NA
+sign_injury_broken_bones_specific,"Signs of injury or broken bones, specific",NA
+sign_paralysis,Any signs of paralysis?,NA
+site,Interview site ID,NA
+skin_black,"During the illness that led to death, did the child have areas of skin that turned black?",NA
+skin_color,What was the colour of the child's skin after being born?,NA
+skin_flake,"During the illness that led to death, did the child's skin flake off in patches?",NA
+skin_peeling,"During the period of illness, did the child have areas of skin that were peeling?",NA
+skin_problem,Did the child have skin problems?,NA
+skin_red,"During the illness that led to death, did the child have areas of skin with redness or swelling?",NA
+skin_ulcers,"During the illness that led to death, did the baby have skin ulcer(s) or pits?",NA
+small_at_birth,Was the child small at birth?,NA
+small_head,Did the baby/child have a very small head at time of birth?,NA
+small_size,"Was the baby smaller than normal, weighing under 2.5 kg?",NA
+sores,Did the child ever have sores?,NA
+stab,"Was the child stabbed, cut, or pierced?",NA
+start_time,Interview start time,NA
+stiff,"Did the baby's body become stiff, with the head arched backwards?",NA
+stiff_body,Did the child have stiffness of the whole body or was unable to open the mouth?,NA
+stiff_neck,Did the child have a stiff neck during illness that led to death?,NA
+stiff_neck_duration,For how long did the child have a stiff neck?,NA
+stop_ability_to_cry,Did the baby stop being able to cry?,NA
+stop_moving_before_labour,Did the baby stop moving in the womb before labour started?,NA
+stop_start_breathing,"During the illness that led to death, did the child ever have short periods of stopping and restarting breathing?",NA
+stop_suckle,Did the baby stop suckling?,NA
+strangled,Was the child strangled?,NA
+stroke,Was the child strangled?,NA
+struck,Was the child struck by an animal or object?,NA
+suckle_exclusively,Was the breastfeeding exclusive?,NA
+suckle_feed,Was the baby able to suckle or bottle-feed within the first 24 hours after birth?,NA
+suckle_normal,Did the baby ever suckle in a normal way?,NA
+suffer_chronic_illness,Did the child suffer from any other chronic illness apart from those asked?,NA
+suffer_chronic_illness_specific,Did the child suffer from any other chronic illness apart from those asked? Specific,NA
+suffer_heart_disease,Did the child suffer from the following diseases? Heart disease,NA
+suicide,Did the child commit suicide?,NA
+sunken_eye,Did the child have sunken eyes?,NA
+sunken_fontanelle,During the illness that led to death did the child have a sunken fontanelle?,NA
+supervisor_comments,Supervisor's comments,NA
+supervisor_observations,Supervisor's observations,NA
+surname_deceased,Surname of deceased,NA
+surname_father,Deceased father's surname,NA
+surname_interviewer,Surname of interviewer,NA
+surname_local_registrar,Surname of local registrar,NA
+surname_mother,Deceased mother's surname,NA
+surname_respondent,Surname of the respondent,NA
+swell,During the illness that led to death did he/she have areas of the skin with redness and swelling?,NA
+swell_ankle,Did the child have swelling in the ankles?,NA
+swell_armpits,Did the child have swelling in the armpits?,NA
+swell_body,Did the child have general puffiness all over his/her body?,NA
+swell_face,Did the child have swelling of the face?,NA
+swell_feet,Did the child have swelling of the feet?,NA
+swell_groin,Did the child have swelling in the groin?,NA
+swell_joints,Did the child have swelling in the joints?,NA
+swell_leg,Did the child have swelling on one or both legs?,NA
+swell_mouth,Did the child have swelling in/on the mouth?,NA
+swell_neck,Did the child have swelling in/on the neck?,NA
+swell_other,Did the child have swelling on other parts of the body?,NA
+swell_specific,Did the child have swelling on other parts of the body? Specify,NA
+swelled_back,Did the baby have a swelling/defect on the back?,NA
+symptoms,Summary of symptoms reported by respondent,NA
+symptoms_2,Summary of symptoms reported by respondent 2,NA
+symptoms_2_duration,"Summary of symptoms reported by respondent 2, duration",NA
+symptoms_2_severity,"Summary of symptoms reported by respondent 2, severity",NA
+symptoms_duration,"Summary of symptoms reported by respondent, duration",NA
+symptoms_severity,"Summary of symptoms reported by respondent, severity",NA
+tb,Did the child suffer from TB?,NA
+telephone_call_help,"In the final days before death, did anyone use a telephone or cell phone to call for help?",NA
+thin,Was the child severely thin or wasted?,NA
+thinner_since_when,Since when has the child been thinner than normal?,NA
+third_visit_date,Third visit date,NA
+time_end,Interview end time,NA
+time_ill_before_death,How long was the child ill before his/her death?,NA
+times_diarrhea,"On the day when the diarrhea was most frequent, how many times did the child pass stools per day?",NA
+times_passed_stool,"When the diarrhea was most severe, how many times did the child pass stool in a day?",NA
+times_vomit,When the vomiting was worst how often did the child vomit?,NA
+told_cause_of_death,Did a health care worker tell you the cause of death?,NA
+traditiaonal_medicine_used,"In the final days before death, was traditional medicine used?",NA
+travel_to_hosptial,"In the final days before death, did s/he travel to a hospital or health facility?",NA
+treatment,Did the child receive any treatment for the illness that led to death?,NA
+treatment_bush_doctor,Which of the following places/facilities did the child receive treatment during the illness that led to death? Bush doctor,NA
+treatment_card_available,Treatment cards available?,NA
+treatment_card_info,Information on treatment cards,NA
+treatment_cost_prohibit_household_payments,"Over the course of illness, did the total costs of care and treatment prohibit other household payments?",NA
+treatment_facility_1,"List the treatment providers/facilities visited during the illness leading to death, first facility",NA
+treatment_facility_2,"List the treatment providers/facilities visited during the illness leading to death, second facility",NA
+treatment_facility_3,"List the treatment providers/facilities visited during the illness leading to death, third facility",NA
+treatment_facility_4,"List the treatment providers/facilities visited during the illness leading to death, fourth facility",NA
+treatment_government_clinic,Which of the following places/facilities did the child receive treatment during the illness that led to death? Government clinic,NA
+treatment_government_hospital,Which of the following places/facilities did the child receive treatment during the illness that led to death? Government hospital,NA
+treatment_home,Which of the following places/facilities did the child receive treatment during the illness that led to death? Home,NA
+treatment_list,List the drugs the child was given for the illness that led to death,NA
+treatment_nyamrerwa,Which of the following places/facilities did the child receive treatment during the illness that led to death? Nyamrerwa,NA
+treatment_other,Where was outside care sought? Other,NA
+treatment_other_facility,Which of the following places/facilities did the child receive treatment during the illness that led to death? Other facility,NA
+treatment_other_specific,"Which of the following places/facilities did the child receive treatment during the illness that led to death? Other, specific",NA
+treatment_pharmacy,Which of the following places/facilities did the child receive treatment during the illness that led to death? Pharmacy,NA
+treatment_private_clinic,Which of the following places/facilities did the child receive treatment during the illness that led to death? Private clinic,NA
+treatment_private_hospital,Which of the following places/facilities did the child receive treatment during the illness that led to death? Private hospital,NA
+treatment_relgious,Which of the following places/facilities did the child receive treatment during the illness that led to death? Religious leader,NA
+treatment_specific,What type of treatment did the child receive? Specific,NA
+treatment_traditional_healer,Which of the following places/facilities did the child receive treatment during the illness that led to death? Traditional healer,NA
+type_delivery,Type of delivery,NA
+type_delivery_specific,"Type of deliver, specific",NA
+ulcer,Did the child have sores or ulcers anywhere on the body?,NA
+ulcer_abs,Did the child have ulcers on the abdomen?,NA
+ulcer_foot,Did the child have ulcers on the foot?,NA
+ulcer_foot_pus,Did the ulcer on the foot ooze pus?,NA
+ulcers,Did the child have sores or ulcers anywhere on the body?,NA
+umbilical_cord_stump_treated,Was the umbilical cord stump treated?,NA
+umbilical_cord_stump_treated_specific,Was the umbilical cord stump treated? Specific,NA
+umbilical_first,Was the umbilical cord delivered first?,NA
+umbilical_wrap_neck,Was the umbilical cord wrapped more than once around the neck of the child at birth?,NA
+unable_breastfeed_when_ill,Was the child unable to breastfeed when ill?,NA
+unable_daily_routine,Was the child unable to carry out daily routines due to breathlessness?,NA
+unconscious,Was the child unconscious during the illness that led to death?,NA
+unconscious_24_hours,Was the child unconscious for more than 24 hours before death?,NA
+unconscious_continue,Did the unconsciousness continue until death?,NA
+unconscious_sudden,"Did the unconsciousness start suddenly, quickly (within a single day)?",NA
+unconscious_unknown,How long was the child unconscious? Don't know,NA
+unresponsive,"During the illness that led to death, did the child become unresponsive or unconscious?",NA
+unresponsive_after_24_hours,Did the baby become unresponsive or unconscious more than 24 hours after birth?,NA
+unresponsive_to_voice,"At any time during the illness that led to death, did the child stop being able to respond to a voice?",NA
+unresponsive_within_24_hours,"Did the baby become unresponsive or unconscious soon after birth, within less than 24 hours?",NA
+unusually_sleepy,Was the child unusually sleepy?,NA
+upper_lower_abdomen_pain,Was the pain in the upper or lower abdomen?,NA
+urine_amount,How much urine did the child pass?,NA
+urine_blood,"During the final illness, did the child ever pass blood in the urine?",NA
+urine_change_amount,Was there change in the amount of urine the child passed?,NA
+urine_often,Did the child urinate more often than usual?,NA
+urine_problems,Did the child have any urine problems?,NA
+urine_stop,Did the child stop urinating?,NA
+usual_size,At birth was the baby of usual size?,NA
+vaccinated,Was the child vaccinated?,NA
+vaccinated_measles,Was the child vaccinated for measles?,NA
+vaccination_card,Do you have the child's vaccination card?,NA
+venomous_animal,Was the child injured by a bite or sting of venomous animal?,NA
+very_small_size,"At birth, was the baby very much smaller than usual (weighing under 1 kg)?",NA
+visit,Visit,NA
+visit_date,Visit date,NA
+visit_outcome,Visit outcome,NA
+visit_outcome_other,"Visit outcome, other",NA
 vitamin_a_1,Note vaccines the child has received: Vitamin A1,"Gambia, WHO2016"
 vitamin_a_2,Note vaccines the child has received: Vitamin A2,"Gambia, WHO2016"
 vitamin_a_3,Note vaccines the child has received: Vitamin A3,"Gambia, WHO2016"
 vitamin_a_4,Note vaccines the child has received: Vitamin A4,"Gambia, WHO2016"
-vomit,Did the child vomit?,
-vomit_continuous,Was the vomiting present throughout the illness or intermittent?,
+vomit,Did the child vomit?,NA
+vomit_continuous,Was the vomiting present throughout the illness or intermittent?,NA
 vomit_swell_abdomen,"During the illness that led to death, did the child have any vomiting or swelling of the abdomen?","n08_12, see vomit, swell_abdomen"
-vomit_week_before_death,Did the child vomit in the week preceding death?,
-vomit_week_preceding_death,Did the child vomit during the week preceding his/her death?,
-wasting_month_prior_to_death,Did the child have wasting and appear like an old man (marasmus) during the month before he/she died?,
-water_break,When did the water break?,
-water_break_24_hours_before_delivery,Did the water break 24 hours before the delivery?,
-way_treated_problems,"Were there any problems with the way (s)he was treated (medical treatment,procedures, interpersonal attitudes, respect, dignity) in the hospital or health facility?",
-weaned,Had the deceased child been weaned?,
-weeks_abdomen_mass,Weeks the child had an abdomen mass,
-weeks_abdomen_pain,Weeks the child had abdomen pain,
-weeks_breathlessness,Weeks the child experienced breathlessness,
-weeks_cough,Weeks the child had a cough,
-weeks_diarrhea,Weeks the child had diarrhea,
-weeks_fast_breathing,Weeks the child had fast breathing,
-weeks_fever,Weeks the child had a fever,
-weeks_ill_before_death,Weeks the child was ill before his/her death,
-weeks_mother_die,How many weeks after the delivery did the mother die?,
-weeks_painful_neck,Weeks the child had a painful neck,
-weeks_pregnancy,How many weeks was the pregnancy when the baby was born?,
-weeks_pregnancy_end_early,"If the pregnancy ended early, how many weeks before the expected due date?",
-weeks_protruding_abdomen,Weeks the child had a protruding abdomen,
-weeks_rash,Weeks the child had a rash,
-weeks_unconscious,Weeks the child was unconscious,
-weighed_after_birth,Was the child weighed after birth?,
-weight_loss,Did the child have noticeable weight loss?,
-western_drugs,Did the child receive any western drugs during the illness?,
-what_difficulty_swallowing,"Was the difficulty swallowing with solids, liquids, or both?",
+vomit_week_before_death,Did the child vomit in the week preceding death?,NA
+vomit_week_preceding_death,Did the child vomit during the week preceding his/her death?,NA
+wasting_month_prior_to_death,Did the child have wasting and appear like an old man (marasmus) during the month before he/she died?,NA
+water_break,When did the water break?,NA
+water_break_24_hours_before_delivery,Did the water break 24 hours before the delivery?,NA
+way_treated_problems,"Were there any problems with the way (s)he was treated (medical treatment, procedures, interpersonal attitudes, respect, dignity) in the hospital or health facility?",NA
+weaned,Had the deceased child been weaned?,NA
+weeks_abdomen_mass,Weeks the child had an abdomen mass,NA
+weeks_abdomen_pain,Weeks the child had abdomen pain,NA
+weeks_breathlessness,Weeks the child experienced breathlessness,NA
+weeks_cough,Weeks the child had a cough,NA
+weeks_diarrhea,Weeks the child had diarrhea,NA
+weeks_fast_breathing,Weeks the child had fast breathing,NA
+weeks_fever,Weeks the child had a fever,NA
+weeks_ill_before_death,Weeks the child was ill before his/her death,NA
+weeks_mother_die,How many weeks after the delivery did the mother die?,NA
+weeks_painful_neck,Weeks the child had a painful neck,NA
+weeks_pregnancy,How many weeks was the pregnancy when the baby was born?,NA
+weeks_pregnancy_end_early,"If the pregnancy ended early, how many weeks before the expected due date?",NA
+weeks_protruding_abdomen,Weeks the child had a protruding abdomen,NA
+weeks_rash,Weeks the child had a rash,NA
+weeks_unconscious,Weeks the child was unconscious,NA
+weighed_after_birth,Was the child weighed after birth?,NA
+weight_loss,Did the child have noticeable weight loss?,NA
+western_drugs,Did the child receive any western drugs during the illness?,NA
+what_difficulty_swallowing,"Was the difficulty swallowing with solids, liquids, or both?",NA
 wheezing,"During the illness that led to death, did the child have wheezing?","see noisy_breathing, breathing_sound"
-when_mother_die,How many months and days after delivery did the mother die?,
-when_stop_moving_womb,When did the child stop moving in the womb?,
-when_water_break,When did the water break?,
-where_born,Where was the child born?,
-where_born_facility_specific,Where was the child born? Specific facility,
-where_born_other,Where was the child born? Other,
-where_born_specific,Where was the child born? Specific,
-where_died,Where did the death occur?,
-where_died_other,Where did the death occur? Other,
-where_died_specific,Where did the child die? Specify,
-where_outside_care,"If you took child for treatment, was it a doctor, nurse, traditional healer, relative, other? / Where or from whom did you seek outside care?",
-where_outside_care_specific,Where or from whom did you seek outside care? Specific,
-who_assisted_delivery,Who assisted the mother with the delivery?,
-who_assisted_delivery_other,Who assisted the mother with the delivery? Other,
-who_assisted_delivery_specific,Who assisted the mother with the delivery? Specific,
-who_else_should_interview,Is there anyone else that should be interviewed?,
-who_present_at_death,Who was present at the time of death?,
-who_present_at_death_specific,Who was present at the child's death? Specific,
-who_told_cause_death,Who told the respondent of the cause of death?,
-whooping,Did the child make a whooping sound when coughing?,
-why_no_outside_care,Why was outside care/treatment not sought?,
-woman_died,Was this a woman who died more than 42 days but less than 1 year after being pregnant or delivering a baby?,
-words_interested_mentioned,Words of interested mentioned,
-wrinkled_skin,Did the child have wrinkled skin? ,
-year_death,Year of death,
-years_difficulty_breathing,Years the child had difficulty breathing,
-years_education,"If educated, number of years of education of deceased",
-years_ill_before_death,Years the child was ill before his/her death,
-yellow_eyes,Did the child have yellow discoloration of the eyes?,
+when_mother_die,How many months and days after delivery did the mother die?,NA
+when_stop_moving_womb,When did the child stop moving in the womb?,NA
+when_water_break,When did the water break?,NA
+where_born,Where was the child born?,NA
+where_born_facility_specific,Where was the child born? Specific facility,NA
+where_born_other,Where was the child born? Other,NA
+where_born_specific,Where was the child born? Specific,NA
+where_died,Where did the death occur?,NA
+where_died_other,Where did the death occur? Other,NA
+where_died_specific,Where did the child die? Specify,NA
+where_outside_care,"If you took child for treatment, was it a doctor, nurse, traditional healer, relative, other? / Where or from whom did you seek outside care?",NA
+where_outside_care_specific,Where or from whom did you seek outside care? Specific,NA
+who_assisted_delivery,Who assisted the mother with the delivery?,NA
+who_assisted_delivery_other,Who assisted the mother with the delivery? Other,NA
+who_assisted_delivery_specific,Who assisted the mother with the delivery? Specific,NA
+who_else_should_interview,Is there anyone else that should be interviewed?,NA
+who_present_at_death,Who was present at the time of death?,NA
+who_present_at_death_specific,Who was present at the child's death? Specific,NA
+who_told_cause_death,Who told the respondent of the cause of death?,NA
+whooping,Did the child make a whooping sound when coughing?,NA
+why_no_outside_care,Why was outside care/treatment not sought?,NA
+woman_died,Was this a woman who died more than 42 days but less than 1 year after being pregnant or delivering a baby?,NA
+words_interested_mentioned,Words of interested mentioned,NA
+wrinkled_skin,Did the child have wrinkled skin?,NA
+year_death,Year of death,NA
+years_difficulty_breathing,Years the child had difficulty breathing,NA
+years_education,"If educated, number of years of education of deceased",NA
+years_ill_before_death,Years the child was ill before his/her death,NA
+yellow_eyes,Did the child have yellow discoloration of the eyes?,NA
 yellow_fever,Note vaccines the child has received: Yellow fever,"Gambia, WHO2016"
-yellow_palms_soles,Did the child have yellow palms or soles?,
+yellow_palms_soles,Did the child have yellow palms or soles?,NA
 yellow_skin,"During the illness that led to death, did s/he have yellow eyes or skin?",see yellow_eyes
