@@ -176,6 +176,11 @@ plot_variable <- function(j){
 
 ```
 
+```{r, echo = TRUE, eval = FALSE}
+# Write a csv
+write_csv(joined, 'kenya_combined.csv')
+```
+
 ```{r, echo = TRUE, fig.height=7, eval = FALSE}
 # Loop through each variable and plot
 n_vars <- ncol(joined)
