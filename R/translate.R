@@ -35,7 +35,8 @@ translate <- function(df,
   }
   
   # Having identified the correct format, now translate the data
-  the_dict <- mapper %>% filter(format == input_format)
+  # the_dict <- mapper %>% filter(format == input_format) # ORIGINAL
+  the_dict <- mapper
   
   categories_counter <- 0
   column_counter <- 0
@@ -50,14 +51,14 @@ translate <- function(df,
       categorical <- sub_dict$variable_type[1] == 'Categorical'
       if(categorical){
         categories_counter <- categories_counter + 1
+        # NEW subset subdict by values in new_values
         new_values <- data_frame(responses = 
-                                    as.character(data.frame(df)[,j])) %>%
-          left_join(sub_dict %>%
-                      dplyr::select(responses,
-                                    response_standardized),
-                    by = 'responses') %>%
-          .$response_standardized
-        df[,j] <- new_values
+                                    as.character(data.frame(df)[,j]))
+        sub_dict <- sub_dict %>% filter(responses %in% unique(new_values$responses))
+        new_values <- left_join(new_values, sub_dict,by = 'responses') %>%
+          dplyr::select(responses,
+                        response_standardized)
+        df[,j] <- new_values$response_standardized
       }
       names(df)[j] <- new_name
     }
